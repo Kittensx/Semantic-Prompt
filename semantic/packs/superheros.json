@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "category": "superheroes",
+    "version": "0.1",
+    "notes": "Original superhero archetypes inspired by popular comic/movie tropes. Designed for modular composition."
+  },
+
+  "cosmic guardian": {
+    "tags": ["cosmic superhero", "glowing energy aura", "stellar powered hero", "floating above city"],
+    "aliases": ["cosmic hero", "star powered"],
+    "related": ["star sigil", "galaxy aura", "cinematic lighting"],
+    "excludes": ["street vigilante"]
+  },
+
+  "street vigilante": {
+    "tags": ["urban vigilante", "dark hooded hero", "city rooftop silhouette", "gritty aesthetic"],
+    "aliases": ["dark hero", "night vigilante"],
+    "related": ["bat sigil", "shadow emblem", "noir palette"],
+    "excludes": ["bright cosmic aura"]
+  },
+
+  "tech armored": {
+    "tags": ["high tech armored suit", "futuristic armor plating", "glowing power core", "mechanized hero"],
+    "aliases": ["powered armor hero", "mech suit hero"],
+    "related": ["reactor emblem", "circuit sigil", "neon palette"],
+    "excludes": ["medieval armor"]
+  },
+
+  "elemental fire": {
+    "tags": ["fire powered hero", "flames surrounding body", "burning aura", "heat distortion"],
+    "aliases": ["flame hero"],
+    "related": ["flame emblem", "phoenix sigil", "warm palette"],
+    "excludes": ["ice aura"]
+  },
+
+  "elemental ice": {
+    "tags": ["ice powered hero", "frost aura", "icy mist", "crystalline effects"],
+    "aliases": ["frost hero"],
+    "related": ["snowflake emblem", "frozen sigil", "cool palette"],
+    "excludes": ["fire aura"]
+  },
+
+  "speedster": {
+    "tags": ["speed hero", "motion blur trails", "lightning streaks", "dynamic running pose"],
+    "aliases": ["fast hero", "velocity hero"],
+    "related": ["lightning bolt emblem", "speed lines", "high contrast"],
+    "excludes": []
+  },
+
+  "telepath": {
+    "tags": ["psychic superhero", "glowing eyes", "mental energy aura", "floating objects"],
+    "aliases": ["mind hero", "psionic hero"],
+    "related": ["eye sigil", "radiant crown emblem", "ethereal glow"],
+    "excludes": []
+  },
+
+  "shadow manipulator": {
+    "tags": ["shadow powered hero", "dark smoke aura", "void energy effects", "dramatic silhouette"],
+    "aliases": ["void hero"],
+    "related": ["shadow sigil", "crescent emblem", "noir palette"],
+    "excludes": ["bright golden aura"]
+  },
+
+  "nature protector": {
+    "tags": ["nature powered hero", "vine wrapped armor", "glowing leaves", "earth energy"],
+    "aliases": ["forest guardian", "earth hero"],
+    "related": ["leaf emblem", "tree sigil", "earthy palette"],
+    "excludes": ["industrial tech armor"]
+  },
+
+  "winged guardian": {
+    "tags": ["winged superhero", "large glowing wings", "aerial hero pose", "sky backdrop"],
+    "aliases": ["angelic hero"],
+    "related": ["wing emblem", "halo sigil", "light aura"],
+    "excludes": []
+  },
+
+  "mutant powerhouse": {
+    "tags": ["muscular hero", "super strength pose", "cracked ground beneath feet", "intense expression"],
+    "aliases": ["strength hero"],
+    "related": ["fist emblem", "shield sigil", "dramatic lighting"],
+    "excludes": []
+  }
+}

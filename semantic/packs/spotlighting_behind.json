@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "category": "spotlighting_behind",
+    "version": "1.0",
+    "description": "Spotlights positioned behind the subject to create silhouettes, rim lighting, and dramatic separation."
+  },
+
+  "back": {
+    "tags": [
+      "spotlight behind subject",
+      "strong backlight",
+      "bright background light source",
+      "subject partially silhouetted",
+      "high contrast lighting"
+    ],
+    "aliases": ["rear spotlight", "spotlight from behind"]
+  },
+
+  "full": {
+    "tags": [
+      "complete silhouette",
+      "subject fully dark",
+      "bright light source behind",
+      "sharp outline",
+      "no facial detail visible"
+    ],
+    "requires": ["back spotlight"]
+  },
+
+  "rim": {
+    "tags": [
+      "rim lighting",
+      "glowing edge outline",
+      "hair light from behind",
+      "subject separation from background"
+    ],
+    "requires": ["back spotlight"]
+  },
+
+  "volumetric": {
+    "tags": [
+      "visible light rays",
+      "beam through haze",
+      "atmospheric lighting",
+      "dramatic depth"
+    ],
+    "requires": ["back spotlight"]
+  },
+
+  "concert": {
+    "tags": [
+      "stage backlights",
+      "dramatic concert lighting",
+      "multiple beams from behind",
+      "crowd in shadow"
+    ],
+    "requires": ["back spotlight"]
+  },
+
+  "sun halo": {
+    "tags": [
+      "sun directly behind subject",
+      "halo glow",
+      "lens flare",
+      "soft overexposed background"
+    ],
+    "requires": ["back spotlight"]
+  },
+
+  "doorway": {
+    "tags": [
+      "bright doorway behind subject",
+      "dark foreground figure",
+      "dramatic entrance silhouette"
+    ],
+    "requires": ["back spotlight"]
+  },
+
+  "cyberpunk": {
+    "tags": [
+      "neon light behind subject",
+      "colored rim glow",
+      "futuristic lighting atmosphere"
+    ],
+    "requires": ["back spotlight"]
+  }
+}

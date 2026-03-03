@@ -1,0 +1,160 @@
+{
+  "_meta": {
+    "category": "shoes_heels",
+    "version": "0.1",
+    "notes": "Heeled footwear organized by heel type, height, structure, and style."
+  },
+
+  "pumps": {
+    "tags": [
+      "pumps",
+      "classic pumps",
+      "closed toe heels"
+    ]
+  },
+
+  "stiletto heels": {
+    "tags": [
+      "stiletto heels",
+      "thin high heels",
+      "narrow heel shoes"
+    ],
+    "aliases": [
+      "stilettos"
+    ]
+  },
+
+  "block heels": {
+    "tags": [
+      "block heels",
+      "chunky heel shoes",
+      "wide heel shoes"
+    ]
+  },
+
+  "kitten heels": {
+    "tags": [
+      "kitten heels",
+      "low slim heels",
+      "short elegant heels"
+    ]
+  },
+
+  "platform heels": {
+    "tags": [
+      "platform heels",
+      "thick platform sole",
+      "elevated front sole"
+    ]
+  },
+
+  "wedge heels": {
+    "tags": [
+      "wedge heels",
+      "wedge shoes",
+      "solid wedge sole"
+    ]
+  },
+
+  "ankle strap heels": {
+    "tags": [
+      "ankle strap heels",
+      "heels with ankle strap",
+      "strap around ankle"
+    ]
+  },
+
+  "strappy heels": {
+    "tags": [
+      "strappy heels",
+      "multi strap heels",
+      "thin strap heels"
+    ]
+  },
+
+  "open toe heels": {
+    "tags": [
+      "open toe heels",
+      "peep toe heels",
+      "toes visible in heels"
+    ]
+  },
+
+  "closed toe heels": {
+    "tags": [
+      "closed toe heels",
+      "covered toe heels"
+    ],
+    "negative": [
+      "open toe heels",
+      "peep toe"
+    ]
+  },
+
+  "slingback heels": {
+    "tags": [
+      "slingback heels",
+      "heel strap shoes",
+      "open back heels"
+    ]
+  },
+
+  "mary jane heels": {
+    "tags": [
+      "mary jane heels",
+      "strap across instep",
+      "vintage style heels"
+    ]
+  },
+
+  "court heels": {
+    "tags": [
+      "court heels",
+      "formal heels",
+      "classic dress heels"
+    ]
+  },
+
+  "high heels": {
+    "tags": [
+      "high heels",
+      "tall heels"
+    ],
+    "negative": [
+      "flat shoes"
+    ]
+  },
+
+  "low heels": {
+    "tags": [
+      "low heels",
+      "short heels"
+    ],
+    "negative": [
+      "high heels"
+    ]
+  },
+
+  "extreme heels": {
+    "tags": [
+      "very high heels",
+      "dramatic heel height",
+      "runway heels"
+    ],
+    "negative": [
+      "flat shoes"
+    ]
+  },
+
+  "no heels": {
+    "tags": [
+      "flat shoes",
+      "no heels"
+    ],
+    "negative": [
+      "heels",
+      "stiletto",
+      "platform heels"
+    ]
+  }
+}

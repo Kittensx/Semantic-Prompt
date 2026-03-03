@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "category": "xray",
+    "version": "0.1",
+    "notes": "X-ray, scan, and internal visualization rendering styles for objects and anatomy."
+  },
+
+  "xray": {
+    "tags": [
+      "x-ray image",
+      "radiograph",
+      "internal structure visible",
+      "bones visible",
+      "high contrast monochrome"
+    ],
+    "negative": []
+  },
+
+  "medical xray": {
+    "tags": [
+      "medical x-ray",
+      "diagnostic radiograph",
+      "skeletal structure visible",
+      "clinical imaging"
+    ],
+    "negative": []
+  },
+
+  "transparent body": {
+    "tags": [
+      "transparent body",
+      "internal anatomy visible",
+      "see-through effect",
+      "organs visible"
+    ],
+    "negative": []
+  },
+
+  "skeletal view": {
+    "tags": [
+      "skeletal view",
+      "visible skeleton",
+      "bone structure emphasis"
+    ],
+    "negative": []
+  },
+
+  "ct scan": {
+    "tags": [
+      "CT scan style",
+      "cross-sectional imaging",
+      "medical scan visualization",
+      "anatomical slices"
+    ],
+    "negative": []
+  },
+
+  "mri scan": {
+    "tags": [
+      "MRI scan style",
+      "soft tissue imaging",
+      "medical imaging aesthetic"
+    ],
+    "negative": []
+  },
+
+  "thermal scan": {
+    "tags": [
+      "thermal imaging",
+      "heat map visualization",
+      "infrared scan",
+      "false color heat signature"
+    ],
+    "negative": []
+  },
+
+  "blueprint cutaway": {
+    "tags": [
+      "cutaway view",
+      "internal components visible",
+      "blueprint style",
+      "technical diagram aesthetic"
+    ],
+    "negative": []
+  },
+
+  "mechanical xray": {
+    "tags": [
+      "x-ray of machinery",
+      "internal gears visible",
+      "transparent casing",
+      "mechanical structure exposed"
+    ],
+    "negative": []
+  },
+
+  "futuristic scan": {
+    "tags": [
+      "futuristic scan overlay",
+      "HUD interface",
+      "scanner visualization",
+      "digital diagnostic display"
+    ],
+    "negative": []
+  },
+
+  "glowing bones": {
+    "tags": [
+      "glowing skeleton",
+      "luminous bone structure",
+      "dark background x-ray effect"
+    ],
+    "negative": []
+  },
+
+  "dual exposure xray": {
+    "tags": [
+      "double exposure x-ray",
+      "overlay of internal and external anatomy",
+      "transparent layered effect"
+    ],
+    "negative": []
+  }
+}

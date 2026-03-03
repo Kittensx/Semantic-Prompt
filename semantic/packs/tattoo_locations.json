@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "category": "tattoo_locations",
+    "version": "0.1",
+    "notes": "Tattoo placement bundles. Use with subject or appearance."
+  },
+
+  "full sleeve": {
+    "tags": [
+      "full sleeve tattoo",
+      "arm covered in tattoos",
+      "intricate arm tattoo design"
+    ]
+  },
+
+  "half sleeve": {
+    "tags": [
+      "half sleeve tattoo",
+      "upper arm tattoo",
+      "detailed arm tattoo"
+    ]
+  },
+
+  "forearm": {
+    "tags": [
+      "forearm tattoo",
+      "visible forearm ink",
+      "detailed forearm design"
+    ]
+  },
+
+  "wrist": {
+    "tags": [
+      "wrist tattoo",
+      "small wrist tattoo",
+      "delicate wrist ink"
+    ]
+  },
+
+  "hand": {
+    "tags": [
+      "hand tattoo",
+      "tattooed hand",
+      "detailed hand ink"
+    ]
+  },
+
+  "finger": {
+    "tags": [
+      "finger tattoo",
+      "minimal finger ink",
+      "small hand tattoo"
+    ]
+  },
+
+  "shoulder": {
+    "tags": [
+      "shoulder tattoo",
+      "upper shoulder ink",
+      "shoulder blade tattoo"
+    ]
+  },
+
+  "collarbone": {
+    "tags": [
+      "collarbone tattoo",
+      "clavicle tattoo",
+      "delicate chest ink"
+    ]
+  },
+
+  "chest": {
+    "tags": [
+      "chest tattoo",
+      "large chest piece",
+      "detailed chest artwork"
+    ]
+  },
+
+  "sternum": {
+    "tags": [
+      "sternum tattoo",
+      "center chest tattoo",
+      "ornamental sternum design"
+    ]
+  },
+
+  "ribcage": {
+    "tags": [
+      "ribcage tattoo",
+      "side torso tattoo",
+      "detailed side ink"
+    ]
+  },
+
+  "back": {
+    "tags": [
+      "back tattoo",
+      "full back piece",
+      "large back artwork"
+    ]
+  },
+
+  "lower back": {
+    "tags": [
+      "lower back tattoo",
+      "small lower back ink",
+      "centered lower back design"
+    ]
+  },
+
+  "neck": {
+    "tags": [
+      "neck tattoo",
+      "side neck tattoo",
+      "visible neck ink"
+    ]
+  },
+
+  "behind ear": {
+    "tags": [
+      "behind ear tattoo",
+      "small ear tattoo",
+      "subtle head tattoo"
+    ]
+  },
+
+  "thigh": {
+    "tags": [
+      "thigh tattoo",
+      "upper thigh ink",
+      "large thigh piece"
+    ]
+  },
+
+  "hip": {
+    "tags": [
+      "hip tattoo",
+      "side hip ink",
+      "curved hip design"
+    ]
+  },
+
+  "calf": {
+    "tags": [
+      "calf tattoo",
+      "lower leg tattoo",
+      "detailed calf design"
+    ]
+  },
+
+  "ankle": {
+    "tags": [
+      "ankle tattoo",
+      "small ankle ink",
+      "delicate ankle design"
+    ]
+  },
+
+  "foot": {
+    "tags": [
+      "foot tattoo",
+      "top of foot tattoo",
+      "detailed foot ink"
+    ]
+  },
+  "single location only": {
+    "negative": [
+      "multiple tattoos",
+      "tattoos on arms",
+      "tattoos on chest",
+      "tattoo sleeve",
+      "full body tattoo"
+    ]
+  }
+}

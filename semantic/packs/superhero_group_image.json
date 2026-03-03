@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "category": "superhero_group_image",
+    "version": "0.1",
+    "notes": "Group-shot composition templates for superhero teams (lineups, posters, cinematic scenes). Designed to layer with superheroes/emblems and scene packs."
+  },
+
+  "team lineup": {
+    "tags": ["superhero team lineup", "group portrait", "heroes standing side by side", "iconic team pose"],
+    "aliases": ["lineup", "team portrait"],
+    "related": ["wide shot", "cinematic", "heroic stance"],
+    "excludes": ["solo portrait"]
+  },
+
+  "poster composition": {
+    "tags": ["movie poster composition", "dramatic group arrangement", "layered depth", "heroic poster style"],
+    "aliases": ["poster shot", "cinematic poster"],
+    "related": ["high contrast", "dramatic lighting", "cinematic"],
+    "excludes": []
+  },
+
+  "back to back": {
+    "tags": ["two heroes back to back", "team unity pose", "ready for battle stance"],
+    "aliases": ["back-to-back", "duo pose"],
+    "related": ["dramatic lighting", "heroic"],
+    "excludes": ["large crowd"]
+  },
+
+  "circle formation": {
+    "tags": ["heroes in a circle formation", "looking outward", "defensive stance", "team surround"],
+    "aliases": ["defensive circle", "formation circle"],
+    "related": ["battlefield", "tension", "wide shot"],
+    "excludes": ["solo portrait"]
+  },
+
+  "hero landing": {
+    "tags": ["multiple heroes landing", "impact pose", "cracked ground", "dust burst"],
+    "aliases": ["team landing", "impact landing"],
+    "related": ["dramatic", "cinematic", "motion"],
+    "excludes": ["calm portrait"]
+  },
+
+  "walking toward camera": {
+    "tags": ["team walking toward camera", "confident stride", "slow motion feel", "heroic march"],
+    "aliases": ["hero march", "team approach"],
+    "related": ["cinematic", "motion blur", "wide lens"],
+    "excludes": []
+  },
+
+  "silhouette skyline": {
+    "tags": ["team silhouette on skyline", "city backdrop", "sunset glow behind heroes", "iconic silhouettes"],
+    "aliases": ["skyline silhouette", "hero silhouettes"],
+    "related": ["city", "sunset", "cinematic"],
+    "excludes": ["indoor scene"]
+  },
+
+  "rooftop gathering": {
+    "tags": ["heroes on rooftop", "city lights behind", "night wind", "dramatic cape movement"],
+    "aliases": ["rooftop scene", "night rooftop team"],
+    "related": ["city night", "neon palette", "moonlight"],
+    "excludes": ["daytime field"]
+  },
+
+  "battle aftermath": {
+    "tags": ["battle aftermath", "smoke and debris", "torn ground", "heroes standing together"],
+    "aliases": ["after battle", "ruined battlefield"],
+    "related": ["dust", "dramatic lighting", "deep palette"],
+    "excludes": ["clean studio shot"]
+  },
+
+  "final stand": {
+    "tags": ["final stand scene", "heroes bracing for impact", "stormy sky", "high tension"],
+    "aliases": ["last stand", "stand together"],
+    "related": ["storm", "high contrast", "cinematic"],
+    "excludes": ["playful mood"]
+  },
+
+  "victory celebration": {
+    "tags": ["victory moment", "heroes celebrating", "confetti", "crowd cheering in background"],
+    "aliases": ["victory pose", "celebration scene"],
+    "related": ["packed crowd", "stadium fireworks", "festival crowd"],
+    "excludes": ["silent tense"]
+  },
+
+  "team briefing": {
+    "tags": ["heroes in briefing room", "holographic map", "planning scene", "tech atmosphere"],
+    "aliases": ["strategy scene", "planning room"],
+    "related": ["tech armored", "clean", "blue glow"],
+    "excludes": ["outdoor battlefield"]
+  },
+
+  "training arena": {
+    "tags": ["training arena", "sparring scene", "practice environment", "team training"],
+    "aliases": ["training session", "practice arena"],
+    "related": ["gym", "motion", "spotlights"],
+    "excludes": ["victory celebration"]
+  },
+
+  "portal arrival": {
+    "tags": ["heroes arriving through glowing portal", "energy doorway", "cinematic entrance"],
+    "aliases": ["portal entrance", "dimensional arrival"],
+    "related": ["cosmic guardian", "neon palette", "dramatic lighting"],
+    "excludes": ["quiet scene"]
+  }
+}

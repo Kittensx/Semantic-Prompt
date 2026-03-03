@@ -1,0 +1,100 @@
+{
+  "_meta": {
+    "category": "shoes_open_toe",
+    "version": "0.1",
+    "notes": "Controls open toe footwear styles and toe exposure visibility."
+  },
+
+  "closed toe": {
+    "tags": [
+      "closed toe shoes",
+      "covered toes",
+      "no open toe"
+    ],
+    "negative": [
+      "open toe",
+      "peep toe",
+      "toes visible",
+      "toe opening"
+    ]
+  },
+
+  "open toe": {
+    "tags": [
+      "open toe shoes",
+      "open toe design",
+      "toes visible"
+    ],
+    "aliases": [
+      "open-toe"
+    ]
+  },
+
+  "peep toe": {
+    "tags": [
+      "peep toe shoes",
+      "small toe opening",
+      "partial toe exposure"
+    ],
+    "aliases": [
+      "peep-toe"
+    ]
+  },
+
+  "fully open front": {
+    "tags": [
+      "fully open front shoes",
+      "frontless shoe design",
+      "toes fully exposed"
+    ]
+  },
+
+  "toe strap": {
+    "tags": [
+      "toe strap",
+      "strap across toes",
+      "front strap sandal"
+    ]
+  },
+
+  "multi strap open toe": {
+    "tags": [
+      "multi-strap open toe",
+      "strappy open toe shoes",
+      "multiple straps across toes"
+    ]
+  },
+
+  "open toe heels": {
+    "tags": [
+      "open toe heels",
+      "open toe high heels"
+    ]
+  },
+
+  "open toe boots": {
+    "tags": [
+      "open toe boots",
+      "peep toe boots"
+    ]
+  },
+
+  "open toe sandals": {
+    "tags": [
+      "open toe sandals",
+      "strappy sandals"
+    ]
+  },
+
+  "no toe exposure": {
+    "tags": [
+      "no toe exposure",
+      "fully covered toes"
+    ],
+    "negative": [
+      "toes visible",
+      "open toe",
+      "peep toe"
+    ]
+  }
+}

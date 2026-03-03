@@ -1,0 +1,159 @@
+{
+  "_meta": {
+    "category": "shoes_sneakers",
+    "version": "0.1",
+    "notes": "Sneaker types organized by style, cut, sole, and function."
+  },
+
+  "low top sneakers": {
+    "tags": [
+      "low top sneakers",
+      "low cut sneakers",
+      "low profile sneakers"
+    ],
+    "aliases": [
+      "low tops"
+    ]
+  },
+
+  "mid top sneakers": {
+    "tags": [
+      "mid top sneakers",
+      "mid cut sneakers"
+    ],
+    "aliases": [
+      "mid tops"
+    ]
+  },
+
+  "high top sneakers": {
+    "tags": [
+      "high top sneakers",
+      "high cut sneakers",
+      "ankle covering sneakers"
+    ],
+    "aliases": [
+      "high tops"
+    ]
+  },
+
+  "chunky sneakers": {
+    "tags": [
+      "chunky sneakers",
+      "thick sole sneakers",
+      "bulky sneakers"
+    ],
+    "aliases": [
+      "dad sneakers"
+    ]
+  },
+
+  "platform sneakers": {
+    "tags": [
+      "platform sneakers",
+      "thick platform sole",
+      "elevated sole sneakers"
+    ]
+  },
+
+  "running shoes": {
+    "tags": [
+      "running shoes",
+      "athletic sneakers",
+      "sport running shoes"
+    ],
+    "aliases": [
+      "trainers"
+    ]
+  },
+
+  "basketball shoes": {
+    "tags": [
+      "basketball shoes",
+      "court sneakers",
+      "performance high tops"
+    ]
+  },
+
+  "skate shoes": {
+    "tags": [
+      "skate shoes",
+      "flat sole sneakers",
+      "skate sneakers"
+    ]
+  },
+
+  "canvas sneakers": {
+    "tags": [
+      "canvas sneakers",
+      "canvas shoes"
+    ]
+  },
+
+  "leather sneakers": {
+    "tags": [
+      "leather sneakers",
+      "sleek leather trainers"
+    ]
+  },
+
+  "slip on sneakers": {
+    "tags": [
+      "slip-on sneakers",
+      "lace-less sneakers",
+      "elastic sneakers"
+    ],
+    "aliases": [
+      "slipons"
+    ]
+  },
+
+  "lace up sneakers": {
+    "tags": [
+      "lace-up sneakers",
+      "laced sneakers"
+    ]
+  },
+
+  "velcro sneakers": {
+    "tags": [
+      "velcro sneakers",
+      "hook and loop sneakers"
+    ]
+  },
+
+  "retro sneakers": {
+    "tags": [
+      "retro sneakers",
+      "vintage sneakers",
+      "classic trainers"
+    ]
+  },
+
+  "minimal sneakers": {
+    "tags": [
+      "minimal sneakers",
+      "simple design sneakers",
+      "clean white sneakers"
+    ]
+  },
+
+  "futuristic sneakers": {
+    "tags": [
+      "futuristic sneakers",
+      "sci-fi sneakers",
+      "high tech sneakers"
+    ]
+  },
+
+  "no sneakers": {
+    "tags": [
+      "no sneakers"
+    ],
+    "negative": [
+      "sneakers",
+      "trainers",
+      "running shoes"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "_meta": {
+    "category": "toy_figures",
+    "version": "0.1",
+    "notes": "Toy figures, miniatures, and collectible figurines."
+  },
+
+  "action_figure": {
+    "tags": [
+      "action figure",
+      "articulated joints",
+      "plastic texture",
+      "posable toy"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "anime_figurine": {
+    "tags": [
+      "anime figurine",
+      "painted collectible figure",
+      "smooth plastic finish",
+      "display stand"
+    ],
+    "style": [
+      "clean lines"
+    ]
+  },
+
+  "chibi_figure": {
+    "tags": [
+      "chibi toy figure",
+      "large head proportion",
+      "small body",
+      "cute collectible"
+    ],
+    "palette": [
+      "pastel"
+    ]
+  },
+
+  "miniature_soldier": {
+    "tags": [
+      "miniature soldier",
+      "tiny painted figure",
+      "tabletop miniature",
+      "detailed uniform"
+    ],
+    "composition": [
+      "close_up"
+    ]
+  },
+
+  "diorama_scene": {
+    "tags": [
+      "miniature diorama",
+      "tiny landscape set",
+      "model environment",
+      "scale model scene"
+    ],
+    "composition": [
+      "overhead"
+    ]
+  },
+
+  "boxed_collectible": {
+    "tags": [
+      "boxed collectible figure",
+      "clear plastic packaging",
+      "display box",
+      "retail packaging"
+    ],
+    "style": [
+      "clean"
+    ]
+  },
+
+  "vinyl_toy": {
+    "tags": [
+      "vinyl toy figure",
+      "smooth matte finish",
+      "designer toy",
+      "minimal detailing"
+    ],
+    "palette": [
+      "limited"
+    ]
+  },
+
+  "robot_toy": {
+    "tags": [
+      "robot toy figure",
+      "mechanical details",
+      "plastic armor plates",
+      "toy joints visible"
+    ],
+    "style": [
+      "high contrast"
+    ]
+  },
+
+  "fantasy_creature_figure": {
+    "tags": [
+      "fantasy creature figurine",
+      "painted scales",
+      "tiny wings",
+      "detailed base stand"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "pose_display": {
+    "tags": [
+      "figure posed dynamically",
+      "display shelf",
+      "collector setup",
+      "arranged figurines"
+    ],
+    "composition": [
+      "centered"
+    ]
+  }
+}

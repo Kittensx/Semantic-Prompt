@@ -1,0 +1,321 @@
+{
+  "_meta": {
+    "category": "swimwear",
+    "version": "0.3",
+    "notes": "Expanded swimwear and beachwear modifiers. Includes aliases/related/requires/excludes. Designed for compositional use with compound directive values."
+  },
+
+  "bikini": {
+    "tags": ["bikini", "two piece swimsuit", "beachwear"],
+    "aliases": ["two piece", "two-piece", "two piece swimwear"],
+    "related": ["beach", "ocean", "sunset", "summer"],
+    "requires": ["subject:beach"],
+    "excludes": ["winter coat", "heavy jacket", "armor"]
+  },
+
+  "one piece": {
+    "tags": ["one piece swimsuit", "swimsuit", "beachwear"],
+    "aliases": ["one-piece", "onepiece", "single piece swimsuit"],
+    "related": ["pool", "beach", "summer"],
+    "requires": ["subject:beach"],
+    "excludes": ["winter coat", "armor"]
+  },
+
+  "high waisted": {
+    "tags": ["high waisted swimsuit", "retro swimwear", "vintage inspired"],
+    "aliases": ["high-waisted", "high waist", "retro high waisted"],
+    "related": ["retro", "vintage", "pastel"],
+    "excludes": ["sporty", "competitive"]
+  },
+
+  "string bikini": {
+    "tags": ["string bikini", "tie side bikini", "minimal straps"],
+    "aliases": ["tie bikini", "side tie bikini", "string two piece"],
+    "related": ["beach", "sunset", "vibrant"],
+    "requires": ["subject:beach"]
+  },
+
+  "triangle bikini": {
+    "tags": ["triangle bikini top", "classic bikini"],
+    "aliases": ["triangle top", "classic bikini top"],
+    "related": ["beach", "ocean", "summer"],
+    "requires": ["subject:beach"]
+  },
+
+  "halter bikini": {
+    "tags": ["halter bikini", "halter neck swimsuit"],
+    "aliases": ["halter neck", "halter top bikini"],
+    "related": ["beach", "pool", "summer"]
+  },
+
+  "strapless bikini": {
+    "tags": ["strapless bikini", "bandeau bikini"],
+    "aliases": ["bandeau", "bandeau bikini top"],
+    "related": ["sunset", "beach", "warm"],
+    "requires": ["subject:beach"]
+  },
+
+  "sports bikini": {
+    "tags": ["sporty bikini", "athletic bikini", "active swimwear"],
+    "aliases": ["athletic bikini", "performance bikini"],
+    "related": ["pool", "surf", "sporty"],
+    "excludes": ["vintage", "retro"]
+  },
+
+  "tankini": {
+    "tags": ["tankini", "two piece tankini swimsuit", "swim top and bottoms"],
+    "aliases": ["tankini set", "tankini swimsuit"],
+    "related": ["pool", "beach", "summer"]
+  },
+
+  "rash guard": {
+    "tags": ["rash guard", "long sleeve swim top", "surf swimwear"],
+    "aliases": ["rashguard", "surf top", "swim rash guard"],
+    "related": ["surf", "ocean", "sporty"],
+    "requires": ["subject:ocean"],
+    "excludes": ["lace", "formal gown"]
+  },
+
+  "wetsuit": {
+    "tags": ["wetsuit", "neoprene suit", "diving suit"],
+    "aliases": ["dive suit", "neoprene wetsuit"],
+    "related": ["underwater", "ocean", "surf"],
+    "requires": ["subject:ocean"],
+    "excludes": ["bikini", "sarong", "summer dress"]
+  },
+
+  "shorty wetsuit": {
+    "tags": ["shorty wetsuit", "short sleeve wetsuit", "short leg wetsuit"],
+    "aliases": ["spring suit", "springsuit"],
+    "related": ["surf", "ocean", "sporty"],
+    "requires": ["subject:ocean"]
+  },
+
+  "swim trunks": {
+    "tags": ["swim trunks", "board shorts", "beachwear"],
+    "aliases": ["boardshorts", "board shorts", "swim shorts"],
+    "related": ["beach", "ocean", "summer"]
+  },
+
+  "board shorts": {
+    "tags": ["board shorts", "surf shorts", "beach shorts"],
+    "aliases": ["boardshorts", "surf shorts"],
+    "related": ["surf", "ocean", "sporty"],
+    "requires": ["subject:ocean"]
+  },
+
+  "swim skirt": {
+    "tags": ["swim skirt", "skirted swimsuit", "beachwear"],
+    "aliases": ["skirted swimwear", "swim skort"],
+    "related": ["pool", "beach", "summer"]
+  },
+
+  "cutout swimsuit": {
+    "tags": ["cutout swimsuit", "stylish swimwear", "fashion swimsuit"],
+    "aliases": ["cut-out swimsuit", "cutout one piece"],
+    "related": ["high fashion", "glossy", "modern"]
+  },
+
+  "asymmetrical swimsuit": {
+    "tags": ["asymmetrical swimsuit", "one shoulder swimsuit", "modern swimwear"],
+    "aliases": ["one-shoulder swimsuit", "one shoulder"],
+    "related": ["modern", "clean", "high fashion"]
+  },
+
+  "deep v swimsuit": {
+    "tags": ["deep v one piece swimsuit", "fashion swimsuit"],
+    "aliases": ["deep v swimsuit", "plunge one piece"],
+    "related": ["high fashion", "glossy", "modern"]
+  },
+
+  "surf style": {
+    "tags": ["surf style swimwear", "beach athletic style"],
+    "aliases": ["surfer style", "surf swimwear"],
+    "related": ["rash guard", "board shorts", "ocean"],
+    "requires": ["subject:ocean"]
+  },
+
+  "lifeguard": {
+    "tags": ["lifeguard swimsuit", "red swimwear", "beach uniform style"],
+    "aliases": ["lifeguard look", "lifeguard style"],
+    "related": ["beach", "sunny", "sporty"],
+    "requires": ["subject:beach"]
+  },
+
+  "poolside": {
+    "tags": ["poolside setting", "poolside lounge", "summer atmosphere"],
+    "aliases": ["by the pool", "pool scene"],
+    "related": ["one piece", "bikini", "sunglasses"],
+    "requires": ["subject:poolside swimwear"]
+  },
+
+  "beach day": {
+    "tags": ["beach day", "sunny beach", "summer vibes"],
+    "aliases": ["day at the beach", "beach vibes"],
+    "related": ["bikini", "sarong", "sun hat"],
+    "requires": ["subject:beach"]
+  },
+
+  "resort": {
+    "tags": ["resort swimwear", "vacation aesthetic", "luxury beachwear"],
+    "aliases": ["vacation resort", "resort wear"],
+    "related": ["sarong", "high fashion", "sunglasses"],
+    "requires": ["subject:beach"]
+  },
+
+  "high fashion": {
+    "tags": ["high fashion swimwear", "designer swimsuit", "runway swimwear"],
+    "aliases": ["designer swimwear", "fashion swimwear"],
+    "related": ["glossy", "clean", "modern"],
+    "excludes": ["sporty", "competitive"]
+  },
+
+  "retro": {
+    "tags": ["retro swimwear", "vintage swimwear", "pin-up inspired"],
+    "aliases": ["vintage swimwear", "classic retro"],
+    "related": ["high waisted", "film grain", "pastel"],
+    "excludes": ["sporty", "competitive"]
+  },
+
+  "sporty": {
+    "tags": ["sporty swimsuit", "athletic swimwear", "streamlined design"],
+    "aliases": ["athletic", "active swimwear", "performance swimwear"],
+    "related": ["pool", "surf style", "clean"],
+    "excludes": ["retro", "lace"]
+  },
+
+  "competitive": {
+    "tags": ["competitive swimsuit", "racing swimsuit", "lap swimming"],
+    "aliases": ["swim competition", "racing suit"],
+    "related": ["pool", "sporty", "clean"],
+    "excludes": ["sarong", "resort", "retro"]
+  },
+
+  "cover up": {
+    "tags": ["beach cover up", "light cover up", "summer layering"],
+    "aliases": ["coverup", "cover-up", "beach coverup"],
+    "related": ["sarong", "kimono cover up", "resort"]
+  },
+
+  "sarong": {
+    "tags": ["sarong wrap", "beach wrap", "light cover up"],
+    "aliases": ["sarong skirt", "beach sarong", "wrap skirt"],
+    "related": ["bikini", "resort", "sunset"],
+    "excludes": ["armor", "heavy coat"]
+  },
+
+  "kimono cover up": {
+    "tags": ["kimono cover up", "light robe", "flowing cover up"],
+    "aliases": ["beach kimono", "kimono robe"],
+    "related": ["resort", "poolside", "high fashion"]
+  },
+
+  "beach dress": {
+    "tags": ["beach dress", "light summer dress", "beachwear"],
+    "aliases": ["cover up dress", "swim cover dress"],
+    "related": ["resort", "beach day", "sun hat"]
+  },
+
+  "sun hat": {
+    "tags": ["wide brim sun hat", "beach hat"],
+    "aliases": ["wide brim hat", "sunhat"],
+    "related": ["beach day", "resort", "sunglasses"]
+  },
+
+  "sunglasses": {
+    "tags": ["sunglasses", "summer style"],
+    "aliases": ["shades", "sun glasses"],
+    "related": ["beach day", "resort", "poolside"]
+  },
+
+  "beach sandals": {
+    "tags": ["beach sandals", "summer sandals"],
+    "aliases": ["sandals", "flip flops", "flip-flops"],
+    "related": ["beach day", "resort"]
+  },
+
+  "beach towel": {
+    "tags": ["beach towel", "towel on sand", "summer beach scene"],
+    "aliases": ["towel", "beach blanket"],
+    "related": ["beach day", "sunset", "ocean"]
+  },
+
+  "float ring": {
+    "tags": ["pool float", "inflatable ring", "summer fun"],
+    "aliases": ["inflatable float", "pool ring"],
+    "related": ["poolside", "playful", "summer"]
+  },
+
+  "wet look": {
+    "tags": ["wet skin", "water droplets", "wet swimsuit"],
+    "aliases": ["wet", "soaked", "water sheen"],
+    "related": ["ocean", "rain", "dramatic"],
+    "excludes": ["snow", "winter coat"]
+  },
+
+  "dripping water": {
+    "tags": ["dripping water", "water droplets", "freshly emerged from water"],
+    "aliases": ["water dripping", "wet hair"],
+    "related": ["wet look", "ocean", "poolside"]
+  },
+
+  "sandy": {
+    "tags": ["sand on skin", "sandy beach", "gritty beach texture"],
+    "aliases": ["covered in sand", "sand dust"],
+    "related": ["beach day", "ocean", "sunset"]
+  },
+
+  "sun-kissed": {
+    "tags": ["sun-kissed glow", "warm highlights", "summer glow"],
+    "aliases": ["sun kissed", "summer glow"],
+    "related": ["beach day", "warm", "golden hour"]
+  },
+
+  "after swim": {
+    "tags": ["after swim", "towel wrapped", "relaxed beach mood"],
+    "aliases": ["post swim", "after swimming"],
+    "related": ["cover up", "poolside", "resort"]
+  },
+
+  "beach chair": {
+    "tags": ["beach chair", "lounging by the water", "vacation relax"],
+    "aliases": ["lounge chair", "sun lounger"],
+    "related": ["resort", "poolside", "sunglasses"]
+  },
+
+  "cabana": {
+    "tags": ["beach cabana", "shaded lounge", "resort setting"],
+    "aliases": ["cabana lounge", "pool cabana"],
+    "related": ["resort", "poolside", "high fashion"]
+  },
+
+  "tropical": {
+    "tags": ["tropical beach", "palm trees", "vacation paradise"],
+    "aliases": ["tropics", "tropical resort"],
+    "related": ["resort", "ocean", "sunset"]
+  },
+
+  "minimal": {
+    "tags": ["minimal design", "simple swimwear", "clean silhouette"],
+    "aliases": ["minimalist", "simple design"],
+    "related": ["clean", "modern", "high fashion"]
+  },
+
+  "patterned": {
+    "tags": ["patterned swimwear", "printed swimsuit", "bold pattern"],
+    "aliases": ["printed", "pattern", "graphic print"],
+    "related": ["vibrant", "summer", "resort"]
+  },
+
+  "striped": {
+    "tags": ["striped swimsuit", "striped beachwear"],
+    "aliases": ["stripes", "striped bikini"],
+    "related": ["retro", "vintage", "beach day"]
+  },
+
+  "polka dot": {
+    "tags": ["polka dot swimsuit", "retro print"],
+    "aliases": ["polka dots", "dot pattern"],
+    "related": ["retro", "high waisted", "vintage"]
+  }
+}

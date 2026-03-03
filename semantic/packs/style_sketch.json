@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "category": "style_sketch",
+    "version": "1.0",
+    "notes": "Sketching modes: pencil, charcoal, gesture, blueprint-like linework."
+  },
+
+  "pencil": {
+    "tags": [
+      "pencil sketch",
+      "graphite texture",
+      "rough linework",
+      "paper grain"
+    ]
+  },
+
+  "charcoal": {
+    "tags": [
+      "charcoal drawing",
+      "smudged shading",
+      "dusty texture",
+      "bold shadow masses"
+    ]
+  },
+
+  "gesture": {
+    "tags": [
+      "gesture drawing",
+      "loose sketch lines",
+      "quick strokes",
+      "unfinished look"
+    ]
+  },
+
+  "blueprint": {
+    "tags": [
+      "blueprint style",
+      "technical sketch",
+      "clean schematic lines"
+    ]
+  }
+}

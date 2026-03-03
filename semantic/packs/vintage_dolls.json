@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "category": "vintage_dolls",
+    "version": "0.1",
+    "notes": "Antique and vintage style dolls including folk costume and display dolls."
+  },
+
+  "dutch_folk_doll": {
+    "tags": [
+      "vintage dutch doll",
+      "traditional dutch costume",
+      "wooden shoes",
+      "lace cap",
+      "folk dress",
+      "standing display doll"
+    ],
+    "palette": [
+      "muted"
+    ],
+    "style": [
+      "clean"
+    ]
+  },
+
+  "large_display_doll": {
+    "tags": [
+      "large vintage doll",
+      "knee high doll",
+      "standing doll",
+      "display piece",
+      "decorative doll"
+    ],
+    "composition": [
+      "centered"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "antique_porcelain": {
+    "tags": [
+      "antique porcelain doll",
+      "ceramic head",
+      "glass eyes",
+      "cracked glaze",
+      "aged finish"
+    ],
+    "style": [
+      "soft contrast"
+    ]
+  },
+
+  "composition_doll": {
+    "tags": [
+      "composition doll",
+      "painted facial features",
+      "aged paint",
+      "vintage material",
+      "antique toy"
+    ],
+    "palette": [
+      "muted"
+    ]
+  },
+
+  "folk_costume_doll": {
+    "tags": [
+      "folk costume doll",
+      "traditional clothing",
+      "cultural dress",
+      "decorative fabric",
+      "handmade appearance"
+    ]
+  },
+
+  "wooden_doll": {
+    "tags": [
+      "wooden doll",
+      "carved wood",
+      "painted wood surface",
+      "handcrafted doll",
+      "rustic aesthetic"
+    ]
+  },
+
+  "cloth_antique": {
+    "tags": [
+      "antique cloth doll",
+      "fabric body",
+      "stitched features",
+      "handmade doll",
+      "soft aged fabric"
+    ]
+  },
+
+  "display_stand": {
+    "tags": [
+      "doll on stand",
+      "display base",
+      "collector display",
+      "upright pose"
+    ],
+    "composition": [
+      "centered"
+    ]
+  },
+
+  "victorian_doll": {
+    "tags": [
+      "victorian doll",
+      "period clothing",
+      "lace dress",
+      "antique fashion",
+      "historical doll"
+    ]
+  },
+
+  "aged_worn": {
+    "tags": [
+      "aged doll",
+      "faded paint",
+      "worn fabric",
+      "vintage wear",
+      "antique condition"
+    ],
+    "palette": [
+      "muted"
+    ],
+    "style": [
+      "soft contrast"
+    ]
+  }
+}

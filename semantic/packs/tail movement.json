@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "category": "tail_movement",
+    "version": "0.1",
+    "notes": ""
+  },
+
+  "tail still": {
+    "tags": [
+      "tail at rest",
+      "relaxed tail",
+      "natural tail position"
+    ],
+    "negative": []
+  },
+
+  "tail swishing": {
+    "tags": [
+      "tail swishing",
+      "side to side motion",
+      "expressive movement"
+    ],
+    "negative": []
+  },
+
+  "tail raised": {
+    "tags": [
+      "tail raised",
+      "alert posture",
+      "upright tail"
+    ],
+    "negative": []
+  },
+
+  "tail curled": {
+    "tags": [
+      "tail curled",
+      "coiled tail",
+      "looped tail shape"
+    ],
+    "negative": []
+  },
+
+  "tail wrapped around leg": {
+    "tags": [
+      "tail wrapped around leg",
+      "tail hugging thigh",
+      "protective posture"
+    ],
+    "negative": []
+  },
+
+  "tail wrapped around body": {
+    "tags": [
+      "tail wrapped around body",
+      "cozy posture",
+      "tail embracing figure"
+    ],
+    "negative": []
+  },
+
+  "tail flick": {
+    "tags": [
+      "tail flicking",
+      "quick tail motion",
+      "sharp movement"
+    ],
+    "negative": []
+  },
+
+  "tail lashing": {
+    "tags": [
+      "tail lashing",
+      "agitated movement",
+      "fast sweeping motion"
+    ],
+    "negative": []
+  },
+
+  "tail floating": {
+    "tags": [
+      "tail floating",
+      "weightless motion",
+      "gentle sway"
+    ],
+    "negative": []
+  },
+
+  "tail mid motion": {
+    "tags": [
+      "tail mid motion",
+      "frozen movement",
+      "dynamic pose"
+    ],
+    "negative": []
+  },
+
+  "multiple tails fanned out": {
+    "tags": [
+      "tails fanned out",
+      "spread tails",
+      "dramatic silhouette"
+    ],
+    "negative": []
+  },
+
+  "multiple tails flowing": {
+    "tags": [
+      "flowing multiple tails",
+      "layered motion",
+      "mythical presence"
+    ],
+    "negative": []
+  },
+
+  "tail tucked": {
+    "tags": [
+      "tail tucked",
+      "submissive posture",
+      "hidden tail"
+    ],
+    "negative": []
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "_meta": {
+    "category": "sports_stadiums",
+    "version": "0.1",
+    "notes": "Sports stadium and arena environments. Designed to influence scale, lighting, and atmosphere."
+  },
+
+  "baseball": {
+    "tags": ["baseball stadium", "large open field", "stadium seating", "scoreboard"],
+    "aliases": ["ballpark", "baseball park"],
+    "related": ["baseball", "baseball bat", "crowd"],
+    "excludes": ["indoor arena"]
+  },
+
+  "football": {
+    "tags": ["football stadium", "large field with yard lines", "stadium lights", "crowded stands"],
+    "aliases": ["gridiron stadium"],
+    "related": ["football", "night game", "cheering crowd"],
+    "excludes": []
+  },
+
+  "soccer": {
+    "tags": ["soccer stadium", "green pitch", "goal nets", "stadium seating"],
+    "aliases": ["football stadium (soccer)"],
+    "related": ["soccer ball", "goal net"],
+    "excludes": []
+  },
+
+  "basketball": {
+    "tags": ["indoor basketball arena", "polished wood court", "bright arena lights", "scoreboard above court"],
+    "aliases": ["basketball stadium", "indoor arena"],
+    "related": ["basketball", "basketball hoop", "crowd"],
+    "excludes": ["open field"]
+  },
+
+  "tennis": {
+    "tags": ["tennis stadium", "hardcourt", "stadium seating", "center court"],
+    "aliases": ["center court arena"],
+    "related": ["tennis racket", "tennis ball"],
+    "excludes": []
+  },
+
+  "golf": {
+    "tags": ["golf course", "rolling green hills", "sand bunkers", "wide open landscape"],
+    "aliases": ["golf field"],
+    "related": ["golf club", "golf ball", "sunny day"],
+    "excludes": ["indoor arena"]
+  },
+
+  "hockey": {
+    "tags": ["ice hockey arena", "ice rink", "bright stadium lights", "arena seating"],
+    "aliases": ["ice rink stadium"],
+    "related": ["hockey stick", "hockey puck"],
+    "excludes": ["grass field"]
+  },
+
+  "track": {
+    "tags": ["track and field stadium", "running track lanes", "open stadium seating"],
+    "aliases": ["athletics stadium"],
+    "related": ["track uniform", "running pose"],
+    "excludes": []
+  },
+
+  "volleyball": {
+    "tags": ["volleyball court", "indoor arena", "stadium seating"],
+    "aliases": ["volleyball stadium"],
+    "related": ["volleyball", "net"],
+    "excludes": []
+  },
+
+  "boxing": {
+    "tags": ["boxing arena", "boxing ring under bright lights", "crowded arena"],
+    "aliases": ["fight arena", "boxing ring stadium"],
+    "related": ["boxing gloves", "dramatic lighting"],
+    "excludes": []
+  },
+
+  "night game": {
+    "tags": ["night stadium game", "bright floodlights", "dark sky backdrop"],
+    "aliases": ["stadium at night"],
+    "related": ["high contrast", "cinematic", "crowd"],
+    "excludes": ["golden hour"]
+  },
+
+  "day game": {
+    "tags": ["daytime stadium", "bright sunlight", "clear sky"],
+    "aliases": ["sunlit stadium"],
+    "related": ["vibrant palette", "summer"],
+    "excludes": ["night game"]
+  },
+
+  "empty": {
+    "tags": ["empty stadium seats", "quiet arena", "no crowd"],
+    "aliases": ["vacant stadium"],
+    "related": ["dramatic lighting", "wide shot"],
+    "excludes": ["cheering crowd"]
+  },
+
+  "packed crowd": {
+    "tags": ["packed stadium", "cheering crowd", "fans waving"],
+    "aliases": ["crowded arena"],
+    "related": ["night game", "fireworks"],
+    "excludes": ["empty stadium"]
+  },
+
+  "stadium fireworks": {
+    "tags": ["fireworks above stadium", "celebration lights", "night sky explosion"],
+    "aliases": ["celebration fireworks"],
+    "related": ["night game", "victory"],
+    "excludes": ["day game"]
+  },
+  "packed crowd night": {
+    "tags": ["packed stadium at night", "bright floodlights over massive crowd", "dark sky backdrop"],
+    "aliases": ["night packed stadium"],
+    "related": ["night game", "high contrast", "cinematic"],
+    "excludes": ["day game"]
+  },
+
+  "packed crowd day": {
+    "tags": ["packed stadium during daytime", "sunlit stands full of people"],
+    "aliases": ["day packed stadium"],
+    "related": ["day game", "vibrant palette"],
+    "excludes": ["night game"]
+  },
+
+  "crowd wave": {
+    "tags": ["stadium crowd doing the wave", "rising arms across stadium"],
+    "aliases": ["stadium wave"],
+    "related": ["packed crowd", "cheering crowd"],
+    "excludes": ["empty stadium"]
+  },
+
+  "crowd fireworks": {
+    "tags": ["fireworks above packed stadium", "celebration explosion in sky"],
+    "aliases": ["stadium celebration fireworks"],
+    "related": ["night game", "packed crowd night"],
+    "excludes": ["day game"]
+  },
+
+  "crowd confetti": {
+    "tags": ["confetti raining over crowd", "celebratory confetti explosion"],
+    "aliases": ["stadium confetti"],
+    "related": ["victory moment", "cheering crowd"],
+    "excludes": []
+  },
+
+  "crowd spotlight": {
+    "tags": ["single spotlight scanning crowd", "dramatic stadium lighting"],
+    "aliases": ["stadium spotlight"],
+    "related": ["night game", "cinematic"],
+    "excludes": []
+  },
+
+  "crowd phone lights": {
+    "tags": ["crowd holding up phone lights", "thousands of small glowing lights"],
+    "aliases": ["stadium phone lights", "audience light glow"],
+    "related": ["concert crowd", "night game"],
+    "excludes": ["day game"]
+  },
+
+  "crowd rain": {
+    "tags": ["packed crowd in the rain", "wet stadium seats", "dramatic rain under lights"],
+    "aliases": ["rainy stadium crowd"],
+    "related": ["high contrast", "cinematic"],
+    "excludes": []
+  },
+
+  "crowd fog": {
+    "tags": ["stadium filled with light fog", "mist over cheering crowd"],
+    "aliases": ["foggy stadium"],
+    "related": ["night game", "dramatic lighting"],
+    "excludes": []
+  },
+
+  "crowd slow motion": {
+    "tags": ["motion blur in cheering crowd", "cinematic slow motion crowd"],
+    "aliases": ["crowd motion blur"],
+    "related": ["background blur", "cinematic"],
+    "excludes": []
+  },
+
+  "crowd victory eruption": {
+    "tags": ["crowd erupting in celebration", "people jumping and cheering wildly"],
+    "aliases": ["stadium eruption", "victory crowd explosion"],
+    "related": ["confetti", "fireworks"],
+    "excludes": ["silent crowd"]
+  },
+
+  "crowd tense silence": {
+    "tags": ["silent tense stadium crowd", "people holding their breath", "anticipation"],
+    "aliases": ["stadium suspense"],
+    "related": ["spotlight", "dramatic lighting"],
+    "excludes": ["cheering crowd"]
+  },
+
+  "upper deck wide shot": {
+    "tags": ["wide shot from upper deck", "massive stadium scale", "sea of spectators"],
+    "aliases": ["wide stadium angle"],
+    "related": ["packed crowd", "epic scale"],
+    "excludes": []
+  },
+
+  "field level crowd perspective": {
+    "tags": ["crowd towering above from field level", "low angle stadium perspective"],
+    "aliases": ["field view perspective"],
+    "related": ["dramatic scale", "cinematic"],
+    "excludes": []
+  }
+}

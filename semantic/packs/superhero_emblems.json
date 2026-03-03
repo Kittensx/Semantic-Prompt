@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "category": "superhero_emblems",
+    "version": "0.1",
+    "notes": "Superhero chest symbols and insignias. Designed to pair with superheroes.json."
+  },
+
+  "star sigil": {
+    "tags": ["glowing star emblem on chest", "radiant star symbol"],
+    "aliases": ["stellar emblem"],
+    "related": ["cosmic guardian"]
+  },
+
+  "lightning bolt": {
+    "tags": ["lightning bolt emblem", "bold lightning chest symbol"],
+    "aliases": ["bolt emblem"],
+    "related": ["speedster"]
+  },
+
+  "flame emblem": {
+    "tags": ["flame shaped chest emblem", "burning insignia"],
+    "aliases": ["fire sigil"],
+    "related": ["elemental fire"]
+  },
+
+  "snowflake emblem": {
+    "tags": ["crystalline snowflake emblem", "frost insignia"],
+    "aliases": ["ice sigil"],
+    "related": ["elemental ice"]
+  },
+
+  "bat sigil": {
+    "tags": ["dark bat shaped chest symbol", "minimal shadow emblem"],
+    "aliases": ["shadow bat symbol"],
+    "related": ["street vigilante"]
+  },
+
+  "reactor emblem": {
+    "tags": ["circular glowing chest core", "energy reactor symbol"],
+    "aliases": ["power core emblem"],
+    "related": ["tech armored"]
+  },
+
+  "leaf emblem": {
+    "tags": ["leaf shaped insignia", "nature crest symbol"],
+    "aliases": ["nature sigil"],
+    "related": ["nature protector"]
+  },
+
+  "wing emblem": {
+    "tags": ["winged crest emblem", "feathered chest insignia"],
+    "aliases": ["angelic sigil"],
+    "related": ["winged guardian"]
+  },
+
+  "fist emblem": {
+    "tags": ["raised fist chest symbol", "strength insignia"],
+    "aliases": ["power sigil"],
+    "related": ["mutant powerhouse"]
+  },
+
+  "eye sigil": {
+    "tags": ["glowing eye emblem", "psychic symbol on chest"],
+    "aliases": ["mind emblem"],
+    "related": ["telepath"]
+  },
+
+  "shadow sigil": {
+    "tags": ["void shaped insignia", "dark abstract emblem"],
+    "aliases": ["void emblem"],
+    "related": ["shadow manipulator"]
+  }
+}
