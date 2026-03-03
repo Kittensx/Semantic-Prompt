@@ -28,7 +28,8 @@ Everything outside of `%% ... %%` remains untouched.
         -   packs/
         -   triggers/triggers.json
 
-3.  Restart A1111.
+3.  Open Packs folder and unzip
+4.  Restart A1111.
 
 You will see "Semantic Prompt (%%...%%)" in the Script dropdown.
 
