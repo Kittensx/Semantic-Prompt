@@ -1,11 +1,12 @@
 @echo off
 python random_prompt_packs.py ^
   --packs .\packs ^
-  --total 15 ^
+  --total 12 ^
   --max-per-category 1 ^
-  --include-min subject lighting palette breasts ethnicity clothing_state generic_age breasts_shape^
-  --other-random 6 ^
+  --include-min subject lighting palette ethnicity hairstyles backgrounds^
+  --other-random 8 ^
   --prints 100^
   --out anything_prompts.txt
+
 
 pause
