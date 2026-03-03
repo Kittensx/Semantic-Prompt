@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "category": "pubic_hair",
+    "version": "0.1",
+    "notes": "Pubic hair grooming descriptors. Neutral anatomical phrasing designed for compatibility across artistic styles."
+  },
+
+  "shaved": {
+    "tags": [
+      "shaved pubic hair",
+      "hairless groin"
+    ],
+    "negative": [
+      "pubic hair"
+    ],
+    "aliases": [
+      "clean shaven",
+      "hairless"
+    ]
+  },
+
+  "trimmed": {
+    "tags": [
+      "trimmed pubic hair",
+      "neatly groomed pubic hair"
+    ],
+    "negative": [],
+    "aliases": [
+      "groomed"
+    ]
+  },
+
+  "natural": {
+    "tags": [
+      "natural pubic hair",
+      "ungroomed pubic hair"
+    ],
+    "negative": [],
+    "aliases": [
+      "unshaved"
+    ]
+  },
+
+  "full": {
+    "tags": [
+      "full pubic hair",
+      "thick pubic hair"
+    ],
+    "negative": [],
+    "aliases": [
+      "bushy"
+    ]
+  },
+
+  "landing strip": {
+    "tags": [
+      "landing strip pubic hair",
+      "styled pubic hair"
+    ],
+    "negative": []
+  }
+}

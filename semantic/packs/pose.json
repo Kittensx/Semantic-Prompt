@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "category": "pose",
+    "version": "0.1",
+    "notes": "Non-gymnastic everyday poses and body positions."
+  },
+
+  "standing": {
+    "tags": [
+      "standing",
+      "full body",
+      "upright posture"
+    ]
+  },
+
+  "casual standing": {
+    "tags": [
+      "standing casually",
+      "relaxed posture",
+      "natural stance"
+    ]
+  },
+
+  "contrapposto": {
+    "tags": [
+      "contrapposto",
+      "weight on one leg",
+      "natural hip tilt"
+    ]
+  },
+
+  "hands on hips": {
+    "tags": [
+      "hands on hips",
+      "confident stance",
+      "upright posture"
+    ]
+  },
+
+  "arms crossed": {
+    "tags": [
+      "arms crossed",
+      "confident posture",
+      "standing pose"
+    ]
+  },
+
+  "walking": {
+    "tags": [
+      "walking",
+      "mid stride",
+      "dynamic movement"
+    ]
+  },
+
+  "leaning wall": {
+    "tags": [
+      "leaning against wall",
+      "casual pose",
+      "relaxed stance"
+    ]
+  },
+
+  "leaning forward": {
+    "tags": [
+      "leaning forward",
+      "engaged posture",
+      "slight bend"
+    ]
+  },
+
+  "leaning back": {
+    "tags": [
+      "leaning back",
+      "relaxed posture",
+      "casual body language"
+    ]
+  },
+
+  "sitting": {
+    "tags": [
+      "sitting",
+      "seated pose",
+      "relaxed posture"
+    ]
+  },
+
+  "sitting chair": {
+    "tags": [
+      "sitting on chair",
+      "seated upright",
+      "formal posture"
+    ]
+  },
+
+  "sitting floor": {
+    "tags": [
+      "sitting on floor",
+      "casual seated pose",
+      "grounded position"
+    ]
+  },
+
+  "cross legged": {
+    "tags": [
+      "cross-legged",
+      "sitting cross-legged",
+      "relaxed seated pose"
+    ]
+  },
+
+  "kneeling": {
+    "tags": [
+      "kneeling",
+      "knees on ground",
+      "upright torso"
+    ]
+  },
+
+  "one knee down": {
+    "tags": [
+      "one knee down",
+      "proposal pose",
+      "half kneeling"
+    ]
+  },
+
+  "squatting": {
+    "tags": [
+      "squatting",
+      "low crouch",
+      "balanced posture"
+    ]
+  },
+
+  "crouching": {
+    "tags": [
+      "crouching",
+      "low stance",
+      "compact posture"
+    ]
+  },
+
+  "lying down": {
+    "tags": [
+      "lying down",
+      "reclined position",
+      "full body pose"
+    ]
+  },
+
+  "reclining": {
+    "tags": [
+      "reclining",
+      "relaxed pose",
+      "resting posture"
+    ]
+  },
+
+  "hands behind back": {
+    "tags": [
+      "hands behind back",
+      "reserved posture",
+      "standing pose"
+    ]
+  },
+
+  "hands in pockets": {
+    "tags": [
+      "hands in pockets",
+      "casual stance",
+      "relaxed posture"
+    ]
+  },
+
+  "looking over shoulder": {
+    "tags": [
+      "looking over shoulder",
+      "twisted torso",
+      "dynamic pose"
+    ]
+  },
+
+  "head tilt": {
+    "tags": [
+      "head tilt",
+      "subtle expression",
+      "natural pose"
+    ]
+  }
+}

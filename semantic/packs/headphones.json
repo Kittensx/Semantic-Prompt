@@ -1,0 +1,135 @@
+{
+  "_meta": {
+    "category": "headphones",
+    "version": "0.1",
+    "notes": ""
+  },
+
+  "over ear": {
+    "tags": [
+      "over ear headphones",
+      "large ear cups",
+      "padded headband"
+    ],
+    "negative": []
+  },
+
+  "on ear": {
+    "tags": [
+      "on ear headphones",
+      "compact ear cups",
+      "lightweight design"
+    ],
+    "negative": []
+  },
+
+  "in ear": {
+    "tags": [
+      "in ear headphones",
+      "earbuds",
+      "small earpieces"
+    ],
+    "negative": []
+  },
+
+  "wireless": {
+    "tags": [
+      "wireless headphones",
+      "bluetooth headset",
+      "no visible cable"
+    ],
+    "negative": []
+  },
+
+  "wired": {
+    "tags": [
+      "wired headphones",
+      "visible cable",
+      "audio cord"
+    ],
+    "negative": []
+  },
+
+  "studio headphones": {
+    "tags": [
+      "studio headphones",
+      "professional headset",
+      "large padded ear cups",
+      "audio production aesthetic"
+    ],
+    "negative": []
+  },
+
+  "gaming headset": {
+    "tags": [
+      "gaming headset",
+      "attached microphone",
+      "RGB accents",
+      "modern tech aesthetic"
+    ],
+    "negative": []
+  },
+
+  "retro headphones": {
+    "tags": [
+      "retro headphones",
+      "vintage design",
+      "classic audio gear"
+    ],
+    "negative": []
+  },
+
+  "neon headphones": {
+    "tags": [
+      "neon headphones",
+      "glowing accents",
+      "cyber aesthetic"
+    ],
+    "negative": []
+  },
+
+  "cat ear headphones": {
+    "tags": [
+      "cat ear headphones",
+      "decorative ears",
+      "cute aesthetic"
+    ],
+    "negative": []
+  },
+
+  "metal headphones": {
+    "tags": [
+      "metal frame headphones",
+      "industrial design",
+      "sleek finish"
+    ],
+    "negative": []
+  },
+
+  "transparent headphones": {
+    "tags": [
+      "transparent headphones",
+      "clear plastic casing",
+      "visible internal components"
+    ],
+    "negative": []
+  },
+
+  "headphones around neck": {
+    "tags": [
+      "headphones around neck",
+      "resting on shoulders",
+      "casual pose"
+    ],
+    "negative": []
+  },
+
+  "one ear off": {
+    "tags": [
+      "one ear headphone off",
+      "tilted headset",
+      "casual listening pose"
+    ],
+    "negative": []
+  }
+}

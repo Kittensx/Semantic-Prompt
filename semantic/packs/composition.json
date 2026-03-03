@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "category": "composition",
+    "version": "0.3",
+    "notes": "Framing/camera/composition bundles with standardized fields and populated related suggestions."
+  },
+  "close_up": {
+    "tags": ["close-up", "tight framing"],
+    "aliases": ["close up", "tight shot"],
+    "related": ["portrait", "centered"],
+    "excludes": ["wide_shot", "establishing shot"],
+    "negative": []
+  },
+  "portrait": {
+    "tags": ["portrait", "head and shoulders"],
+    "aliases": ["portrait framing"],
+    "related": ["close_up", "centered", "rule_of_thirds"],
+    "excludes": ["wide_shot"],
+    "negative": []
+  },
+  "wide_shot": {
+    "tags": ["wide shot", "establishing shot"],
+    "aliases": ["wide angle view", "establishing view"],
+    "related": ["leading_lines", "rule_of_thirds"],
+    "excludes": ["close_up"],
+    "negative": []
+  },
+  "overhead": {
+    "tags": ["overhead shot", "top-down view"],
+    "aliases": ["top down", "bird's eye view"],
+    "related": ["centered", "leading_lines"],
+    "excludes": ["low_angle"],
+    "negative": []
+  },
+  "low_angle": {
+    "tags": ["low angle"],
+    "aliases": ["worm's eye view"],
+    "related": ["centered", "leading_lines"],
+    "excludes": ["high_angle", "overhead"],
+    "negative": []
+  },
+  "high_angle": {
+    "tags": ["high angle"],
+    "aliases": ["looking down angle"],
+    "related": ["overhead", "rule_of_thirds"],
+    "excludes": ["low_angle"],
+    "negative": []
+  },
+  "rule_of_thirds": {
+    "tags": ["rule of thirds composition", "subject placed on thirds"],
+    "aliases": ["thirds composition"],
+    "related": ["portrait", "wide_shot", "leading_lines"],
+    "excludes": ["centered"],
+    "negative": []
+  },
+  "centered": {
+    "tags": ["centered composition", "symmetrical framing"],
+    "aliases": ["symmetry", "center framing"],
+    "related": ["portrait", "close_up"],
+    "excludes": ["rule_of_thirds"],
+    "negative": []
+  },
+  "leading_lines": {
+    "tags": ["leading lines", "strong directional lines"],
+    "aliases": ["directional composition"],
+    "related": ["wide_shot", "rule_of_thirds"],
+    "excludes": [],
+    "negative": []
+  }
+}

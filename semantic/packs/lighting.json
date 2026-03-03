@@ -1,0 +1,350 @@
+{
+  "_meta": {
+    "category": "lighting",
+    "version": "0.4",
+    "notes": "Lighting bundles with standardized fields and populated related suggestions. Palette hints avoid locking into specific named colorways."
+  },
+  "overcast": {
+    "tags": [
+      "overcast lighting",
+      "soft shadows",
+      "diffused daylight"
+    ],
+    "style": [
+      "low contrast"
+    ],
+    "aliases": [
+      "cloudy",
+      "flat daylight"
+    ],
+    "related": [
+      "foggy",
+      "softbox"
+    ],
+    "excludes": [
+      "harsh sunlight",
+      "noon sun"
+    ],
+    "negative": []
+  },
+  "harsh sunlight": {
+    "tags": [
+      "harsh sunlight",
+      "hard shadows",
+      "high contrast lighting"
+    ],
+    "style": [
+      "high contrast"
+    ],
+    "aliases": [
+      "hard sun",
+      "direct sun",
+      "harsh_sunlight"
+    ],
+    "related": [
+      "noon sun",
+      "golden hour"
+    ],
+    "excludes": [
+      "overcast",
+      "foggy",
+      "softbox"
+    ],
+    "negative": []
+  },
+  "noon sun": {
+    "tags": [
+      "midday sun",
+      "bright daylight",
+      "hard shadows"
+    ],
+    "style": [
+      "high contrast"
+    ],
+    "aliases": [
+      "midday sun"
+    ],
+    "related": [
+      "harsh sunlight"
+    ],
+    "excludes": [
+      "moonlight",
+      "candlelight",
+      "firelight"
+    ],
+    "negative": []
+  },
+  "moonlight": {
+    "tags": [
+      "moonlight",
+      "cool lighting",
+      "night atmosphere"
+    ],
+    "palette": [
+      "cool tones"
+    ],
+    "style": [
+      "low saturation"
+    ],
+    "aliases": [
+      "night moonlight"
+    ],
+    "related": [
+      "rim light",
+      "backlit"
+    ],
+    "excludes": [
+      "noon sun",
+      "harsh sunlight",
+      "golden hour"
+    ],
+    "negative": []
+  },
+  "candlelight": {
+    "tags": [
+      "candlelight",
+      "warm glow",
+      "soft flickering light"
+    ],
+    "palette": [
+      "warm tones"
+    ],
+    "style": [
+      "soft bloom"
+    ],
+    "aliases": [
+      "candle glow"
+    ],
+    "related": [
+      "firelight",
+      "softbox"
+    ],
+    "excludes": [
+      "harsh sunlight",
+      "noon sun"
+    ],
+    "negative": []
+  },
+  "firelight": {
+    "tags": [
+      "firelight",
+      "warm glow",
+      "flickering shadows"
+    ],
+    "palette": [
+      "warm tones"
+    ],
+    "style": [
+      "soft bloom"
+    ],
+    "aliases": [
+      "campfire light"
+    ],
+    "related": [
+      "candlelight"
+    ],
+    "excludes": [
+      "noon sun"
+    ],
+    "negative": []
+  },
+  "noir": {
+    "tags": [
+      "noir lighting",
+      "hard shadows",
+      "low key lighting",
+      "dramatic contrast"
+    ],
+    "style": [
+      "high contrast"
+    ],
+    "aliases": [
+      "film noir",
+      "low key"
+    ],
+    "related": [
+      "split lighting",
+      "rim light"
+    ],
+    "excludes": [
+      "overcast"
+    ],
+    "negative": []
+  },
+  "rim light": {
+    "tags": [
+      "rim light",
+      "backlighting",
+      "glowing outline"
+    ],
+    "style": [
+      "high contrast"
+    ],
+    "aliases": [
+      "edge light"
+    ],
+    "related": [
+      "backlit",
+      "moonlight",
+      "noir"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "split lighting": {
+    "tags": [
+      "split lighting",
+      "half lit face",
+      "dramatic portrait lighting"
+    ],
+    "style": [
+      "high contrast"
+    ],
+    "aliases": [
+      "split light"
+    ],
+    "related": [
+      "noir",
+      "softbox"
+    ],
+    "excludes": [
+      "overcast"
+    ],
+    "negative": []
+  },
+  "softbox": {
+    "tags": [
+      "softbox lighting",
+      "diffused key light",
+      "soft shadows"
+    ],
+    "style": [
+      "clean"
+    ],
+    "aliases": [
+      "studio softbox"
+    ],
+    "related": [
+      "overcast",
+      "candlelight",
+      "split lighting"
+    ],
+    "excludes": [
+      "harsh sunlight"
+    ],
+    "negative": []
+  },
+  "backlit": {
+    "tags": [
+      "backlit subject",
+      "strong backlight",
+      "glow around subject"
+    ],
+    "style": [
+      "high contrast"
+    ],
+    "aliases": [
+      "backlighting"
+    ],
+    "related": [
+      "rim light",
+      "golden hour",
+      "moonlight"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "golden hour": {
+    "tags": [
+      "golden hour lighting",
+      "warm sunlight",
+      "soft long shadows"
+    ],
+    "palette": [
+      "warm tones"
+    ],
+    "style": [
+      "soft"
+    ],
+    "aliases": [
+      "sunset glow"
+    ],
+    "related": [
+      "backlit",
+      "harsh sunlight"
+    ],
+    "excludes": [
+      "noir"
+    ],
+    "negative": []
+  },
+  "neon": {
+    "tags": [
+      "neon lighting",
+      "colorful glow",
+      "high saturation highlights"
+    ],
+    "style": [
+      "cinematic"
+    ],
+    "aliases": [
+      "neon glow"
+    ],
+    "related": [
+      "rainy neon",
+      "rim light"
+    ],
+    "excludes": [
+      "overcast"
+    ],
+    "negative": []
+  },
+  "rainy neon": {
+    "tags": [
+      "neon lighting",
+      "wet pavement reflections",
+      "colorful glow"
+    ],
+    "palette": [
+      "neon complementary colors"
+    ],
+    "style": [
+      "cinematic"
+    ],
+    "aliases": [
+      "teal_orange neon"
+    ],
+    "related": [
+      "neon",
+      "foggy",
+      "backlit"
+    ],
+    "excludes": [
+      "bright daylight",
+      "noon sun"
+    ],
+    "negative": []
+  },
+  "foggy": {
+    "tags": [
+      "foggy lighting",
+      "soft haze",
+      "diffused atmosphere"
+    ],
+    "style": [
+      "low contrast"
+    ],
+    "aliases": [
+      "misty light",
+      "hazy light"
+    ],
+    "related": [
+      "overcast",
+      "rainy neon"
+    ],
+    "excludes": [
+      "harsh sunlight"
+    ],
+    "negative": []
+  }
+}

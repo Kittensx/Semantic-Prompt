@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "category": "pose_suggestive",
+    "version": "0.1"
+  },
+
+  "arched back": {
+    "tags": ["arched back"]
+  },
+
+  "kneeling": {
+    "tags": ["kneeling pose"]
+  },
+
+  "lying": {
+    "tags": ["lying pose"]
+  },
+  "open mouth": {
+    "tags": ["open mouth"],
+	"related": ["tongue out"]
+  }
+}

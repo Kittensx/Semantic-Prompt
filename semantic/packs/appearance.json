@@ -1,0 +1,357 @@
+{
+  "_meta": {
+    "category": "appearance",
+    "version": "0.3",
+    "notes": "Expanded physical traits with standardized fields: tags, aliases, related, excludes, negative."
+  },
+  "black hair": {
+    "tags": ["black hair"],
+    "aliases": ["jet black hair"],
+    "related": ["straight hair", "wavy hair", "curly hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "brown hair": {
+    "tags": ["brown hair"],
+    "aliases": ["brunette hair"],
+    "related": ["wavy hair", "curly hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "blonde hair": {
+    "tags": ["blonde hair"],
+    "aliases": ["golden blonde hair"],
+    "related": ["wavy hair", "long hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "red hair": {
+    "tags": ["red hair"],
+    "aliases": ["auburn hair", "ginger hair"],
+    "related": ["wavy hair", "freckles"],
+    "excludes": [],
+    "negative": []
+  },
+  "silver hair": {
+    "tags": ["silver hair"],
+    "aliases": ["metallic silver hair"],
+    "related": ["white hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "white hair": {
+    "tags": ["white hair"],
+    "aliases": ["snow white hair"],
+    "related": ["silver hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "pink hair": {
+    "tags": ["pink hair"],
+    "aliases": ["pastel pink hair"],
+    "related": ["blue hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "blue hair": {
+    "tags": ["blue hair"],
+    "aliases": ["deep blue hair"],
+    "related": ["pink hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "straight hair": {
+    "tags": ["straight hair"],
+    "aliases": ["sleek straight hair"],
+    "related": ["long hair", "short hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "wavy hair": {
+    "tags": ["wavy hair"],
+    "aliases": ["soft waves"],
+    "related": ["long hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "curly hair": {
+    "tags": ["curly hair", "defined curls"],
+    "aliases": ["ringlets"],
+    "related": ["long hair", "short hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "long hair": {
+    "tags": ["long hair"],
+    "aliases": ["waist length hair"],
+    "related": ["wavy hair", "straight hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "short hair": {
+    "tags": ["short hair"],
+    "aliases": ["cropped hair"],
+    "related": ["bob cut", "pixie cut"],
+    "excludes": [],
+    "negative": []
+  },
+  "bob cut": {
+    "tags": ["bob haircut"],
+    "aliases": ["chin length bob"],
+    "related": ["straight hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "pixie cut": {
+    "tags": ["pixie haircut"],
+    "aliases": ["short pixie cut"],
+    "related": ["short hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "ponytail": {
+    "tags": ["ponytail hairstyle"],
+    "aliases": ["high ponytail", "low ponytail"],
+    "related": ["straight hair", "wavy hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "twin tails": {
+    "tags": ["twin tails hairstyle"],
+    "aliases": ["pigtails"],
+    "related": ["long hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "braided hair": {
+    "tags": ["braided hair"],
+    "aliases": ["braids"],
+    "related": ["long hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "messy bedhead": {
+    "tags": ["messy hair", "bedhead look"],
+    "aliases": ["tousled hair"],
+    "related": ["cozy", "nightwear"],
+    "excludes": [],
+    "negative": []
+  },
+  "bald": {
+    "tags": ["bald head"],
+    "aliases": ["shaved head"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "brown eyes": {
+    "tags": ["brown eyes"],
+    "aliases": ["dark brown eyes"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "blue eyes": {
+    "tags": ["blue eyes"],
+    "aliases": ["icy blue eyes"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "green eyes": {
+    "tags": ["green eyes"],
+    "aliases": ["emerald eyes"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "hazel eyes": {
+    "tags": ["hazel eyes"],
+    "aliases": ["hazel green eyes"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "golden eyes": {
+    "tags": ["golden eyes"],
+    "aliases": ["amber eyes"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "heterochromia": {
+    "tags": ["heterochromia", "different colored eyes"],
+    "aliases": ["two different eye colors"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "pale skin": {
+    "tags": ["pale skin"],
+    "aliases": ["fair skin"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "tan skin": {
+    "tags": ["tan skin"],
+    "aliases": ["sun kissed skin"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "dark skin": {
+    "tags": ["dark skin"],
+    "aliases": ["deep skin tone"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "freckles": {
+    "tags": ["freckles"],
+    "aliases": ["light freckles"],
+    "related": ["red hair"],
+    "excludes": [],
+    "negative": []
+  },
+  "sharp jawline": {
+    "tags": ["sharp jawline"],
+    "aliases": ["defined jawline"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "soft features": {
+    "tags": ["soft facial features"],
+    "aliases": ["gentle features"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "high cheekbones": {
+    "tags": ["high cheekbones"],
+    "aliases": ["defined cheekbones"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "round face": {
+    "tags": ["round face"],
+    "aliases": ["soft round face"],
+    "related": [],
+    "excludes": ["sharp jawline"],
+    "negative": []
+  },
+  "oval face": {
+    "tags": ["oval face shape"],
+    "aliases": ["oval face"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "slim build": {
+    "tags": ["slim build"],
+    "aliases": ["lean build"],
+    "related": ["athletic build"],
+    "excludes": [],
+    "negative": []
+  },
+  "athletic build": {
+    "tags": ["athletic build"],
+    "aliases": ["fit build"],
+    "related": ["slim build", "muscular build"],
+    "excludes": [],
+    "negative": []
+  },
+  "muscular build": {
+    "tags": ["muscular build"],
+    "aliases": ["strong build"],
+    "related": ["athletic build"],
+    "excludes": [],
+    "negative": []
+  },
+  "curvy build": {
+    "tags": ["curvy build"],
+    "aliases": ["curvy figure"],
+    "related": [],
+    "excludes": [],
+    "negative": []
+  },
+  "round glasses": {
+    "tags": ["round glasses"],
+    "aliases": ["round frame glasses"],
+    "related": ["thin frame glasses"],
+    "excludes": ["rimless glasses"],
+    "negative": []
+  },
+  "square glasses": {
+    "tags": ["square glasses"],
+    "aliases": ["square frame glasses"],
+    "related": ["thick frame glasses"],
+    "excludes": [],
+    "negative": []
+  },
+  "rectangular glasses": {
+    "tags": ["rectangular glasses"],
+    "aliases": ["rectangle frame glasses"],
+    "related": ["thin frame glasses"],
+    "excludes": [],
+    "negative": []
+  },
+  "aviator glasses": {
+    "tags": ["aviator glasses"],
+    "aliases": ["aviator style glasses"],
+    "related": ["tinted glasses"],
+    "excludes": [],
+    "negative": []
+  },
+  "cat eye glasses": {
+    "tags": ["cat eye glasses"],
+    "aliases": ["cat-eye frames"],
+    "related": ["thin frame glasses"],
+    "excludes": [],
+    "negative": []
+  },
+  "rimless glasses": {
+    "tags": ["rimless glasses"],
+    "aliases": ["frameless glasses"],
+    "related": ["reading glasses"],
+    "excludes": ["thick frame glasses"],
+    "negative": []
+  },
+  "thin frame glasses": {
+    "tags": ["thin frame glasses"],
+    "aliases": ["wire frame glasses", "metal frame glasses"],
+    "related": ["rimless glasses", "round glasses"],
+    "excludes": [],
+    "negative": []
+  },
+  "thick frame glasses": {
+    "tags": ["thick frame glasses"],
+    "aliases": ["bold frame glasses"],
+    "related": ["square glasses"],
+    "excludes": ["rimless glasses"],
+    "negative": []
+  },
+  "tinted glasses": {
+    "tags": ["tinted glasses"],
+    "aliases": ["lightly tinted lenses"],
+    "related": ["aviator glasses"],
+    "excludes": [],
+    "negative": []
+  },
+  "reading glasses": {
+    "tags": ["reading glasses"],
+    "aliases": ["half-rim reading glasses"],
+    "related": ["rimless glasses"],
+    "excludes": [],
+    "negative": []
+  },
+  "monocle": {
+    "tags": ["monocle"],
+    "aliases": ["single lens monocle"],
+    "related": [],
+    "excludes": ["round glasses", "square glasses", "rectangular glasses"],
+    "negative": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "category": "lingerie",
+    "version": "0.2",
+    "notes": "Matching lingerie sets and coordinated outfits"
+  },
+
+  "matching set": {
+    "tags": [
+      "matching lingerie set",
+      "coordinated bra and panties",
+      "lingerie set"
+    ],
+    "aliases": [
+      "lingerie set",
+      "matching lingerie"
+    ]
+  },
+
+  "lace set": {
+    "tags": [
+      "lace lingerie set",
+      "matching lace bra and panties"
+    ]
+  },
+
+  "sheer set": {
+    "tags": [
+      "sheer lingerie set",
+      "transparent lingerie set"
+    ]
+  },
+
+  "strappy set": {
+    "tags": [
+      "strappy lingerie set",
+      "decorative strap lingerie"
+    ]
+  },
+
+  "bridal set": {
+    "tags": [
+      "bridal lingerie set",
+      "wedding lingerie"
+    ]
+  },
+
+  "luxury set": {
+    "tags": [
+      "luxury lingerie set",
+      "designer lingerie"
+    ]
+  }
+}

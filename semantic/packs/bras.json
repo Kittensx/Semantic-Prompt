@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "category": "bras",
+    "version": "0.1",
+    "notes": "Bra styles and upper undergarment variations. Neutral terminology for composability with outfits."
+  },
+
+  "basic": {
+    "tags": [
+      "basic bra",
+      "simple bra design",
+      "minimal detailing"
+    ],
+    "negative": []
+  },
+
+  "lace": {
+    "tags": [
+      "lace bra",
+      "delicate lace detailing",
+      "sheer lace fabric"
+    ],
+    "negative": []
+  },
+
+  "sports": {
+    "tags": [
+      "sports bra",
+      "athletic bra",
+      "supportive fit"
+    ],
+    "negative": []
+  },
+
+  "push up": {
+    "tags": [
+      "push-up bra",
+      "structured support",
+      "shaped cups"
+    ],
+    "negative": []
+  },
+
+  "strapless": {
+    "tags": [
+      "strapless bra",
+      "no shoulder straps",
+      "structured bodice support"
+    ],
+    "negative": []
+  },
+
+  "balconette": {
+    "tags": [
+      "balconette bra",
+      "wide set straps",
+      "structured cup shape"
+    ],
+    "negative": []
+  },
+
+  "bralette": {
+    "tags": [
+      "bralette",
+      "soft cup bra",
+      "light support design"
+    ],
+    "negative": []
+  },
+
+  "sheer": {
+    "tags": [
+      "sheer bra",
+      "transparent fabric",
+      "lightweight material"
+    ],
+    "negative": []
+  },
+
+  "mesh": {
+    "tags": [
+      "mesh bra",
+      "breathable fabric",
+      "textured material"
+    ],
+    "negative": []
+  },
+
+  "underwire": {
+    "tags": [
+      "underwire bra",
+      "structured support",
+      "reinforced cups"
+    ],
+    "negative": []
+  },
+
+  "front clasp": {
+    "tags": [
+      "front clasp bra",
+      "center fastening design",
+      "modern closure style"
+    ],
+    "negative": []
+  },
+
+  "strappy": {
+    "tags": [
+      "strappy bra",
+      "decorative straps",
+      "cutout detailing"
+    ],
+    "negative": []
+  },
+
+  "seamless": {
+    "tags": [
+      "seamless bra",
+      "smooth fabric",
+      "invisible under clothing"
+    ],
+    "negative": []
+  }
+}

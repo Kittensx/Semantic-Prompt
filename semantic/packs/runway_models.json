@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "category": "runway_models",
+    "version": "0.1",
+    "notes": "Runway model compositions, poses, and fashion show environments. Designed to layer with dress, palette, lighting, and public_crowds."
+  },
+
+  "catwalk walk": {
+    "tags": ["model walking down runway", "confident catwalk stride", "fashion show runway", "focused expression"],
+    "aliases": ["runway walk", "catwalk pose"],
+    "related": ["spotlight", "public_crowds"],
+    "excludes": []
+  },
+
+  "end pose": {
+    "tags": ["model at end of runway", "signature pose", "camera flashes", "strong posture"],
+    "aliases": ["runway finale pose"],
+    "related": ["camera flashes", "spotlight"],
+    "excludes": []
+  },
+
+  "high fashion editorial": {
+    "tags": ["high fashion editorial look", "avant garde styling", "dramatic fashion photography"],
+    "aliases": ["editorial fashion"],
+    "related": ["poster composition", "cinematic lighting"],
+    "excludes": []
+  },
+
+  "avant garde show": {
+    "tags": ["avant garde runway show", "experimental fashion", "dramatic silhouette"],
+    "aliases": ["experimental runway"],
+    "related": ["high contrast", "dramatic lighting"],
+    "excludes": []
+  },
+
+  "minimalist runway": {
+    "tags": ["minimalist runway stage", "clean white background", "modern fashion show"],
+    "aliases": ["clean runway"],
+    "related": ["modern minimalist", "soft lighting"],
+    "excludes": []
+  },
+
+  "luxury fashion week": {
+    "tags": ["luxury fashion week runway", "designer showcase", "elegant catwalk stage"],
+    "aliases": ["fashion week show"],
+    "related": ["evening gown", "formal"],
+    "excludes": []
+  },
+
+  "backstage prep": {
+    "tags": ["backstage runway preparation", "makeup artists working", "models getting ready"],
+    "aliases": ["fashion backstage"],
+    "related": ["soft lighting", "candid"],
+    "excludes": ["solo studio portrait"]
+  },
+
+  "spotlight runway": {
+    "tags": ["runway under bright spotlight", "dark audience background", "strong shadows"],
+    "aliases": ["dramatic runway lighting"],
+    "related": ["high contrast", "cinematic"],
+    "excludes": []
+  },
+
+  "outdoor runway": {
+    "tags": ["outdoor fashion show", "open air runway", "natural lighting"],
+    "aliases": ["open air runway"],
+    "related": ["daylight", "vibrant palette"],
+    "excludes": ["indoor arena"]
+  },
+
+  "runway crowd blur": {
+    "tags": ["blurred audience background", "shallow depth of field", "focus on model"],
+    "aliases": ["audience blur"],
+    "related": ["background crowd blur", "cinematic"],
+    "excludes": []
+  },
+
+  "dual runway cross": {
+    "tags": ["two models crossing on runway", "synchronized catwalk", "dynamic fashion moment"],
+    "aliases": ["runway crossover"],
+    "related": ["team lineup"],
+    "excludes": []
+  },
+
+  "finale lineup": {
+    "tags": ["models lined up on runway", "designer bow moment", "end of show finale"],
+    "aliases": ["runway finale"],
+    "related": ["team lineup", "packed crowd"],
+    "excludes": []
+  }
+}

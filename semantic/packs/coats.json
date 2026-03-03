@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "category": "coats",
+    "version": "0.1",
+    "notes": "Overcoats and outerwear styles: trench coats, pea coats, oversized coats, winter coats, etc."
+  },
+
+  "overcoat": {
+    "tags": [
+      "long overcoat",
+      "structured outerwear",
+      "tailored coat"
+    ],
+    "negative": []
+  },
+
+  "trench coat": {
+    "tags": [
+      "trench coat",
+      "double-breasted coat",
+      "belted waist",
+      "long lapels"
+    ],
+    "negative": []
+  },
+
+  "pea coat": {
+    "tags": [
+      "pea coat",
+      "short double-breasted coat",
+      "wool coat"
+    ],
+    "negative": []
+  },
+
+  "duffle coat": {
+    "tags": [
+      "duffle coat",
+      "toggle closures",
+      "hooded wool coat"
+    ],
+    "negative": []
+  },
+
+  "wool coat": {
+    "tags": [
+      "wool overcoat",
+      "heavy winter coat",
+      "warm outerwear"
+    ],
+    "negative": []
+  },
+
+  "fur coat": {
+    "tags": [
+      "fur coat",
+      "luxury outerwear",
+      "thick textured coat"
+    ],
+    "negative": []
+  },
+
+  "faux fur": {
+    "tags": [
+      "faux fur coat",
+      "plush texture",
+      "soft outerwear"
+    ],
+    "negative": []
+  },
+
+  "puffer jacket": {
+    "tags": [
+      "puffer jacket",
+      "quilted coat",
+      "insulated jacket"
+    ],
+    "negative": []
+  },
+
+  "parka": {
+    "tags": [
+      "parka",
+      "hooded winter coat",
+      "fur-lined hood"
+    ],
+    "negative": []
+  },
+
+  "oversized coat": {
+    "tags": [
+      "oversized coat",
+      "loose fit outerwear",
+      "draped silhouette"
+    ],
+    "negative": []
+  },
+
+  "cropped coat": {
+    "tags": [
+      "cropped coat",
+      "short jacket",
+      "waist-length outerwear"
+    ],
+    "negative": []
+  },
+
+  "long coat": {
+    "tags": [
+      "long coat",
+      "floor-length coat",
+      "dramatic outerwear"
+    ],
+    "negative": []
+  },
+
+  "open coat": {
+    "tags": [
+      "open coat",
+      "unbuttoned outerwear",
+      "flowing front"
+    ],
+    "negative": []
+  },
+
+  "buttoned coat": {
+    "tags": [
+      "buttoned coat",
+      "closed front",
+      "structured silhouette"
+    ],
+    "negative": []
+  },
+
+  "belted coat": {
+    "tags": [
+      "belted coat",
+      "cinched waist",
+      "tied outerwear"
+    ],
+    "negative": []
+  },
+
+  "leather coat": {
+    "tags": [
+      "leather coat",
+      "sleek outerwear",
+      "smooth texture"
+    ],
+    "negative": []
+  },
+
+  "suede coat": {
+    "tags": [
+      "suede coat",
+      "soft textured outerwear",
+      "matte finish"
+    ],
+    "negative": []
+  },
+
+  "raincoat": {
+    "tags": [
+      "raincoat",
+      "waterproof coat",
+      "glossy outerwear"
+    ],
+    "negative": []
+  },
+
+  "military coat": {
+    "tags": [
+      "military-style coat",
+      "structured shoulders",
+      "uniform-inspired outerwear"
+    ],
+    "negative": []
+  },
+
+  "cape coat": {
+    "tags": [
+      "cape coat",
+      "coat with cape silhouette",
+      "dramatic drape"
+    ],
+    "negative": []
+  },
+
+  "double breasted": {
+    "tags": [
+      "double-breasted coat",
+      "overlapping front panels",
+      "formal outerwear"
+    ],
+    "negative": []
+  },
+
+  "single breasted": {
+    "tags": [
+      "single-breasted coat",
+      "clean front closure",
+      "minimal outerwear"
+    ],
+    "negative": []
+  }
+}

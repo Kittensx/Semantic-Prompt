@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "category": "clothing_material",
+    "version": "0.1"
+  },
+
+  "sheer": {
+    "tags": ["sheer fabric", "see-through clothing"]
+  },
+
+  "latex": {
+    "tags": ["latex clothing"]
+  },
+
+  "leather": {
+    "tags": ["leather clothing"]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "category": "paper_airplanes",
+    "version": "0.1",
+    "notes": "Paper airplanes and folded paper flight scenes."
+  },
+
+  "classic_fold": {
+    "tags": [
+      "paper airplane",
+      "classic folded paper plane",
+      "creased paper folds",
+      "triangular nose",
+      "white notebook paper"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "mid_air_glide": {
+    "tags": [
+      "paper airplane in mid air",
+      "gliding through air",
+      "motion blur",
+      "paper plane flying"
+    ],
+    "composition": [
+      "dynamic_angle"
+    ]
+  },
+
+  "classroom_throw": {
+    "tags": [
+      "paper airplane being thrown",
+      "classroom setting",
+      "lined notebook paper",
+      "playful atmosphere"
+    ]
+  },
+
+  "sky_background": {
+    "tags": [
+      "paper airplane against blue sky",
+      "cloud backdrop",
+      "lightweight paper plane",
+      "sunlit paper"
+    ],
+    "lighting": [
+      "natural"
+    ],
+    "palette": [
+      "vibrant"
+    ]
+  },
+
+  "desk_scene": {
+    "tags": [
+      "paper airplane on desk",
+      "wooden desk surface",
+      "scattered papers",
+      "folded paper craft"
+    ],
+    "composition": [
+      "close_up"
+    ]
+  },
+
+  "multiple_planes": {
+    "tags": [
+      "multiple paper airplanes",
+      "group of paper planes",
+      "scattered folded planes",
+      "paper craft arrangement"
+    ],
+    "composition": [
+      "overhead"
+    ]
+  },
+
+  "color_paper": {
+    "tags": [
+      "colored paper airplane",
+      "bright paper",
+      "origami style folds",
+      "vivid paper texture"
+    ],
+    "palette": [
+      "vibrant"
+    ]
+  },
+
+  "origami_style": {
+    "tags": [
+      "origami airplane",
+      "precise folds",
+      "geometric symmetry",
+      "sharp creases"
+    ],
+    "style": [
+      "clean lines"
+    ]
+  },
+
+  "crumpled_attempt": {
+    "tags": [
+      "crumpled paper airplane",
+      "imperfect folds",
+      "creased paper texture",
+      "handmade attempt"
+    ],
+    "style": [
+      "soft contrast"
+    ]
+  },
+
+  "symbolic_flight": {
+    "tags": [
+      "paper airplane soaring",
+      "symbol of freedom",
+      "dreamlike atmosphere",
+      "light drifting motion"
+    ],
+    "style": [
+      "cinematic"
+    ]
+  }
+}

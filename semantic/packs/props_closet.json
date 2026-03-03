@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "category": "props_closet",
+    "version": "0.1",
+    "notes": "Closet interiors and wardrobe environments for realistic scene anchoring."
+  },
+
+  "walk-in": {
+    "tags": [
+      "walk-in closet",
+      "closet interior",
+      "clothing racks",
+      "hanging clothes",
+      "organized shelves",
+      "shoe rack",
+      "wooden hangers",
+      "soft indoor lighting"
+    ]
+  },
+
+  "small closet": {
+    "tags": [
+      "small closet",
+      "narrow closet space",
+      "tight enclosed space",
+      "single clothing rack",
+      "crowded hangers"
+    ]
+  },
+
+  "open closet": {
+    "tags": [
+      "open closet doors",
+      "visible wardrobe",
+      "clothing rack exposed",
+      "bedroom closet"
+    ]
+  },
+
+  "messy closet": {
+    "tags": [
+      "messy closet",
+      "clothes scattered",
+      "overflowing wardrobe",
+      "cluttered shelves",
+      "shoes on floor"
+    ]
+  },
+
+  "luxury closet": {
+    "tags": [
+      "luxury walk-in closet",
+      "designer clothing",
+      "glass shelving",
+      "built-in lighting",
+      "organized wardrobe display",
+      "high-end interior"
+    ]
+  },
+
+  "minimal closet": {
+    "tags": [
+      "minimalist closet",
+      "neutral tones",
+      "clean shelving",
+      "organized clothing",
+      "modern wardrobe"
+    ]
+  },
+
+  "vintage wardrobe": {
+    "tags": [
+      "antique wardrobe",
+      "wooden armoire",
+      "vintage closet",
+      "ornate cabinet doors"
+    ]
+  },
+
+  "mirror closet": {
+    "tags": [
+      "full-length mirror",
+      "closet mirror doors",
+      "mirror reflection",
+      "wardrobe mirror"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "_meta": {
+    "category": "fetish_ears",
+    "version": "0.1",
+    "notes": "Artificial animal ear accessories such as costume ears, headband ears, and cosplay ears."
+  },
+
+  "none": {
+    "tags": [
+      "no animal ears",
+      "human ears only"
+    ],
+    "negative": [
+      "animal ears",
+      "costume ears",
+      "headband ears"
+    ]
+  },
+
+  "dog ears": {
+    "tags": [
+      "dog ears",
+      "fake dog ears",
+      "dog ear headband"
+    ]
+  },
+
+  "puppy ears": {
+    "tags": [
+      "puppy ears",
+      "floppy dog ears",
+      "puppy ear headband"
+    ]
+  },
+
+  "fox ears": {
+    "tags": [
+      "fox ears",
+      "fake fox ears",
+      "fox ear headband"
+    ]
+  },
+
+  "cat ears": {
+    "tags": [
+      "cat ears",
+      "fake cat ears",
+      "cat ear headband"
+    ]
+  },
+
+  "bunny ears": {
+    "tags": [
+      "bunny ears",
+      "rabbit ears",
+      "bunny ear headband"
+    ]
+  },
+
+  "pig ears": {
+    "tags": [
+      "pig ears",
+      "fake pig ears",
+      "pig ear headband"
+    ]
+  },
+
+  "cow ears": {
+    "tags": [
+      "cow ears",
+      "fake cow ears",
+      "cow ear headband"
+    ]
+  },
+
+  "bear ears": {
+    "tags": [
+      "bear ears",
+      "fake bear ears",
+      "bear ear headband"
+    ]
+  },
+
+  "mouse ears": {
+    "tags": [
+      "mouse ears",
+      "fake mouse ears",
+      "round mouse ear headband"
+    ]
+  },
+
+  "wolf ears": {
+    "tags": [
+      "wolf ears",
+      "fake wolf ears",
+      "wolf ear headband"
+    ]
+  },
+
+  "leather animal ears": {
+    "tags": [
+      "leather animal ears",
+      "leather ear headband"
+    ]
+  },
+
+  "latex animal ears": {
+    "tags": [
+      "latex animal ears",
+      "latex ear headband"
+    ]
+  },
+
+  "fur animal ears": {
+    "tags": [
+      "fur animal ears",
+      "furry ear headband"
+    ]
+  },
+
+  "mechanical animal ears": {
+    "tags": [
+      "mechanical animal ears",
+      "robotic ear headband"
+    ]
+  }
+}

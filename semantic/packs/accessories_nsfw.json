@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "category": "accessories_nsfw",
+    "version": "0.2",
+    "notes": "Intimate, fashion, and suggestive accessories that complement lingerie, outfits, and character styling."
+  },
+  "collar": {
+    "tags": [
+      "collar",
+      "neck collar"
+    ],
+    "related": [
+      "fetish_collars",
+      "jewelry",
+      "lingerie",
+      "fetish_shackles",
+      "masks"
+    ]
+  },
+
+  "garter belt": {
+    "tags": [
+      "garter belt",
+      "stocking garter"
+    ],
+    "related": [
+      "socks",
+      "lingerie",
+      "shoes_heels"
+    ]
+  },
+
+  "body harness": {
+    "tags": [
+      "body harness"
+    ],
+    "related": [
+      "fetish_clothing",
+      "lingerie",
+      "fetish_shackles",
+      "jewelry"
+    ]
+  },
+
+  "choker": {
+    "tags": [
+      "choker"
+    ],
+    "related": [
+      "jewelry",
+      "fetish_collars"
+    ]
+  },
+
+  "anklet": {
+    "tags": [
+      "anklet"
+    ],
+    "related": [
+      "jewelry",
+      "shoes_heels",
+      "socks"
+    ]
+  },
+
+  "hair ornament": {
+    "tags": [
+      "hair ornament"
+    ],
+    "related": [
+      "hair_accessories",
+      "jewelry",
+      "masks"
+    ]
+  },
+
+  "blindfold": {
+    "tags": [
+      "blindfold"
+    ],
+    "related": [
+      "masks",
+      "fetish_shackles",
+      "fetish_collars"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "_meta": {
+    "category": "clothing_state",
+    "version": "0.2",
+    "notes": "Clothing coverage, exposure, and outline states"
+  },
+
+  "fully clothed": {
+    "tags": [
+      "fully clothed"
+    ]
+  },
+
+  "partially clothed": {
+    "tags": [
+      "partially clothed"
+    ]
+  },
+
+  "topless": {
+    "tags": [
+      "topless",
+      "bare chest"
+    ]
+  },
+
+  "bottomless": {
+    "tags": [
+      "bottomless",
+      "no pants",
+      "no underwear"
+    ]
+  },
+
+  "open shirt": {
+    "tags": [
+      "open shirt",
+      "open clothing",
+      "bra visible"
+    ]
+  },
+
+  "exposed panties": {
+    "tags": [
+      "panties visible",
+      "underwear visible"
+    ],
+    "aliases": [
+      "visible panties"
+    ]
+  },
+
+  "upskirt": {
+    "tags": [
+      "upskirt",
+      "panties visible under skirt"
+    ]
+  },
+
+  "wet shirt": {
+    "tags": [
+      "wet shirt",
+      "wet clothing",
+      "bra outline visible",
+      "clothing clinging to body"
+    ]
+  },
+
+  "wet bottoms": {
+    "tags": [
+      "wet pants",
+      "wet skirt",
+      "panties outline visible",
+      "wet clothing clinging"
+    ]
+  },
+
+  "see-through": {
+    "tags": [
+      "see-through clothing",
+      "transparent clothing"
+    ]
+  },
+  "nude": {
+    "tags": [
+	  "nude"
+	]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "category": "offscreen",
+    "version": "1.0",
+    "description": "Framing techniques where subjects or crowds appear as silhouettes partially offscreen or in foreground shadow."
+  },
+
+  "audience_silhouette": {
+    "tags": [
+      "silhouetted audience",
+      "dark foreground figures",
+      "crowd outlines",
+      "foreground silhouettes",
+      "stage perspective"
+    ],
+    "requires": ["spotlight stage"],
+    "aliases": ["crowd silhouettes", "audience shadow outlines"]
+  },
+
+  "partial": {
+    "tags": [
+      "subject partially offscreen",
+      "edge framing",
+      "cropped silhouette",
+      "foreground shadow figure"
+    ],
+    "aliases": ["offscreen silhouette", "edge silhouette framing"]
+  },
+
+  "stage": {
+    "tags": [
+      "strong backlight",
+      "subject in silhouette",
+      "dramatic stage lighting",
+      "high contrast lighting"
+    ],
+    "requires": ["stage spotlight"],
+    "aliases": ["backlit stage silhouette"]
+  },
+
+  "audience_view": {
+    "tags": [
+      "view from audience",
+      "silhouetted crowd",
+      "spotlight on speaker",
+      "stage depth perspective"
+    ],
+    "requires": ["audience silhouettes foreground"]
+  },
+
+  "crowd_shadows": {
+    "tags": [
+      "raised hands silhouettes",
+      "crowd shadow outlines",
+      "concert atmosphere",
+      "dramatic lighting beams"
+    ],
+    "requires": ["stage spotlight"]
+  },
+
+  "theater_shadows": {
+    "tags": [
+      "darkened auditorium",
+      "spotlit stage",
+      "foreground silhouettes",
+      "cinematic framing"
+    ]
+  },
+
+  "observer": {
+    "tags": [
+      "unknown figure in foreground shadow",
+      "partial silhouette",
+      "hidden identity framing"
+    ],
+    "aliases": ["mystery silhouette foreground"]
+  },
+
+  "window": {
+    "tags": [
+      "silhouette at frame edge",
+      "partial body visible",
+      "negative space composition"
+    ]
+  }
+}

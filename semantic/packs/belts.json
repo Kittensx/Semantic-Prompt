@@ -1,0 +1,153 @@
+{
+  "_meta": {
+    "category": "belts",
+    "version": "0.1",
+    "notes": "Belts and belt buckle styles including width, placement, and decorative variations."
+  },
+
+  "none": {
+    "tags": [
+      "no belt"
+    ],
+    "negative": [
+      "belt",
+      "belt buckle"
+    ]
+  },
+
+  "belt": {
+    "tags": [
+      "belt",
+      "waist belt"
+    ]
+  },
+
+  "thin belt": {
+    "tags": [
+      "thin belt",
+      "slim belt"
+    ]
+  },
+
+  "wide belt": {
+    "tags": [
+      "wide belt",
+      "thick belt"
+    ]
+  },
+
+  "leather belt": {
+    "tags": [
+      "leather belt"
+    ]
+  },
+
+  "fabric belt": {
+    "tags": [
+      "fabric belt",
+      "cloth belt"
+    ]
+  },
+
+  "chain belt": {
+    "tags": [
+      "chain belt",
+      "metal chain belt"
+    ]
+  },
+
+  "corset belt": {
+    "tags": [
+      "corset belt",
+      "waist cincher belt"
+    ]
+  },
+
+  "utility belt": {
+    "tags": [
+      "utility belt",
+      "belt with pouches"
+    ]
+  },
+
+  "double belt": {
+    "tags": [
+      "double belt",
+      "two belts"
+    ]
+  },
+
+  "high waist belt": {
+    "tags": [
+      "high waist belt",
+      "belt above hips"
+    ]
+  },
+
+  "low waist belt": {
+    "tags": [
+      "low waist belt",
+      "hip belt"
+    ]
+  },
+
+  "belt buckle": {
+    "tags": [
+      "belt buckle",
+      "visible buckle"
+    ]
+  },
+
+  "large buckle": {
+    "tags": [
+      "large belt buckle",
+      "oversized buckle"
+    ]
+  },
+
+  "small buckle": {
+    "tags": [
+      "small belt buckle",
+      "minimal buckle"
+    ]
+  },
+
+  "ornate buckle": {
+    "tags": [
+      "ornate belt buckle",
+      "decorative buckle"
+    ]
+  },
+
+  "western buckle": {
+    "tags": [
+      "western belt buckle",
+      "engraved buckle"
+    ]
+  },
+
+  "square buckle": {
+    "tags": [
+      "square buckle"
+    ]
+  },
+
+  "round buckle": {
+    "tags": [
+      "round buckle"
+    ]
+  },
+
+  "heart buckle": {
+    "tags": [
+      "heart shaped buckle",
+      "heart buckle"
+    ]
+  },
+
+  "skull buckle": {
+    "tags": [
+      "skull belt buckle"
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "_meta": {
+    "category": "cosplay",
+    "version": "0.2",
+    "notes": "Expanded cosplay archetypes including superhero, fantasy, anime, and game-inspired looks. No copyrighted characters."
+  },
+
+  "superhero": {
+    "tags": ["superhero cosplay", "spandex suit", "bold chest emblem", "dynamic heroic pose"],
+    "aliases": ["hero cosplay"],
+    "related": ["superheroes", "superhero_emblems"],
+    "excludes": []
+  },
+
+  "cosmic hero": {
+    "tags": ["cosmic superhero cosplay", "glowing accents", "stellar themed costume"],
+    "aliases": ["galactic hero cosplay"],
+    "related": ["cosmic guardian", "star sigil"],
+    "excludes": []
+  },
+
+  "dark vigilante": {
+    "tags": ["dark vigilante cosplay", "hooded hero costume", "urban stealth aesthetic"],
+    "aliases": ["shadow hero cosplay"],
+    "related": ["street vigilante", "shadow sigil"],
+    "excludes": []
+  },
+
+  "tech armor": {
+    "tags": ["futuristic armor cosplay", "mechanized suit", "glowing chest core"],
+    "aliases": ["powered armor cosplay"],
+    "related": ["tech armored", "reactor emblem"],
+    "excludes": []
+  },
+
+  "speed hero": {
+    "tags": ["speedster cosplay", "lightning accents", "sleek aerodynamic suit"],
+    "aliases": ["speed cosplay"],
+    "related": ["speedster", "lightning bolt"],
+    "excludes": []
+  },
+
+  "elemental fire": {
+    "tags": ["fire themed cosplay", "flame details", "warm color accents"],
+    "aliases": ["flame hero cosplay"],
+    "related": ["elemental fire", "flame emblem"],
+    "excludes": []
+  },
+
+  "elemental ice": {
+    "tags": ["ice themed cosplay", "crystal details", "cool tone accents"],
+    "aliases": ["frost hero cosplay"],
+    "related": ["elemental ice", "snowflake emblem"],
+    "excludes": []
+  },
+
+  "magical girl": {
+    "tags": ["magical girl cosplay", "frilly costume", "sparkle effects", "transformation pose"],
+    "aliases": ["magical heroine cosplay"],
+    "related": ["star sigil", "pastel palette"],
+    "excludes": []
+  },
+
+  "fantasy warrior": {
+    "tags": ["fantasy warrior cosplay", "armor details", "weapon prop", "epic pose"],
+    "aliases": ["fantasy fighter cosplay"],
+    "related": ["medieval", "dramatic lighting"],
+    "excludes": []
+  },
+
+  "elf": {
+    "tags": ["elf cosplay", "pointed ears", "forest aesthetic", "fantasy costume"],
+    "aliases": ["fantasy elf cosplay"],
+    "related": ["nature protector"],
+    "excludes": []
+  },
+
+  "cyberpunk": {
+    "tags": ["cyberpunk cosplay", "neon accents", "tech visor", "futuristic outfit"],
+    "aliases": ["cyber cosplay"],
+    "related": ["tech armored", "neon palette"],
+    "excludes": []
+  },
+
+  "anime school": {
+    "tags": ["anime style cosplay", "stylized uniform", "expressive pose"],
+    "aliases": ["anime cosplay"],
+    "related": ["school uniform"],
+    "excludes": []
+  },
+
+  "villain": {
+    "tags": ["supervillain cosplay", "dark dramatic costume", "intimidating presence"],
+    "aliases": ["villain outfit cosplay"],
+    "related": ["shadow manipulator"],
+    "excludes": []
+  },
+
+  "angel": {
+    "tags": ["angel cosplay", "white wings", "halo accessory", "ethereal look"],
+    "aliases": ["celestial cosplay"],
+    "related": ["winged guardian"],
+    "excludes": []
+  },
+
+  "demon": {
+    "tags": ["demon cosplay", "horn accessories", "dark fantasy aesthetic"],
+    "aliases": ["dark fantasy cosplay"],
+    "related": ["shadow sigil"],
+    "excludes": []
+  },
+
+  "steampunk": {
+    "tags": ["steampunk cosplay", "goggles", "brass accessories", "victorian inspired outfit"],
+    "aliases": ["steampunk outfit"],
+    "related": ["vintage"],
+    "excludes": []
+  },
+
+  "apocalyptic": {
+    "tags": ["post apocalyptic cosplay", "weathered costume", "utility belts", "rugged aesthetic"],
+    "aliases": ["wasteland cosplay"],
+    "related": ["battle aftermath"],
+    "excludes": []
+  },
+  "cheerleader": {
+    "tags": ["cheerleader uniform", "pleated skirt", "athletic outfit", "pom poms"],
+    "aliases": ["cheer uniform"],
+    "related": ["sports_objects", "public_crowds"],
+    "excludes": []
+  },
+
+  "bunny suit": {
+    "tags": ["bunny suit costume", "formal bodysuit", "bow tie collar", "performance outfit"],
+    "aliases": ["bunny outfit"],
+    "related": ["nightwear_female"],
+    "excludes": []
+  },
+
+  "idol": {
+    "tags": ["idol performance outfit", "stage costume", "decorative ribbons", "performance aesthetic"],
+    "aliases": ["pop idol"],
+    "related": ["public_crowds", "concert crowd"],
+    "excludes": []
+  },
+
+  "stage performer": {
+    "tags": ["stage performance costume", "decorative outfit", "spotlight performance look"],
+    "aliases": ["performer outfit"],
+    "related": ["public_crowds", "concert crowd"],
+    "excludes": []
+  },
+
+  "pinup": {
+    "tags": ["pinup style outfit", "retro fashion", "vintage glamour aesthetic"],
+    "aliases": ["pin-up"],
+    "related": ["vintage", "retro"],
+    "excludes": []
+  },
+
+  "burlesque": {
+    "tags": ["burlesque costume", "stage performance attire", "ornate decorative outfit"],
+    "aliases": ["burlesque performer"],
+    "related": ["stage performer"],
+    "excludes": []
+  },
+
+  "swimsuit": {
+    "tags": ["swimsuit costume", "beachwear outfit", "performance swimwear"],
+    "aliases": ["swimwear"],
+    "related": ["beach", "summer"],
+    "excludes": []
+  },
+
+  "fitness competitor": {
+    "tags": ["fitness competition outfit", "athletic stagewear", "performance physique outfit"],
+    "aliases": ["fitness stage outfit"],
+    "related": ["sports_objects"],
+    "excludes": []
+  },
+
+  "ring girl": {
+    "tags": ["ring girl outfit", "event performance attire", "arena presentation outfit"],
+    "aliases": ["arena presenter"],
+    "related": ["sports_stadiums"],
+    "excludes": []
+  },
+
+  "model runway": {
+    "tags": ["runway fashion outfit", "model presentation attire", "fashion show costume"],
+    "aliases": ["runway model"],
+    "related": ["public_crowds"],
+    "excludes": []
+  },
+
+  "fantasy dancer": {
+    "tags": ["fantasy dancer costume", "ornate performance outfit", "decorative accessories"],
+    "aliases": ["stage dancer"],
+    "related": ["stage performer"],
+    "excludes": []
+  },
+
+  "clubwear": {
+    "tags": ["clubwear outfit", "nightlife fashion", "evening performance attire"],
+    "aliases": ["nightclub outfit"],
+    "related": ["public_crowds", "city night"],
+    "excludes": []
+  },
+
+  "latex": {
+    "tags": ["latex outfit", "shiny material costume", "performance bodysuit"],
+    "aliases": ["latex suit"],
+    "related": ["cyberpunk"],
+    "excludes": []
+  },
+
+  "leather": {
+    "tags": ["leather outfit", "fitted leather costume", "performance attire"],
+    "aliases": ["leather suit"],
+    "related": ["street vigilante"],
+    "excludes": []
+  }
+}
