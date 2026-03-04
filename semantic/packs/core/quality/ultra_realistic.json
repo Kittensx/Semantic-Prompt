@@ -1,0 +1,168 @@
+{
+  "_meta": {
+    "category": "ultra_realistic",
+    "version": "0.1",
+    "notes": "Ultra-realistic / photoreal styling boosters. Uses positive tags only (no negatives) so it doesn't depend on inject_negatives."
+  },
+
+  "photoreal": {
+    "tags": [
+      "photorealistic",
+      "ultra realistic",
+      "realistic lighting",
+      "natural colors",
+      "high detail"
+    ],
+    "negative": []
+  },
+
+  "hyperreal": {
+    "tags": [
+      "hyperrealistic",
+      "extreme detail",
+      "lifelike",
+      "high resolution",
+      "sharp focus"
+    ],
+    "negative": []
+  },
+
+  "skin detail": {
+    "tags": [
+      "realistic skin texture",
+      "skin pores",
+      "fine skin detail",
+      "natural imperfections",
+      "subsurface scattering"
+    ],
+    "negative": []
+  },
+
+  "cinematic": {
+    "tags": [
+      "cinematic realism",
+      "film still",
+      "realistic color grading",
+      "soft natural contrast",
+      "shallow depth of field"
+    ],
+    "negative": []
+  },
+
+  "studio portrait": {
+    "tags": [
+      "studio portrait",
+      "professional photography",
+      "sharp eyes",
+      "detailed facial features",
+      "clean background"
+    ],
+    "negative": []
+  },
+
+  "natural light": {
+    "tags": [
+      "natural light",
+      "window light",
+      "soft shadows",
+      "realistic ambient light",
+      "true-to-life tones"
+    ],
+    "negative": []
+  },
+
+  "macro": {
+    "tags": [
+      "macro photography",
+      "extreme close-up",
+      "micro detail",
+      "fine texture detail",
+      "ultra sharp"
+    ],
+    "negative": []
+  },
+
+  "hdr": {
+    "tags": [
+      "HDR",
+      "high dynamic range",
+      "crisp clarity",
+      "detailed shadows",
+      "detailed highlights"
+    ],
+    "negative": []
+  },
+
+  "bokeh": {
+    "tags": [
+      "bokeh",
+      "shallow depth of field",
+      "background blur",
+      "subject in sharp focus"
+    ],
+    "negative": []
+  },
+
+  "lens": {
+    "tags": [
+      "realistic lens",
+      "natural perspective",
+      "subtle lens distortion",
+      "lens reflections"
+    ],
+    "negative": []
+  },
+
+  "realistic_materials": {
+    "tags": [
+      "realistic fabric texture",
+      "realistic metal reflections",
+      "realistic glass refraction",
+      "realistic shadows",
+      "physically based shading"
+    ],
+    "negative": []
+  },
+
+  "ultra_sharp": {
+    "tags": [
+      "ultra sharp",
+      "crisp details",
+      "high clarity",
+      "tack sharp focus"
+    ],
+    "negative": []
+  },
+
+  "high_fashion": {
+    "tags": [
+      "high fashion photography",
+      "editorial photo",
+      "professional lighting",
+      "clean styling",
+      "premium realism"
+    ],
+    "negative": []
+  },
+
+  "documentary": {
+    "tags": [
+      "documentary photo style",
+      "candid realism",
+      "natural imperfections",
+      "true-to-life"
+    ],
+    "negative": []
+  },
+
+  "product photo": {
+    "tags": [
+      "product photography",
+      "studio lightbox",
+      "clean reflections",
+      "sharp edges",
+      "high clarity"
+    ],
+    "negative": []
+  }
+}

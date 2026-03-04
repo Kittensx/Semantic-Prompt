@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "category": "medium",
+    "version": "0.3",
+    "notes": "Medium bundles with standardized fields and populated related suggestions. Helper hints remain optional."
+  },
+  "photograph": {
+    "tags": ["photo", "realistic"],
+    "lighting": ["natural"],
+    "composition": ["shallow_dof"],
+    "negative": ["cartoon", "illustration", "painting"],
+    "aliases": ["photo", "realistic photo"],
+    "related": ["film_still"],
+    "excludes": ["watercolor", "oil_painting", "pencil_sketch", "ink_drawing", "comic", "anime"]
+  },
+  "film_still": {
+    "tags": ["film still", "cinematic"],
+    "lighting": ["cinematic"],
+    "composition": ["35mm", "shallow_dof"],
+    "quality": ["film grain"],
+    "negative": ["cartoon", "anime"],
+    "aliases": ["cinema still", "movie still"],
+    "related": ["photograph"],
+    "excludes": ["watercolor", "oil_painting", "pencil_sketch", "ink_drawing"]
+  },
+  "digital_art": {
+    "tags": ["digital art", "illustration"],
+    "negative": ["photo", "realistic skin texture"],
+    "aliases": ["digital illustration"],
+    "related": ["comic", "anime"],
+    "excludes": ["photograph", "film_still"]
+  },
+  "watercolor": {
+    "tags": ["watercolor painting", "paper texture"],
+    "style": ["soft edges", "paint bleed"],
+    "negative": ["photo", "hyperrealistic"],
+    "aliases": ["watercolour"],
+    "related": ["oil_painting", "pencil_sketch", "ink_drawing"],
+    "excludes": ["photograph", "film_still"]
+  },
+  "oil_painting": {
+    "tags": ["oil painting", "canvas texture"],
+    "style": ["brush strokes"],
+    "negative": ["photo", "hyperrealistic"],
+    "aliases": ["oil on canvas"],
+    "related": ["watercolor"],
+    "excludes": ["photograph", "film_still"]
+  },
+  "pencil_sketch": {
+    "tags": ["pencil sketch", "graphite lines"],
+    "negative": ["photo", "hyperrealistic"],
+    "aliases": ["graphite sketch"],
+    "related": ["ink_drawing", "watercolor"],
+    "excludes": ["photograph", "film_still"]
+  },
+  "ink_drawing": {
+    "tags": ["ink drawing", "line art"],
+    "negative": ["photo", "hyperrealistic"],
+    "aliases": ["ink illustration", "pen and ink"],
+    "related": ["pencil_sketch", "comic"],
+    "excludes": ["photograph", "film_still"]
+  },
+  "comic": {
+    "tags": ["comic style", "bold outlines", "cel shading"],
+    "negative": ["photo", "hyperrealistic"],
+    "aliases": ["comic book"],
+    "related": ["anime", "digital_art"],
+    "excludes": ["photograph", "film_still", "watercolor"]
+  },
+  "anime": {
+    "tags": ["anime style", "cel shading"],
+    "negative": ["photo", "hyperrealistic"],
+    "aliases": ["anime"],
+    "related": ["comic", "digital_art"],
+    "excludes": ["photograph", "film_still"]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "_meta": {
+    "category": "subject",
+    "version": "0.2",
+    "notes": "subject concepts for semantic %%...%% expansion. Added: aliases, related, requires, excludes."
+  },
+
+  "1girl": {
+    "tags": [
+      "1girl",
+      "female"
+    ],
+    "negative": [
+      "boy",
+      "male"
+    ]
+  },
+  "2girls": {
+    "tags": [
+      "2girls",
+      "two girls",
+      "female duo"
+    ],
+    "negative": [
+      "1girl",
+      "3girls",
+      "4girls",
+      "1boy",
+      "multiple boys"
+    ]
+  },
+  "3girls": {
+    "tags": [
+      "3girls",
+      "three girls",
+      "female trio"
+    ],
+    "negative": [
+      "1girl",
+      "2girls",
+      "4girls",
+      "1boy"
+    ]
+  },
+  "4girls": {
+    "tags": [
+      "4girls",
+      "four girls",
+      "female group"
+    ],
+    "negative": [
+      "1girl",
+      "2girls",
+      "3girls",
+      "1boy"
+    ]
+  },
+  "multiple girls": {
+    "tags": [
+      "multiple girls",
+      "group of girls"
+    ],
+    "negative": [
+      "1girl",
+      "1boy",
+      "single person"
+    ]
+  },
+
+  "1boy": {
+    "tags": [
+      "1boy",
+      "male"
+    ],
+    "negative": [
+      "girl",
+      "female"
+    ]
+  },
+  "2boys": {
+    "tags": [
+      "2boys",
+      "two boys",
+      "male duo"
+    ],
+    "negative": [
+      "1boy",
+      "3boys",
+      "4boys",
+      "1girl",
+      "multiple girls"
+    ]
+  },
+  "3boys": {
+    "tags": [
+      "3boys",
+      "three boys",
+      "male trio"
+    ],
+    "negative": [
+      "1boy",
+      "2boys",
+      "4boys",
+      "1girl"
+    ]
+  },
+  "4boys": {
+    "tags": [
+      "4boys",
+      "four boys",
+      "male group"
+    ],
+    "negative": [
+      "1boy",
+      "2boys",
+      "3boys",
+      "1girl"
+    ]
+  },
+  "multiple boys": {
+    "tags": [
+      "multiple boys",
+      "group of boys"
+    ],
+    "negative": [
+      "1boy",
+      "1girl",
+      "single person"
+    ]
+  },
+
+  "couple": {
+    "tags": [
+      "couple",
+      "two people",
+      "romantic pair"
+    ]
+  },
+  "friends": {
+    "tags": [
+      "friends",
+      "group of friends"
+    ]
+  },
+  "siblings": {
+    "tags": [
+      "siblings",
+      "brother and sister"
+    ]
+  },
+ 
+  "group pose": {
+    "tags": [
+      "group pose",
+      "standing together",
+      "shared frame"
+    ]
+  },
+  "child": {
+    "tags": [
+      "child",
+      "young child"
+    ],
+    "negative": [
+      "adult",
+      "middle aged",
+      "elderly"
+    ]
+  },
+  "teen": {
+    "tags": [
+      "teen",
+      "teenager"
+    ],
+    "negative": [
+      "child",
+      "middle aged",
+      "elderly"
+    ]
+  },
+  "young adult": {
+    "tags": [
+      "young adult",
+      "early twenties"
+    ]
+  },
+  "adult": {
+    "tags": [
+      "adult",
+      "mature"
+    ],
+    "negative": [
+      "child",
+      "teen"
+    ]
+  },
+  "middle_aged": {
+    "tags": [
+      "middle aged",
+      "middle aged adult"
+    ],
+    "negative": [
+      "child",
+      "teen"
+    ]
+  },
+  "elderly": {
+    "tags": [
+      "elderly",
+      "older adult"
+    ],
+    "negative": [
+      "child",
+      "teen",
+      "young adult"
+    ]
+  },
+
+  "female": {
+    "tags": [
+      "female",
+      "woman"
+    ],
+    "negative": [
+      "male",
+      "boy"
+    ]
+  },
+  "male": {
+    "tags": [
+      "male",
+      "man"
+    ],
+    "negative": [
+      "female",
+      "girl"
+    ]
+  },
+
+  "duo": {
+    "tags": [
+      "duo",
+      "two people"
+    ]
+  },
+  "trio": {
+    "tags": [
+      "trio",
+      "three people"
+    ]
+  },
+  "group": {
+    "tags": [
+      "group",
+      "multiple people"
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "_meta": {
+    "category": "food",
+    "version": "0.1",
+    "notes": "Food as subject. No eating interaction."
+  },
+
+  "fruit_bowl": {
+    "tags": [
+      "bowl of fresh fruit",
+      "assorted fruit",
+      "natural textures",
+      "colorful produce"
+    ],
+    "palette": [
+      "vibrant"
+    ]
+  },
+
+  "dessert_plate": {
+    "tags": [
+      "beautifully plated dessert",
+      "delicate pastry",
+      "sweet presentation",
+      "powdered sugar dusting"
+    ],
+    "composition": [
+      "close_up"
+    ]
+  },
+
+  "slice_of_cake": {
+    "tags": [
+      "slice of cake",
+      "layered sponge",
+      "frosting details",
+      "clean dessert plating"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "cupcake": {
+    "tags": [
+      "cupcake",
+      "swirled frosting",
+      "decorative sprinkles",
+      "paper cupcake liner"
+    ],
+    "palette": [
+      "pastel"
+    ]
+  },
+
+  "ice_cream": {
+    "tags": [
+      "ice cream scoop",
+      "melting texture",
+      "creamy surface",
+      "dessert bowl"
+    ],
+    "style": [
+      "soft bloom"
+    ]
+  },
+
+  "bread_loaf": {
+    "tags": [
+      "rustic bread loaf",
+      "golden crust",
+      "artisan baking",
+      "textured surface"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "fresh_pastries": {
+    "tags": [
+      "assorted pastries",
+      "bakery display",
+      "glazed pastries",
+      "flaky texture"
+    ]
+  },
+
+  "gourmet_plate": {
+    "tags": [
+      "gourmet plated dish",
+      "fine dining presentation",
+      "sauce drizzle",
+      "artful plating"
+    ],
+    "composition": [
+      "centered"
+    ],
+    "style": [
+      "cinematic"
+    ]
+  },
+
+  "ramen_bowl": {
+    "tags": [
+      "bowl of ramen",
+      "steaming broth",
+      "noodles",
+      "carefully arranged toppings"
+    ],
+    "style": [
+      "soft steam"
+    ]
+  },
+
+  "pizza_slice": {
+    "tags": [
+      "slice of pizza",
+      "melted cheese",
+      "crispy crust",
+      "fresh toppings"
+    ]
+  },
+
+  "coffee_cup": {
+    "tags": [
+      "cup of coffee",
+      "steam rising",
+      "ceramic mug",
+      "warm beverage"
+    ],
+    "lighting": [
+      "window light"
+    ]
+  },
+
+  "tea_set": {
+    "tags": [
+      "tea set",
+      "porcelain teacup",
+      "delicate saucer",
+      "warm steam"
+    ],
+    "style": [
+      "soft contrast"
+    ]
+  },
+
+  "charcuterie_board": {
+    "tags": [
+      "charcuterie board",
+      "assorted cheeses",
+      "sliced meats",
+      "garnished presentation"
+    ],
+    "composition": [
+      "overhead"
+    ]
+  },
+
+  "fresh_vegetables": {
+    "tags": [
+      "fresh vegetables",
+      "natural textures",
+      "vibrant greens",
+      "raw ingredients"
+    ],
+    "palette": [
+      "vibrant"
+    ]
+  }
+}

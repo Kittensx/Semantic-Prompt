@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "category": "fetish_pony",
+    "version": "0.1",
+    "notes": "Pony play themed accessories, tack, and presentation elements."
+  },
+
+  "none": {
+    "tags": [
+      "no pony gear"
+    ],
+    "negative": [
+      "pony gear",
+      "pony harness",
+      "pony bridle",
+      "pony tail plug"
+    ]
+  },
+
+  "pony ears": {
+    "tags": [
+      "pony ears",
+      "horse ears",
+      "equine ears"
+    ]
+  },
+
+  "pony tail": {
+    "tags": [
+      "pony tail accessory",
+      "horse tail accessory",
+      "equine tail"
+    ]
+  },
+
+  "pony bridle": {
+    "tags": [
+      "pony bridle",
+      "horse bridle",
+      "equine bridle"
+    ]
+  },
+
+  "pony bit": {
+    "tags": [
+      "pony bit",
+      "horse bit",
+      "bit gag bridle"
+    ]
+  },
+
+  "pony harness": {
+    "tags": [
+      "pony harness",
+      "horse harness",
+      "equine harness"
+    ]
+  },
+
+  "pony reins": {
+    "tags": [
+      "pony reins",
+      "horse reins",
+      "reins attached"
+    ]
+  },
+
+  "pony blinders": {
+    "tags": [
+      "pony blinders",
+      "horse blinders",
+      "bridle blinders"
+    ]
+  },
+
+  "pony saddle": {
+    "tags": [
+      "pony saddle",
+      "horse saddle"
+    ]
+  },
+
+  "pony hooves gloves": {
+    "tags": [
+      "hoof gloves",
+      "pony hoof gloves",
+      "hoof shaped gloves"
+    ]
+  },
+
+  "pony boots": {
+    "tags": [
+      "hoof boots",
+      "pony hoof boots"
+    ]
+  },
+
+  "pony posture": {
+    "tags": [
+      "pony stance",
+      "equine posture",
+      "pony pose"
+    ]
+  },
+
+  "full pony gear": {
+    "tags": [
+      "full pony gear",
+      "complete pony outfit",
+      "full equine tack"
+    ]
+  }
+}

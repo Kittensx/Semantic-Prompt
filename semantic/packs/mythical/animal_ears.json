@@ -1,0 +1,159 @@
+{
+  "_meta": {
+    "category": "animal_ears",
+    "version": "0.1",
+    "notes": "Natural or fantasy ears on humanoid characters including animal ears, elf ears, and hybrid variants."
+  },
+
+  "none": {
+    "tags": [
+      "human ears",
+      "normal human ears"
+    ],
+    "negative": [
+      "animal ears",
+      "elf ears",
+      "pointed ears"
+    ]
+  },
+
+  "cat ears": {
+    "tags": [
+      "cat ears",
+      "feline ears",
+      "animal ears on head"
+    ],
+    "aliases": [
+      "nekomimi"
+    ]
+  },
+
+  "dog ears": {
+    "tags": [
+      "dog ears",
+      "canine ears",
+      "animal ears on head"
+    ]
+  },
+
+  "wolf ears": {
+    "tags": [
+      "wolf ears",
+      "canine ears",
+      "animal ears"
+    ]
+  },
+
+  "fox ears": {
+    "tags": [
+      "fox ears",
+      "kitsune ears",
+      "animal ears"
+    ]
+  },
+
+  "bunny ears": {
+    "tags": [
+      "bunny ears",
+      "rabbit ears",
+      "long upright ears"
+    ]
+  },
+
+  "bear ears": {
+    "tags": [
+      "bear ears",
+      "round animal ears"
+    ]
+  },
+
+  "cow ears": {
+    "tags": [
+      "cow ears",
+      "bovine ears"
+    ]
+  },
+
+  "deer ears": {
+    "tags": [
+      "deer ears",
+      "ungulate ears"
+    ]
+  },
+
+  "mouse ears": {
+    "tags": [
+      "mouse ears",
+      "small round ears"
+    ]
+  },
+
+  "pig ears": {
+    "tags": [
+      "pig ears",
+      "small floppy ears"
+    ]
+  },
+
+  "bat ears": {
+    "tags": [
+      "bat ears",
+      "large pointed ears"
+    ]
+  },
+
+  "dragon ears": {
+    "tags": [
+      "dragon ears",
+      "fantasy reptilian ears"
+    ]
+  },
+
+  "elf ears": {
+    "tags": [
+      "elf ears",
+      "pointed ears",
+      "fantasy ears"
+    ],
+    "aliases": [
+      "elven ears"
+    ]
+  },
+
+  "demon ears": {
+    "tags": [
+      "demon ears",
+      "sharp pointed ears",
+      "fantasy demonic ears"
+    ]
+  },
+
+  "small animal ears": {
+    "tags": [
+      "small animal ears",
+      "subtle animal ears"
+    ]
+  },
+
+  "large animal ears": {
+    "tags": [
+      "large animal ears",
+      "oversized animal ears",
+      "prominent animal ears"
+    ]
+  },
+
+  "floppy ears": {
+    "tags": [
+      "floppy ears",
+      "drooping animal ears"
+    ]
+  },
+
+  "upright ears": {
+    "tags": [
+      "upright animal ears",
+      "perked ears"
+    ]
+  }
+}

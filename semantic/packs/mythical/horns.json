@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "category": "horns",
+    "version": "0.1",
+    "notes": ""
+  },
+
+  "small horns": {
+    "tags": [
+      "small horns",
+      "short curved horns",
+      "subtle horn detail"
+    ],
+    "negative": []
+  },
+
+  "long horns": {
+    "tags": [
+      "long horns",
+      "extended curved horns",
+      "dramatic silhouette"
+    ],
+    "negative": []
+  },
+
+  "curved horns": {
+    "tags": [
+      "curved horns",
+      "arched horn shape",
+      "smooth horn texture"
+    ],
+    "negative": []
+  },
+
+  "straight horns": {
+    "tags": [
+      "straight horns",
+      "upright horn shape",
+      "symmetrical horns"
+    ],
+    "negative": []
+  },
+
+  "ram horns": {
+    "tags": [
+      "ram horns",
+      "spiral horns",
+      "thick ridged horns"
+    ],
+    "negative": []
+  },
+
+  "demon horns": {
+    "tags": [
+      "demon horns",
+      "dark fantasy aesthetic",
+      "sharp horn tips",
+      "ominous presence"
+    ],
+    "negative": []
+  },
+
+  "dragon horns": {
+    "tags": [
+      "dragon horns",
+      "textured horn ridges",
+      "fantasy creature aesthetic"
+    ],
+    "negative": []
+  },
+
+  "antler horns": {
+    "tags": [
+      "antlers",
+      "branching horns",
+      "forest spirit aesthetic"
+    ],
+    "negative": []
+  },
+
+  "glowing horns": {
+    "tags": [
+      "glowing horns",
+      "luminescent effect",
+      "soft light emission"
+    ],
+    "negative": []
+  },
+
+  "cracked horns": {
+    "tags": [
+      "cracked horns",
+      "weathered texture",
+      "battle worn appearance"
+    ],
+    "negative": []
+  },
+
+  "metal horns": {
+    "tags": [
+      "metal horns",
+      "mechanical horn design",
+      "polished metallic surface"
+    ],
+    "negative": []
+  },
+
+  "transparent horns": {
+    "tags": [
+      "transparent horns",
+      "crystal horns",
+      "translucent material"
+    ],
+    "negative": []
+  },
+
+  "multiple horns": {
+    "tags": [
+      "multiple horns",
+      "extra horn pair",
+      "asymmetrical horn layout"
+    ],
+    "negative": []
+  },
+
+  "broken horn": {
+    "tags": [
+      "broken horn",
+      "chipped horn tip",
+      "damaged horn"
+    ],
+    "negative": []
+  }
+}
