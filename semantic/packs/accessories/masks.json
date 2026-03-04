@@ -1,0 +1,189 @@
+{
+  "_meta": {
+    "category": "masks",
+    "version": "0.1",
+    "notes": "Face masks and head coverings: paper bags, ski masks, costume masks, medical masks, etc."
+  },
+
+  "paper bag": {
+    "tags": [
+      "paper bag over head",
+      "brown paper bag mask",
+      "face covered with paper bag"
+    ],
+    "negative": []
+  },
+
+  "paper bag eye holes": {
+    "tags": [
+      "paper bag over head",
+      "cut-out eye holes",
+      "handmade mask"
+    ],
+    "negative": []
+  },
+
+  "paper bag drawn face": {
+    "tags": [
+      "paper bag mask",
+      "hand-drawn face on bag",
+      "marker-drawn expression"
+    ],
+    "negative": []
+  },
+
+  "ski mask": {
+    "tags": [
+      "ski mask",
+      "balaclava",
+      "face covering",
+      "knit mask"
+    ],
+    "negative": []
+  },
+
+  "balaclava tactical": {
+    "tags": [
+      "tactical balaclava",
+      "black face covering",
+      "tight knit mask"
+    ],
+    "negative": []
+  },
+
+  "medical mask": {
+    "tags": [
+      "medical face mask",
+      "surgical mask",
+      "disposable mask"
+    ],
+    "negative": []
+  },
+
+  "respirator": {
+    "tags": [
+      "respirator mask",
+      "industrial mask",
+      "protective breathing mask"
+    ],
+    "negative": []
+  },
+
+  "gas mask": {
+    "tags": [
+      "gas mask",
+      "full face respirator",
+      "circular filters"
+    ],
+    "negative": []
+  },
+
+  "masquerade": {
+    "tags": [
+      "masquerade mask",
+      "ornate eye mask",
+      "decorative face mask",
+      "elegant costume mask"
+    ],
+    "negative": []
+  },
+
+  "venetian": {
+    "tags": [
+      "venetian mask",
+      "ornate carnival mask",
+      "baroque detailing"
+    ],
+    "negative": []
+  },
+
+  "halloween mask": {
+    "tags": [
+      "halloween mask",
+      "costume mask",
+      "rubber mask"
+    ],
+    "negative": []
+  },
+
+  "animal mask": {
+    "tags": [
+      "animal mask",
+      "animal face covering",
+      "costume headpiece"
+    ],
+    "negative": []
+  },
+
+  "clown mask": {
+    "tags": [
+      "clown mask",
+      "painted smile mask",
+      "costume face mask"
+    ],
+    "negative": []
+  },
+
+  "plague doctor": {
+    "tags": [
+      "plague doctor mask",
+      "long beak mask",
+      "historical mask"
+    ],
+    "negative": []
+  },
+
+  "half mask": {
+    "tags": [
+      "half face mask",
+      "lower face covering",
+      "partial mask"
+    ],
+    "negative": []
+  },
+
+  "full face mask": {
+    "tags": [
+      "full face mask",
+      "complete facial covering",
+      "concealed identity"
+    ],
+    "negative": []
+  },
+
+  "hooded mask": {
+    "tags": [
+      "mask with hood",
+      "hooded face covering",
+      "concealed face"
+    ],
+    "negative": []
+  },
+
+  "futuristic visor": {
+    "tags": [
+      "futuristic face visor",
+      "transparent face shield",
+      "cyberpunk mask"
+    ],
+    "negative": []
+  },
+
+  "metal mask": {
+    "tags": [
+      "metal face mask",
+      "armored mask",
+      "steel face covering"
+    ],
+    "negative": []
+  },
+
+  "cloth mask": {
+    "tags": [
+      "cloth face mask",
+      "fabric mask",
+      "reusable mask"
+    ],
+    "negative": []
+  }
+}
