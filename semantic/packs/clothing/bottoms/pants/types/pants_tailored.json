@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "category": "pants_tailored",
+    "version": "1.0",
+    "notes": "Structured tailored trousers and formal pants."
+  },
+
+  "classic": {
+    "tags": [
+      "tailored trousers",
+      "dress pants",
+      "structured formal pants"
+    ]
+  },
+
+  "slim": {
+    "tags": [
+      "slim tailored trousers",
+      "modern slim dress pants",
+      "slim formal trousers"
+    ]
+  },
+
+  "pleated": {
+    "tags": [
+      "pleated trousers",
+      "tailored pleated pants",
+      "classic pleated dress pants"
+    ]
+  },
+
+  "high_waist": {
+    "tags": [
+      "high waisted trousers",
+      "high waist tailored pants",
+      "vintage tailored trousers"
+    ]
+  },
+
+  "wide_leg": {
+    "tags": [
+      "wide leg tailored trousers",
+      "flowing tailored pants",
+      "fashion wide trousers"
+    ]
+  },
+
+  "formal": {
+    "tags": [
+      "formal trousers",
+      "elegant dress pants",
+      "classic formal pants"
+    ]
+  },
+
+  "business": {
+    "tags": [
+      "business trousers",
+      "professional dress pants",
+      "office tailored pants"
+    ]
+  },
+
+  "pressed": {
+    "tags": [
+      "pressed crease trousers",
+      "sharp crease dress pants",
+      "well pressed formal trousers"
+    ]
+  }
+}

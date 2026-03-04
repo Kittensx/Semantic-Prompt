@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "category": "pants_details",
+    "version": "1.0"
+  },
+
+  "pockets": {
+    "tags": ["pants with pockets"]
+  },
+
+  "side_stripes": {
+    "tags": ["pants with side stripes"]
+  },
+
+  "paneling": {
+    "tags": ["paneled pants"]
+  },
+
+  "pleats": {
+    "tags": ["pleated pants"]
+  },
+
+  "buttons": {
+    "tags": ["button detailed pants"]
+  },
+
+  "zippers": {
+    "tags": ["zippered pants"]
+  },
+
+  "patches": {
+    "tags": ["patch decorated pants"]
+  },
+
+  "stitched": {
+    "tags": ["decorative stitching pants"]
+  },
+
+  "cargo_pockets": {
+    "tags": ["cargo pockets"]
+  }
+}

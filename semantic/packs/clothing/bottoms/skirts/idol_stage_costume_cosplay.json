@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "category": "idol_stage_costume_cosplay",
+    "version": "1.1",
+    "notes": "Cosplay, Halloween, and fantasy performance costumes defined by visible outfit components."
+  },
+
+  "witch": {
+    "tags": [
+      "witch hat",
+      "corset bodice",
+      "layered skirt",
+      "long sleeve cuffs"
+    ]
+  },
+
+  "vampire": {
+    "tags": [
+      "high collar cape",
+      "corset waist",
+      "long gloves",
+      "fitted gothic skirt"
+    ]
+  },
+
+  "devil": {
+    "tags": [
+      "devil horns headband",
+      "corset bodice",
+      "garter straps",
+      "thighhigh stockings"
+    ]
+  },
+
+  "angel": {
+    "tags": [
+      "large feather wings",
+      "corset waist bodice",
+      "flowing layered skirt",
+      "halo headband"
+    ]
+  },
+
+  "bunny": {
+    "tags": [
+      "bunny ears headband",
+      "strapless bodysuit",
+      "detached collar",
+      "cuff wristbands"
+    ]
+  },
+
+  "cat": {
+    "tags": [
+      "cat ear headband",
+      "tail accessory",
+      "tight bodysuit",
+      "choker collar"
+    ]
+  },
+
+  "maid": {
+    "tags": [
+      "maid headpiece",
+      "corset waist dress",
+      "apron overlay",
+      "ruffled skirt hem"
+    ]
+  },
+
+  "magical_girl": {
+    "tags": [
+      "large ribbon bow",
+      "corset bodice",
+      "layered frill skirt",
+      "detached sleeve cuffs"
+    ]
+  },
+
+  "fantasy_warrior": {
+    "tags": [
+      "shoulder armor pieces",
+      "corset waist belt",
+      "layered battle skirt",
+      "thigh high boots"
+    ]
+  },
+
+  "demon": {
+    "tags": [
+      "curved demon horns",
+      "bat wings",
+      "corset bodice",
+      "garter belt straps"
+    ]
+  }
+}

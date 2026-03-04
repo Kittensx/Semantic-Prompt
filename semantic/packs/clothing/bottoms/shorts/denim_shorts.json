@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "category": "denim_shorts",
+    "version": "1.0",
+    "notes": "Denim shorts with variations in cut, length, fit, and styling."
+  },
+
+  "cutoffs": {
+    "tags": [
+      "denim cutoff shorts",
+      "frayed denim shorts",
+      "cutoff jean shorts"
+    ]
+  },
+
+  "micro": {
+    "tags": [
+      "micro denim shorts",
+      "very short denim shorts",
+      "ultra short jean shorts"
+    ]
+  },
+
+  "short": {
+    "tags": [
+      "short denim shorts",
+      "fitted jean shorts",
+      "summer denim shorts"
+    ]
+  },
+
+  "mid": {
+    "tags": [
+      "mid length denim shorts",
+      "classic jean shorts",
+      "casual denim shorts"
+    ]
+  },
+
+  "bermuda": {
+    "tags": [
+      "bermuda denim shorts",
+      "knee length jean shorts",
+      "long denim shorts"
+    ]
+  },
+
+  "high_waisted": {
+    "tags": [
+      "high waisted denim shorts",
+      "high rise jean shorts",
+      "retro high waist shorts"
+    ]
+  },
+
+  "low_rise": {
+    "tags": [
+      "low rise denim shorts",
+      "low waist jean shorts",
+      "y2k denim shorts"
+    ]
+  },
+
+  "distressed": {
+    "tags": [
+      "distressed denim shorts",
+      "ripped jean shorts",
+      "worn denim shorts"
+    ]
+  },
+
+  "rolled": {
+    "tags": [
+      "rolled hem denim shorts",
+      "cuffed jean shorts",
+      "rolled denim shorts"
+    ]
+  },
+
+  "tight": {
+    "tags": [
+      "tight denim shorts",
+      "fitted jean shorts",
+      "form fitting denim shorts"
+    ]
+  },
+
+  "loose": {
+    "tags": [
+      "loose denim shorts",
+      "relaxed fit jean shorts",
+      "casual baggy denim shorts"
+    ]
+  },
+
+  "patchwork": {
+    "tags": [
+      "patchwork denim shorts",
+      "patched jean shorts",
+      "decorated denim shorts"
+    ]
+  },
+
+  "studded": {
+    "tags": [
+      "studded denim shorts",
+      "metal stud denim shorts",
+      "punk denim shorts"
+    ]
+  },
+
+  "embroidered": {
+    "tags": [
+      "embroidered denim shorts",
+      "floral embroidered jean shorts",
+      "decorative denim shorts"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "category": "pants_rise",
+    "version": "1.0"
+  },
+
+  "low": {
+    "tags": ["low rise pants"]
+  },
+
+  "mid": {
+    "tags": ["mid rise pants"]
+  },
+
+  "high": {
+    "tags": ["high rise pants"]
+  },
+
+  "ultra_high": {
+    "tags": ["ultra high waisted pants"]
+  },
+
+  "drop": {
+    "tags": ["drop crotch pants"]
+  }
+}

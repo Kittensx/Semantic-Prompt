@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "category": "skirt_details",
+    "version": "1.0",
+    "notes": "Common skirt details. No material."
+  },
+
+  "buttons": { "tags": ["button front skirt", "decorative buttons"] },
+  "belt": { "tags": ["skirt with belt", "belt detail"] },
+  "pockets": { "tags": ["skirt with pockets", "pocketed skirt"] },
+  "side_slit": { "tags": ["side slit skirt", "thigh slit"] },
+  "front_slit": { "tags": ["front slit skirt"] },
+  "back_slit": { "tags": ["back slit skirt"] },
+  "ruffles": { "tags": ["ruffled skirt", "ruffle details"] },
+  "layers": { "tags": ["layered skirt", "multi layer skirt"] },
+  "lace_trim": { "tags": ["lace trim skirt", "lace edging"] }
+}
