@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "category": "clothing_transparency",
+    "version": "0.1",
+    "notes": "Transparent, sheer, and see-through clothing effects including wet and outline states."
+  },
+
+  "sheer": {
+    "tags": [
+      "sheer clothing",
+      "sheer fabric",
+      "semi-transparent clothing",
+      "lightweight translucent fabric"
+    ],
+    "aliases": [
+      "sheer fabric"
+    ]
+  },
+
+  "see-through": {
+    "tags": [
+      "see-through clothing",
+      "transparent clothing",
+      "fully transparent fabric"
+    ],
+    "aliases": [
+      "transparent clothing"
+    ]
+  },
+
+  "mesh": {
+    "tags": [
+      "mesh clothing",
+      "fishnet fabric",
+      "netted clothing",
+      "transparent mesh"
+    ]
+  },
+
+  "lace transparent": {
+    "tags": [
+      "transparent lace",
+      "sheer lace clothing",
+      "see-through lace"
+    ]
+  },
+
+  "wet transparent": {
+    "tags": [
+      "wet clothing",
+      "wet fabric",
+      "clothing clinging to body",
+      "transparent wet clothing"
+    ],
+    "aliases": [
+      "wet clothing"
+    ]
+  },
+
+  "wet shirt outline": {
+    "tags": [
+      "wet shirt",
+      "wet fabric clinging",
+      "bra outline visible through shirt",
+      "transparent wet shirt"
+    ]
+  },
+
+  "wet bottoms outline": {
+    "tags": [
+      "wet skirt",
+      "wet pants",
+      "wet fabric clinging",
+      "panties outline visible through clothing"
+    ]
+  },
+
+  "backlit transparency": {
+    "tags": [
+      "backlit clothing",
+      "light shining through fabric",
+      "fabric illuminated from behind",
+      "silhouette through clothing"
+    ]
+  },
+
+  "thin fabric": {
+    "tags": [
+      "thin fabric",
+      "lightweight clothing",
+      "delicate translucent material"
+    ]
+  },
+
+  "translucent": {
+    "tags": [
+      "translucent clothing",
+      "partially transparent clothing"
+    ]
+  }
+}

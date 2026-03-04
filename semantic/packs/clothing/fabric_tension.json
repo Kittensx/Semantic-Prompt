@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "category": "fabric_tension",
+    "version": "0.1",
+    "notes": "Controls fabric stress, pull direction, and tension lines. Pairs well with clothing_fit and clothing_material."
+  },
+
+  "none": {
+    "tags": [
+      "smooth fabric",
+      "no visible tension lines",
+      "relaxed fabric surface"
+    ],
+    "negative": [
+      "tension lines",
+      "fabric pulling",
+      "stretched fabric"
+    ]
+  },
+
+  "light": {
+    "tags": [
+      "light fabric tension",
+      "subtle tension lines",
+      "slight fabric pull"
+    ]
+  },
+
+  "moderate": {
+    "tags": [
+      "moderate fabric tension",
+      "visible tension lines in fabric",
+      "fabric pulling across curves"
+    ]
+  },
+
+  "strong": {
+    "tags": [
+      "strong fabric tension",
+      "pronounced tension lines",
+      "fabric stretched across body"
+    ]
+  },
+
+  "stretched": {
+    "tags": [
+      "stretched fabric",
+      "fabric under stress",
+      "fabric pulled tight"
+    ]
+  },
+
+  "pulled_aside": {
+    "tags": [
+      "fabric pulled slightly aside",
+      "diagonal pull in fabric",
+      "fabric tension angled across the torso"
+    ]
+  },
+
+  "bunched": {
+    "tags": [
+      "bunched fabric",
+      "gathered cloth",
+      "fabric bunching at the waist"
+    ]
+  },
+
+  "wrinkled_tension": {
+    "tags": [
+      "wrinkled fabric with tension lines",
+      "creases forming from fabric pull",
+      "tension wrinkles"
+    ]
+  },
+
+  "strap_pull": {
+    "tags": [
+      "strap tension",
+      "straps pulling into fabric",
+      "strap indentation on shoulders"
+    ]
+  },
+
+  "seam_pull": {
+    "tags": [
+      "seam tension lines",
+      "fabric pulling at seams",
+      "stress lines near seams"
+    ]
+  }
+}

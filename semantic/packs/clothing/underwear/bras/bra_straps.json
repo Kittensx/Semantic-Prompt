@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "category": "bra_straps",
+    "version": "1.0"
+  },
+
+  "thin": {
+    "tags": [
+      "thin bra straps"
+    ]
+  },
+
+  "wide": {
+    "tags": [
+      "wide bra straps"
+    ]
+  },
+
+  "racerback": {
+    "tags": [
+      "racerback straps"
+    ]
+  },
+
+  "halter": {
+    "tags": [
+      "halter strap bra"
+    ]
+  },
+
+  "crossback": {
+    "tags": [
+      "cross back straps"
+    ]
+  },
+
+  "decorative": {
+    "tags": [
+      "decorative strap design"
+    ]
+  }
+}

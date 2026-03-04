@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "category": "bikini_top_decorations",
+    "version": "0.1"
+  },
+
+  "ruched": {
+    "tags": ["ruched bikini top"]
+  },
+
+  "contrast_trim": {
+    "tags":["contrast trim bikini top"]
+  },
+
+  "lace_trim": {
+    "tags": ["lace trimmed bikini top"]
+  },
+
+  "bow": {
+    "tags": ["decorative bow bikini"]
+  },
+
+  "pendant": {
+    "tags": ["pendant charm bikini"]
+  },
+
+  "zip_front": {
+    "tags": ["zip front bikini top"]
+  }
+}

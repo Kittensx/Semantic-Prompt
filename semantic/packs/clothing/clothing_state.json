@@ -1,0 +1,688 @@
+{
+  "_meta": {
+    "category": "clothing_state",
+    "version": "0.2",
+    "notes": "Controls how clothing is worn, opened, adjusted, or positioned on the body."
+  },
+
+  "fully_clothed": {
+    "tags": [
+      "fully clothed"
+    ],
+    "negative": [
+      "clothing_state:topless",
+      "clothing_state:bottomless",
+      "clothing_state:nude"
+    ]
+  },
+
+  "topless": {
+    "tags": [
+      "topless",
+      "bare chest"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed"
+    ]
+  },
+
+  "bottomless": {
+    "tags": [
+      "bottomless",
+      "no pants",
+      "no underwear"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed"
+    ]
+  },
+
+  "nude": {
+    "tags": [
+      "nude"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed",
+      "clothing_state:partially_clothed"
+    ]
+  },
+
+  "partially_clothed": {
+    "tags": [
+      "partially clothed"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed",
+      "clothing_state:nude"
+    ]
+  },
+
+  
+
+  "open shirt": {
+    "tags": [
+      "open shirt",
+      "open clothing",
+      "bra visible"
+    ]
+  },
+
+  "exposed panties": {
+    "tags": [
+      "panties visible",
+      "underwear visible"
+    ],
+    "aliases": [
+      "visible panties"
+    ]
+  },
+
+  "upskirt": {
+    "tags": [
+      "upskirt",
+      "panties visible under skirt"
+    ]
+  },
+
+  "wet shirt": {
+    "tags": [
+      "wet shirt",
+      "wet clothing",
+      "bra outline visible",
+      "clothing clinging to body"
+    ]
+  },
+
+  "wet bottoms": {
+    "tags": [
+      "wet pants",
+      "wet skirt",
+      "panties outline visible",
+      "wet clothing clinging"
+    ]
+  },
+
+  "see-through": {
+    "tags": [
+      "see-through clothing",
+      "transparent clothing"
+    ]
+  },
+ 
+
+  "normal": {
+    "tags": [
+      "clothing worn normally",
+      "properly worn clothing",
+      "garment sitting correctly"
+    ]
+  },
+
+  "unbuttoned": {
+    "tags": [
+      "shirt unbuttoned",
+      "open buttons on shirt",
+      "partially unbuttoned top"
+    ]
+  },
+
+  "half_buttoned": {
+    "tags": [
+      "half-buttoned shirt",
+      "partially fastened buttons",
+      "shirt loosely buttoned"
+    ]
+  },
+
+  "open_jacket": {
+    "tags": [
+      "open jacket",
+      "jacket worn open",
+      "unfastened jacket"
+    ]
+  },
+
+  "half_zipped": {
+  "tags": [
+    "half-zipped jacket",
+    "zipper partially open",
+    "partially zipped hoodie"
+  ],
+  "negative": [
+    "clothing_state:zipper_up",
+    "clothing_state:zipper_down",
+    "clothing_state:zipper_mostly_down"
+  ]
+},
+
+  "zipper_up": {
+    "tags": [
+      "zipper fully up",
+      "zipper closed to the top",
+      "fully zipped garment"
+    ],
+    "negative": [
+      "clothing_state:zipper_partially_up",
+      "clothing_state:zipper_mostly_down",
+      "clothing_state:zipper_down",
+      "clothing_state:unzipped"
+    ]
+  },
+
+  "zipper_partially_up": {
+    "tags": [
+      "zipper partially up",
+      "zipper halfway up",
+      "partially zipped clothing"
+    ],
+    "negative": [
+      "clothing_state:zipper_up",
+      "clothing_state:zipper_mostly_down",
+      "clothing_state:zipper_down"
+    ]
+  },
+
+  "zipper_mostly_down": {
+    "tags": [
+      "zipper mostly down",
+      "zipper open low",
+      "mostly unzipped garment"
+    ],
+    "negative": [
+      "clothing_state:zipper_up",
+      "clothing_state:zipper_partially_up"
+    ]
+  },
+
+ "zipper_down": {
+    "tags": [
+      "zipper pulled down",
+      "unzipped zipper",
+      "zipper lowered",
+      "open zipper"
+    ],
+    "negative": [
+      "clothing_state:zipper_up",
+      "clothing_state:zipper_partially_up"
+    ]
+  },
+
+  "unzipped": {
+    "tags": [
+      "unzipped clothing",
+      "open zipper",
+      "zipper pulled down"
+    ],
+    "negative": [
+      "clothing_state:zipper_up"
+    ]
+  },
+
+  "sleeves_rolled": {
+    "tags": [
+      "rolled-up sleeves",
+      "sleeves pushed up",
+      "arms exposed from rolled sleeves"
+    ]
+  },
+
+  "one_sleeve_rolled": {
+    "tags": [
+      "one sleeve rolled up",
+      "asymmetrical sleeves",
+      "single rolled sleeve"
+    ]
+  },
+
+  "shirt_tied": {
+    "tags": [
+      "shirt tied at the waist",
+      "knotted shirt",
+      "tied shirt front"
+    ]
+  },
+
+  "shirt_lifted": {
+    "tags": [
+      "shirt slightly lifted",
+      "shirt raised slightly",
+      "shirt lifted above waist"
+    ]
+  },
+  "shirt_tied_up": {
+    "tags": [
+      "shirt tied up",
+      "tied-up shirt exposing midriff",
+      "shirt knotted above waist"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed"
+    ]
+  },
+  "bra_lifted": {
+    "tags": [
+      "bra lifted",
+      "bra pushed upward",
+      "bra lifted above breasts"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed"
+    ]
+  },
+
+  "bra_below_breasts": {
+    "tags": [
+      "bra positioned below breasts",
+      "bra pushed down under breasts",
+      "bra resting below bust"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed"
+    ]
+  },
+
+  "bra_backwards": {
+    "tags": [
+      "bra worn backwards",
+      "bra reversed orientation",
+      "bra facing backwards"
+    ]
+  },
+
+  "bra_unhooked": {
+    "tags": [
+      "bra fasteners unhooked",
+      "bra unclasped",
+      "bra clasp undone"
+    ]
+  },
+
+  "bra_half_off": {
+    "tags": [
+      "bra halfway off",
+      "bra partially removed",
+      "bra slipping off shoulders"
+    ]
+  },
+  
+
+  "skirt_lifted": {
+    "tags": [
+      "skirt lifted",
+      "skirt raised slightly",
+      "hem of skirt lifted",
+      "skirt lifted upward"
+    ]
+  },
+  "skirt_half_down": {
+    "tags": [
+      "skirt halfway down",
+      "skirt lowered to thighs",
+      "skirt partially pulled down"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed"
+    ]
+  },
+
+  "skirt_all_down_both_legs": {
+    "tags": [
+      "skirt down around ankles",
+      "skirt dropped to floor",
+      "skirt around both ankles"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed"
+    ]
+  },
+
+  "skirt_all_down_one_leg": {
+    "tags": [
+      "skirt hanging from one leg",
+      "skirt slipped down one leg",
+      "skirt caught on one ankle"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed"
+    ]
+  },
+  "panties_half_down": {
+    "tags": [
+      "panties halfway down",
+      "panties lowered to thighs",
+      "underwear partially pulled down"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed"
+    ]
+  },
+
+  "panties_all_down_both_legs": {
+    "tags": [
+      "panties around both ankles",
+      "underwear down at ankles",
+      "panties dropped to floor"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed"
+    ]
+  },
+
+  "panties_all_down_one_leg": {
+    "tags": [
+      "panties hanging from one leg",
+      "underwear caught on one ankle",
+      "panties slipped down one leg"
+    ],
+    "negative": [
+      "clothing_state:fully_clothed"
+    ]
+  },
+  
+
+  "off_shoulder": {
+    "tags": [
+      "off-shoulder clothing",
+      "shoulders exposed",
+      "wide neckline slipping off shoulders"
+    ]
+  },
+
+  "one_shoulder": {
+    "tags": [
+      "one shoulder exposed",
+      "single shoulder clothing",
+      "asymmetrical neckline"
+    ],
+	"negative": []
+  },
+
+  "hood_up": {
+    "tags": [
+      "hood up",
+      "hood covering head",
+      "hood worn up"
+    ],
+	"negative": ["clothing_state:hood_down"]
+  },
+
+  "hood_down": {
+    "tags": [
+      "hood down",
+      "hood resting on back",
+      "hood not worn"
+    ],
+	"negative": ["clothing_state:hood_up"]
+	
+  },
+
+  "jacket_over_shoulders": {
+    "tags": [
+      "jacket draped over shoulders",
+      "jacket resting on shoulders",
+      "coat draped across shoulders"
+    ]
+  },
+  "jacket_on_shoulders": {
+    "tags": [
+      "jacket worn on shoulders",
+      "jacket resting on shoulders without sleeves",
+      "coat worn over shoulders without arms in sleeves"
+    ]
+  },
+  "jacket_over_one_shoulder": {
+    "tags": [
+      "jacket slung over one shoulder",
+      "jacket held over one shoulder",
+      "coat draped over one shoulder"
+    ]
+  },
+  "jacket_hanging_from_shoulders": {
+    "tags": [
+      "jacket hanging loosely from shoulders",
+      "coat slipping from shoulders",
+      "loose jacket hanging from shoulders"
+    ]
+  },
+  "jacket_half_off_shoulders": {
+    "tags": [
+      "jacket slipping off shoulders",
+      "coat halfway off shoulders",
+      "jacket sliding down shoulders"
+    ]
+  },
+  "jacket_cape_style": {
+    "tags": [
+      "jacket worn like a cape",
+      "coat draped cape-style",
+      "jacket hanging behind shoulders"
+    ]
+  },
+  "jacket_tied_around_waist": {
+    "tags": [
+      "jacket tied around waist",
+      "coat tied at waist",
+      "jacket sleeves tied around waist"
+    ]
+  },
+  "towel_around_waist": {
+    "tags": [
+      "towel wrapped around waist",
+      "towel secured at waist",
+      "waist towel wrap"
+    ]
+  },
+
+  "towel_chest": {
+    "tags": [
+      "towel wrapped around chest",
+      "towel covering chest",
+      "towel wrapped above bust"
+    ]
+  },
+
+  "towel_open_front": {
+    "tags": [
+      "towel open at front",
+      "loosely wrapped towel open in front",
+      "towel parted at front"
+    ]
+  },
+
+  "towel_open_back": {
+    "tags": [
+      "towel open at back",
+      "towel parted behind",
+      "loosely wrapped towel open at back"
+    ]
+  },
+
+  "towel_1hand": {
+    "tags": [
+      "holding a towel in one hand",
+      "towel held in one hand",
+      "person holding towel"
+    ]
+  },
+
+  "towel_twist_hands": {
+    "tags": [
+      "towel twisted between both hands",
+      "holding a towel with both hands twisted",
+      "twisting a towel with both hands"
+    ]
+  },
+
+  "towel_1shoulder": {
+    "tags": [
+      "towel draped over one shoulder",
+      "towel hanging over shoulder",
+      "towel slung over shoulder"
+    ]
+  },
+
+  "towel_floor": {
+    "tags": [
+      "towel on the floor",
+      "towel lying on floor",
+      "dropped towel on floor"
+    ]
+  },
+
+  "towel_ground": {
+    "tags": [
+      "towel spread on the ground",
+      "towel laid flat on ground",
+      "towel spread out on floor"
+    ]
+  },
+  "towel_hair": {
+    "tags": [
+      "drying hair with a towel",
+      "towel wrapped around hair",
+      "towel drying wet hair"
+    ]
+  },
+
+  "towel_wrap": {
+    "tags": [
+      "towel wrapped around head",
+      "hair wrapped in towel",
+      "towel turban"
+    ]
+  },
+
+  "towel_2shoulders": {
+    "tags": [
+      "towel draped over shoulders",
+      "towel around shoulders",
+      "bath towel around shoulders"
+    ]
+  },
+  "one_strap_down": {
+    "tags": [
+      "one strap down",
+      "single shoulder strap slipped down",
+      "one strap falling off shoulder"
+    ]
+  },
+
+  "both_straps_down": {
+    "tags": [
+      "both straps down",
+      "shoulder straps slipped down",
+      "straps fallen off shoulders"
+    ]
+  },
+
+  "strap_slipping": {
+    "tags": [
+      "strap slipping off shoulder",
+      "shoulder strap sliding down",
+      "loose strap falling from shoulder"
+    ]
+  },
+
+  "strap_off_shoulder": {
+    "tags": [
+      "strap off shoulder",
+      "shoulder strap resting off shoulder",
+      "strap hanging off shoulder"
+    ]
+  },
+
+  "strap_twisted": {
+    "tags": [
+      "twisted shoulder strap",
+      "strap twisted on shoulder",
+      "clothing strap twisted"
+    ]
+  },
+  "bra_twisted": {
+    "tags": [
+      "bra twisted",
+      "twisted bra around torso",
+      "bra rotated around body"
+    ]
+	
+  },
+
+  "bra_twisted_back": {
+    "tags": [
+      "bra twisted at the back",
+      "bra straps twisted behind back",
+      "bra clasp twisted behind back"
+    ],
+	"negative": [
+      "clothing_state:bra_backwards"
+    ]
+  },
+
+  "bra_sideways": {
+    "tags": [
+      "bra turned sideways",
+      "bra rotated around torso",
+      "bra shifted to the side"
+    ],
+	"negative": [
+      "clothing_state:bra_backwards"
+    ]
+  },
+
+  "bra_tangled": {
+    "tags": [
+      "bra tangled",
+      "bra twisted while being removed",
+      "bra straps tangled"
+    ],
+	"negative": [
+      "clothing_state:bra_backwards"
+    ]
+  },
+  "clothing_twisted": {
+    "tags": [
+      "clothing twisted",
+      "garment twisted around body",
+      "fabric twisted"
+    ]
+  },
+  "shirt_slipping": {
+    "tags": [
+      "shirt slipping off shoulders",
+      "shirt sliding down shoulders",
+      "loose shirt falling from shoulders"
+    ]
+  },
+
+  "dress_slipping": {
+    "tags": [
+      "dress slipping down",
+      "dress sliding down shoulders",
+      "loose dress slipping"
+    ]
+  },
+
+  "sweater_slipping": {
+    "tags": [
+      "sweater slipping off shoulders",
+      "sweater sliding down",
+      "loose sweater slipping"
+    ]
+  },
+
+  "top_slipping": {
+    "tags": [
+      "top slipping off shoulders",
+      "shirt slipping down",
+      "top sliding down shoulders"
+    ]
+  },
+
+  "strapless_slipping": {
+    "tags": [
+      "strapless top slipping",
+      "strapless dress slipping down",
+      "strapless clothing sliding"
+    ]
+  }
+}

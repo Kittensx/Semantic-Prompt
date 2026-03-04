@@ -1,0 +1,152 @@
+{
+  "_meta": {
+    "category": "zipper_locations",
+    "version": "0.1",
+    "notes": "Controls zipper placement, style, and state (open/closed). Prevents random extra zippers from appearing."
+  },
+
+  "none": {
+    "tags": [
+      "no zipper",
+      "zipperless design",
+      "clean seamless garment"
+    ],
+    "negative": [
+      "zipper",
+      "visible zipper",
+      "metal zipper",
+      "front zipper",
+      "back zipper",
+      "side zipper",
+      "multiple zippers"
+    ]
+  },
+
+  "front zipper": {
+    "tags": [
+      "front zipper",
+      "center front zip",
+      "visible zipper on front"
+    ],
+    "negative": [
+      "back zipper",
+      "side zipper",
+      "multiple zippers"
+    ]
+  },
+
+  "back zipper": {
+    "tags": [
+      "back zipper",
+      "zipper running down the back"
+    ],
+    "negative": [
+      "front zipper",
+      "side zipper",
+      "multiple zippers"
+    ]
+  },
+
+  "side zipper": {
+    "tags": [
+      "side zipper",
+      "hidden side zip",
+      "zipper along side seam"
+    ],
+    "negative": [
+      "front zipper",
+      "back zipper",
+      "multiple zippers"
+    ]
+  },
+
+  "half zip": {
+    "tags": [
+      "half zipper",
+      "partial front zip",
+      "zipper to mid chest"
+    ],
+    "negative": [
+      "full length zipper",
+      "multiple zippers"
+    ]
+  },
+
+  "full length zipper": {
+    "tags": [
+      "full length zipper",
+      "zipper from neckline to waist",
+      "long vertical zipper"
+    ],
+    "negative": [
+      "half zip",
+      "multiple zippers"
+    ]
+  },
+
+  "zipper open": {
+    "tags": [
+      "unzipped",
+      "zipper partially open",
+      "open zipper"
+    ]
+  },
+
+  "zipper closed": {
+    "tags": [
+      "zipper fully closed",
+      "zipped up",
+      "sealed zipper"
+    ]
+  },
+
+  "decorative zipper": {
+    "tags": [
+      "decorative zipper detail",
+      "ornamental zipper",
+      "zipper accent"
+    ],
+    "negative": [
+      "functional zipper on back",
+      "multiple large zippers"
+    ]
+  },
+
+  "metal zipper": {
+    "tags": [
+      "metal zipper",
+      "silver zipper teeth",
+      "visible zipper teeth"
+    ]
+  },
+
+  "concealed zipper": {
+    "tags": [
+      "concealed zipper",
+      "hidden zipper",
+      "invisible zip seam"
+    ],
+    "negative": [
+      "visible zipper teeth",
+      "metal zipper"
+    ]
+  },
+
+  "double zipper": {
+    "tags": [
+      "double zipper",
+      "two zipper pulls",
+      "dual zip design"
+    ]
+  },
+
+  "single zipper only": {
+    "negative": [
+      "multiple zippers",
+      "extra zippers",
+      "zipper on sleeves",
+      "zipper on back",
+      "zipper on sides"
+    ]
+  }
+}

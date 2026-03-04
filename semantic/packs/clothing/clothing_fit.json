@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "category": "clothing_fit",
+    "version": "0.1",
+    "notes": "Controls how tightly clothing fits the body and how fabric interacts with curves."
+  },
+
+  "loose": {
+    "tags": [
+      "loose fitting clothing",
+      "relaxed garment fit",
+      "fabric hanging away from the body",
+      "soft draping fabric"
+    ],
+    "negative": [
+      "tight clothing",
+      "form fitting"
+    ]
+  },
+
+  "relaxed": {
+    "tags": [
+      "relaxed clothing fit",
+      "casual garment fit",
+      "natural fabric drape"
+    ]
+  },
+
+  "fitted": {
+    "tags": [
+      "fitted clothing",
+      "tailored garment fit",
+      "fabric following body shape"
+    ]
+  },
+
+  "tight": {
+    "tags": [
+      "tight clothing",
+      "form fitting fabric",
+      "fabric stretched across body"
+    ]
+  },
+
+  "compression": {
+    "tags": [
+      "compression clothing",
+      "tight athletic fabric",
+      "fabric compressing body contours"
+    ]
+  },
+
+  "skin_tight": {
+    "tags": [
+      "skin-tight clothing",
+      "second-skin fabric fit",
+      "fabric clinging to body"
+    ]
+  },
+
+  "oversized": {
+    "tags": [
+      "oversized clothing",
+      "baggy garment",
+      "extra loose fabric"
+    ],
+    "negative": [
+      "tight clothing"
+    ]
+  }
+}

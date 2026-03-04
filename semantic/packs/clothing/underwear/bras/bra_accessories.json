@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "category": "bra_accessories",
+    "version": "1.0"
+  },
+
+  "strap_harness": {
+    "tags": [
+      "decorative strap harness",
+      "strappy bra harness"
+    ]
+  },
+
+  "strap_rings": {
+    "tags": [
+      "metal strap rings"
+    ]
+  },
+
+  "strap_sliders": {
+    "tags": [
+      "strap slider adjusters"
+    ]
+  },
+  "center_pendant": {
+  "tags": [
+    "center pendant charm",
+    "decorative pendant between cups",
+    "lingerie pendant detail"
+  ]
+},
+
+  "heart_pendant": {
+    "tags": [
+      "heart pendant charm",
+      "heart charm between cups",
+      "heart jewelry detail on bra"
+    ],
+    "requires": [
+      "bra_accessories:center_pendant"
+    ]
+  },
+
+  "rose_charm": {
+    "tags": [
+      "rose charm detail",
+      "rose pendant between cups",
+      "small rose ornament"
+    ],
+    "requires": [
+      "bra_accessories:center_pendant"
+    ]
+  },
+
+  "key_pendant": {
+    "tags": [
+      "key pendant charm",
+      "small key charm between cups",
+      "key jewelry detail"
+    ],
+    "requires": [
+      "bra_accessories:center_pendant"
+    ]
+  },
+
+  "lock_charm": {
+    "tags": [
+      "lock charm pendant",
+      "small lock ornament",
+      "lock pendant between cups"
+    ],
+    "requires": [
+      "bra_accessories:center_pendant"
+    ]
+  },
+
+  "gem_pendant": {
+    "tags": [
+      "gemstone pendant",
+      "crystal charm between cups",
+      "jewel pendant accent"
+    ],
+    "requires": [
+      "bra_accessories:center_pendant"
+    ]
+  },
+  "ribbon_bow": {
+    "tags": [
+      "decorative ribbon bow",
+      "small ribbon bow between cups",
+      "center bow lingerie detail"
+    ]
+  },
+
+  "ribbon_ties": {
+    "tags": [
+      "ribbon tie details",
+      "decorative ribbon ties",
+      "lingerie ribbon ties"
+    ]
+  },
+
+  "strap_ribbons": {
+    "tags": [
+      "ribbon strap accents",
+      "small ribbon decorations on straps",
+      "decorative strap ribbons"
+    ]
+  },
+
+  "ribbon_trim": {
+    "tags": [
+      "ribbon trim edges",
+      "decorative ribbon edging",
+      "ribbon edge detailing"
+    ]
+  }
+}

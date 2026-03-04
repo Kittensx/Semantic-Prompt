@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "category": "clothing_material",
+    "version": "0.2",
+    "notes": "Material types for clothing fabrics and surfaces."
+  },
+
+  "sheer": {
+    "tags": [
+      "sheer fabric",
+      "see-through clothing"
+    ]
+  },
+
+  "latex": {
+    "tags": [
+      "latex clothing"
+    ]
+  },
+
+  "leather": {
+    "tags": [
+      "leather clothing"
+    ]
+  },
+
+  "denim": {
+    "tags": [
+      "denim fabric",
+      "denim clothing"
+    ]
+  },
+
+  "cotton": {
+    "tags": [
+      "cotton clothing",
+      "cotton fabric"
+    ]
+  },
+
+  "linen": {
+    "tags": [
+      "linen clothing",
+      "linen fabric"
+    ]
+  },
+
+  "silk": {
+    "tags": [
+      "silk clothing",
+      "silky fabric"
+    ]
+  },
+
+  "satin": {
+    "tags": [
+      "satin clothing",
+      "smooth satin fabric"
+    ]
+  },
+
+  "velvet": {
+    "tags": [
+      "velvet clothing",
+      "soft velvet fabric"
+    ]
+  },
+
+  "suede": {
+    "tags": [
+      "suede clothing",
+      "suede fabric"
+    ]
+  },
+
+  "wool": {
+    "tags": [
+      "wool clothing",
+      "wool fabric"
+    ]
+  },
+
+  "knit": {
+    "tags": [
+      "knit fabric",
+      "knitted clothing"
+    ]
+  },
+
+  "ribbed": {
+    "tags": [
+      "ribbed fabric",
+      "ribbed clothing"
+    ]
+  },
+
+  "mesh": {
+    "tags": [
+      "mesh fabric",
+      "mesh clothing"
+    ]
+  },
+
+  "lace": {
+    "tags": [
+      "lace clothing",
+      "lace fabric"
+    ]
+  },
+
+  "spandex": {
+    "tags": [
+      "spandex clothing",
+      "stretch fabric"
+    ]
+  },
+
+  "nylon": {
+    "tags": [
+      "nylon clothing",
+      "nylon fabric"
+    ]
+  },
+
+  "polyester": {
+    "tags": [
+      "polyester clothing",
+      "polyester fabric"
+    ]
+  },
+
+  "metallic": {
+    "tags": [
+      "metallic fabric",
+      "shiny metallic clothing"
+    ]
+  },
+
+  "foil": {
+    "tags": [
+      "foil fabric",
+      "reflective foil clothing"
+    ]
+  },
+
+  "rubber": {
+    "tags": [
+      "rubber clothing",
+      "rubberized fabric"
+    ]
+  },
+
+  "transparent": {
+    "tags": [
+      "transparent clothing",
+      "clear plastic clothing"
+    ]
+  },
+
+  "plastic": {
+    "tags": [
+      "plastic clothing",
+      "clear plastic fashion"
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "_meta": {
+    "category": "clothing_keyhole",
+    "version": "1.0",
+    "notes": "Reusable keyhole cutout variants for clothing and swimwear. Focuses on cutout shape + connector hardware, not garment type."
+  },
+
+  "keyhole_small": {
+    "tags": [
+      "small keyhole cutout",
+      "small keyhole opening",
+      "subtle keyhole detail"
+    ]
+  },
+
+  "keyhole_medium": {
+    "tags": [
+      "keyhole cutout",
+      "medium keyhole opening",
+      "center keyhole detail"
+    ]
+  },
+
+  "keyhole_large": {
+    "tags": [
+      "large keyhole cutout",
+      "bold keyhole opening",
+      "dramatic keyhole detail"
+    ]
+  },
+
+  "keyhole_round": {
+    "tags": [
+      "round keyhole cutout",
+      "circular keyhole opening",
+      "round cutout detail"
+    ]
+  },
+
+  "keyhole_oval": {
+    "tags": [
+      "oval keyhole cutout",
+      "oval cutout opening",
+      "oval keyhole detail"
+    ]
+  },
+
+  "keyhole_teardrop": {
+    "tags": [
+      "teardrop keyhole cutout",
+      "teardrop cutout opening",
+      "teardrop shaped keyhole"
+    ]
+  },
+
+  "keyhole_diamond": {
+    "tags": [
+      "diamond keyhole cutout",
+      "diamond shaped cutout",
+      "diamond opening detail"
+    ]
+  },
+
+  "keyhole_heart": {
+    "tags": [
+      "heart shaped keyhole",
+      "heart cutout detail",
+      "heart opening cutout"
+    ]
+  },
+
+  "keyhole_triangle": {
+    "tags": [
+      "triangle keyhole cutout",
+      "triangular cutout opening",
+      "triangle opening detail"
+    ]
+  },
+
+  "keyhole_square": {
+    "tags": [
+      "square keyhole cutout",
+      "square cutout opening",
+      "square opening detail"
+    ]
+  },
+
+  "keyhole_vertical": {
+    "tags": [
+      "vertical keyhole cutout",
+      "vertical cutout opening",
+      "elongated keyhole opening"
+    ]
+  },
+
+  "keyhole_horizontal": {
+    "tags": [
+      "horizontal keyhole cutout",
+      "horizontal cutout opening",
+      "sideways keyhole opening"
+    ]
+  },
+
+  "keyhole_double": {
+    "tags": [
+      "double keyhole cutouts",
+      "two keyhole openings",
+      "paired keyhole details"
+    ]
+  },
+
+  "keyhole_triple": {
+    "tags": [
+      "triple keyhole cutouts",
+      "three keyhole openings",
+      "multiple keyhole details"
+    ]
+  },
+
+  "keyhole_stack": {
+    "tags": [
+      "stacked keyhole cutouts",
+      "vertical stack of cutouts",
+      "stacked opening details"
+    ]
+  },
+
+  "keyhole_side": {
+    "tags": [
+      "side keyhole cutout",
+      "keyhole cutout on the side",
+      "side opening detail"
+    ]
+  },
+
+  "keyhole_center": {
+    "tags": [
+      "center keyhole cutout",
+      "keyhole at center front",
+      "center opening detail"
+    ]
+  },
+
+  "keyhole_back": {
+    "tags": [
+      "back keyhole cutout",
+      "keyhole opening on the back",
+      "back opening detail"
+    ]
+  },
+
+  "ring_keyhole": {
+    "tags": [
+      "ring keyhole cutout",
+      "metal ring connector",
+      "ring connecting cutout panels"
+    ]
+  },
+
+  "o_ring_keyhole": {
+    "tags": [
+      "o-ring keyhole cutout",
+      "o-ring connector detail",
+      "ring hardware connector"
+    ]
+  },
+
+  "heart_ring_keyhole": {
+    "tags": [
+      "heart ring connector",
+      "heart shaped ring hardware",
+      "heart ring cutout connector"
+    ]
+  },
+
+  "bar_connector_keyhole": {
+    "tags": [
+      "bar connector hardware",
+      "metal bar connector",
+      "bar connecting cutout panels"
+    ]
+  },
+
+  "buckle_connector_keyhole": {
+    "tags": [
+      "buckle connector detail",
+      "small buckle hardware connector",
+      "buckle connecting cutout panels"
+    ]
+  },
+
+  "lace_up_keyhole": {
+    "tags": [
+      "lace up keyhole opening",
+      "crisscross lacing across cutout",
+      "laced cutout detail"
+    ]
+  },
+
+  "strappy_keyhole": {
+    "tags": [
+      "strappy keyhole cutout",
+      "thin straps across cutout",
+      "strap caged cutout detail"
+    ]
+  },
+
+  "button_keyhole": {
+    "tags": [
+      "buttoned keyhole opening",
+      "buttons across cutout",
+      "button closure detail"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "category": "bikini_top_straps",
+    "version": "0.1",
+    "notes": "Strap and support systems."
+  },
+
+  "halter": {
+    "tags": ["halter neck straps"]
+  },
+
+  "shoulder": {
+    "tags": ["shoulder straps"]
+  },
+
+  "racerback": {
+    "tags": ["racerback straps"]
+  },
+
+  "crossback": {
+    "tags": ["cross back straps"]
+  },
+
+  "strapless": {
+    "tags": ["strapless bikini top"]
+  },
+
+  "string_ties": {
+    "tags": ["string tie straps"]
+  }
+}

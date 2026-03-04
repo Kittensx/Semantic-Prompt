@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "category": "corset_boning",
+    "version": "1.0",
+    "notes": "Boning visibility/strength. Mostly visual cues."
+  },
+
+  "light": { "tags": ["light boning corset", "soft structured corset"] },
+  "structured": { "tags": ["structured corset", "firm shaping boning"] },
+  "heavy": { "tags": ["heavy boning corset", "rigid corset structure"] },
+  "visible": { "tags": ["visible boning channels", "boning lines visible"] },
+  "smooth": { "tags": ["smooth corset exterior", "hidden boning channels"] }
+}

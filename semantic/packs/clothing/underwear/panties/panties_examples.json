@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "category": "panties_example",
+    "version": "1.0",
+    "notes": "Preset panties combinations for testing and inspiration."
+  },
+
+  "classic_brief": {
+    "tags": [
+      "classic women's underwear"
+    ],
+    "requires": [
+      "panties_cut:brief",
+      "panties_rise:midrise", 
+      "panties_trim:lace_edge"
+    ]
+  },
+
+  "lace_bikini": {
+    "tags": [
+      "delicate lace panties"
+    ],
+    "requires": [
+      "panties_cut:bikini",
+      "panties_rise:lowrise", 
+      "panties_structure:lace_panels", 
+      "panties_trim:scalloped"
+    ]
+  },
+
+  "bow_front_brief": {
+    "tags": [
+      "cute bow underwear"
+    ],
+    "requires": [
+      "panties_cut:brief",
+      "panties_rise:midrise", 
+      "panties_design_accessories:tiny_bow"  
+    ]
+  },
+
+  "sheer_lace": {
+    "tags": [
+      "sheer lingerie panties"
+    ],
+    "requires": [
+      "panties_cut:brief",
+      "panties_structure:mesh_panel",  
+      "panties_design_accessories:lace_trim",
+      "clothing_material:sheer"
+    ]
+  },
+
+  "highwaist_vintage": {
+    "tags": [
+      "vintage lingerie panties"
+    ],
+    "requires": [
+      "panties_cut:brief",
+      "panties_rise:highrise", 
+      "panties_design_accessories:embroidered" 
+    ]
+  },
+
+  "string_minimal": {
+    "tags": [
+      "minimal string panties"
+    ],
+    "requires": [
+      "panties_cut:g_string",
+      "panties_rise:lowrise", 
+      "panties_sides:side_ties"
+    ]
+  },
+
+  "side_tie_bikini": {
+    "tags": [
+      "side tie panties"
+    ],
+    "requires": [
+      "panties_cut:bikini",
+      "panties_sides:side_ties",
+      "panties_design_accessories:ribbon_ties"
+    ]
+  },
+
+  "sport_waistband": {
+    "tags": [
+      "sport style underwear"
+    ],
+    "requires": [
+      "panties_cut:boyshorts",
+      "panties_rise:midrise", 
+      "panties_waistband_style:elastic_band"
+    ]
+  },
+
+  "lingerie_ribbon": {
+    "tags": [
+      "romantic lingerie panties"
+    ],
+    "requires": [
+      "panties_cut:brief",
+      "panties_design_accessories:ribbon_ties",
+      "panties_design_accessories:lace_trim"
+    ]
+  },
+
+  "mesh_panel_bikini": {
+    "tags": [
+      "modern lingerie panties"
+    ],
+    "requires": [
+      "panties_cut:bikini",
+      "panties_structure:mesh_panel",
+      "panties_trim:scalloped"
+    ]
+  },
+
+  "runway_asymmetric": {
+    "tags": [
+      "runway fashion panties",
+      "asymmetric underwear design"
+    ],
+    "requires": [
+      "panties_cut:brief",
+      "panties_structure:angular_panels", 
+      "panties_trim:decorative_seams" 
+    ]
+  },
+
+  "strappy_lingerie": {
+    "tags": [
+      "strappy lingerie panties"
+    ],
+    "requires": [
+      "panties_cut:brief",
+      "panties_design_accessories:harness_straps",
+      "panties_side:strap_cutout"
+    ]
+  }
+}

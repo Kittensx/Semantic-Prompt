@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "category": "panties_design_accessories",
+    "version": "1.0",
+    "notes": "Decorative elements and small design accents commonly used on panties."
+  },
+
+  "tiny_bow": {
+    "tags": [
+      "tiny bow on waistband",
+      "small decorative bow",
+      "center bow detail"
+    ]
+  },
+
+  "side_bows": {
+    "tags": [
+      "small bows on hips",
+      "side bow accents",
+      "decorative hip bows"
+    ]
+  },
+
+  "ribbon_ties": {
+    "tags": [
+      "ribbon tie sides",
+      "decorative ribbon ties",
+      "side ribbon knots"
+    ]
+  },
+
+  "lace_trim": {
+    "tags": [
+      "lace trim edges",
+      "scalloped lace trim",
+      "lace edge detail"
+    ]
+  },
+
+  "ruffle_trim": {
+    "tags": [
+      "ruffled trim edges",
+      "small ruffle trim",
+      "decorative ruffle edging"
+    ]
+  },
+
+  "heart_charm": {
+    "tags": [
+      "small heart charm",
+      "decorative heart charm at waistband",
+      "tiny heart pendant detail"
+    ]
+  },
+
+  "metal_ring": {
+    "tags": [
+      "small metal ring accent",
+      "decorative ring connector",
+      "ring detail on waistband"
+    ]
+  },
+
+  "strap_details": {
+    "tags": [
+      "decorative strap accents",
+      "thin side straps",
+      "multi strap hip design"
+    ]
+  },
+
+  "cutout": {
+    "tags": [
+      "small fabric cutout",
+      "decorative cutout detail",
+      "cutout waistband design"
+    ]
+  },
+
+  "lace_panel": {
+    "tags": [
+      "lace front panel",
+      "decorative lace panel",
+      "lace insert design"
+    ]
+  },
+
+  "button_detail": {
+    "tags": [
+      "tiny decorative button",
+      "small button accent",
+      "waistband button detail"
+    ]
+  },
+
+  "embroidered": {
+    "tags": [
+      "embroidered detail",
+      "small embroidered pattern",
+      "decorative embroidery"
+    ]
+  },
+  "harness_straps": {
+    "tags": [
+      "decorative harness straps",
+      "strappy lingerie harness",
+      "thin crossing strap harness",
+      "body harness style straps"
+    ]
+  }
+}

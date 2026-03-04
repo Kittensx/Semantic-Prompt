@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "category": "clothing_pattern",
+    "version": "1.0"
+  },
+
+  "striped": {
+    "tags": ["striped"]
+  },
+
+  "plaid": {
+    "tags": ["plaid"]
+  },
+
+  "checkered": {
+    "tags": ["checkered"]
+  },
+
+  "pinstripe": {
+    "tags": ["pinstripe"]
+  },
+
+  "camouflage": {
+    "tags": ["camouflage"]
+  },
+
+  "floral": {
+    "tags": ["floral pattern"]
+  },
+
+  "polka_dot": {
+    "tags": ["polka dot"]
+  },
+
+  "geometric": {
+    "tags": ["geometric pattern"]
+  }
+}

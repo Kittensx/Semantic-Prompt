@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "category": "swim_onepiece_panels",
+    "version": "1.0"
+  },
+
+  "side_cutouts": {
+    "tags": [
+      "side cutout swimsuit design"
+    ]
+  },
+
+  "mesh_panels": {
+    "tags": [
+      "mesh panel swimsuit"
+    ]
+  },
+
+  "colorblock": {
+    "tags": [
+      "color block swimsuit design"
+    ]
+  },
+
+  "geometric_panels": {
+    "tags": [
+      "geometric panel swimsuit"
+    ]
+  },
+  "medium_keyhole_cutout": {
+    "tags": [
+      "keyhole cutout swimsuit",
+	  "medium keyhole opening"
+      
+    ],
+	"requires": [
+	  "clothing_keyhole:keyhole_medium",
+	  "clothing_keyhole:keyhole_center"
+	]
+  },
+  "keyhole_front": {
+    "tags": [
+      "keyhole chest cutout",
+      "small keyhole opening at center"
+      
+    ],
+	"requires": [
+	  "swim_onepiece_panels:medium_keyhole_cutout"
+	]
+  },
+  "keyhole_belly": {
+    "tags": [
+      "keyhole belly cutout",
+      "small keyhole opening at stomach"
+      
+    ],
+	"requires": [
+	  "swim_onepiece_panels:medium_keyhole_cutout"
+	]
+  } 
+  
+}
+

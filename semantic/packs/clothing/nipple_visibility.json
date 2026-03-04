@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "category": "nipple_visibility",
+    "version": "0.1",
+    "notes": "Controls nipple visibility through clothing due to thin fabric, compression, cold, or wetness."
+  },
+
+  "none": {
+    "tags": [
+      "smooth fabric surface",
+      "no nipple outline",
+      "flat chest fabric"
+    ],
+    "negative": [
+      "visible nipples",
+      "nipple outline",
+      "nipple through clothing"
+    ]
+  },
+
+  "subtle_outline": {
+    "tags": [
+      "subtle nipple outline through clothing",
+      "faint nipple shape under fabric",
+      "slight chest contour under shirt"
+    ]
+  },
+
+  "visible_outline": {
+    "tags": [
+      "nipple outline visible through clothing",
+      "fabric contour over nipples",
+      "tight clothing showing chest detail"
+    ]
+  },
+
+  "clearly_visible": {
+    "tags": [
+      "clearly visible nipple outline through clothing",
+      "prominent nipple shape under fabric",
+      "tight shirt showing nipple detail"
+    ]
+  },
+
+  "cold_reaction": {
+    "tags": [
+      "nipple outline from cold",
+      "fabric pushed outward by nipples",
+      "cold weather nipple reaction"
+    ]
+  },
+
+  "wet_outline": {
+    "tags": [
+      "wet shirt revealing nipple outline",
+      "wet fabric clinging to chest",
+      "nipple outline visible through wet clothing"
+    ]
+  },
+
+  "thin_fabric": {
+    "tags": [
+      "thin fabric revealing nipple shape",
+      "lightweight shirt showing chest detail",
+      "delicate fabric contour over chest"
+    ]
+  }
+}
