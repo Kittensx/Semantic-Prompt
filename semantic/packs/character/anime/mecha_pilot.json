@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "mecha pilot",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "mecha pilot": {
+    "tags": [
+      
+      "anime mecha pilot",
+      "futuristic pilot suit",
+      "form-fitting armored bodysuit",
+      "tech harness straps",
+      "utility belt",
+      "gloved hands",
+      "helmet or mechanical headset",
+      "glowing cockpit interface",
+      "sleek sci-fi aesthetic"
+    ],
+    "aliases": [
+      "giant robot pilot"
+    ],
+    "related": [
+      "cyber soldier",
+      "space explorer"
+    ],
+    "excludes": [
+      "magical girl"
+    ],
+    "negative": []
+  }
+}

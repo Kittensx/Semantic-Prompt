@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "yandere girl",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "yandere girl": {
+    "tags": [
+     
+      "anime yandere character design",
+      "school uniform with loosened tie",
+      "pleated skirt",
+      "messy hair strands",
+      "wide intense eyes",
+      "sweet smile with unsettling vibe",
+      "hidden small hairpin",
+      "subtle shadowed lighting",
+      "hands behind back"
+    ],
+    "aliases": [
+      "yandere"
+    ],
+    "related": [
+      "goth girl"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

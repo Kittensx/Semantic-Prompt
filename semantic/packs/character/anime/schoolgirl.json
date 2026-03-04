@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "schoolgirl",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "schoolgirl": {
+    "tags": [
+      
+      "anime schoolgirl",
+      "school uniform blazer",
+      "pleated skirt",
+      "knee-high socks",
+      "loafers",
+      "school bag",
+      "neat collar",
+      "hair ribbon",
+      "everyday school look"
+    ],
+    "negative": [],
+    "aliases": [],
+    "related": [],
+    "excludes": []
+  }
+}

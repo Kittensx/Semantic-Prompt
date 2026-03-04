@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "category": "hips",
+    "version": "0.1"
+  },
+
+  "narrow": {
+    "tags": ["narrow hips"]
+  },
+
+  "average": {
+    "tags": ["average hips"]
+  },
+
+  "wide": {
+    "tags": ["wide hips", "curvy hips"],
+	"aliases": ["child bearing"]
+  }
+}

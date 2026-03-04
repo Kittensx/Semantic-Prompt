@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "samurai warrior",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "samurai warrior": {
+    "tags": [
+     
+      "anime samurai armor",
+      "kimono underlayer",
+      "lamellar armor plates",
+      "arm guards",
+      "waist sash",
+      "katana at hip",
+      "topknot hairstyle",
+      "battle-worn cloth details",
+      "confident stance"
+    ],
+    "aliases": [
+      "ronin"
+    ],
+    "related": [
+      "ninja assassin",
+      "fantasy warrior"
+    ],
+    "excludes": [
+      "mecha pilot"
+    ],
+    "negative": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "villain mastermind",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "villain mastermind": {
+    "tags": [
+     
+      "anime villain mastermind",
+      "tailored suit",
+      "dark tie",
+      "black gloves",
+      "slicked-back hair",
+      "sharp confident smirk",
+      "arms behind back",
+      "dramatic lighting",
+      "calculated posture"
+    ],
+    "aliases": [
+      "anime antagonist"
+    ],
+    "related": [
+      "cyber soldier"
+    ],
+    "excludes": [
+      "magical girl"
+    ],
+    "negative": []
+  }
+}

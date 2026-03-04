@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "category": "nipples",
+    "version": "0.2",
+    "notes": "Nipple and areola descriptors"
+  },
+
+  "small": {
+    "tags": [
+      "small nipples",
+      "small areola"
+    ],
+    "aliases": [
+      "small areola"
+    ]
+  },
+
+  "average": {
+    "tags": [
+      "average nipples",
+      "natural nipples",
+      "natural areola"
+    ],
+    "aliases": [
+      "average areola",
+      "natural areola"
+    ]
+  },
+
+  "large": {
+    "tags": [
+      "large nipples",
+      "large areola"
+    ],
+    "aliases": [
+      "large areola"
+    ]
+  },
+
+  "puffy": {
+    "tags": [
+      "puffy nipples",
+      "puffy areola"
+    ],
+    "aliases": [
+      "puffy areola"
+    ]
+  },
+
+  "dark": {
+    "tags": [
+      "dark nipples",
+      "dark areola"
+    ],
+    "aliases": [
+      "dark areola"
+    ]
+  },
+
+  "light": {
+    "tags": [
+      "light nipples",
+      "light areola"
+    ],
+    "aliases": [
+      "light areola"
+    ]
+  }
+}

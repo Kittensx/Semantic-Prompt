@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "category": "skin_detail",
+    "version": "0.1"
+  },
+
+  "smooth": {
+    "tags": ["smooth skin"]
+  },
+
+  "wet": {
+    "tags": ["wet skin"]
+  },
+
+  "glossy": {
+    "tags": ["glossy skin"]
+  }
+}

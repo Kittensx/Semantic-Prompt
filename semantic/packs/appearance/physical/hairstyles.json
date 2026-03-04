@@ -1,0 +1,217 @@
+{
+  "_meta": {
+    "category": "hairstyle",
+    "version": "0.1",
+    "notes": "Hairstyle modifiers. Includes bald, messy bedhead, and expanded women's hairstyles. Designed for compositional use with color and style modifiers."
+  },
+
+  "bald": {
+    "tags": ["bald head", "shaved head"],
+    "aliases": ["shaved", "hairless", "no hair"],
+    "related": ["clean", "minimal"],
+    "excludes": ["long hair", "braids", "ponytail", "bun"]
+  },
+
+  "buzz cut": {
+    "tags": ["buzz cut", "short shaved hair"],
+    "aliases": ["short buzz", "military cut"],
+    "related": ["clean", "sharp"],
+    "excludes": ["long hair"]
+  },
+
+  "short hair": {
+    "tags": ["short hair"],
+    "aliases": ["short haircut", "cropped hair"],
+    "related": ["bob cut", "pixie cut"],
+    "excludes": ["long hair"]
+  },
+
+  "pixie cut": {
+    "tags": ["pixie cut", "short layered hair"],
+    "aliases": ["pixie hairstyle"],
+    "related": ["short hair", "modern"],
+    "excludes": ["long hair"]
+  },
+
+  "bob cut": {
+    "tags": ["bob cut", "chin length hair"],
+    "aliases": ["bob hairstyle", "short bob"],
+    "related": ["short hair", "blunt cut"],
+    "excludes": ["long hair"]
+  },
+
+  "long hair": {
+    "tags": ["long hair"],
+    "aliases": ["long flowing hair", "waist length hair"],
+    "related": ["braids", "ponytail", "wavy hair"],
+    "excludes": ["bald", "buzz cut"]
+  },
+
+  "very long hair": {
+    "tags": ["very long hair", "floor length hair"],
+    "aliases": ["extremely long hair", "extra long hair"],
+    "related": ["fantasy", "elven"],
+    "excludes": ["short hair", "buzz cut"]
+  },
+
+  "wavy hair": {
+    "tags": ["wavy hair", "soft waves"],
+    "aliases": ["loose waves", "natural waves"],
+    "related": ["long hair", "beachy"],
+    "excludes": []
+  },
+
+  "curly hair": {
+    "tags": ["curly hair", "defined curls"],
+    "aliases": ["tight curls", "ringlets"],
+    "related": ["voluminous", "retro"],
+    "excludes": []
+  },
+
+  "straight hair": {
+    "tags": ["straight hair", "sleek hair"],
+    "aliases": ["silky straight hair"],
+    "related": ["clean", "sharp"],
+    "excludes": []
+  },
+
+  "messy bedhead": {
+    "tags": ["messy hair", "bedhead", "tousled hair"],
+    "aliases": ["messy bed hair", "just woke up hair", "unkempt hair"],
+    "related": ["casual", "relaxed", "natural"],
+    "excludes": ["perfectly styled", "slicked back"]
+  },
+
+  "ponytail": {
+    "tags": ["ponytail", "hair tied back"],
+    "aliases": ["high ponytail", "low ponytail"],
+    "related": ["sporty", "clean"],
+    "excludes": ["braided hair", "bun"]
+  },
+
+  "high ponytail": {
+    "tags": ["high ponytail", "hair pulled up high"],
+    "aliases": ["high tied ponytail"],
+    "related": ["sporty", "energetic"],
+    "excludes": ["low ponytail"]
+  },
+
+  "low ponytail": {
+    "tags": ["low ponytail", "hair tied loosely at nape"],
+    "aliases": ["low tied ponytail"],
+    "related": ["elegant", "formal"],
+    "excludes": ["high ponytail"]
+  },
+
+  "braids": {
+    "tags": ["braided hair"],
+    "aliases": ["braid", "plaited hair"],
+    "related": ["long hair", "fantasy", "elven"],
+    "excludes": []
+  },
+
+  "twin braids": {
+    "tags": ["twin braids", "two braids"],
+    "aliases": ["double braids", "pigtail braids"],
+    "related": ["cute", "youthful"],
+    "excludes": []
+  },
+
+  "side braid": {
+    "tags": ["side braid"],
+    "aliases": ["single side braid"],
+    "related": ["romantic", "fantasy"],
+    "excludes": []
+  },
+
+  "bun": {
+    "tags": ["hair bun", "hair tied in bun"],
+    "aliases": ["tight bun", "classic bun"],
+    "related": ["formal", "elegant"],
+    "excludes": ["ponytail"]
+  },
+
+  "messy bun": {
+    "tags": ["messy bun", "loose bun"],
+    "aliases": ["casual bun"],
+    "related": ["messy bedhead", "relaxed"],
+    "excludes": ["slicked bun"]
+  },
+
+  "twin tails": {
+    "tags": ["twin tails", "two ponytails"],
+    "aliases": ["pigtails", "double ponytails"],
+    "related": ["cute", "youthful"],
+    "excludes": []
+  },
+
+  "half up": {
+    "tags": ["half up hairstyle", "half tied hair"],
+    "aliases": ["half up half down"],
+    "related": ["long hair", "wavy hair"],
+    "excludes": []
+  },
+
+  "side swept": {
+    "tags": ["side swept hair", "hair brushed to one side"],
+    "aliases": ["side part hairstyle"],
+    "related": ["elegant", "formal"],
+    "excludes": []
+  },
+
+  "slicked back": {
+    "tags": ["slicked back hair", "styled with gel"],
+    "aliases": ["gelled hair", "combed back hair"],
+    "related": ["sharp", "clean"],
+    "excludes": ["messy bedhead"]
+  },
+
+  "layered": {
+    "tags": ["layered haircut", "feathered layers"],
+    "aliases": ["layered hair"],
+    "related": ["wavy hair", "long hair"],
+    "excludes": []
+  },
+
+  "bangs": {
+    "tags": ["bangs", "fringe"],
+    "aliases": ["fringe bangs", "front fringe"],
+    "related": ["bob cut", "long hair"],
+    "excludes": []
+  },
+
+  "curtain bangs": {
+    "tags": ["curtain bangs", "soft parted fringe"],
+    "aliases": ["curtain fringe"],
+    "related": ["wavy hair", "modern"],
+    "excludes": []
+  },
+
+  "wolf cut": {
+    "tags": ["wolf cut hairstyle", "shaggy layered cut"],
+    "aliases": ["wolf haircut"],
+    "related": ["messy bedhead", "layered"],
+    "excludes": []
+  },
+
+  "shag cut": {
+    "tags": ["shag haircut", "textured layers"],
+    "aliases": ["shag hairstyle"],
+    "related": ["wolf cut", "messy bedhead"],
+    "excludes": []
+  },
+
+  "afro": {
+    "tags": ["afro hairstyle", "natural textured hair"],
+    "aliases": ["rounded afro", "natural afro"],
+    "related": ["voluminous", "natural"],
+    "excludes": []
+  },
+
+  "dreadlocks": {
+    "tags": ["dreadlocks", "locs hairstyle"],
+    "aliases": ["locs", "dreads"],
+    "related": ["long hair", "natural"],
+    "excludes": []
+  }
+}

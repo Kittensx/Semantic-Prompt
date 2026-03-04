@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "demon lord",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "demon lord": {
+    "tags": [
+     
+      "anime demon lord",
+      "dark regal armor",
+      "horned crown",
+      "flowing cape",
+      "ornate chestplate",
+      "glowing magic sigils",
+      "shadow aura",
+      "intimidating stance",
+      "piercing gaze"
+    ],
+    "aliases": [
+      "dark overlord"
+    ],
+    "related": [
+      "villain mastermind"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

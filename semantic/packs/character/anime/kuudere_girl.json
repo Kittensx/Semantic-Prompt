@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "kuudere girl",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "kuudere girl": {
+    "tags": [
+     
+      "anime kuudere character design",
+      "neat school uniform",
+      "buttoned blazer",
+      "pleated skirt",
+      "straight long hair",
+      "minimal accessories",
+      "calm stoic expression",
+      "hands in pockets",
+      "cool detached vibe"
+    ],
+    "aliases": [
+      "kuudere"
+    ],
+    "related": [
+      "cyber soldier",
+      "mysterious girl"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

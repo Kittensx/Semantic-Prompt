@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "ninja assassin",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "ninja assassin": {
+    "tags": [
+
+      "anime ninja outfit",
+      "dark hooded shinobi clothing",
+      "face mask",
+      "wrapped forearms",
+      "utility pouches",
+      "throwing knives",
+      "soft stealth posture",
+      "dark color palette",
+      "silent movement vibe"
+    ],
+    "aliases": [
+      "shinobi"
+    ],
+    "related": [
+      "samurai warrior"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

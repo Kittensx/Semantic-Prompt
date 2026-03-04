@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "cyber soldier",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "cyber soldier": {
+    "tags": [
+     
+      "anime cyber soldier",
+      "tactical bodysuit",
+      "armored plating",
+      "glowing circuit accents",
+      "cybernetic arm",
+      "visor eyewear",
+      "utility harness",
+      "neon highlights",
+      "combat-ready pose"
+    ],
+    "aliases": [
+      "cyborg warrior"
+    ],
+    "related": [
+      "mecha pilot"
+    ],
+    "excludes": [
+      "samurai warrior"
+    ],
+    "negative": []
+  }
+}

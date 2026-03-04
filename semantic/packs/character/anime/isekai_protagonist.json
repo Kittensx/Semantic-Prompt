@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "isekai protagonist",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "isekai protagonist": {
+    "tags": [
+      
+      "anime isekai protagonist",
+      "modern hoodie or jacket",
+      "fantasy utility belt",
+      "travel bag strap",
+      "light armor pieces",
+      "comfortable pants",
+      "simple boots",
+      "curious wide-eyed look",
+      "adventurer pose"
+    ],
+    "aliases": [
+      "transported hero"
+    ],
+    "related": [
+      "fantasy warrior"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

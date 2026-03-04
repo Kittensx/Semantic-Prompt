@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "idol singer",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "idol singer": {
+    "tags": [
+      
+      "anime idol outfit",
+      "sparkly stage dress",
+      "frilled skirt",
+      "ribbon accents",
+      "thigh-high stockings",
+      "cute hair accessories",
+      "handheld microphone",
+      "stage spotlight",
+      "cheerful smile"
+    ],
+    "aliases": [
+      "pop idol"
+    ],
+    "related": [
+      "magical girl",
+      "cheerleader"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

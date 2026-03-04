@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "goth girl",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "goth girl": {
+    "tags": [
+      
+      "anime goth girl",
+      "black lace dress",
+      "choker necklace",
+      "dark eyeliner",
+      "dark lipstick",
+      "platform boots",
+      "long black hair",
+      "pale skin",
+      "moody vibe"
+    ],
+    "aliases": [
+      "gothic girl"
+    ],
+    "related": [
+      "yandere girl"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "sports ace",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "sports ace": {
+    "tags": [
+      
+      "anime sports uniform",
+      "track jacket",
+      "athletic shorts",
+      "running shoes",
+      "sports headband",
+      "sweat details",
+      "energetic smile",
+      "dynamic pose",
+      "competition vibe"
+    ],
+    "aliases": [
+      "star athlete"
+    ],
+    "related": [
+      "cheerleader"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

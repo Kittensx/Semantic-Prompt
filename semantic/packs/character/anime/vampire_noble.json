@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "vampire noble",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "vampire noble": {
+    "tags": [
+      
+      "anime vampire noble",
+      "black high-collar coat",
+      "cravat or ribbon tie",
+      "ornate brooch",
+      "lace cuffs",
+      "dramatic cape",
+      "pale skin",
+      "red eyes",
+      "elegant posture"
+    ],
+    "negative": [],
+    "aliases": [],
+    "related": [],
+    "excludes": []
+  }
+}

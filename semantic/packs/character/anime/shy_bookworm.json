@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "shy bookworm",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "shy bookworm": {
+    "tags": [
+    
+      "anime shy bookworm",
+      "oversized sweater",
+      "long skirt",
+      "round glasses",
+      "messy bun hairstyle",
+      "book held close",
+      "soft blush",
+      "quiet posture",
+      "cozy aesthetic"
+    ],
+    "aliases": [
+      "bookworm girl"
+    ],
+    "related": [
+      "schoolgirl"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

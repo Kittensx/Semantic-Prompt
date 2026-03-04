@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "magical girl",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "magical girl": {
+    "tags": [
+      
+      "anime magical girl outfit",
+      "short frilly dress",
+      "large decorative bow",
+      "knee-high boots",
+      "white gloves",
+      "heart-shaped accessory",
+      "sparkling magical aura",
+      "pastel color accents",
+      "wand accessory"
+    ],
+    "aliases": [
+      "mahou shoujo"
+    ],
+    "related": [
+      "idol singer",
+      "fantasy warrior"
+    ],
+    "excludes": [
+      "mecha pilot"
+    ],
+    "negative": []
+  }
+}

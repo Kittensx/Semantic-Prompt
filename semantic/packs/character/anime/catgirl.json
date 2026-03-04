@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "catgirl",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "catgirl": {
+    "tags": [      
+      "anime catgirl",
+      "cat ears",
+      "cat tail",
+      "maid-inspired dress",
+      "thigh-high stockings",
+      "paw gloves",
+      "bell collar",
+      "playful smile",
+      "cute pose"
+    ],
+    "aliases": [
+      "nekomimi"
+    ],
+    "related": [
+      "magical girl"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

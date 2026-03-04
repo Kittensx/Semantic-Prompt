@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "fox spirit",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "fox spirit": {
+    "tags": [
+      
+      "anime fox spirit",
+      "fox ears",
+      "fluffy fox tail",
+      "shrine maiden style outfit",
+      "flowing sleeves",
+      "ornate hair ornament",
+      "mystical glow",
+      "gentle smile",
+      "spirit aura"
+    ],
+    "aliases": [
+      "kitsune"
+    ],
+    "related": [
+      "fantasy warrior"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

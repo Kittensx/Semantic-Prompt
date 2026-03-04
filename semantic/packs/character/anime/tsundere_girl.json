@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "tsundere girl",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "tsundere girl": {
+    "tags": [
+      
+      "anime tsundere character design",
+      "school uniform blazer",
+      "pleated skirt",
+      "knee-high socks",
+      "hair ribbons",
+      "twin tails hairstyle",
+      "arms crossed",
+      "blushing expression",
+      "sharp glare"
+    ],
+    "aliases": [
+      "tsundere"
+    ],
+    "related": [
+      "schoolgirl",
+      "idol singer"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

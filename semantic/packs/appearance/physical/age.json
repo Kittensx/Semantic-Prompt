@@ -1,0 +1,221 @@
+{
+  "_meta": {
+    "category": "age",
+    "version": "0.1",
+    "notes": "age"
+  },
+  "age1": {
+    "tags": [
+      "age1",
+	  "one-year-old",
+      "newborn baby"
+    ],
+    "negative": [
+      "adult",
+	  "child",	  
+      "teenager"
+    ]
+  },
+  "age2": {
+    "tags": [
+      "age2",
+	  "two-year-old",
+      "baby",
+	  "baby child"
+	  
+    ],
+    "negative": [
+      "adult",	  	       
+      "teenager"
+    ]
+  },
+  "age3": {
+    "tags": [
+      "age3",
+	  "three-year-old",
+      "baby",
+	  "toddler",
+	  "baby child"
+	  
+    ],
+    "negative": [
+      "adult",	       
+      "teenager"
+    ]
+  },
+  "age4": {
+    "tags": [
+      "age4",
+      "very young child",
+	  "toddler",
+	  "four-year-old"
+	  
+    ],
+    "negative": [
+      "adult",	        
+      "teenager"
+    ]
+  },
+  "age5": {
+    "tags": [
+      "age5",
+      "very young child",
+	  "five-year-old"
+	  
+    ],
+    "negative": [
+      "adult",      
+      "teenager"
+    ]
+  },
+  "age6": {
+    "tags": [
+      "age6",
+      "young child",
+	  "six-year-old"
+	  
+	  
+    ],
+    "negative": [
+      "adult",      
+      "teenager"
+    ]
+  },
+  "age7": {
+    "tags": [
+      "age7",
+      "young child",
+	  "seven-year-old"
+	  
+    ],
+    "negative": [
+      "adult",      
+      "teenager"
+    ]
+  },
+  "age8": {
+    "tags": [
+      "age8",
+      "child",
+	  "eight-year-old"
+	  
+    ],
+    "negative": [
+      "adult",      
+      "teenager"
+    ]
+  },
+  "age9": {
+    "tags": [
+      "age9",
+      "child",
+	  "nine-year-old"
+    ],
+    "negative": [
+      "adult",      
+      "teenager"
+    ]
+  },
+  "age10": {
+    "tags": [
+      "age10",
+      "child",
+	  "ten-year-old"
+      
+    ],
+    "negative": [
+      "adult",
+      "teenager"
+    ]
+  },
+  "age11": {
+    "tags": [
+      "age11",
+      "preteen",
+	  "eleven-year-old"
+      
+    ],
+    "negative": [
+      "adult",      
+      "teenager"
+    ]
+  },
+  "age12": {
+    "tags": [
+      "age12",
+      "preteen",
+	  "twelve-year-old"
+    ],
+    "negative": [
+      "adult",
+      "large "
+    ]
+  },
+  "age13": {
+    "tags": [
+      "age13",
+      "young teenager",
+	  "thirteen-year-old"
+    ],
+    "negative": [
+      "adult",
+      "child"
+    ]
+  },
+  "age14": {
+    "tags": [
+      "age14",
+      "young teenager",
+	  "fourteen-year-old"
+	  
+    ],
+    "negative": [
+      "adult",
+      "child"
+    ]
+  },
+  "age15": {
+    "tags": [
+      "age15",
+      "teenager",
+	  "fifteen-year-old"
+    ],
+    "negative": [
+      "adult",
+      "child"
+    ]
+  },
+  "age16": {
+    "tags": [
+      "age16",
+      "older teenager",
+	  "sixteen-year-old"
+    ],
+    "negative": [
+      "adult",
+      "child"
+    ]
+  },
+  "age17": {
+    "tags": [
+      "age17",
+      "older teenager",
+	  "seventeen-year-old"
+    ],
+    "negative": [
+      "adult",
+      "child"
+    ]
+  },
+  "age18": {
+    "tags": [
+      "age18",
+      "young adult",
+	  "adult",
+	  "eighteen-year-old"
+    ],
+    "negative": [
+      "child"
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "category": "ears",
+    "version": "0.1",
+    "notes": "Ear controls: type (human/elf/animal), visibility, size, shape, and basic piercings. Keep neutral to avoid over-stylizing unless requested."
+  },
+
+  "human": {
+    "tags": [
+      "human ears",
+      "normal ears"
+    ],
+    "negative": [
+      "elf ears",
+      "pointed ears",
+      "animal ears"
+    ]
+  },
+
+  "visible": {
+    "tags": [
+      "ears visible",
+      "hair tucked behind ears",
+      "uncovered ears"
+    ],
+    "aliases": [
+      "show ears"
+    ]
+  },
+
+  "hidden": {
+    "tags": [
+      "ears covered by hair",
+      "hidden ears",
+      "hair over ears"
+    ],
+    "aliases": [
+      "covered ears"
+    ]
+  },
+
+  "small": {
+    "tags": [
+      "small ears",
+      "subtle ears"
+    ],
+    "negative": [
+      "large ears",
+      "oversized ears"
+    ]
+  },
+
+  "average": {
+    "tags": [
+      "natural ear size",
+      "average ears"
+    ],
+    "negative": [
+      "oversized ears"
+    ]
+  },
+
+  "large": {
+    "tags": [
+      "larger ears",
+      "prominent ears"
+    ],
+    "negative": [
+      "caricature",
+      "exaggerated ears"
+    ]
+  },
+
+  "pointed": {
+    "tags": [
+      "pointed ears",
+      "slightly pointed ears"
+    ],
+    "aliases": [
+      "sharp ears"
+    ],
+    "negative": [
+      "round ears"
+    ]
+  },
+
+  "elf": {
+    "tags": [
+      "elf ears",
+      "pointed ears",
+      "fantasy ears"
+    ],
+    "aliases": [
+      "elven ears"
+    ],
+    "negative": [
+      "human ears"
+    ]
+  },
+
+  "cat ears": {
+    "tags": [
+      "cat ears",
+      "animal ears",
+      "furry ears"
+    ],
+    "aliases": [
+      "nekomimi"
+    ],
+    "negative": [
+      "human ears"
+    ]
+  },
+
+  "fox ears": {
+    "tags": [
+      "fox ears",
+      "animal ears"
+    ],
+    "negative": [
+      "human ears"
+    ]
+  },
+
+  "bunny ears": {
+    "tags": [
+      "bunny ears",
+      "rabbit ears",
+      "animal ears"
+    ],
+    "negative": [
+      "human ears"
+    ]
+  },
+
+  "earrings": {
+    "tags": [
+      "earrings",
+      "ear jewelry"
+    ]
+  },
+
+  "stud earrings": {
+    "tags": [
+      "stud earrings",
+      "small earrings"
+    ],
+    "aliases": [
+      "ear studs"
+    ]
+  },
+
+  "hoop earrings": {
+    "tags": [
+      "hoop earrings",
+      "circular earrings"
+    ],
+    "aliases": [
+      "hoops"
+    ]
+  },
+
+  "multiple piercings": {
+    "tags": [
+      "multiple ear piercings",
+      "stacked ear piercings",
+      "ear cuff"
+    ],
+    "aliases": [
+      "ear cuffs"
+    ]
+  },
+
+  "ear cuff": {
+    "tags": [
+      "ear cuff",
+      "clip-on ear jewelry"
+    ]
+  },
+
+  "no piercings": {
+    "tags": [
+      "no earrings",
+      "no piercings"
+    ],
+    "negative": [
+      "earrings",
+      "piercing"
+    ]
+  }
+}

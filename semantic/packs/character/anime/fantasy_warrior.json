@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "fantasy warrior",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "fantasy warrior": {
+    "tags": [
+      
+      "anime fantasy armor",
+      "leather armor",
+      "metal shoulder pauldrons",
+      "travel cloak",
+      "utility belt",
+      "boots with straps",
+      "sword or spear",
+      "adventurer aesthetic",
+      "determined expression"
+    ],
+    "aliases": [
+      "adventurer"
+    ],
+    "related": [
+      "magical girl",
+      "samurai warrior"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "category": "character_anime",
+    "version": "0.3",
+    "key": "angel warrior",
+    "notes": "Single anime character preset with concrete visual tags. Use via %%{character_anime=<key>}%%. Meta tags (@...) should be stripped by the engine before final prompt output."
+  },
+  "angel warrior": {
+    "tags": [     
+      "anime angel warrior",
+      "white and gold armor",
+      "glowing halo",
+      "feathered wings",
+      "flowing cape",
+      "ornate chestplate",
+      "holy sword",
+      "radiant light",
+      "heroic pose"
+    ],
+    "negative": [],
+    "aliases": [],
+    "related": [],
+    "excludes": []
+  }
+}
