@@ -1,0 +1,197 @@
+{
+  "_meta": {
+    "category": "style_anime",
+    "version": "0.1",
+    "notes": "Anime-specific stylistic modifiers: linework, shading, era, genre influences."
+  },
+
+  "clean lineart": {
+    "tags": [
+      "clean anime lineart",
+      "crisp outlines",
+      "smooth linework",
+      "sharp inking"
+    ],
+    "negative": []
+  },
+
+  "thick outlines": {
+    "tags": [
+      "thick outlines",
+      "bold anime lineart",
+      "heavy inking"
+    ],
+    "negative": []
+  },
+
+  "cel shaded": {
+    "tags": [
+      "cel shading",
+      "flat color shading",
+      "hard shadow edges",
+      "anime shading style"
+    ],
+    "negative": []
+  },
+
+  "soft shading": {
+    "tags": [
+      "soft anime shading",
+      "blended gradients",
+      "airbrushed highlights"
+    ],
+    "negative": []
+  },
+
+  "glossy eyes": {
+    "tags": [
+      "large glossy anime eyes",
+      "multiple eye highlights",
+      "sparkling eyes"
+    ],
+    "negative": []
+  },
+
+  "minimal eyes": {
+    "tags": [
+      "simple anime eyes",
+      "minimal eye detail",
+      "flat iris color"
+    ],
+    "negative": []
+  },
+
+  "chibi": {
+    "tags": [
+      "chibi proportions",
+      "super deformed style",
+      "large head small body",
+      "cute anime style"
+    ],
+    "negative": []
+  },
+
+  "shoujo": {
+    "tags": [
+      "shoujo style",
+      "soft sparkles",
+      "delicate linework",
+      "romantic atmosphere"
+    ],
+    "negative": []
+  },
+
+  "shounen": {
+    "tags": [
+      "shounen anime style",
+      "dynamic poses",
+      "bold expressions",
+      "high energy composition"
+    ],
+    "negative": []
+  },
+
+  "seinen": {
+    "tags": [
+      "seinen anime style",
+      "mature proportions",
+      "detailed linework",
+      "serious tone"
+    ],
+    "negative": []
+  },
+
+  "mecha": {
+    "tags": [
+      "anime mecha style",
+      "mechanical detailing",
+      "hard surface shading",
+      "technical linework"
+    ],
+    "negative": []
+  },
+
+  "magical girl": {
+    "tags": [
+      "magical girl anime style",
+      "sparkle effects",
+      "bright color palette",
+      "transformation aesthetic"
+    ],
+    "negative": []
+  },
+
+  "90s anime": {
+    "tags": [
+      "90s anime style",
+      "vintage cel animation",
+      "film grain",
+      "slightly muted colors"
+    ],
+    "negative": []
+  },
+
+  "modern anime": {
+    "tags": [
+      "modern anime style",
+      "clean digital coloring",
+      "vibrant gradients",
+      "polished finish"
+    ],
+    "negative": []
+  },
+
+  "anime lighting bloom": {
+    "tags": [
+      "anime bloom effect",
+      "glowing highlights",
+      "soft light diffusion"
+    ],
+    "negative": []
+  },
+
+  "dynamic speed lines": {
+    "tags": [
+      "speed lines",
+      "dynamic background lines",
+      "action emphasis lines"
+    ],
+    "negative": []
+  },
+
+  "screen tone": {
+    "tags": [
+      "manga screentone",
+      "halftone shading",
+      "black and white manga style"
+    ],
+    "negative": []
+  },
+
+  "flat color background": {
+    "tags": [
+      "flat color background",
+      "minimal anime background",
+      "solid backdrop"
+    ],
+    "negative": []
+  },
+
+  "anime hair shine": {
+    "tags": [
+      "anime hair highlights",
+      "sharp hair shine",
+      "defined hair strands"
+    ],
+    "negative": []
+  },
+
+  "anime nose minimal": {
+    "tags": [
+      "minimal anime nose",
+      "small simplified nose",
+      "subtle facial features"
+    ],
+    "negative": []
+  }
+}

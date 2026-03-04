@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "category": "rainbows",
+    "version": "0.1",
+    "notes": "Natural and stylized rainbow effects."
+  },
+
+  "natural_arc": {
+    "tags": [
+      "rainbow in the sky",
+      "colorful arc",
+      "post-rain atmosphere",
+      "soft mist in air"
+    ],
+    "lighting": [
+      "natural"
+    ],
+    "palette": [
+      "vibrant"
+    ]
+  },
+
+  "double_rainbow": {
+    "tags": [
+      "double rainbow",
+      "faint secondary arc",
+      "bright sky colors",
+      "post-storm clarity"
+    ],
+    "palette": [
+      "vibrant"
+    ]
+  },
+
+  "faint_rainbow": {
+    "tags": [
+      "faint rainbow",
+      "subtle color band",
+      "light mist",
+      "soft atmospheric effect"
+    ],
+    "style": [
+      "soft contrast"
+    ]
+  },
+
+  "rainbow_glow": {
+    "tags": [
+      "glowing rainbow light",
+      "colorful aura",
+      "iridescent glow",
+      "magical atmosphere"
+    ],
+    "style": [
+      "cinematic"
+    ]
+  },
+
+  "rainbow_reflection": {
+    "tags": [
+      "rainbow reflection in water",
+      "colorful shimmer",
+      "wet surface reflection",
+      "light diffraction"
+    ],
+    "composition": [
+      "close_up"
+    ]
+  },
+
+  "rainbow_prism": {
+    "tags": [
+      "prism rainbow",
+      "light refraction",
+      "sunlight through glass",
+      "rainbow light streaks"
+    ],
+    "lighting": [
+      "window light"
+    ]
+  },
+
+  "pastel_rainbow": {
+    "tags": [
+      "soft pastel rainbow",
+      "gentle color gradient",
+      "dreamy sky",
+      "light airy atmosphere"
+    ],
+    "palette": [
+      "pastel"
+    ]
+  },
+
+  "vivid_spectrum": {
+    "tags": [
+      "full color spectrum",
+      "bright saturated rainbow",
+      "intense color bands",
+      "clear sky backdrop"
+    ],
+    "palette": [
+      "vibrant"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "rainbow_background": {
+    "tags": [
+      "rainbow backdrop",
+      "colorful gradient background",
+      "multicolor sky",
+      "radiant colors"
+    ],
+    "composition": [
+      "centered"
+    ]
+  },
+
+  "fantasy_rainbow_bridge": {
+    "tags": [
+      "rainbow bridge",
+      "fantasy landscape",
+      "ethereal arc",
+      "magical horizon"
+    ],
+    "style": [
+      "cinematic"
+    ]
+  }
+}

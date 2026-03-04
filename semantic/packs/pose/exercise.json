@@ -1,0 +1,199 @@
+{
+  "_meta": {
+    "category": "exercise",
+    "version": "0.1",
+    "notes": "Exercise, stretching, yoga, athletic and light gymnastic poses."
+  },
+
+  "stretching": {
+    "tags": [
+      "stretching",
+      "extended limbs",
+      "flexibility pose"
+    ]
+  },
+
+  "arm stretch overhead": {
+    "tags": [
+      "arms raised overhead",
+      "upper body stretch",
+      "elongated posture"
+    ]
+  },
+
+  "touching toes": {
+    "tags": [
+      "touching toes",
+      "forward bend stretch",
+      "hamstring stretch"
+    ]
+  },
+
+  "side stretch": {
+    "tags": [
+      "side stretch",
+      "arm extended upward",
+      "bent torso"
+    ]
+  },
+
+  "back stretch": {
+    "tags": [
+      "back stretch",
+      "arching spine",
+      "extended posture"
+    ]
+  },
+
+  "yoga lotus": {
+    "tags": [
+      "lotus position",
+      "cross-legged meditation pose",
+      "calm posture"
+    ]
+  },
+
+  "yoga downward dog": {
+    "tags": [
+      "downward dog pose",
+      "inverted V position",
+      "yoga stretch"
+    ]
+  },
+
+  "yoga tree pose": {
+    "tags": [
+      "tree pose",
+      "one foot raised",
+      "balanced posture"
+    ]
+  },
+
+  "yoga warrior": {
+    "tags": [
+      "warrior pose",
+      "lunging stance",
+      "strong posture"
+    ]
+  },
+
+  "plank": {
+    "tags": [
+      "plank position",
+      "core workout",
+      "straight body alignment"
+    ]
+  },
+
+  "push up": {
+    "tags": [
+      "push-up position",
+      "upper body workout",
+      "arms extended"
+    ]
+  },
+
+  "sit up": {
+    "tags": [
+      "sit-up",
+      "core exercise",
+      "abdominal workout"
+    ]
+  },
+
+  "squat exercise": {
+    "tags": [
+      "squat exercise",
+      "knees bent",
+      "lower body workout"
+    ]
+  },
+
+  "lunge": {
+    "tags": [
+      "lunge",
+      "one leg forward",
+      "athletic stance"
+    ]
+  },
+
+  "jumping": {
+    "tags": [
+      "jumping",
+      "mid-air pose",
+      "dynamic movement"
+    ]
+  },
+
+  "jump rope": {
+    "tags": [
+      "jump rope",
+      "cardio workout",
+      "athletic movement"
+    ]
+  },
+
+  "running": {
+    "tags": [
+      "running",
+      "mid stride",
+      "athletic motion"
+    ]
+  },
+
+  "high kick": {
+    "tags": [
+      "high kick",
+      "leg raised high",
+      "dynamic flexibility"
+    ]
+  },
+
+  "split": {
+    "tags": [
+      "full split",
+      "extreme flexibility",
+      "gymnastic stretch"
+    ]
+  },
+
+  "bridge pose": {
+    "tags": [
+      "bridge pose",
+      "arched back",
+      "gymnastic flexibility"
+    ]
+  },
+
+  "handstand": {
+    "tags": [
+      "handstand",
+      "inverted position",
+      "gymnastic pose"
+    ]
+  },
+
+  "cartwheel": {
+    "tags": [
+      "cartwheel",
+      "side rotation",
+      "dynamic gymnastic motion"
+    ]
+  },
+
+  "backbend": {
+    "tags": [
+      "deep backbend",
+      "arched spine",
+      "flexibility display"
+    ]
+  },
+
+  "balance beam pose": {
+    "tags": [
+      "balance pose",
+      "arms extended for balance",
+      "gymnastic stance"
+    ]
+  }
+}

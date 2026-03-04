@@ -1,0 +1,221 @@
+{
+  "_meta": {
+    "category": "props_bathroom",
+    "version": "0.1",
+    "notes": "Bathroom props and fixtures for anchoring interior bathroom scenes."
+  },
+
+  "sink": {
+    "tags": [
+      "bathroom sink",
+      "vanity sink",
+      "countertop",
+      "faucet",
+      "soap dispenser"
+    ],
+    "aliases": [
+      "vanity sink",
+      "bathroom vanity"
+    ]
+  },
+
+  "mirror": {
+    "tags": [
+      "bathroom mirror",
+      "vanity mirror",
+      "mirror reflection"
+    ],
+    "aliases": [
+      "vanity mirror"
+    ]
+  },
+
+  "vanity": {
+    "tags": [
+      "bathroom vanity",
+      "countertop",
+      "drawer cabinets",
+      "toiletries"
+    ],
+    "aliases": [
+      "sink vanity"
+    ]
+  },
+
+  "bathtub": {
+    "tags": [
+      "bathtub",
+      "ceramic tub",
+      "bathroom tiles",
+      "bath mat"
+    ],
+    "aliases": [
+      "tub"
+    ]
+  },
+
+  "shower": {
+    "tags": [
+      "shower",
+      "showerhead",
+      "shower tiles",
+      "steam",
+      "water droplets"
+    ]
+  },
+
+  "shower curtain": {
+    "tags": [
+      "shower curtain",
+      "curtain rings",
+      "bathroom curtain"
+    ],
+    "aliases": [
+      "curtain"
+    ]
+  },
+
+  "glass shower": {
+    "tags": [
+      "glass shower door",
+      "shower enclosure",
+      "glass panel"
+    ],
+    "aliases": [
+      "shower enclosure"
+    ]
+  },
+
+  "toilet": {
+    "tags": [
+      "toilet",
+      "bathroom fixture"
+    ]
+  },
+
+  "towel rack": {
+    "tags": [
+      "towel rack",
+      "hanging towels",
+      "folded towels"
+    ],
+    "aliases": [
+      "towels"
+    ]
+  },
+
+  "bath mat": {
+    "tags": [
+      "bath mat",
+      "bathroom rug",
+      "tile floor"
+    ],
+    "aliases": [
+      "bathroom rug"
+    ]
+  },
+
+  "tiles": {
+    "tags": [
+      "bathroom tiles",
+      "tiled wall",
+      "tile floor",
+      "clean grout"
+    ],
+    "aliases": [
+      "tiled wall",
+      "tile floor"
+    ]
+  },
+
+  "bathroom window": {
+    "tags": [
+      "bathroom window",
+      "frosted glass",
+      "soft daylight"
+    ],
+    "aliases": [
+      "frosted window"
+    ]
+  },
+
+  "medicine cabinet": {
+    "tags": [
+      "medicine cabinet",
+      "mirror cabinet",
+      "bathroom storage"
+    ],
+    "aliases": [
+      "mirror cabinet"
+    ]
+  },
+
+  "sink clutter": {
+    "tags": [
+      "toiletries",
+      "toothbrush cup",
+      "toothpaste",
+      "skincare bottles",
+      "cosmetics on counter"
+    ],
+    "aliases": [
+      "toiletries"
+    ]
+  },
+
+  "shower niche": {
+    "tags": [
+      "shower shelf",
+      "shampoo bottles",
+      "soap bottles",
+      "built-in shower niche"
+    ],
+    "aliases": [
+      "shower shelf"
+    ]
+  },
+
+  "steam": {
+    "tags": [
+      "steam",
+      "humid air",
+      "fogged mirror"
+    ],
+    "aliases": [
+      "fogged mirror"
+    ]
+  },
+
+  "wet floor": {
+    "tags": [
+      "wet tile floor",
+      "water puddles",
+      "water reflections"
+    ],
+    "aliases": [
+      "wet tiles"
+    ]
+  },
+
+  "laundry hamper": {
+    "tags": [
+      "laundry hamper",
+      "towels pile",
+      "bathroom laundry"
+    ],
+    "aliases": [
+      "hamper"
+    ]
+  },
+
+  "candles": {
+    "tags": [
+      "bath candles",
+      "candlelight",
+      "relaxing bath atmosphere"
+    ],
+    "aliases": [
+      "bath candles"
+    ]
+  }
+}

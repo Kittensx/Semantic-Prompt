@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "category": "style_cinematic",
+    "version": "1.0",
+    "notes": "Film language: lenses, grading, grain, aspect ratios, and cinematic feel."
+  },
+
+  "filmistill": {
+    "tags": [
+      "cinematic frame",
+      "movie still",
+      "filmic lighting",
+      "realistic staging"
+    ]
+  },
+
+  "anamorphic": {
+    "tags": [
+      "anamorphic lens flare",
+      "cinematic bokeh",
+      "wide cinematic look"
+    ]
+  },
+
+  "noir": {
+    "tags": [
+      "film noir style",
+      "high contrast lighting",
+      "deep shadows",
+      "moody atmosphere"
+    ]
+  },
+
+  "grain": {
+    "tags": [
+      "film grain",
+      "analog texture",
+      "subtle noise"
+    ]
+  },
+
+  "tealorange": {
+    "tags": [
+      "teal and orange color grading",
+      "cinematic color grade",
+      "high contrast color separation"
+    ]
+  },
+
+  "letterbox": {
+    "tags": [
+      "letterboxed frame",
+      "wide aspect ratio",
+      "cinematic framing"
+    ]
+  },
+
+  "bokeh": {
+    "tags": [
+      "cinematic bokeh",
+      "shallow depth of field",
+      "soft background blur"
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "_meta": {
+    "category": "id_portrait",
+    "version": "0.1",
+    "notes": "Portrait styles formatted like identification cards, badges, or profile headshots with visible text areas."
+  },
+
+  "none": {
+    "tags": [
+      "natural portrait",
+      "no ID formatting"
+    ],
+    "negative": [
+      "ID card",
+      "badge",
+      "profile card",
+      "text overlay"
+    ]
+  },
+
+  "ID photo": {
+    "tags": [
+      "ID photo style",
+      "passport photo style",
+      "neutral expression",
+      "plain background"
+    ]
+  },
+
+  "passport photo": {
+    "tags": [
+      "passport photo",
+      "official portrait",
+      "front facing portrait",
+      "neutral lighting"
+    ]
+  },
+
+  "driver license": {
+    "tags": [
+      "driver license layout",
+      "ID card format",
+      "portrait with text fields",
+      "laminated card"
+    ]
+  },
+
+  "student ID": {
+    "tags": [
+      "student ID card",
+      "school badge layout",
+      "portrait with name text",
+      "card format"
+    ]
+  },
+
+  "employee badge": {
+    "tags": [
+      "employee badge",
+      "corporate ID card",
+      "company badge layout",
+      "portrait with company logo"
+    ]
+  },
+
+  "mugshot style": {
+    "tags": [
+      "mugshot style portrait",
+      "front facing headshot",
+      "height chart background"
+    ]
+  },
+
+  "framed portrait card": {
+    "tags": [
+      "portrait framed in card layout",
+      "photo inside graphic frame",
+      "clean card border"
+    ]
+  },
+
+  "text overlay": {
+    "tags": [
+      "text overlay",
+      "visible name text",
+      "ID number text"
+    ]
+  },
+
+  "barcode": {
+    "tags": [
+      "barcode on card",
+      "ID barcode"
+    ]
+  },
+
+  "QR code": {
+    "tags": [
+      "QR code on card",
+      "scannable code"
+    ]
+  },
+
+  "hologram seal": {
+    "tags": [
+      "security hologram",
+      "reflective seal",
+      "authenticity badge"
+    ]
+  },
+
+  "laminated finish": {
+    "tags": [
+      "laminated plastic finish",
+      "glossy ID surface"
+    ]
+  },
+
+  "matte finish": {
+    "tags": [
+      "matte card finish",
+      "non reflective surface"
+    ]
+  }
+}

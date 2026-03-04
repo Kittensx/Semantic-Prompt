@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "category": "style_manga",
+    "version": "1.0",
+    "notes": "Black-and-white manga looks, print textures, and shading methods."
+  },
+
+  "classic": {
+    "tags": [
+      "black and white manga",
+      "clean ink linework",
+      "sharp contrast",
+      "crisp line art"
+    ]
+  },
+
+  "heavy_ink": {
+    "tags": [
+      "heavy inking",
+      "thick black shadows",
+      "dramatic black fills",
+      "high contrast inking"
+    ]
+  },
+
+  "screentone": {
+    "tags": [
+      "manga screentone",
+      "halftone shading",
+      "dot tone texture"
+    ]
+  },
+
+  "crosshatch": {
+    "tags": [
+      "crosshatching shading",
+      "hatching lines",
+      "hand ink texture"
+    ]
+  },
+
+  "vintage": {
+    "tags": [
+      "vintage print texture",
+      "paper grain",
+      "slight ink bleed"
+    ]
+  },
+
+  "panel": {
+    "tags": [
+      "manga panel border",
+      "comic panel framing",
+      "panel composition"
+    ]
+  },
+
+  "speedlines": {
+    "tags": [
+      "speed lines",
+      "action emphasis lines",
+      "dynamic background lines"
+    ]
+  }
+}

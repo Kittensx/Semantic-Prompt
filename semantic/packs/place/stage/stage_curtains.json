@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "category": "stage_curtains",
+    "version": "0.1",
+    "notes": "Theatrical stage curtains and dramatic reveal backdrops."
+  },
+
+  "classic_red_velvet": {
+    "tags": [
+      "red velvet stage curtains",
+      "heavy fabric folds",
+      "ornate theatre drapery",
+      "gold tassels",
+      "luxurious texture"
+    ],
+    "palette": [
+      "deep"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "partially_open": {
+    "tags": [
+      "stage curtains partially open",
+      "curtains pulled aside",
+      "theatrical reveal",
+      "framed stage opening"
+    ],
+    "composition": [
+      "centered"
+    ]
+  },
+
+  "fully_closed": {
+    "tags": [
+      "closed stage curtains",
+      "dramatic drapery",
+      "curtain backdrop",
+      "pre-show atmosphere"
+    ]
+  },
+
+  "spotlight_backdrop": {
+    "tags": [
+      "spotlight on curtains",
+      "dramatic stage lighting",
+      "bright center stage",
+      "theatrical glow"
+    ],
+    "lighting": [
+      "spotlight"
+    ],
+    "style": [
+      "cinematic"
+    ]
+  },
+
+  "black_drapes": {
+    "tags": [
+      "black stage drapes",
+      "minimal theatre backdrop",
+      "matte fabric",
+      "dark curtain folds"
+    ],
+    "palette": [
+      "muted"
+    ]
+  },
+
+  "gold_trim": {
+    "tags": [
+      "ornate gold trim",
+      "decorative tassels",
+      "luxury theatre curtains",
+      "classical stage aesthetic"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "billowing_motion": {
+    "tags": [
+      "curtains billowing",
+      "fabric in motion",
+      "flowing stage drapery",
+      "dramatic movement"
+    ],
+    "style": [
+      "cinematic"
+    ]
+  },
+
+  "side_stage_view": {
+    "tags": [
+      "view from side of stage",
+      "curtain edge framing scene",
+      "behind the curtain perspective",
+      "theatrical framing"
+    ],
+    "composition": [
+      "dynamic_angle"
+    ]
+  },
+
+  "grand_theatre": {
+    "tags": [
+      "grand theatre curtains",
+      "ornate stage proscenium",
+      "velvet drapery",
+      "classical opera house aesthetic"
+    ],
+    "style": [
+      "cinematic"
+    ],
+    "palette": [
+      "deep"
+    ]
+  },
+
+  "minimal_modern": {
+    "tags": [
+      "modern stage curtains",
+      "clean lines",
+      "simple drapery",
+      "minimal theatre setup"
+    ],
+    "style": [
+      "clean"
+    ]
+  }
+}

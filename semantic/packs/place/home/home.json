@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "category": "home",
+    "version": "0.2",
+    "notes": "Private interior locations. Uses requires to pull in prop anchors."
+  },
+
+  "bedroom": {
+    "tags": ["bedroom", "private room", "cozy interior"],
+    "requires": [
+      "props_bedroom:bed",
+      "props_bedroom:nightstand",
+      "props_bedroom:curtains"
+    ]
+  },
+
+  "bathroom": {
+    "tags": ["bathroom", "tiled interior", "private bathroom"],
+    "requires": [
+      "props_bathroom:sink",
+      "props_bathroom:mirror",
+      "props_bathroom:bathtub"
+    ]
+  },
+
+  "shower": {
+    "tags": ["shower", "bathroom"],
+    "requires": [
+      "props_bathroom:shower",
+      "props_bathroom:tiles",
+      "props_bathroom:towels"
+    ]
+  },
+  
+  "closet": {
+    "tags": [
+      "closet interior",
+      "walk-in closet",
+      "clothing rack",
+      "hanging clothes",
+      "wooden hangers",
+      "shelves with folded clothes",
+      "shoe rack",
+      "wardrobe shelves",
+      "small enclosed space"
+    ]
+  }
+}

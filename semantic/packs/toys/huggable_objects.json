@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "category": "huggable_objects",
+    "version": "0.1",
+    "notes": "Soft, comforting, and huggable props such as pillows and plush toys."
+  },
+
+  "pillow": {
+    "tags": [
+      "hugging a pillow",
+      "soft pillow",
+      "comfort object",
+      "arms wrapped around pillow"
+    ],
+    "style": [
+      "soft contrast"
+    ]
+  },
+
+  "body_pillow": {
+    "tags": [
+      "hugging a body pillow",
+      "long cushion",
+      "comfort embrace",
+      "resting against pillow"
+    ],
+    "style": [
+      "soft focus"
+    ]
+  },
+
+  "stuffed_animal": {
+    "tags": [
+      "hugging a stuffed animal",
+      "plush toy",
+      "soft fabric texture",
+      "comforting object"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "teddy_bear": {
+    "tags": [
+      "hugging a teddy bear",
+      "soft brown plush",
+      "childhood keepsake",
+      "emotional comfort"
+    ],
+    "style": [
+      "soft bloom"
+    ]
+  },
+
+  "oversized_plush": {
+    "tags": [
+      "hugging oversized plush",
+      "giant stuffed animal",
+      "arms wrapped tightly",
+      "soft oversized toy"
+    ],
+    "composition": [
+      "centered"
+    ]
+  },
+
+  "blanket_wrap": {
+    "tags": [
+      "wrapped in blanket",
+      "hugging blanket",
+      "soft fabric folds",
+      "comforting warmth"
+    ],
+    "style": [
+      "soft contrast"
+    ]
+  },
+
+  "cushion_pile": {
+    "tags": [
+      "surrounded by cushions",
+      "soft pillows piled up",
+      "cozy atmosphere",
+      "nestled in pillows"
+    ],
+    "composition": [
+      "shallow_dof"
+    ]
+  },
+
+  "sitting_with_plush": {
+    "tags": [
+      "sitting while hugging plush",
+      "soft toy in lap",
+      "quiet comfort",
+      "intimate moment"
+    ]
+  },
+
+  "sleeping_with_plush": {
+    "tags": [
+      "sleeping while hugging plush",
+      "peaceful expression",
+      "soft bedding",
+      "comforting presence"
+    ],
+    "style": [
+      "soft focus"
+    ]
+  },
+
+  "emotional_support_object": {
+    "tags": [
+      "clutching comfort object",
+      "holding something close to chest",
+      "seeking comfort",
+      "protective embrace"
+    ],
+    "style": [
+      "cinematic"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "category": "baby_dolls",
+    "version": "0.1",
+    "notes": "Baby doll toys and collectible doll variations."
+  },
+
+  "classic_vinyl": {
+    "tags": [
+      "baby doll",
+      "vinyl doll",
+      "painted eyes",
+      "smooth plastic skin",
+      "molded baby features"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "cloth_body": {
+    "tags": [
+      "cloth body baby doll",
+      "soft fabric torso",
+      "vinyl head and limbs",
+      "stuffed doll body"
+    ],
+    "style": [
+      "soft contrast"
+    ]
+  },
+
+  "porcelain_style": {
+    "tags": [
+      "porcelain baby doll",
+      "glossy ceramic finish",
+      "delicate painted details",
+      "display collectible"
+    ],
+    "style": [
+      "clean"
+    ]
+  },
+
+  "reborn_style": {
+    "tags": [
+      "realistic baby doll",
+      "detailed painted skin texture",
+      "lifelike doll",
+      "glass eyes"
+    ],
+    "composition": [
+      "close_up"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "sleeping_doll": {
+    "tags": [
+      "sleeping baby doll",
+      "closed painted eyes",
+      "peaceful expression",
+      "lying on blanket"
+    ],
+    "style": [
+      "soft focus"
+    ]
+  },
+
+  "doll_with_blanket": {
+    "tags": [
+      "baby doll wrapped in blanket",
+      "soft fabric folds",
+      "nursery aesthetic",
+      "comfort object"
+    ]
+  },
+
+  "boxed_doll": {
+    "tags": [
+      "boxed baby doll",
+      "clear plastic window packaging",
+      "retail display box",
+      "toy packaging"
+    ],
+    "composition": [
+      "centered"
+    ]
+  },
+
+  "vintage_doll": {
+    "tags": [
+      "vintage baby doll",
+      "slightly worn fabric",
+      "faded paint",
+      "nostalgic toy"
+    ],
+    "palette": [
+      "muted"
+    ]
+  },
+
+  "modern_doll": {
+    "tags": [
+      "modern baby doll",
+      "bright plastic finish",
+      "clean stitching",
+      "new toy"
+    ],
+    "palette": [
+      "vibrant"
+    ]
+  },
+
+  "doll_display": {
+    "tags": [
+      "baby doll on display shelf",
+      "collector arrangement",
+      "toy room setting",
+      "decorative placement"
+    ],
+    "composition": [
+      "centered"
+    ]
+  }
+}

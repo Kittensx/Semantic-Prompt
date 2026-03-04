@@ -1,0 +1,224 @@
+{
+  "_meta": {
+    "category": "pose_hands",
+    "version": "1.0",
+    "notes": "Detailed hand and arm positioning poses for characters. Designed to work with standing, sitting, or portrait poses."
+  },
+
+  "hands_on_hips": {
+    "tags": [
+      "hands on hips",
+      "arms akimbo",
+      "confident stance",
+      "elbows angled outward"
+    ]
+  },
+
+  "hands_at_sides": {
+    "tags": [
+      "hands resting at sides",
+      "arms relaxed",
+      "natural standing posture"
+    ]
+  },
+
+  "hands_behind_back": {
+    "tags": [
+      "hands behind back",
+      "arms behind body",
+      "formal posture"
+    ]
+  },
+
+  "hands_clasped_front": {
+    "tags": [
+      "hands clasped in front",
+      "fingers interlaced",
+      "arms resting in front"
+    ]
+  },
+
+  "hands_clasped_back": {
+    "tags": [
+      "hands clasped behind back",
+      "fingers interlocked behind back",
+      "relaxed formal stance"
+    ]
+  },
+
+  "arms_crossed": {
+    "tags": [
+      "arms crossed",
+      "folded arms",
+      "defensive posture"
+    ]
+  },
+
+  "hands_in_pockets": {
+    "tags": [
+      "hands in pockets",
+      "casual stance",
+      "relaxed posture"
+    ]
+  },
+
+  "one_hand_on_hip": {
+    "tags": [
+      "one hand on hip",
+      "asymmetrical pose",
+      "confident stance"
+    ]
+  },
+
+  "one_hand_on_head": {
+    "tags": [
+      "hand resting on head",
+      "touching hair",
+      "casual pose"
+    ]
+  },
+
+  "hands_touching_face": {
+    "tags": [
+      "hands touching face",
+      "fingers on cheek",
+      "resting chin on hands"
+    ]
+  },
+
+  "hands_on_cheeks": {
+    "tags": [
+      "hands on cheeks",
+      "cupping face",
+      "playful pose"
+    ]
+  },
+
+  "fists_clenched": {
+    "tags": [
+      "hands in fists",
+      "clenched fists",
+      "tense hands"
+    ]
+  },
+
+  "hands_open": {
+    "tags": [
+      "open hands",
+      "palms visible",
+      "relaxed fingers"
+    ]
+  },
+
+  "palms_out": {
+    "tags": [
+      "palms facing outward",
+      "open gesture",
+      "hands raised slightly"
+    ]
+  },
+
+  "holding_hands": {
+    "tags": [
+      "holding hands with someone",
+      "interlocked fingers",
+      "couple holding hands"
+    ]
+  },
+
+  "hand_on_shoulder": {
+    "tags": [
+      "hand resting on someone's shoulder",
+      "supportive touch",
+      "friendly gesture"
+    ]
+  },
+
+  "hand_on_back": {
+    "tags": [
+      "hand on back",
+      "guiding gesture",
+      "supportive touch"
+    ]
+  },
+
+  "hands_reaching": {
+    "tags": [
+      "hands reaching forward",
+      "arms extended",
+      "reaching gesture"
+    ]
+  },
+
+  "hands_up": {
+    "tags": [
+      "hands raised",
+      "arms lifted",
+      "celebratory gesture"
+    ]
+  },
+
+  "waving": {
+    "tags": [
+      "hand waving",
+      "raised hand greeting",
+      "friendly wave"
+    ]
+  },
+
+  "peace_sign": {
+    "tags": [
+      "peace sign",
+      "two fingers raised",
+      "victory gesture"
+    ]
+  },
+
+  "finger_pointing": {
+    "tags": [
+      "pointing finger",
+      "hand pointing forward",
+      "index finger extended"
+    ]
+  },
+
+  "holding_object": {
+    "tags": [
+      "holding object",
+      "gripping item",
+      "hands holding something"
+    ]
+  },
+
+  "holding_phone": {
+    "tags": [
+      "holding phone",
+      "phone in hand",
+      "texting posture"
+    ]
+  },
+
+  "holding_book": {
+    "tags": [
+      "holding book",
+      "book in hands",
+      "reading posture"
+    ]
+  },
+
+  "holding_drink": {
+    "tags": [
+      "holding drink",
+      "cup in hand",
+      "casual beverage hold"
+    ]
+  },
+
+  "holding_microphone": {
+    "tags": [
+      "holding microphone",
+      "microphone in hand",
+      "stage performance pose"
+    ]
+  }
+}

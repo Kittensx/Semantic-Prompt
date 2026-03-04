@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "category": "stuffed_animals",
+    "version": "0.1",
+    "notes": "Different types of plush toys and stuffed animals."
+  },
+
+  "teddy_bear": {
+    "tags": [
+      "teddy bear",
+      "soft brown plush",
+      "stitched nose",
+      "round ears"
+    ],
+    "quality": [
+      "high detail"
+    ]
+  },
+
+  "bunny_plush": {
+    "tags": [
+      "bunny plush",
+      "long floppy ears",
+      "soft pastel fabric",
+      "cute stuffed rabbit"
+    ]
+  },
+
+  "cat_plush": {
+    "tags": [
+      "cat plush",
+      "small stuffed kitten",
+      "embroidered whiskers",
+      "round plush body"
+    ]
+  },
+
+  "dog_plush": {
+    "tags": [
+      "dog plush",
+      "soft stuffed puppy",
+      "floppy ears",
+      "cute plush toy"
+    ]
+  },
+
+  "giant_plush": {
+    "tags": [
+      "giant stuffed animal",
+      "oversized plush",
+      "arms wrapped around plush",
+      "soft oversized toy"
+    ],
+    "composition": [
+      "centered"
+    ]
+  },
+
+  "fantasy_plush": {
+    "tags": [
+      "fantasy creature plush",
+      "cute dragon plush",
+      "soft wings",
+      "chibi monster plush"
+    ]
+  },
+
+  "unicorn_plush": {
+    "tags": [
+      "unicorn plush",
+      "pastel stuffed animal",
+      "small horn",
+      "rainbow mane"
+    ],
+    "palette": [
+      "pastel"
+    ]
+  },
+
+  "well_worn": {
+    "tags": [
+      "well worn stuffed animal",
+      "slightly faded fabric",
+      "stitched repairs",
+      "old childhood plush"
+    ],
+    "style": [
+      "soft contrast"
+    ]
+  },
+
+  "new_plush": {
+    "tags": [
+      "brand new plush toy",
+      "fluffy fabric",
+      "bright colors",
+      "clean stitching"
+    ],
+    "palette": [
+      "vibrant"
+    ]
+  },
+
+  "small_plush": {
+    "tags": [
+      "small handheld plush",
+      "palm sized stuffed animal",
+      "cute miniature plush"
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "_meta": {
+    "category": "sports_objects",
+    "version": "0.1",
+    "notes": "Sports-related objects and equipment. Designed to influence pose, action, and environment without forcing uniforms."
+  },
+
+  "baseball": {
+    "tags": ["baseball", "white baseball with red stitching"],
+    "aliases": ["ball", "hardball"],
+    "related": ["baseball bat", "glove", "field"],
+    "excludes": []
+  },
+
+  "baseball bat": {
+    "tags": ["baseball bat", "wooden bat"],
+    "aliases": ["bat"],
+    "related": ["baseball", "helmet", "home plate"],
+    "excludes": []
+  },
+
+  "baseball glove": {
+    "tags": ["baseball glove", "fielder's glove"],
+    "aliases": ["mitt"],
+    "related": ["baseball", "field"],
+    "excludes": []
+  },
+
+  "basketball": {
+    "tags": ["basketball", "orange basketball"],
+    "aliases": ["basketball ball"],
+    "related": ["hoop", "court", "gym"],
+    "excludes": []
+  },
+
+  "basketball hoop": {
+    "tags": ["basketball hoop", "backboard"],
+    "aliases": ["hoop", "rim"],
+    "related": ["basketball", "court"],
+    "excludes": []
+  },
+
+  "football": {
+    "tags": ["american football", "leather football"],
+    "aliases": ["gridiron ball"],
+    "related": ["helmet", "field", "stadium"],
+    "excludes": []
+  },
+
+  "soccer ball": {
+    "tags": ["soccer ball", "black and white football"],
+    "aliases": ["football (soccer)"],
+    "related": ["goal net", "field"],
+    "excludes": []
+  },
+
+  "tennis racket": {
+    "tags": ["tennis racket", "tennis racquet"],
+    "aliases": ["racket", "racquet"],
+    "related": ["tennis ball", "court"],
+    "excludes": []
+  },
+
+  "tennis ball": {
+    "tags": ["tennis ball", "bright green tennis ball"],
+    "aliases": [],
+    "related": ["tennis racket", "court"],
+    "excludes": []
+  },
+
+  "golf club": {
+    "tags": ["golf club", "metal golf iron"],
+    "aliases": ["driver", "iron"],
+    "related": ["golf ball", "golf course"],
+    "excludes": []
+  },
+
+  "golf ball": {
+    "tags": ["golf ball", "dimpled white golf ball"],
+    "aliases": [],
+    "related": ["golf club", "golf course"],
+    "excludes": []
+  },
+
+  "hockey stick": {
+    "tags": ["hockey stick"],
+    "aliases": [],
+    "related": ["puck", "ice rink"],
+    "excludes": []
+  },
+
+  "hockey puck": {
+    "tags": ["hockey puck", "black rubber puck"],
+    "aliases": [],
+    "related": ["hockey stick", "ice rink"],
+    "excludes": []
+  },
+
+  "volleyball": {
+    "tags": ["volleyball", "beach volleyball"],
+    "aliases": [],
+    "related": ["net", "beach", "court"],
+    "excludes": []
+  },
+
+  "boxing gloves": {
+    "tags": ["boxing gloves", "red boxing gloves"],
+    "aliases": ["gloves"],
+    "related": ["ring", "gym"],
+    "excludes": []
+  },
+
+  "skateboard": {
+    "tags": ["skateboard", "skate deck"],
+    "aliases": ["skate board"],
+    "related": ["street", "urban", "ramp"],
+    "excludes": []
+  },
+
+  "surfboard": {
+    "tags": ["surfboard", "long surfboard"],
+    "aliases": ["board"],
+    "related": ["ocean", "beach", "waves"],
+    "excludes": []
+  },
+
+  "bow and arrow": {
+    "tags": ["bow and arrow", "archery bow"],
+    "aliases": ["archery set"],
+    "related": ["target", "range"],
+    "excludes": []
+  },
+
+  "archery target": {
+    "tags": ["archery target", "bullseye target"],
+    "aliases": [],
+    "related": ["bow and arrow"],
+    "excludes": []
+  },
+
+  "dumbbells": {
+    "tags": ["dumbbells", "hand weights"],
+    "aliases": ["weights"],
+    "related": ["gym", "fitness"],
+    "excludes": []
+  },
+
+  "barbell": {
+    "tags": ["barbell", "weightlifting bar"],
+    "aliases": [],
+    "related": ["gym", "plates"],
+    "excludes": []
+  }
+}

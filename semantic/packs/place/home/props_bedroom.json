@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "category": "props_bedroom",
+    "version": "0.1",
+    "notes": "Bedroom props and environmental anchors for realistic interior scenes."
+  },
+
+  "bed": {
+    "tags": [
+      "bed",
+      "mattress",
+      "pillows",
+      "bedsheets",
+      "soft blanket"
+    ]
+  },
+
+  "messy bed": {
+    "tags": [
+      "messy bed",
+      "rumpled sheets",
+      "disheveled blanket",
+      "wrinkled bedsheets"
+    ]
+  },
+
+  "made bed": {
+    "tags": [
+      "neatly made bed",
+      "smooth bedsheets",
+      "arranged pillows",
+      "tidy bedroom"
+    ]
+  },
+
+  "headboard": {
+    "tags": [
+      "headboard",
+      "wooden headboard",
+      "upholstered headboard"
+    ]
+  },
+
+  "nightstand": {
+    "tags": [
+      "nightstand",
+      "bedside table",
+      "bedside lamp"
+    ],
+    "aliases": [
+      "bedside table"
+    ]
+  },
+
+  "dresser": {
+    "tags": [
+      "dresser",
+      "drawer cabinet",
+      "wood furniture"
+    ]
+  },
+
+  "mirror": {
+    "tags": [
+      "bedroom mirror",
+      "full-length mirror",
+      "mirror reflection"
+    ]
+  },
+
+  "window": {
+    "tags": [
+      "bedroom window",
+      "curtains",
+      "soft daylight",
+      "natural light through window"
+    ]
+  },
+
+  "curtains": {
+    "tags": [
+      "curtains",
+      "sheer curtains",
+      "fabric drapes"
+    ]
+  },
+
+  "lamp": {
+    "tags": [
+      "bedside lamp",
+      "warm lamp light",
+      "soft ambient lighting"
+    ]
+  },
+
+  "carpet": {
+    "tags": [
+      "bedroom carpet",
+      "soft rug",
+      "floor rug"
+    ]
+  },
+
+  "wardrobe": {
+    "tags": [
+      "wardrobe",
+      "closet doors",
+      "wooden cabinet"
+    ]
+  },
+
+  "clothing on floor": {
+    "tags": [
+      "clothes on floor",
+      "discarded clothing",
+      "messy bedroom floor"
+    ]
+  },
+
+  "laundry basket": {
+    "tags": [
+      "laundry basket",
+      "clothes hamper"
+    ],
+    "aliases": [
+      "hamper"
+    ]
+  },
+
+  "wall decor": {
+    "tags": [
+      "wall art",
+      "posters on wall",
+      "framed pictures",
+      "bedroom decor"
+    ]
+  },
+
+  "string lights": {
+    "tags": [
+      "string lights",
+      "fairy lights",
+      "soft decorative lighting"
+    ]
+  },
+
+  "desk": {
+    "tags": [
+      "bedroom desk",
+      "chair",
+      "study desk",
+      "lamp on desk"
+    ]
+  },
+
+  "bookshelf": {
+    "tags": [
+      "bookshelf",
+      "stacked books",
+      "decorative shelf"
+    ]
+  },
+
+  "tv": {
+    "tags": [
+      "television",
+      "wall-mounted tv",
+      "tv stand"
+    ]
+  }
+}
