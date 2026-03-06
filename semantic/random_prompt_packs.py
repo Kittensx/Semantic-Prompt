@@ -2,17 +2,27 @@
 """
 random_prompt_packs.py
 
-Bundled CLI tool for exploring this project's JSON pack library.
+Standalone generator that scans JSON pack files and emits randomized
+%%{category=key, ...}%% directive blocks.
 
-Design goals (v1):
-- Packs are stored under a single root folder (default: ../packs relative to this script).
-- Users can select packs by category name (from _meta.category or filename stem).
-- Users can deny entire directories (relative to packs root) to block large groups of packs.
-- Outputs randomized %%{category=key, ...}%% directives for quick exploration/testing.
+Key features:
+- --total N: total selections per prompt
+- --prints N: how many prompts to generate
+- --max-per-category N: cap selections per category (default 2)
+- --out FILE: write prompts to file with blank line between entries
+- --include-min cats...: categories that must appear at least once (if available)
+- --include-any cats...: preferred pool for filling remaining slots
+- --include-only cats...: ONLY pick from these categories (hard restriction)
+- --other-random N: force N selections from categories outside include-min/include-any
+- --exclude cats...: categories to exclude
+- --safe: exclude common NSFW-ish categories (simple name-based denylist)
 
-Note:
-Generated prompts reflect the content of the selected packs. Users are responsible for ensuring
-appropriate and compliant use with their target platform(s).
+- --subject-category NAME: subject category name (default: subject)
+- --no-print: do not print prompts to console
+
+Notes:
+- This selects KEYS (the entry names), not raw tags.
+- It outputs keys with spaces intact (e.g. socks=thigh highs).
 """
 
 from __future__ import annotations
@@ -23,7 +33,6 @@ import random
 import re
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional, Set
-
 
 SPACE_RE = re.compile(r"\s+")
 
@@ -87,7 +96,7 @@ def load_pack(path: Path) -> Tuple[str, List[str]]:
 
     # de-dup, stable order
     seen = set()
-    out = []
+    out: List[str] = []
     for k in keys:
         if k not in seen:
             out.append(k)
@@ -96,51 +105,19 @@ def load_pack(path: Path) -> Tuple[str, List[str]]:
     return category, out
 
 
-def _is_denied(rel_parts: Tuple[str, ...], deny_dirs: Set[str]) -> bool:
-    """True if any path segment equals one of the denied directory names."""
-    if not deny_dirs:
-        return False
-    parts_set = set(rel_parts)
-    # match on path segments only (not substring)
-    return any(d in parts_set for d in deny_dirs)
-
-
-def scan_packs(packs_root: Path, deny_dirs: Optional[List[str]] = None) -> Dict[str, List[str]]:
-    """
-    Scan packs_root recursively for *.json and build category -> keys mapping.
-
-    deny_dirs:
-      list of directory names (path segments) to skip, relative to packs_root.
-      Example: deny 'nsfw' will skip packs_root/**/nsfw/**/*.json
-    """
-    deny = {norm(d) for d in (deny_dirs or []) if norm(d)}
+def scan_packs(folder: Path) -> Dict[str, List[str]]:
+    """Scan folder recursively for *.json and build category -> keys mapping."""
     packs: Dict[str, List[str]] = {}
-
-    for p in sorted(packs_root.rglob("*.json")):
-        try:
-            rel_parts = p.relative_to(packs_root).parts
-        except Exception:
-            rel_parts = p.parts
-
-        # skip if any denied segment appears in the relative path
-        if _is_denied(tuple(rel_parts), deny):
-            continue
-
-        try:
-            cat, keys = load_pack(p)
-        except Exception:
-            # If a JSON is malformed, skip it rather than crashing V1
-            continue
-
+    for p in sorted(folder.rglob("*.json")):
+        cat, keys = load_pack(p)
         if not cat or not keys:
             continue
-
         packs.setdefault(cat, []).extend(keys)
 
     # de-dup per category
     for cat, keys in list(packs.items()):
         seen = set()
-        deduped = []
+        deduped: List[str] = []
         for k in keys:
             if k not in seen:
                 deduped.append(k)
@@ -179,31 +156,37 @@ def choose_items(
     rng: random.Random,
     include_min: Optional[List[str]] = None,
     include_any: Optional[List[str]] = None,
+    include_only: Optional[List[str]] = None,  # NEW
     exclude: Optional[List[str]] = None,
-    safe: bool = False,
-    require_subject: bool = True,
+    safe: bool = False,    
     subject_category: str = "subject",
     other_random: int = 0,
 ) -> List[Tuple[str, str]]:
     """
     Build a list of (category, key) selections for ONE prompt.
     """
-    include_min = norm_list(include_min)
-    include_any = norm_list(include_any)
+    include_min_n = norm_list(include_min)
+    include_any_n = norm_list(include_any)
     exclude_set = set(norm_list(exclude))
+
+    include_only_n = norm_list(include_only)
+    include_only_set: Optional[Set[str]] = set(include_only_n) if include_only_n else None
 
     # Apply safe excludes
     if safe:
         exclude_set |= set(DEFAULT_SAFE_EXCLUDES)
 
-    subject_category = norm(subject_category) or "subject"
+    subject_category_n = norm(subject_category) or "subject"
 
-    # Build normalized packs filtered by excludes
+    # Build normalized packs filtered by excludes (+ include_only restriction)
     norm_packs: Dict[str, List[str]] = {}
     for cat, keys in packs.items():
         c = norm(cat)
         if not c or c in exclude_set:
             continue
+        if include_only_set is not None and c not in include_only_set:
+            continue
+
         kk = [norm(k) for k in keys if norm(k)]
         if kk:
             norm_packs[c] = kk
@@ -211,15 +194,15 @@ def choose_items(
     if not norm_packs:
         return []
 
-    # Enforce subject existence if required
-    if require_subject and subject_category not in norm_packs:
-        # In V1, fail gracefully with a clear message
+
+    
+    if not norm_packs:
         return []
 
     # Helper pools
     all_categories = list(norm_packs.keys())
-    min_set = set(include_min)
-    any_set = set(include_any)
+    min_set = set(include_min_n)
+    any_set = set(include_any_n)
 
     chosen: List[Tuple[str, str]] = []
     used_pairs: Set[Tuple[str, str]] = set()
@@ -239,19 +222,18 @@ def choose_items(
         per_cat_count[cat] = per_cat_count.get(cat, 0) + 1
         return True
 
-    # 0) Subject first (helps your engine “anchor” prompts)
-    if require_subject:
-        add_pick(subject_category)
+    
 
     # 1) include-min: each at least once if possible
-    for cat in include_min:
+    for cat in include_min_n:
         if len(chosen) >= total:
             break
         if cat in norm_packs:
             add_pick(cat)
 
     # Pools:
-    preferred_pool = [c for c in include_any if c in norm_packs and c not in min_set]
+    preferred_pool = [c for c in include_any_n if c in norm_packs and c not in min_set]
+    # "other" means outside include-min/include-any (but still within include-only restriction, if set)
     other_pool = [c for c in all_categories if c not in min_set and c not in any_set]
 
     # 2) Force other_random picks from "other" categories
@@ -268,6 +250,7 @@ def choose_items(
     attempts = 0
     while len(chosen) < total and attempts < 20000:
         attempts += 1
+
         pool = preferred_pool if preferred_pool else all_categories
         if not pool:
             break
@@ -290,61 +273,61 @@ def choose_items(
     return chosen[:total]
 
 
-def main():
+def main() -> None:
     ap = argparse.ArgumentParser(
         description="Generate randomized %%{...}%% prompts from JSON packs."
     )
-
-    default_root = (Path(__file__).resolve().parent.parent / "packs").resolve()
-
-    ap.add_argument(
-        "--packs-root",
-        default=str(default_root),
-        help="Root folder containing JSON packs (default: ../packs relative to this tool).",
-    )
-
-    ap.add_argument(
-        "--use",
-        nargs="*",
-        default=None,
-        help="Optional list of category names to restrict generation to (matches _meta.category or filename stem).",
-    )
-
-    ap.add_argument(
-        "--deny-dir",
-        nargs="*",
-        default=None,
-        help="Deny any packs located under directories with these names (path segment match, relative to packs-root).",
-    )
-
-    ap.add_argument("--list-categories", action="store_true", help="List available categories and exit.")
+    ap.add_argument("--packs", required=True, help="Folder containing pack JSONs (recursive).")
     ap.add_argument("--total", type=int, default=6, help="Selections per prompt.")
     ap.add_argument("--prints", type=int, default=1, help="Number of prompts to generate.")
     ap.add_argument("--max-per-category", type=int, default=2, help="Max selections per category.")
     ap.add_argument("--out", type=str, default=None, help="Write prompts to this text file.")
     ap.add_argument("--no-print", action="store_true", help="Do not print prompts to console.")
 
-    ap.add_argument("--include-min", nargs="*", default=None,
-                    help="Categories that must appear at least once (if available).")
-    ap.add_argument("--include-any", nargs="*", default=None,
-                    help="Preferred pool for filling remaining slots.")
-    ap.add_argument("--other-random", type=int, default=0,
-                    help="Force this many picks from categories outside include-min/include-any.")
+    ap.add_argument(
+        "--include-min",
+        nargs="*",
+        default=None,
+        help="Categories that must appear at least once (if available).",
+    )
+    ap.add_argument(
+        "--include-any",
+        nargs="*",
+        default=None,
+        help="Preferred pool for filling remaining slots.",
+    )
+    ap.add_argument(
+        "--include-only",
+        nargs="*",
+        default=None,
+        help="Restrict selection to ONLY these categories (hard restriction).",
+    )
+    ap.add_argument(
+        "--other-random",
+        type=int,
+        default=0,
+        help="Force this many picks from categories outside include-min/include-any.",
+    )
 
     ap.add_argument("--exclude", nargs="*", default=None, help="Exclude these categories.")
-    ap.add_argument("--safe", action="store_true",
-                    help="Enable best-effort filtering of explicitly named adult/fetish categories.")
+    ap.add_argument(
+        "--safe",
+        action="store_true",
+        help="Exclude common NSFW-ish category names (simple denylist).",
+    )
 
-    ap.add_argument("--no-require-subject", action="store_true",
-                    help="Do not force a subject selection.")
-    ap.add_argument("--subject-category", default="subject",
-                    help="Category name used for subject (default: subject).")
+    
+    ap.add_argument(
+        "--subject-category",
+        default="subject",
+        help="Category name used for subject (default: subject).",
+    )
 
     args = ap.parse_args()
 
-    packs_root = Path(args.packs_root).expanduser().resolve()
-    if not packs_root.exists() or not packs_root.is_dir():
-        raise SystemExit(f"--packs-root must be a directory: {packs_root}")
+    packs_dir = Path(args.packs).expanduser().resolve()
+    if not packs_dir.exists() or not packs_dir.is_dir():
+        raise SystemExit(f"--packs must be a directory: {packs_dir}")
 
     if args.total <= 0:
         raise SystemExit("--total must be > 0")
@@ -353,26 +336,9 @@ def main():
     if args.max_per_category <= 0:
         raise SystemExit("--max-per-category must be > 0")
 
-    packs = scan_packs(packs_root, deny_dirs=args.deny_dir)
+    packs = scan_packs(packs_dir)
     if not packs:
-        raise SystemExit(f"No pack JSON files found in: {packs_root}")
-
-    if args.list_categories:
-        for cat in sorted(packs.keys()):
-            print(cat)
-        return
-
-    # Restrict to requested categories (if provided)
-    use = set(norm_list(args.use))
-    if use:
-        missing = sorted([c for c in use if c not in packs])
-        packs = {c: packs[c] for c in packs.keys() if c in use}
-        if missing:
-            print("[WARN] Requested categories not found (after deny-dir filtering):")
-            for m in missing:
-                print(f"  - {m}")
-        if not packs:
-            raise SystemExit("No categories left after applying --use (and deny-dir).")
+        raise SystemExit(f"No pack JSON files found in: {packs_dir}")
 
     rng = random.Random()  # no seed control by design
 
@@ -385,19 +351,12 @@ def main():
             rng=rng,
             include_min=args.include_min,
             include_any=args.include_any,
+            include_only=args.include_only,  # NEW
             exclude=args.exclude,
-            safe=args.safe,
-            require_subject=not args.no_require_subject,
+            safe=args.safe,            
             subject_category=args.subject_category,
             other_random=args.other_random,
         )
-
-        if not items:
-            # give a helpful hint if we fail (usually subject missing or over-excluded)
-            if not args.no_print:
-                print("[WARN] Could not generate a prompt with current constraints (try relaxing excludes/deny-dir).")
-            continue
-
         prompts.append(format_directive(items))
 
     # Print
