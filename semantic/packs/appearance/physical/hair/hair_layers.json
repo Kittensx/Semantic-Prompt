@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "category": "hair_layers",
+    "version": "1.0",
+    "notes": "Cut structure and layering."
+  },
+  "layered_cut": { "tags": ["layered haircut"] },
+  "choppy_layers": { "tags": ["choppy layers"] },
+  "feathered_layers": { "tags": ["feathered layers"] },
+  "blunt_cut": { "tags": ["blunt cut"] },
+  "tapered_cut": { "tags": ["tapered cut"] }
+}

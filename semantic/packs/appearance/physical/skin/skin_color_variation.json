@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "category": "skin_color_variation",
+    "version": "0.1",
+    "notes": "Natural variations in skin tone and coloration."
+  },
+
+  "uneven": {
+    "tags": [
+      "uneven skin tone",
+      "natural skin tone variation"
+    ]
+  },
+
+  "rosy_cheeks": {
+    "tags": [
+      "rosy cheeks",
+      "natural cheek redness"
+    ]
+  },
+
+  "blush": {
+    "tags": [
+      "natural blush",
+      "subtle flushed cheeks"
+    ]
+  },
+
+  "warm_undertones": {
+    "tags": [
+      "warm skin undertones",
+      "golden skin undertones"
+    ]
+  },
+
+  "cool_undertones": {
+    "tags": [
+      "cool skin undertones",
+      "subtle blue undertones"
+    ]
+  },
+
+  "sun_kissed": {
+    "tags": [
+      "sun kissed skin",
+      "sun warmed complexion"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "category": "hair_position",
+    "version": "1.0",
+    "notes": "Where hair sits relative to face/shoulders."
+  },
+  "behind_ears": { "tags": ["hair tucked behind ears"] },
+  "tucked_behind_one_ear": { "tags": ["hair tucked behind one ear"] },
+  "over_shoulders": { "tags": ["hair over shoulders"] },
+  "over_one_shoulder": { "tags": ["hair over one shoulder"] },
+  "side_swept": { "tags": ["side-swept hair"] },
+  "covering_one_eye": { "tags": ["hair covering one eye"] },
+  "covering_forehead": { "tags": ["hair covering forehead"] },
+  "pulled_back": { "tags": ["hair pulled back"] }
+}

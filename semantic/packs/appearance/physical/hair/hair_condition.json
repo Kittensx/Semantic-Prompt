@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "category": "hair_condition",
+    "version": "1.0",
+    "notes": "Hair state/condition for realism or styling."
+  },
+  "freshly_brushed": { "tags": ["freshly brushed hair"] },
+  "sleek": { "tags": ["sleek hair"] },
+  "messy": { "tags": ["messy hair"] },
+  "bedhead": { "tags": ["bedhead hair"] },
+  "tangled": { "tags": ["tangled hair"] },
+  "damp": { "tags": ["damp hair"] },
+  "wet": { "tags": ["wet hair"] }
+}

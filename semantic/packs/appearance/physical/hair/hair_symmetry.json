@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "category": "hair_symmetry",
+    "version": "1.0",
+    "notes": "Symmetry and intentional imbalance."
+  },
+  "symmetrical": { "tags": ["symmetrical hairstyle"] },
+  "asymmetrical": { "tags": ["asymmetrical hairstyle"] },
+  "one_side_swept": { "tags": ["hair swept to one side"] },
+  "one_side_longer": { "tags": ["one side longer than the other"] },
+  "uneven_cut": { "tags": ["uneven haircut"] }
+}

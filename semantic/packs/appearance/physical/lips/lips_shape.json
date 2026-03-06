@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "category": "lips_shape",
+    "version": "1.0",
+    "notes": "Lip shape and proportions."
+  },
+
+  "thin": { "tags": ["thin lips"] },
+  "full": { "tags": ["full lips"] },
+  "plump": { "tags": ["plump lips"] },
+  "wide": { "tags": ["wide lips"] },
+  "narrow": { "tags": ["narrow lips"] },
+
+  "defined_cupid_bow": { "tags": ["defined cupid's bow"] },
+  "soft_cupid_bow": { "tags": ["soft cupid's bow"] },
+
+  "top_heavy": { "tags": ["full upper lip"] },
+  "bottom_heavy": { "tags": ["full lower lip"] }
+}

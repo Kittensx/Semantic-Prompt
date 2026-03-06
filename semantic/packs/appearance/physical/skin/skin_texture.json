@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "category": "skin_texture",
+    "version": "0.1",
+    "notes": "Micro skin surface texture including pores, smoothness, and natural detail."
+  },
+
+  "smooth": {
+    "tags": [
+      "smooth skin",
+      "soft skin texture"
+    ]
+  },
+
+  "pores": {
+    "tags": [
+      "visible skin pores",
+      "fine skin pores",
+      "natural skin texture"
+    ]
+  },
+
+  "microdetail": {
+    "tags": [
+      "skin microdetail",
+      "high resolution skin texture",
+      "natural skin surface detail"
+    ]
+  },
+
+  "soft_texture": {
+    "tags": [
+      "soft skin texture",
+      "delicate skin surface"
+    ]
+  },
+
+  "rough_texture": {
+    "tags": [
+      "rough skin texture",
+      "coarse skin surface"
+    ]
+  },
+
+  "fine_texture": {
+    "tags": [
+      "fine skin texture",
+      "subtle skin grain"
+    ]
+  }
+}

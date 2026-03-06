@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "category": "skin_surface",
+    "version": "0.1",
+    "notes": "Surface qualities affecting how skin reflects light."
+  },
+
+  "matte": {
+    "tags": [
+      "matte skin",
+      "non reflective skin"
+    ]
+  },
+
+  "natural_sheen": {
+    "tags": [
+      "natural skin sheen",
+      "soft skin shine"
+    ]
+  },
+
+  "dewy": {
+    "tags": [
+      "dewy skin",
+      "fresh glowing skin"
+    ]
+  },
+
+  "oily": {
+    "tags": [
+      "slightly oily skin",
+      "natural skin oils",
+      "subtle skin shine"
+    ]
+  },
+
+  "sweaty": {
+    "tags": [
+      "sweaty skin",
+      "skin glistening with sweat",
+      "moist skin surface"
+    ]
+  },
+
+  "glowing": {
+    "tags": [
+      "glowing skin",
+      "radiant skin"
+    ]
+  }
+}

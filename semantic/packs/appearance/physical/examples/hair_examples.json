@@ -1,0 +1,251 @@
+{
+  "_meta": {
+    "category": "hair_examples",
+    "version": "1.0",
+    "notes": "Example hairstyles built from modular hair packs."
+  },
+
+  "classic_long_waves": {
+    "requires": [
+      "hair_length:waist_length",
+      "hair_type:wavy",
+      "hair_volume:voluminous",
+      "hair_part:center_part",
+      "hair_shine:glossy"
+    ]
+  },
+
+  "soft_romantic": {
+    "requires": [
+      "hair_length:mid_back",
+      "hair_type:wavy",
+      "hair_layers:feathered_layers",
+      "hair_strands:face_framing_strands",
+      "hair_shine:silky"
+    ]
+  },
+
+  "sleek_high_ponytail": {
+    "requires": [
+      "hair_style:high_ponytail",
+      "hair_length:waist_length",
+      "hair_shine:glossy",
+      "hair_condition:sleek",
+      "hair_ties:elastic_tie"
+    ]
+  },
+
+  "messy_bun": {
+    "requires": [
+      "hair_style:bun",
+      "hair_position:pulled_back",
+      "hair_strands:messy_strands",
+      "hair_condition:messy",
+      "hair_symmetry:asymmetrical"
+    ]
+  },
+
+  "cute_twin_tails": {
+    "requires": [
+      "hair_style:twin_tails",
+      "hair_length:shoulder_length",
+      "hair_volume:natural_volume",
+      "hair_bangs:wispy_bangs",
+      "hair_ties:ribbon_tie"
+    ]
+  },
+
+  "braided_elegance": {
+    "requires": [
+      "hair_style:single_braid",
+      "hair_length:waist_length",
+      "hair_shine:silky",
+      "hair_strands:loose_side_strands"
+    ]
+  },
+
+  "double_braid_school": {
+    "requires": [
+      "hair_style:twin_braids",
+      "hair_length:mid_back",
+      "hair_bangs:parted_bangs",
+      "hair_volume:natural_volume"
+    ]
+  },
+
+  "short_bob_clean": {
+    "requires": [
+      "hair_style:bob",
+      "hair_length:chin_length",
+      "hair_part:side_part",
+      "hair_condition:freshly_brushed",
+      "hair_shine:natural"
+    ]
+  },
+
+  "pixie_modern": {
+    "requires": [
+      "hair_style:pixie",
+      "hair_length:short",
+      "hair_layers:choppy_layers",
+      "hair_part:deep_side_part"
+    ]
+  },
+
+  "windswept_long": {
+    "requires": [
+      "hair_length:hip_length",
+      "hair_type:straight",
+      "hair_movement:windblown",
+      "hair_volume:voluminous",
+      "hair_shine:silky"
+    ]
+  },
+
+  "curtain_bangs_glam": {
+    "requires": [
+      "hair_length:waist_length",
+      "hair_type:wavy",
+      "hair_bangs:curtain_bangs",
+      "hair_part:center_part",
+      "hair_strands:face_framing_strands",
+      "hair_shine:glossy"
+    ]
+  },
+
+  "one_side_swept_glam": {
+    "requires": [
+      "hair_length:mid_back",
+      "hair_type:wavy",
+      "hair_symmetry:one_side_swept",
+      "hair_position:over_one_shoulder",
+      "hair_shine:glossy"
+    ]
+  },
+
+  "natural_curly_volume": {
+    "requires": [
+      "hair_length:shoulder_length",
+      "hair_type:curly",
+      "hair_volume:big_hair",
+      "hair_density:thick",
+      "hair_shine:natural"
+    ]
+  },
+
+  "coiled_texture": {
+    "requires": [
+      "hair_length:mid_back",
+      "hair_type:coiled",
+      "hair_volume:voluminous",
+      "hair_density:very_thick"
+    ]
+  },
+
+  "afro_round": {
+    "requires": [
+      "hair_type:afro",
+      "hair_volume:big_hair",
+      "hair_density:very_thick",
+      "hair_symmetry:symmetrical"
+    ]
+  },
+
+  "wet_look_runway": {
+    "requires": [
+      "hair_length:mid_back",
+      "hair_type:straight",
+      "hair_shine:wet_look",
+      "hair_condition:damp",
+      "hair_position:pulled_back"
+    ]
+  },
+
+  "bedhead_morning": {
+    "requires": [
+      "hair_length:shoulder_length",
+      "hair_type:wavy",
+      "hair_condition:bedhead",
+      "hair_strands:flyaways",
+      "hair_volume:natural_volume"
+    ]
+  },
+
+  "festival_ribbons": {
+    "requires": [
+      "hair_length:waist_length",
+      "hair_type:wavy",
+      "hair_accessories:hair_ribbon",
+      "hair_ties:ribbon_tie",
+      "hair_strands:face_framing_strands"
+    ]
+  },
+
+  "flower_braid": {
+    "requires": [
+      "hair_style:single_braid",
+      "hair_length:waist_length",
+      "hair_accessories:flower_hairpiece",
+      "hair_shine:silky"
+    ]
+  },
+
+  "tiara_updo": {
+    "requires": [
+      "hair_style:high_bun",
+      "hair_position:pulled_back",
+      "hair_accessories:tiara",
+      "hair_strands:loose_side_strands"
+    ]
+  },
+
+  "ombre_soft_waves": {
+    "requires": [
+      "hair_length:waist_length",
+      "hair_type:wavy",
+      "hair_gradient:ombre",
+      "hair_shine:silky",
+      "hair_bangs:curtain_bangs"
+    ]
+  },
+
+  "money_piece_blowout": {
+    "requires": [
+      "hair_length:mid_back",
+      "hair_type:straight",
+      "hair_streaks:money_piece",
+      "hair_volume:voluminous",
+      "hair_shine:glossy"
+    ]
+  },
+
+  "neon_streaks_cyber": {
+    "requires": [
+      "hair_length:waist_length",
+      "hair_type:straight",
+      "hair_streaks:neon_streaks",
+      "hair_shine:glossy",
+      "hair_movement:flowing"
+    ]
+  },
+
+  "extensions_glam": {
+    "requires": [
+      "hair_length:hip_length",
+      "hair_extensions:clip_in",
+      "hair_type:wavy",
+      "hair_volume:big_hair",
+      "hair_shine:glossy"
+    ]
+  },
+
+  "asymmetrical_cut": {
+    "requires": [
+      "hair_length:chin_length",
+      "hair_style:bob",
+      "hair_symmetry:asymmetrical",
+      "hair_layers:blunt_cut",
+      "hair_part:deep_side_part"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "category": "hair_streaks",
+    "version": "1.0",
+    "notes": "Streaks/highlights/accents."
+  },
+  "highlights": { "tags": ["hair highlights"] },
+  "lowlights": { "tags": ["hair lowlights"] },
+  "colored_streaks": { "tags": ["colored streaks in hair"] },
+  "neon_streaks": { "tags": ["neon streaks in hair"] },
+  "money_piece": { "tags": ["money piece highlights"] }
+}

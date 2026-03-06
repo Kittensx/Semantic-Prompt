@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "category": "hair_density",
+    "version": "1.0",
+    "notes": "Hair thickness/density."
+  },
+  "thin": { "tags": ["thin hair"] },
+  "medium": { "tags": ["medium density hair"] },
+  "thick": { "tags": ["thick hair"] },
+  "very_thick": { "tags": ["very thick hair"] }
+}

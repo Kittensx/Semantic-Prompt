@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "category": "skin_detail",
+    "version": "0.1",
+    "notes": "Fine biological skin details that add realism."
+  },
+
+  "peach_fuzz": {
+    "tags": [
+      "peach fuzz",
+      "fine facial hair",
+      "soft facial fuzz"
+    ]
+  },
+
+  "veins": {
+    "tags": [
+      "subtle veins",
+      "faint veins under skin",
+      "visible skin veins"
+    ]
+  },
+
+  "wrinkles_subtle": {
+    "tags": [
+      "subtle skin wrinkles",
+      "fine facial lines"
+    ]
+  },
+
+  "skin_creases": {
+    "tags": [
+      "skin creases",
+      "natural skin folds"
+    ]
+  },
+
+  "knuckle_detail": {
+    "tags": [
+      "knuckle wrinkles",
+      "detailed hand skin"
+    ]
+  },
+
+  "elbow_detail": {
+    "tags": [
+      "elbow skin folds",
+      "textured elbow skin"
+    ]
+  }
+}

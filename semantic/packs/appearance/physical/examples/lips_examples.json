@@ -1,0 +1,100 @@
+{
+  "_meta": {
+    "category": "lips_examples",
+    "version": "1.0",
+    "notes": "Example lip appearances without cosmetic products."
+  },
+
+  "soft_natural": {
+    "requires": [
+      "lips_shape:full",
+      "lips_expression:relaxed_closed",
+      "lips_texture:smooth"
+    ]
+  },
+
+  "gentle_smile": {
+    "requires": [
+      "lips_shape:soft_cupid_bow",
+      "lips_expression:slight_smile",
+      "lips_texture:soft_texture"
+    ]
+  },
+
+  "subtle_pout": {
+    "requires": [
+      "lips_shape:plump",
+      "lips_expression:pout",
+      "lips_texture:moist"
+    ]
+  },
+
+  "natural_parted": {
+    "requires": [
+      "lips_shape:full",
+      "lips_expression:parted",
+      "lips_texture:natural_lines"
+    ]
+  },
+
+  "defined_cupid_bow": {
+    "requires": [
+      "lips_shape:defined_cupid_bow",
+      "lips_definition:cupid_bow_emphasis",
+      "lips_texture:smooth"
+    ]
+  },
+
+  "soft_blurred_edges": {
+    "requires": [
+      "lips_shape:full",
+      "lips_definition:blurred_edges",
+      "lips_texture:soft_texture"
+    ]
+  },
+
+  "natural_asymmetry": {
+    "requires": [
+      "lips_shape:plump",
+      "lips_expression:relaxed_closed",
+      "lips_asymmetry:subtle"
+    ]
+  },
+
+  "playful_bite": {
+    "requires": [
+      "lips_shape:full",
+      "lips_expression:bite_lower_lip",
+      "lips_texture:moist"
+    ]
+  },
+
+  "wide_smile_lips": {
+    "requires": [
+      "lips_shape:wide",
+      "lips_expression:slight_smile"
+    ]
+  },
+
+  "dry_natural_lips": {
+    "requires": [
+      "lips_shape:thin",
+      "lips_texture:slightly_chapped"
+    ]
+  },
+
+  "soft_center_part": {
+    "requires": [
+      "lips_shape:full",
+      "lips_expression:parted",
+      "lips_texture:soft_texture"
+    ]
+  },
+
+  "lower_lip_focus": {
+    "requires": [
+      "lips_shape:bottom_heavy",
+      "lips_texture:moist"
+    ]
+  }
+}

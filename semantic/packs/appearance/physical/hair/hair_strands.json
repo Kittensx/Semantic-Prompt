@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "category": "hair_strands",
+    "version": "1.0",
+    "notes": "Loose strands and face-framing pieces."
+  },
+  "stray_strands": { "tags": ["stray hair strands"] },
+  "messy_strands": { "tags": ["messy loose strands"] },
+  "face_framing_strands": { "tags": ["face-framing strands"] },
+  "loose_side_strands": { "tags": ["loose side strands"] },
+  "flyaways": { "tags": ["hair flyaways"] }
+}

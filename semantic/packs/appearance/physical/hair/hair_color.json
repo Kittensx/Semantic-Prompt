@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "category": "hair_color",
+    "version": "1.0",
+    "notes": "Base hair colors. Use hair_gradient / hair_streaks for multi-color treatments."
+  },
+  "black": { "tags": ["black hair"] },
+  "dark_brown": { "tags": ["dark brown hair"] },
+  "brown": { "tags": ["brown hair"] },
+  "light_brown": { "tags": ["light brown hair"] },
+  "blonde": { "tags": ["blonde hair"] },
+  "platinum_blonde": { "tags": ["platinum blonde hair"] },
+  "red": { "tags": ["red hair"] },
+  "auburn": { "tags": ["auburn hair"] },
+  "ginger": { "tags": ["ginger hair"] },
+  "white": { "tags": ["white hair"] },
+  "silver": { "tags": ["silver hair"] },
+  "pink": { "tags": ["pink hair"] },
+  "blue": { "tags": ["blue hair"] },
+  "green": { "tags": ["green hair"] },
+  "purple": { "tags": ["purple hair"] }
+}

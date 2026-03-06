@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "category": "lips_definition",
+    "version": "1.0",
+    "notes": "Lip outline sharpness, liner, and edge definition."
+  },
+
+  "sharp_outline": { "tags": ["sharp lip outline", "defined lip line"] },
+  "soft_outline": { "tags": ["soft lip outline"] },
+  "blurred_edges": { "tags": ["blurred lip edges"] },
+
+  "lip_liner": { "tags": ["lip liner"] },
+  "liner_overlined": { "tags": ["overlined lip liner"] },
+
+  "cupid_bow_emphasis": { "tags": ["emphasized cupid's bow"] }
+}

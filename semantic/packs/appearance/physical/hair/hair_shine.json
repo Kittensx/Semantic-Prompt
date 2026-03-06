@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "category": "hair_shine",
+    "version": "1.0",
+    "notes": "Surface finish / reflectivity of hair."
+  },
+  "matte": { "tags": ["matte hair", "low shine hair"] },
+  "natural": { "tags": ["natural hair shine"] },
+  "silky": { "tags": ["silky hair", "smooth silky hair"] },
+  "glossy": { "tags": ["glossy hair", "high shine hair"] },
+  "wet_look": { "tags": ["wet look hair", "wet shiny hair"] },
+  "sparkle_sheen": { "tags": ["sparkling hair sheen", "subtle glitter sheen in hair"] }
+}

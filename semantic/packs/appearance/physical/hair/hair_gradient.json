@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "category": "hair_gradient",
+    "version": "1.0",
+    "notes": "Multi-color transitions across hair."
+  },
+  "ombre": { "tags": ["ombre hair"] },
+  "balayage": { "tags": ["balayage hair"] },
+  "dip_dye": { "tags": ["dip-dye hair"] },
+  "color_tips": { "tags": ["colored hair tips"] },
+  "two_tone": { "tags": ["two-tone hair"] },
+  "roots_visible": { "tags": ["visible roots"] }
+}

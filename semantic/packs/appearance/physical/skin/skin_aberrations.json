@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "category": "skin_aberrations",
+    "version": "0.1",
+    "notes": "Natural skin irregularities and imperfections for realism."
+  },
+
+  "freckles": {
+    "tags": [
+      "freckles",
+      "natural freckles",
+      "light freckling across skin"
+    ]
+  },
+
+  "beauty_marks": {
+    "tags": [
+      "beauty mark",
+      "small mole",
+      "natural beauty mark on skin"
+    ]
+  },
+
+  "dimples": {
+    "tags": [
+      "cheek dimples",
+      "smile dimples"
+    ]
+  },
+
+  "pimples": {
+    "tags": [
+      "small pimple",
+      "minor acne spot",
+      "subtle skin blemish"
+    ]
+  },
+
+  "acne": {
+    "tags": [
+      "mild acne",
+      "acne blemishes",
+      "skin acne marks"
+    ]
+  },
+
+  "acne_scars": {
+    "tags": [
+      "acne scars",
+      "faint acne scarring"
+    ]
+  },
+
+  "rosacea": {
+    "tags": [
+      "rosy cheeks",
+      "subtle rosacea redness",
+      "facial redness"
+    ]
+  },
+
+  "skin_discoloration": {
+    "tags": [
+      "uneven skin tone",
+      "natural skin discoloration",
+      "subtle skin tone variation"
+    ]
+  },
+
+  "sun_spots": {
+    "tags": [
+      "sun spots",
+      "faint sun freckles",
+      "sun-kissed skin marks"
+    ]
+  },
+
+  "birthmark": {
+    "tags": [
+      "birthmark",
+      "natural skin birthmark"
+    ]
+  },
+
+  "rash": {
+    "tags": [
+      "mild skin rash",
+      "slight skin irritation",
+      "subtle skin redness"
+    ]
+  },
+
+  "goosebumps": {
+    "tags": [
+      "goosebumps",
+      "raised skin texture"
+    ]
+  },
+
+  "stretch_marks": {
+    "tags": [
+      "stretch marks",
+      "natural stretch marks"
+    ]
+  },
+
+  "veins": {
+    "tags": [
+      "visible veins",
+      "subtle skin veins",
+      "faint veins under skin"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "category": "hair_bangs",
+    "version": "1.0",
+    "notes": "Bangs/fringe styles."
+  },
+  "blunt_bangs": { "tags": ["blunt bangs"] },
+  "wispy_bangs": { "tags": ["wispy bangs"] },
+  "curtain_bangs": { "tags": ["curtain bangs"] },
+  "side_bangs": { "tags": ["side bangs"] },
+  "micro_bangs": { "tags": ["micro bangs"] },
+  "long_bangs": { "tags": ["long bangs"] },
+  "parted_bangs": { "tags": ["parted bangs"] }
+}

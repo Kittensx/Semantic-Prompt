@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "category": "hair_ties",
+    "version": "1.0",
+    "notes": "How hair is tied or fastened."
+  },
+  "scrunchie": { "tags": ["scrunchie"] },
+  "elastic_tie": { "tags": ["hair elastic"] },
+  "ribbon_tie": { "tags": ["ribbon hair tie"] },
+  "decorative_clasp": { "tags": ["decorative hair clasp"] },
+  "braided_tie": { "tags": ["braided hair tie"] },
+  "hair_stick": { "tags": ["hair stick"] }
+}

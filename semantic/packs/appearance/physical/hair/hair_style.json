@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "category": "hair_style",
+    "version": "1.0",
+    "notes": "Primary hairstyle forms. Use hair_bangs, hair_part, hair_ties, hair_accessories to refine."
+  },
+  "bob": { "tags": ["bob haircut"] },
+  "pixie": { "tags": ["pixie cut"] },
+  "ponytail": { "tags": ["ponytail"] },
+  "high_ponytail": { "tags": ["high ponytail"] },
+  "low_ponytail": { "tags": ["low ponytail"] },
+  "side_ponytail": { "tags": ["side ponytail"] },
+  "bun": { "tags": ["hair bun"] },
+  "high_bun": { "tags": ["high bun"] },
+  "low_bun": { "tags": ["low bun"] },
+  "braid": { "tags": ["braided hair"] },
+  "single_braid": { "tags": ["single braid"] },
+  "twin_braids": { "tags": ["twin braids"] },
+  "twin_tails": { "tags": ["twin tails"] },
+  "half_up": { "tags": ["half-up hairstyle"] },
+  "space_buns": { "tags": ["space buns"] }
+}

@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "category": "hair_volume",
+    "version": "1.0",
+    "notes": "How full/voluminous the hair looks."
+  },
+  "flat": { "tags": ["flat hair", "low volume hair"] },
+  "natural_volume": { "tags": ["natural hair volume"] },
+  "voluminous": { "tags": ["voluminous hair", "full hair"] },
+  "big_hair": { "tags": ["big hair", "extra voluminous hair"] }
+}

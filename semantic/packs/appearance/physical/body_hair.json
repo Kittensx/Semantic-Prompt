@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "category": "body_hair",
+    "version": "0.1"
+  },
+
+  "hairless": {
+    "tags": ["hairless body", "smooth skin"]
+  },
+
+  "light": {
+    "tags": ["light body hair"]
+  },
+
+  "natural": {
+    "tags": ["body hair"]
+  },
+
+  "hairy": {
+    "tags": ["hairy body"],
+	"aliases": ["unkempt hair"]
+  }
+}

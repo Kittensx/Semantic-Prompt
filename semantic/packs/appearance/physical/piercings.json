@@ -1,0 +1,297 @@
+{
+  "_meta": {
+    "category": "piercings",
+    "version": "0.1",
+    "notes": "Piercing types by location and jewelry design (stud/hoop/barbell/etc.). Neutral terminology for styling."
+  },
+
+  "ear lobe studs": {
+    "tags": [
+      "earlobe piercings",
+      "stud earrings",
+      "small metal studs"
+    ],
+    "negative": []
+  },
+
+  "ear lobe hoops": {
+    "tags": [
+      "earlobe piercings",
+      "hoop earrings",
+      "small hoop design"
+    ],
+    "negative": []
+  },
+
+  "helix hoop": {
+    "tags": [
+      "helix piercing",
+      "cartilage piercing",
+      "small hoop ring"
+    ],
+    "negative": []
+  },
+
+  "helix stud": {
+    "tags": [
+      "helix piercing",
+      "cartilage piercing",
+      "small stud"
+    ],
+    "negative": []
+  },
+
+  "industrial barbell": {
+    "tags": [
+      "industrial piercing",
+      "scaffold piercing",
+      "straight barbell through cartilage"
+    ],
+    "negative": []
+  },
+
+  "tragus stud": {
+    "tags": [
+      "tragus piercing",
+      "small stud"
+    ],
+    "negative": []
+  },
+
+  "conch hoop": {
+    "tags": [
+      "conch piercing",
+      "inner ear cartilage piercing",
+      "hoop ring"
+    ],
+    "negative": []
+  },
+
+  "daith ring": {
+    "tags": [
+      "daith piercing",
+      "inner cartilage ring",
+      "captive bead ring"
+    ],
+    "negative": []
+  },
+
+  "rook barbell": {
+    "tags": [
+      "rook piercing",
+      "curved barbell"
+    ],
+    "negative": []
+  },
+
+  "snug hoop": {
+    "tags": [
+      "snug piercing",
+      "ear cartilage ring",
+      "small hoop"
+    ],
+    "negative": []
+  },
+
+  "nostril stud": {
+    "tags": [
+      "nostril piercing",
+      "nose stud",
+      "small gem stud"
+    ],
+    "negative": []
+  },
+
+  "nostril hoop": {
+    "tags": [
+      "nostril piercing",
+      "nose hoop",
+      "thin nose ring"
+    ],
+    "negative": []
+  },
+
+  "septum ring": {
+    "tags": [
+      "septum piercing",
+      "septum ring",
+      "circular ring"
+    ],
+    "negative": []
+  },
+
+  "septum horseshoe": {
+    "tags": [
+      "septum piercing",
+      "horseshoe ring",
+      "circular barbell"
+    ],
+    "negative": []
+  },
+
+  "bridge barbell": {
+    "tags": [
+      "bridge piercing",
+      "surface barbell",
+      "barbell across nose bridge"
+    ],
+    "negative": []
+  },
+
+  "eyebrow barbell": {
+    "tags": [
+      "eyebrow piercing",
+      "curved barbell"
+    ],
+    "negative": []
+  },
+
+  "vertical labret": {
+    "tags": [
+      "vertical labret piercing",
+      "lip piercing",
+      "curved barbell through lower lip"
+    ],
+    "negative": []
+  },
+
+  "labret stud": {
+    "tags": [
+      "labret piercing",
+      "lower lip stud",
+      "flat back stud"
+    ],
+    "negative": []
+  },
+
+  "snake bites": {
+    "tags": [
+      "snake bites piercings",
+      "paired lip piercings",
+      "two lip studs"
+    ],
+    "negative": []
+  },
+
+  "angel bites": {
+    "tags": [
+      "angel bites piercings",
+      "paired upper lip piercings",
+      "two lip studs"
+    ],
+    "negative": []
+  },
+
+  "monroe": {
+    "tags": [
+      "monroe piercing",
+      "upper lip stud",
+      "beauty mark placement"
+    ],
+    "negative": []
+  },
+
+  "medusa": {
+    "tags": [
+      "medusa piercing",
+      "philtrum piercing",
+      "upper lip stud"
+    ],
+    "negative": []
+  },
+
+  "tongue barbell": {
+    "tags": [
+      "tongue piercing",
+      "straight barbell"
+    ],
+    "negative": []
+  },
+
+  "smiley": {
+    "tags": [
+      "smiley piercing",
+      "upper frenulum piercing",
+      "small hoop ring"
+    ],
+    "negative": []
+  },
+
+  "cheek dermal": {
+    "tags": [
+      "dermal piercing",
+      "cheek dermal",
+      "single-point piercing"
+    ],
+    "negative": []
+  },
+
+  "collarbone dermal": {
+    "tags": [
+      "dermal piercing",
+      "collarbone dermal",
+      "single-point piercing"
+    ],
+    "negative": []
+  },
+
+  "navel ring": {
+    "tags": [
+      "navel piercing",
+      "belly button ring",
+      "curved barbell"
+    ],
+    "negative": []
+  },
+
+  "nipple piercings": {
+    "tags": [
+      "nipple piercings",
+      "barbell jewelry"
+    ],
+    "negative": []
+  },
+
+  "gauges": {
+    "tags": [
+      "stretched earlobes",
+      "ear gauges",
+      "plug earrings"
+    ],
+    "negative": []
+  },
+
+  "captive bead ring": {
+    "tags": [
+      "captive bead ring",
+      "ball closure ring",
+      "ring piercing jewelry"
+    ],
+    "negative": []
+  },
+
+  "horseshoe ring": {
+    "tags": [
+      "horseshoe ring",
+      "circular barbell",
+      "ball ends"
+    ],
+    "negative": []
+  },
+
+  "straight barbell": {
+    "tags": [
+      "straight barbell piercing jewelry",
+      "barbell with ball ends"
+    ],
+    "negative": []
+  },
+
+  "curved barbell": {
+    "tags": [
+      "curved barbell piercing jewelry",
+      "banana barbell"
+    ],
+    "negative": []
+  }
+}

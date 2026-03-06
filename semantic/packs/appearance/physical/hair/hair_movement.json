@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "category": "hair_movement",
+    "version": "1.0",
+    "notes": "Hair motion / dynamic movement."
+  },
+  "windblown": { "tags": ["windblown hair"] },
+  "flowing": { "tags": ["flowing hair"] },
+  "swept_back": { "tags": ["hair swept back"] },
+  "floating": { "tags": ["floating hair"] },
+  "drifting": { "tags": ["hair drifting in the air"] },
+  "messy_motion": { "tags": ["messy wind-tossed hair"] }
+}

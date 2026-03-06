@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "category": "hair_extensions",
+    "version": "1.0",
+    "notes": "Hair extension types and add-ons."
+  },
+  "clip_in": { "tags": ["clip-in hair extensions"] },
+  "tape_in": { "tags": ["tape-in hair extensions"] },
+  "halo_extension": { "tags": ["halo hair extension"] },
+  "pony_extension": { "tags": ["ponytail extension"] },
+  "braid_extension": { "tags": ["braid extensions"] },
+  "synthetic_extensions": { "tags": ["synthetic hair extensions"] }
+}

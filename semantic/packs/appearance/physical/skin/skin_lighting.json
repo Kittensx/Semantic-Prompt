@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "category": "skin_lighting",
+    "version": "0.1",
+    "notes": "Lighting properties affecting skin realism."
+  },
+
+  "sss": {
+    "aliases": ["subsurface"],
+    "tags": [
+      "subsurface scattering",
+      "realistic skin translucency"
+    ]
+  },
+
+  "soft_highlights": {
+    "tags": [
+      "soft skin highlights",
+      "natural skin reflections"
+    ]
+  },
+
+  "diffuse_skin": {
+    "tags": [
+      "soft diffuse skin lighting",
+      "natural skin shading"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "category": "lips_asymmetry",
+    "version": "1.0",
+    "notes": "Subtle asymmetry cues for more natural-looking lips."
+  },
+
+  "subtle": {
+    "tags": [
+      "subtle lip asymmetry",
+      "slightly uneven lips"
+    ]
+  },
+
+  "smile_tilt": {
+    "tags": [
+      "slight asymmetrical smile",
+      "one corner of the mouth raised"
+    ]
+  },
+
+  "uneven_cupid_bow": {
+    "tags": [
+      "slightly uneven cupid's bow",
+      "asymmetrical cupid's bow"
+    ]
+  },
+
+  "uneven_upper_lip": {
+    "tags": [
+      "slightly uneven upper lip"
+    ]
+  },
+
+  "uneven_lower_lip": {
+    "tags": [
+      "slightly uneven lower lip"
+    ]
+  },
+
+  "one_side_fuller": {
+    "tags": [
+      "one side of the lips slightly fuller",
+      "lips fuller on one side"
+    ]
+  }
+}

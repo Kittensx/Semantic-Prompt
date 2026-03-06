@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "category": "wetness",
+    "version": "0.1"
+  },
+
+  "wet body": {
+    "tags": ["wet body"]
+  },
+
+  "wet hair": {
+    "tags": ["wet hair"]
+  }
+}

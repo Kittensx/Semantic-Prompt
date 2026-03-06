@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "category": "hair_length",
+    "version": "1.0",
+    "notes": "Hair length descriptors."
+  },
+  "buzzcut": { "tags": ["buzz cut"] },
+  "short": { "tags": ["short hair"] },
+  "chin_length": { "tags": ["chin-length hair"] },
+  "shoulder_length": { "tags": ["shoulder-length hair"] },
+  "mid_back": { "tags": ["mid-back length hair"] },
+  "waist_length": { "tags": ["waist-length hair"] },
+  "hip_length": { "tags": ["hip-length hair"] },
+  "knee_length": { "tags": ["knee-length hair"] },
+  "floor_length": { "tags": ["floor-length hair"] }
+}

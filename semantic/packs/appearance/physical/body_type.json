@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "category": "body_type",
+    "version": "0.1",
+    "notes": "Height and build descriptors. Neutral phrasing designed for compatibility across anime, realistic, and stylized mediums."
+  },
+
+  "short": {
+    "tags": [
+      "short height",
+      "petite stature"
+    ],
+    "negative": [
+      "tall"
+    ],
+    "aliases": ["petite"]
+  },
+
+  "average height": {
+    "tags": [
+      "average height",
+      "proportional stature"
+    ],
+    "negative": [],
+    "aliases": ["medium height", "normal height"]
+  },
+
+  "tall": {
+    "tags": [
+      "tall",
+      "long legs",
+      "tall stature"
+    ],
+    "negative": [
+      "short"
+    ]
+  },
+
+  "skinny": {
+    "tags": [
+      "slim build",
+      "thin physique"
+    ],
+    "negative": [
+      "overweight",
+      "heavyset"
+    ],
+    "aliases": ["thin"]
+  },
+
+  "average build": {
+    "tags": [
+      "average build",
+      "natural physique"
+    ],
+    "negative": [],
+    "aliases": ["medium build", "normal build"]
+  },
+
+  "curvy": {
+    "tags": [
+      "curvy figure",
+      "full hips",
+      "defined waist"
+    ],
+    "negative": [],
+    "aliases": ["voluptuous"]
+  },
+
+  "fat": {
+    "tags": [
+      "overweight",
+      "heavyset build"
+    ],
+    "negative": [
+      "slim build"
+    ],
+    "aliases": ["overweight", "chubby"]
+  },
+
+  "athletic": {
+    "tags": [
+      "athletic build",
+      "toned physique",
+      "fit body"
+    ],
+    "negative": [],
+    "aliases": ["fit"]
+  },
+
+  "muscular": {
+    "tags": [
+      "muscular build",
+      "defined muscles"
+    ],
+    "negative": [],
+    "aliases": ["strong build"]
+  }
+}

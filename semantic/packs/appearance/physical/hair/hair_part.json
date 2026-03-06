@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "category": "hair_part",
+    "version": "1.0",
+    "notes": "Hair part direction and structure."
+  },
+  "center_part": { "tags": ["center part"] },
+  "side_part": { "tags": ["side part"] },
+  "deep_side_part": { "tags": ["deep side part"] },
+  "zigzag_part": { "tags": ["zigzag part"] },
+  "no_part": { "tags": ["no visible part"] }
+}

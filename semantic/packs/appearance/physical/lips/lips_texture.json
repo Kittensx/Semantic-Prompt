@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "category": "lips_texture",
+    "version": "1.0",
+    "notes": "Surface texture and moisture level."
+  },
+
+  "smooth": { "tags": ["smooth lips"] },
+  "natural_lines": { "tags": ["natural lip lines"] },
+  "soft_texture": { "tags": ["soft lip texture"] },
+
+  "moist": { "tags": ["moist lips", "natural lip sheen"] },
+  "glossy_moist": { "tags": ["glossy moist lips"] },
+
+  "slightly_chapped": { "tags": ["slightly chapped lips"] },
+  "chapped": { "tags": ["chapped lips"] }
+}

@@ -1,0 +1,89 @@
+{
+  "_meta": {
+    "category": "skin_quality_examples",
+    "version": "0.2",
+    "notes": "Skin realism presets that reference other skin packs using requires."
+  },
+
+  "photoreal": {
+    "tags": [
+      "subsurface scattering"
+    ],
+    "requires": [
+      "skin_texture:pores",
+      "skin_surface:natural_sheen",
+      "skin_detail:peach_fuzz",
+      "skin_color_variation:uneven"
+    ],
+    "aliases": [
+      "realistic"
+    ]
+  },
+
+  "photoreal_high_detail": {
+    "tags": [
+      "subsurface scattering",
+      "micro skin detail"
+    ],
+    "requires": [
+      "skin_texture:microdetail",
+      "skin_surface:natural_sheen",
+      "skin_detail:peach_fuzz",
+      "skin_detail:veins",
+      "skin_color_variation:uneven"
+    ]
+  },
+
+  "natural": {
+    "requires": [
+      "skin_texture:fine_texture",
+      "skin_surface:natural_sheen",
+      "skin_color_variation:uneven"
+    ]
+  },
+
+  "smooth": {
+    "requires": [
+      "skin_texture:smooth",
+      "skin_surface:matte"
+    ]
+  },
+
+  "soft": {
+    "requires": [
+      "skin_texture:soft_texture",
+      "skin_surface:natural_sheen"
+    ]
+  },
+
+  "dewy": {
+    "requires": [
+      "skin_texture:fine_texture",
+      "skin_surface:dewy"
+    ]
+  },
+
+  "matte": {
+    "requires": [
+      "skin_texture:fine_texture",
+      "skin_surface:matte"
+    ]
+  },
+
+  "youthful": {
+    "requires": [
+      "skin_texture:smooth",
+      "skin_surface:glowing",
+      "skin_color_variation:blush"
+    ]
+  },
+
+  "weathered": {
+    "requires": [
+      "skin_texture:rough_texture",
+      "skin_detail:wrinkles_subtle",
+      "skin_color_variation:uneven"
+    ]
+  }
+
+}

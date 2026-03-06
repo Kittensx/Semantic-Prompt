@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "category": "hair_accessories",
+    "version": "1.0",
+    "notes": "Hair decorations and accessories."
+  },
+  "hair_ribbon": { "tags": ["hair ribbon"] },
+  "hair_bow": { "tags": ["hair bow"] },
+  "hair_clip": { "tags": ["hair clip"] },
+  "hairpins": { "tags": ["hairpins"] },
+  "headband": { "tags": ["headband"] },
+  "flower_hairpiece": { "tags": ["flower hairpiece", "flowers in hair"] },
+  "tiara": { "tags": ["tiara"] },
+  "beads": { "tags": ["beads in hair"] },
+  "hair_chain": { "tags": ["hair chain accessory"] }
+}

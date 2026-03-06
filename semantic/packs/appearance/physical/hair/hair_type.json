@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "category": "hair_type",
+    "version": "1.0",
+    "notes": "Hair texture/type."
+  },
+  "straight": { "tags": ["straight hair"] },
+  "wavy": { "tags": ["wavy hair"] },
+  "curly": { "tags": ["curly hair"] },
+  "coiled": { "tags": ["coiled hair"] },
+  "afro": { "tags": ["afro hair"] },
+  "frizzy": { "tags": ["frizzy hair"] }
+}

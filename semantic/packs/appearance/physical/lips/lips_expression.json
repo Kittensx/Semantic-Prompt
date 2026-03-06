@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "category": "lips_expression",
+    "version": "1.0",
+    "notes": "Lip pose and expression."
+  },
+
+  "relaxed_closed": { "tags": ["relaxed closed lips"] },
+  "slight_smile": { "tags": ["subtle smile"] },
+  "pout": { "tags": ["pouting lips"] },
+  "parted": { "tags": ["slightly parted lips"] },
+  "open_small": { "tags": ["lips slightly open"] },
+
+  "bite_lower_lip": { "tags": ["biting lower lip"] },
+  "bite_upper_lip": { "tags": ["biting upper lip"] }
+}
