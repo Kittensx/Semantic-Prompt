@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "category": "swim_onepiece_style",
+    "version": "1.0"
+  },
+
+  "classic": {
+    "tags": [
+      "classic one piece swimsuit"
+    ]
+  },
+
+  "monokini": {
+    "tags": [
+      "monokini swimsuit",
+      "cutout one piece swimsuit"
+    ]
+  },
+
+  "sport": {
+    "tags": [
+      "sport one piece swimsuit",
+      "athletic swimwear"
+    ]
+  },
+
+  "retro": {
+    "tags": [
+      "retro one piece swimsuit",
+      "vintage style swimsuit"
+    ]
+  },
+
+  "highcut": {
+    "tags": [
+      "high cut one piece swimsuit",
+      "high leg swimsuit"
+    ]
+  }
+}

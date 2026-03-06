@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "category": "panties_structure",
+    "version": "1.0"
+  },
+
+  "panel_front": { "tags": ["front panel construction"] },
+
+  "mesh_panel": { "tags": ["mesh panel insert"] },
+
+  "lace_panel": { "tags": ["lace panel front"] },
+
+  "cutout_front": { "tags": ["front cutout design"] },
+  
+  "angular_panels": {
+    "tags": [
+      "angular panel construction",
+      "geometric panel seams",
+      "sharp angled seam lines",
+      "faceted panel design"
+    ]
+  },
+
+  "cross_straps": { "tags": ["cross strap waistband"] }
+  
+}

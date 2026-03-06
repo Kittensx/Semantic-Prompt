@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "category": "bra_style",
+    "version": "1.0"
+  },
+
+  "triangle": {
+    "tags": [
+      "triangle bra",
+      "triangle cup bra"
+    ]
+  },
+
+  "balconette": {
+    "tags": [
+      "balconette bra",
+      "balcony style bra"
+    ]
+  },
+
+  "plunge": {
+    "tags": [
+      "plunge bra",
+      "deep v bra"
+    ]
+  },
+
+  "sports": {
+    "tags": [
+      "sports bra"
+    ]
+  },
+
+  "bralette": {
+    "tags": [
+      "bralette"
+    ]
+  },
+
+  "strapless": {
+    "tags": [
+      "strapless bra"
+    ]
+  },
+
+  "pushup": {
+    "tags": [
+      "push up bra"
+    ]
+  }
+}

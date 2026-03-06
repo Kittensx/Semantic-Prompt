@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "category": "corset_trim",
+    "version": "1.0",
+    "notes": "Edge treatments and decoration. No material emphasis."
+  },
+
+  "lace_edge": { "tags": ["lace trim edges", "lace edge corset"] },
+  "scalloped": { "tags": ["scalloped trim", "scalloped edge detail"] },
+  "ruffled": { "tags": ["ruffled trim", "small ruffle edging"] },
+  "embroidered": { "tags": ["embroidered corset panels", "embroidery detail"] },
+  "beaded": { "tags": ["beaded trim", "bead embellishments"] },
+  "bow": { "tags": ["decorative bow detail", "small bow accents"] }
+}

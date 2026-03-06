@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "category": "corset_style",
+    "version": "1.0",
+    "notes": "Core corset types. No material."
+  },
+
+  "overbust": { "tags": ["overbust corset", "corset covering bust"] },
+  "underbust": { "tags": ["underbust corset", "corset under bust"] },
+  "bustier": { "tags": ["bustier", "structured bustier top"] },
+  "waspie": { "tags": ["waspie corset", "short waist corset"] },
+  "longline": { "tags": ["longline corset", "hip extending corset"] },
+  "belt": { "tags": ["corset belt", "waist cincher belt"] },
+  "cupped": {
+    "tags": [
+      "cupped corset",
+      "structured bust cups"
+    ],
+    "requires": [
+      "corset_style:overbust"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "category": "bikini_top_material",
+    "version": "0.1"
+  },
+
+  "ribbed": {
+    "tags": ["ribbed swim fabric"]
+  },
+
+  "metallic": {
+    "tags": ["metallic swim fabric"]
+  },
+
+  "latex": {
+    "tags": ["latex bikini top"]
+  },
+
+  "crochet": {
+    "tags": ["crochet bikini top"]
+  },
+
+  "mesh": {
+    "tags": ["mesh panel bikini top"]
+  }
+}

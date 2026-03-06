@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "category": "dress_1800s",
+    "version": "0.2",
+    "notes": "Expanded 19th century dress styles (1800–1899). Covers Regency, Victorian, bustle era, and late-century silhouettes."
+  },
+
+  "regency": {
+    "tags": ["regency era gown", "empire waist dress", "high waist silhouette", "flowing muslin fabric"],
+    "aliases": ["empire waist gown", "early 1800s dress"],
+    "related": ["romantic", "soft lighting", "wavy hair"],
+    "requires": ["palette:light"],
+    "excludes": ["bustle skirt", "modern fashion"]
+  },
+
+  "romantic victorian": {
+    "tags": ["romantic victorian dress", "off shoulder gown", "flowing sleeves", "lace trim"],
+    "aliases": ["mid 1800s gown", "victorian romantic dress"],
+    "related": ["jewel tones", "soft curls", "ornate"],
+    "excludes": ["minimal modern"]
+  },
+
+  "early victorian": {
+    "tags": ["early victorian gown", "bell shaped skirt", "structured bodice"],
+    "aliases": ["1840s dress", "1850s gown"],
+    "related": ["lace", "muted palette", "vintage"],
+    "excludes": ["bustle era"]
+  },
+
+  "crinoline": {
+    "tags": ["crinoline dress", "wide hoop skirt", "voluminous skirt silhouette"],
+    "aliases": ["hoop skirt dress", "wide victorian skirt"],
+    "related": ["ornate", "jewel tones", "formal"],
+    "excludes": ["regency", "minimal"]
+  },
+
+  "bustle": {
+    "tags": ["bustle dress", "rear bustle skirt", "layered drapery", "structured silhouette"],
+    "aliases": ["bustle era gown", "1870s dress", "1880s dress"],
+    "related": ["ornate", "high collar", "deep palette"],
+    "excludes": ["regency"]
+  },
+
+  "late victorian": {
+    "tags": ["late victorian gown", "fitted bodice", "long narrow skirt", "high neckline"],
+    "aliases": ["1890s dress", "turn of the century gown"],
+    "related": ["deep", "jewel tones", "elegant"],
+    "excludes": ["empire waist"]
+  },
+
+  "ball gown": {
+    "tags": ["19th century ball gown", "formal evening gown", "full skirt", "lace gloves"],
+    "aliases": ["victorian ball gown", "formal 1800s gown"],
+    "related": ["royal", "jewel tones", "candlelight"],
+    "excludes": ["casual day dress"]
+  },
+
+  "day dress": {
+    "tags": ["19th century day dress", "modest long skirt", "buttoned bodice"],
+    "aliases": ["victorian daywear", "walking dress"],
+    "related": ["muted palette", "natural light"],
+    "excludes": ["ball gown"]
+  },
+
+  "mourning": {
+    "tags": ["victorian mourning dress", "black silk gown", "high collar lace"],
+    "aliases": ["mourning gown", "black victorian dress"],
+    "related": ["noir", "grayscale", "deep"],
+    "requires": ["palette:noir"],
+    "excludes": ["pastel colors"]
+  },
+
+  "lace": {
+    "tags": ["lace victorian dress", "intricate lace detailing", "delicate trim"],
+    "aliases": ["lace gown"],
+    "related": ["romantic", "soft lighting", "ornate"],
+    "excludes": []
+  },
+
+  "high collar": {
+    "tags": ["high collar dress", "buttoned neckline", "modest silhouette"],
+    "aliases": ["victorian high neck dress"],
+    "related": ["late victorian", "mourning"],
+    "excludes": ["off shoulder"]
+  },
+
+  "off shoulder": {
+    "tags": ["off shoulder victorian gown", "exposed neckline", "formal evening silhouette"],
+    "aliases": ["shoulder baring gown"],
+    "related": ["ball gown", "romantic victorian"],
+    "excludes": ["high collar"]
+  },
+
+  "riding habit": {
+    "tags": ["victorian riding habit", "tailored jacket bodice", "long structured skirt"],
+    "aliases": ["equestrian dress", "horse riding gown"],
+    "related": ["structured", "muted palette"],
+    "excludes": ["ball gown"]
+  },
+
+  "floral print": {
+    "tags": ["floral victorian dress", "patterned 19th century gown"],
+    "aliases": ["floral 1800s dress"],
+    "related": ["spring", "pastel", "romantic"],
+    "excludes": ["mourning"]
+  },
+
+  "velvet": {
+    "tags": ["velvet victorian gown", "rich textured fabric"],
+    "aliases": ["velvet 19th century dress"],
+    "related": ["jewel tones", "deep palette", "royal"],
+    "excludes": ["light muslin"]
+  },
+
+  "silk": {
+    "tags": ["silk victorian gown", "shimmering fabric", "formal elegance"],
+    "aliases": ["silk 1800s dress"],
+    "related": ["ball gown", "candlelight"],
+    "excludes": []
+  },
+
+  "corseted": {
+    "tags": ["corseted bodice", "tight lacing", "structured waist"],
+    "aliases": ["laced bodice", "corset dress"],
+    "related": ["bustle", "crinoline", "romantic victorian"],
+    "excludes": ["empire waist"]
+  }
+}

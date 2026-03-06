@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "category": "bikini_top_support",
+    "version": "0.1",
+    "notes": "Support structure and padding variations."
+  },
+
+  "unpadded": {
+    "tags": ["unpadded bikini top"]
+  },
+
+  "light_padding": {
+    "tags": ["lightly padded bikini top"]
+  },
+
+  "push_up": {
+    "tags": ["push up bikini top"]
+  },
+
+  "removable_pads": {
+    "tags": ["removable pads"]
+  },
+
+  "molded_cups": {
+    "tags": ["molded cups"]
+  },
+
+  "wireless": {
+    "tags": ["wireless bikini top"]
+  },
+
+  "underwire_support": {
+    "tags": ["underwire bikini support"]
+  },
+
+  "structured_support": {
+    "tags": ["structured bikini support"]
+  }
+}

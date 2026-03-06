@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "category": "school_uniform",
+    "version": "0.3",
+    "notes": "Expanded school uniform packs with aliases/related/requires/excludes. Designed for compositional use (e.g., 'blazer winter elite')."
+  },
+
+  "classic": {
+    "tags": ["school uniform", "button-up shirt", "pleated skirt", "formal school attire"],
+    "negative": [],
+    "aliases": ["standard uniform", "classic uniform", "traditional uniform"],
+    "related": ["blazer", "winter", "summer", "knee socks"],
+    "excludes": ["armor", "swimwear", "wedding dress"]
+  },
+
+  "blazer": {
+    "tags": ["school blazer", "striped tie", "pleated skirt", "formal academy uniform"],
+    "negative": [],
+    "aliases": ["academy blazer", "prep blazer", "uniform blazer"],
+    "related": ["elite", "modern academy", "vest", "cardigan", "loafers"],
+    "excludes": ["swimwear", "armor"]
+  },
+
+  "sailor": {
+    "tags": ["sailor school uniform", "sailor collar", "pleated skirt", "ribbon tie"],
+    "negative": [],
+    "aliases": ["seifuku", "sailor fuku", "navy uniform style"],
+    "related": ["summer", "classic", "knee socks", "mary janes"],
+    "excludes": ["armor", "winter coat"]
+  },
+
+  "modern academy": {
+    "tags": ["modern school uniform", "tailored blazer", "necktie", "structured silhouette"],
+    "negative": [],
+    "aliases": ["contemporary uniform", "sleek academy uniform", "modern prep"],
+    "related": ["blazer", "elite", "clean", "loafers"],
+    "excludes": ["ragged", "torn clothes"]
+  },
+
+  "vintage": {
+    "tags": ["vintage school uniform", "retro academy outfit", "classic cut", "period school attire"],
+    "negative": [],
+    "aliases": ["retro uniform", "old school uniform", "classic vintage uniform"],
+    "related": ["cardigan", "vest", "loafers", "film grain"],
+    "excludes": ["cyberpunk", "futuristic armor"]
+  },
+
+  "winter": {
+    "tags": ["winter school uniform", "long sleeves", "knee socks", "layered uniform"],
+    "negative": [],
+    "aliases": ["cold weather uniform", "winter academy uniform"],
+    "related": ["cardigan", "blazer", "coat", "scarf"],
+    "excludes": ["swimwear", "summer"]
+  },
+
+  "summer": {
+    "tags": ["summer school uniform", "short sleeves", "lightweight fabric", "warm weather uniform"],
+    "negative": [],
+    "aliases": ["warm weather uniform", "summer academy uniform"],
+    "related": ["sailor", "short sleeves", "loafers"],
+    "excludes": ["winter", "heavy coat"]
+  },
+
+  "elite": {
+    "tags": ["elite academy uniform", "formal blazer", "crest emblem", "prestigious school aesthetic"],
+    "negative": [],
+    "aliases": ["prestigious uniform", "private academy uniform", "prep school uniform"],
+    "related": ["blazer", "modern academy", "tie", "crest", "luxury"],
+    "excludes": ["torn clothes", "dirty", "ragged"]
+  },
+
+  "fantasy academy": {
+    "tags": ["fantasy academy uniform", "ornate blazer", "decorative trim", "magical school aesthetic"],
+    "negative": [],
+    "aliases": ["magic school uniform", "arcane academy uniform", "wizard school uniform"],
+    "related": ["elite", "capelet", "brooch", "ornate"],
+    "excludes": ["modern streetwear"]
+  },
+
+  "sports": {
+    "tags": ["school sports uniform", "athletic outfit", "school colors", "team jersey"],
+    "negative": [],
+    "aliases": ["sports kit", "athletics uniform", "team uniform"],
+    "related": ["track", "gym", "varsity"],
+    "excludes": ["ball gown", "formal blazer"]
+  },
+
+  "cardigan": {
+    "tags": ["school cardigan", "layered uniform", "cozy knit sweater"],
+    "negative": [],
+    "aliases": ["uniform cardigan", "knit cardigan", "sweater cardigan"],
+    "related": ["winter", "vintage", "classic", "knee socks"],
+    "excludes": ["swimwear", "armor"]
+  },
+
+  "vest": {
+    "tags": ["sweater vest", "button-up shirt", "uniform layering", "necktie"],
+    "negative": [],
+    "aliases": ["uniform vest", "knit vest", "preppy vest"],
+    "related": ["blazer", "elite", "vintage", "loafers"],
+    "excludes": ["swimwear"]
+  },
+
+  "hoodie uniform": {
+    "tags": ["casual school uniform", "hoodie layered over uniform", "relaxed academy look"],
+    "negative": [],
+    "aliases": ["hoodie", "casual uniform", "relaxed uniform"],
+    "related": ["modern academy", "street", "sneakers"],
+    "excludes": ["formal ceremony", "coronation attire"]
+  },
+
+  "varsity": {
+    "tags": ["varsity jacket", "school uniform", "preppy school look", "team patch"],
+    "negative": [],
+    "aliases": ["letterman jacket", "letter jacket", "school varsity"],
+    "related": ["sports", "modern academy", "sneakers"],
+    "excludes": ["ball gown", "armor"]
+  },
+
+  "cheer": {
+    "tags": ["school cheer uniform", "pleated cheer skirt", "team top", "school colors"],
+    "negative": [],
+    "aliases": ["cheerleader uniform", "cheer outfit"],
+    "related": ["sports", "varsity", "stadium"],
+    "excludes": ["winter coat", "ball gown"]
+  },
+
+  "track": {
+    "tags": ["track uniform", "athletic school outfit", "running shorts", "team singlet"],
+    "negative": [],
+    "aliases": ["track kit", "running uniform"],
+    "related": ["sports", "gym", "sneakers"],
+    "excludes": ["blazer", "formal academy uniform"]
+  },
+
+  "gym": {
+    "tags": ["school gym uniform", "athletic t-shirt", "gym shorts", "sportswear"],
+    "negative": [],
+    "aliases": ["PE uniform", "physical education uniform", "gym class uniform"],
+    "related": ["sports", "track", "sneakers"],
+    "excludes": ["formal blazer", "ball gown"]
+  },
+
+  "knee socks": {
+    "tags": ["knee socks", "uniform socks", "neat school look"],
+    "negative": [],
+    "aliases": ["knee-high socks", "uniform knee socks", "knee highs"],
+    "related": ["classic", "blazer", "sailor", "loafers"],
+    "excludes": ["barefoot"]
+  },
+
+  "thigh highs": {
+    "tags": ["thigh high socks", "uniform styling", "tall socks"],
+    "negative": [],
+    "aliases": ["thigh-highs", "over-knee socks", "over the knee socks"],
+    "related": ["modern academy", "elite", "clean"],
+    "excludes": ["barefoot"]
+  },
+
+  "loafers": {
+    "tags": ["school loafers", "leather loafers", "uniform shoes"],
+    "negative": [],
+    "aliases": ["penny loafers", "uniform loafers"],
+    "related": ["blazer", "elite", "vest", "knee socks"],
+    "excludes": ["barefoot"]
+  },
+
+  "mary janes": {
+    "tags": ["mary jane shoes", "school shoes", "classic uniform footwear"],
+    "negative": [],
+    "aliases": ["mary janes", "strap shoes"],
+    "related": ["sailor", "classic", "knee socks"],
+    "excludes": ["barefoot"]
+  },
+
+  "ribbon tie": {
+    "tags": ["ribbon tie", "uniform ribbon", "neat school look"],
+    "negative": [],
+    "aliases": ["ribbon", "school ribbon", "bow tie ribbon"],
+    "related": ["sailor", "classic", "pastel"],
+    "excludes": ["loose tie"]
+  },
+
+  "necktie": {
+    "tags": ["necktie", "striped tie", "formal uniform tie"],
+    "negative": [],
+    "aliases": ["tie", "school tie", "striped necktie"],
+    "related": ["blazer", "elite", "vest", "modern academy"],
+    "excludes": ["ribbon tie"]
+  },
+
+  "beret": {
+    "tags": ["school beret", "stylish uniform accessory", "preppy headwear"],
+    "negative": [],
+    "aliases": ["beret hat", "uniform beret"],
+    "related": ["vintage", "elite", "cardigan"],
+    "excludes": ["helmet"]
+  },
+
+  "coat": {
+    "tags": ["school coat", "long coat", "cold weather outerwear", "layered uniform"],
+    "negative": [],
+    "aliases": ["winter coat", "uniform coat", "overcoat"],
+    "related": ["winter", "scarf", "gloves"],
+    "excludes": ["swimwear"]
+  },
+
+  "scarf": {
+    "tags": ["scarf", "winter accessory", "warm layering"],
+    "negative": [],
+    "aliases": ["neck scarf", "warm scarf"],
+    "related": ["winter", "coat", "cardigan"],
+    "excludes": ["swimwear"]
+  },
+
+  "gloves": {
+    "tags": ["gloves", "cold weather accessory", "winter styling"],
+    "negative": [],
+    "aliases": ["winter gloves"],
+    "related": ["winter", "coat", "scarf"],
+    "excludes": ["swimwear"]
+  },
+
+  "messy uniform": {
+    "tags": ["slightly messy uniform", "loosened tie", "untucked shirt", "casual school look"],
+    "negative": [],
+    "aliases": ["loose uniform", "relaxed uniform styling", "after school uniform"],
+    "related": ["hoodie uniform", "modern academy", "street"],
+    "excludes": ["formal ceremony", "coronation attire"]
+  }
+}

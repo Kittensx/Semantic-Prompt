@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "category": "panties_leg_opening",
+    "version": "1.0",
+    "notes": "Shape and height of the leg openings."
+  },
+
+  "low_cut": {
+    "tags": [
+      "low cut leg openings"
+    ]
+  },
+
+  "mid_cut": {
+    "tags": [
+      "mid cut leg openings"
+    ]
+  },
+
+  "high_cut": {
+    "tags": [
+      "high cut leg openings"
+    ]
+  },
+
+  "ultra_high_cut": {
+    "tags": [
+      "ultra high leg openings"
+    ]
+  },
+
+  "curved_cut": {
+    "tags": [
+      "curved leg openings"
+    ]
+  },
+
+  "arched_cut": {
+    "tags": [
+      "arched leg cut"
+    ]
+  },
+
+  "straight_cut": {
+    "tags": [
+      "straight leg openings"
+    ]
+  },
+
+  "scalloped_cut": {
+    "tags": [
+      "scalloped leg openings"
+    ]
+  }
+}

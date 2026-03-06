@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "category": "corset_panels",
+    "version": "1.0",
+    "notes": "Panel construction and panel styling for corsets."
+  },
+
+  "vertical_panels": {
+    "tags": [
+      "vertical corset panels",
+      "vertical seam panels"
+    ]
+  },
+
+  "curved_panels": {
+    "tags": [
+      "curved corset panels",
+      "curved seam construction"
+    ]
+  },
+
+  "contrast_panels": {
+    "tags": [
+      "contrast corset panels",
+      "contrasting panel sections"
+    ]
+  },
+
+  "decorative_panels": {
+    "tags": [
+      "decorative corset panels",
+      "ornamental panel seams"
+    ]
+  },
+
+  "lace_insert_panels": {
+    "tags": [
+      "lace insert panels",
+      "lace panel inserts"
+    ]
+  },
+
+  "mesh_panels": {
+    "tags": [
+      "mesh panel inserts",
+      "sheer mesh panels"
+    ]
+  },
+
+  "angular_panels": {
+    "tags": [
+      "angular panel construction",
+      "geometric corset panels"
+    ]
+  },
+
+  "layered_panels": {
+    "tags": [
+      "layered panel construction",
+      "overlapping corset panels"
+    ]
+  }
+}

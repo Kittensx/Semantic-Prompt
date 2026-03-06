@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "category": "bikini_top_cups",
+    "version": "0.1",
+    "notes": "Cup structures used in bikini tops."
+  },
+
+  "triangle": {
+    "tags": ["triangle bikini cups"]
+  },
+
+  "bandeau": {
+    "tags": ["bandeau bikini top"]
+  },
+
+  "balconette": {
+    "tags": ["balconette bikini cups"]
+  },
+
+  "underwire": {
+    "tags": ["underwire bikini cups"]
+  },
+
+  "sports": {
+    "tags": ["sports bikini top"]
+  },
+
+  "wrap": {
+    "tags": ["wrap style bikini cups"]
+  },
+
+  "longline": {
+    "tags": ["longline bikini top"]
+  },
+
+  "micro": {
+    "tags": ["micro bikini top"]
+  },
+  
+  "scoop": {
+    "tags": ["scoop bikini top"]
+  },
+
+  "plunge": {
+    "tags": ["plunge bikini top"]
+  },
+
+  "asymmetrical": {
+    "tags": ["asymmetrical bikini top"]
+  },
+
+  "one_shoulder": {
+    "tags": ["one shoulder bikini top"]
+  },
+
+  "cutout": {
+    "tags": ["cutout bikini top"]
+  },
+
+  "panel": {
+    "tags": ["panel bikini top"]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "category": "corset_cut",
+    "version": "1.0",
+    "notes": "Silhouette shaping and neckline shaping."
+  },
+
+  "hourglass": { "tags": ["hourglass corset silhouette", "curved waist shaping"] },
+  "conical": { "tags": ["conical corset silhouette", "straight bust line"] },
+  "straight": { "tags": ["straight corset neckline", "flat top edge"] },
+  "sweetheart": {
+    "tags": [
+      "sweetheart neckline corset",
+      "heart shaped neckline"
+    ],
+    "requires": [
+      "corset_style:overbust"
+    ]
+  },
+  "plunge": {
+    "tags": [
+      "plunge neckline corset",
+      "deep v neckline"
+    ],
+    "requires": [
+      "corset_style:overbust"
+    ]
+  },
+  "dramatic_waist": { "tags": ["dramatic waist cinch", "tight waist shaping"] }
+}

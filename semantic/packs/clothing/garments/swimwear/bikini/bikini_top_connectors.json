@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "category": "bikini_top_connectors",
+    "version": "0.1",
+    "notes": "Center cup connectors."
+  },
+
+  "fabric_bridge": {
+    "tags": ["fabric bridge between cups"]
+  },
+
+  "ring_center": {
+    "tags": ["metal ring center"]
+  },
+
+  "tie_center": {
+    "tags": ["center tie knot"]
+  },
+
+  "chain_center": {
+    "tags": ["chain connector center"]
+  },
+
+  "keyhole": {
+    "tags": ["keyhole cutout center"]
+  },
+  
+  "bar_center": {
+    "tags": ["metal bar connector"]
+  },
+
+  "heart_ring": {
+    "tags": ["heart shaped ring connector"]
+  },
+
+  "buckle_center": {
+    "tags": ["buckle center connector"]
+  },
+
+  "twist_center": {
+    "tags": ["twist center bikini top"]
+  },
+
+  "knotted_center": {
+    "tags": ["knotted center bikini top"]
+  }
+}

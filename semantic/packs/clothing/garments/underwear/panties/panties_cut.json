@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "category": "panties_cut",
+    "version": "1.0"
+  },
+
+  "brief": { "tags": ["brief panties", "classic full cut panties"] },
+
+  "bikini": { "tags": ["bikini panties", "low waist bikini cut"] },
+
+  "boyshorts": { "tags": ["boyshort panties", "short leg underwear"] },
+
+  "hipster": { "tags": ["hipster panties", "low hip cut underwear"] },
+
+  "cheeky": { "tags": ["cheeky panties", "half coverage back"] },
+
+  "thong": { "tags": ["thong panties", "minimal back coverage"] },
+
+  "g_string": { "tags": ["g-string panties", "thin back strap"] },
+
+  "tanga": { "tags": ["tanga panties", "narrow back coverage"] },
+
+  "brazilian": { "tags": ["brazilian cut panties", "curved back cut"] },
+
+  "tap": { "tags": ["tap pants underwear", "loose short style underwear"] }
+}

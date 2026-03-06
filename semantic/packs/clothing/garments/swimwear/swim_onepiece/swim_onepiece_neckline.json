@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "category": "swim_onepiece_neckline",
+    "version": "1.0"
+  },
+
+  "scoop": {
+    "tags": [
+      "scoop neckline swimsuit"
+    ]
+  },
+
+  "plunge": {
+    "tags": [
+      "plunge neckline swimsuit",
+      "deep v swimsuit neckline"
+    ]
+  },
+
+  "halter": {
+    "tags": [
+      "halter neck swimsuit"
+    ]
+  },
+
+  "square": {
+    "tags": [
+      "square neckline swimsuit"
+    ]
+  },
+
+  "asymmetric": {
+    "tags": [
+      "asymmetric neckline swimsuit"
+    ]
+  }
+}

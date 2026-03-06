@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "category": "swim_onepiece_back",
+    "version": "1.0"
+  },
+
+  "open_back": {
+    "tags": [
+      "open back swimsuit"
+    ]
+  },
+
+  "low_back": {
+    "tags": [
+      "low back swimsuit"
+    ]
+  },
+
+  "racerback": {
+    "tags": [
+      "racerback swimsuit"
+    ]
+  },
+
+  "crossback": {
+    "tags": [
+      "cross back straps"
+    ]
+  },
+
+  "strapback": {
+    "tags": [
+      "strappy back swimsuit"
+    ]
+  }
+}
