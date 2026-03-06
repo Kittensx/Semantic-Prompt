@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "category": "lipstick_finish",
+    "version": "1.0",
+    "notes": "Surface finish of lipstick."
+  },
+
+  "matte": { "tags": ["matte lipstick"] },
+  "velvet_matte": { "tags": ["velvet matte lipstick"] },
+  "satin": { "tags": ["satin lipstick"] },
+  "cream": { "tags": ["creamy lipstick"] },
+  "gloss": { "tags": ["glossy lipstick", "lip gloss"] },
+  "lacquer": { "tags": ["lacquered lipstick", "high shine lipstick"] },
+  "metallic": { "tags": ["metallic lipstick"] }
+}

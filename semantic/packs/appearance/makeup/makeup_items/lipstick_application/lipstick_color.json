@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "category": "lipstick_color",
+    "version": "1.0",
+    "notes": "Lipstick color. Uses requires to pull a matching palette_colors color."
+  },
+
+  "red": { "requires": ["palette_colors:red"], "tags": ["red lipstick"] },
+  "deep_red": { "requires": ["palette_colors:deep_red"], "tags": ["deep red lipstick"] },
+  "pink": { "requires": ["palette_colors:pink"], "tags": ["pink lipstick"] },
+  "hot_pink": { "requires": ["palette_colors:hot_pink"], "tags": ["hot pink lipstick"] },
+  "nude": { "requires": ["palette_colors:nude"], "tags": ["nude lipstick"] },
+  "peach": { "requires": ["palette_colors:peach"], "tags": ["peach lipstick"] },
+  "coral": { "requires": ["palette_colors:coral"], "tags": ["coral lipstick"] },
+  "berry": { "requires": ["palette_colors:berry"], "tags": ["berry lipstick"] },
+  "plum": { "requires": ["palette_colors:plum"], "tags": ["plum lipstick"] },
+  "brown": { "requires": ["palette_colors:brown"], "tags": ["brown lipstick"] },
+  "black": { "requires": ["palette_colors:black"], "tags": ["black lipstick"] },
+  "purple": { "requires": ["palette_colors:purple"], "tags": ["purple lipstick"] }
+}

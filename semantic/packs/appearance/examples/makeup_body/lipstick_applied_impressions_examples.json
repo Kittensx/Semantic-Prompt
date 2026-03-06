@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "category": "lipstick_applied_impressions_examples",
+    "version": "1.0",
+    "notes": "Combined examples: baseline lips + lipstick style + lipstick impression/print."
+  },
+
+  "classic_red__glass_mark": {
+    "requires": [
+      "lips_examples:natural_parted",
+      "lipstick_examples:classic_red_glam",
+      "lipstick_impressions:glass_mark"
+    ]
+  },
+
+  "hollywood_gloss__cup_mark": {
+    "requires": [
+      "lips_examples:defined_cupid_bow",
+      "lipstick_examples:hollywood_gloss",
+      "lipstick_impressions:cup_mark"
+    ]
+  },
+
+  "soft_nude__paper_kiss": {
+    "requires": [
+      "lips_examples:soft_natural",
+      "lipstick_examples:soft_nude_makeup",
+      "lipstick_impressions:paper_kiss"
+    ]
+  },
+
+  "korean_gradient__mirror_kiss": {
+    "requires": [
+      "lips_examples:soft_blurred_edges",
+      "lipstick_examples:korean_gradient_lips",
+      "lipstick_impressions:mirror_kiss"
+    ]
+  },
+
+  "berry_evening__skin_kiss_mark": {
+    "requires": [
+      "lips_examples:subtle_pout",
+      "lipstick_examples:berry_evening_gloss",
+      "lipstick_impressions:skin_kiss_mark"
+    ]
+  },
+
+  "plum_vamp__collar_mark": {
+    "requires": [
+      "lips_examples:soft_center_part",
+      "lipstick_examples:plum_vamp_style",
+      "lipstick_impressions:collar_mark"
+    ]
+  },
+
+  "sparkle_party__multiple_kisses": {
+    "requires": [
+      "lips_examples:playful_bite",
+      "lipstick_examples:sparkle_party_lips",
+      "lipstick_impressions:multiple_kisses"
+    ]
+  },
+
+  "after_party__smeared_kiss": {
+    "requires": [
+      "lips_examples:natural_asymmetry",
+      "lipstick_examples:smudged_after_party",
+      "lipstick_impressions:smeared_kiss"
+    ]
+  }
+}

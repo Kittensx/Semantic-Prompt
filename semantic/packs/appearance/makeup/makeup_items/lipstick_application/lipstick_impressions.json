@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "category": "lipstick_impressions",
+    "version": "1.0",
+    "notes": "Lipstick marks or prints left on objects or people."
+  },
+
+  "glass_mark": {
+    "tags": [
+      "lipstick mark on a glass",
+      "lipstick print on drinking glass"
+    ]
+  },
+
+  "cup_mark": {
+    "tags": [
+      "lipstick mark on coffee cup",
+      "lipstick stain on mug rim"
+    ]
+  },
+
+  "mirror_kiss": {
+    "tags": [
+      "lipstick kiss mark on mirror",
+      "kiss mark on mirror"
+    ]
+  },
+
+  "paper_kiss": {
+    "tags": [
+      "lipstick kiss mark on paper",
+      "lipstick kiss print"
+    ]
+  },
+
+  "skin_kiss_mark": {
+    "tags": [
+      "lipstick kiss mark on skin",
+      "lipstick stain on cheek"
+    ]
+  },
+
+  "collar_mark": {
+    "tags": [
+      "lipstick mark on shirt collar",
+      "lipstick stain on clothing collar"
+    ]
+  },
+
+  "multiple_kisses": {
+    "tags": [
+      "multiple lipstick kiss marks",
+      "many lipstick prints"
+    ]
+  },
+
+  "smeared_kiss": {
+    "tags": [
+      "smeared lipstick kiss mark",
+      "blurred lipstick kiss print"
+    ]
+  }
+}

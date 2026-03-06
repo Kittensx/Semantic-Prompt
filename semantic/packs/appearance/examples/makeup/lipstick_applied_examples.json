@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "category": "lipstick_applied_examples",
+    "version": "1.0"
+  },
+
+  "natural_red_glam": {
+    "requires": [
+      "lips_examples:natural_parted",
+      "lipstick_examples:classic_red_glam"
+    ]
+  },
+
+  "soft_nude": {
+    "requires": [
+      "lips_examples:soft_natural",
+      "lipstick_examples:soft_nude_makeup"
+    ]
+  },
+
+  "berry_evening": {
+    "requires": [
+      "lips_examples:subtle_pout",
+      "lipstick_examples:berry_evening_gloss"
+    ]
+  },
+
+  "gradient_korean": {
+    "requires": [
+      "lips_examples:soft_blurred_edges",
+      "lipstick_examples:korean_gradient_lips"
+    ]
+  },
+
+  "metallic_runway": {
+    "requires": [
+      "lips_examples:defined_cupid_bow",
+      "lipstick_examples:metallic_runway"
+    ]
+  },
+
+  "after_party": {
+    "requires": [
+      "lips_examples:soft_center_part",
+      "lipstick_examples:smudged_after_party"
+    ]
+  }
+}

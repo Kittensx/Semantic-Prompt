@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "category": "lipstick_effects",
+    "version": "1.0",
+    "notes": "Effects layered on lipstick: shimmer, glitter, sparkle, holo."
+  },
+
+  "subtle_shimmer": { "tags": ["subtle shimmer on lips"] },
+  "sparkle": { "tags": ["sparkly lipstick", "sparkles on lips"] },
+  "fine_glitter": { "tags": ["fine glitter lipstick", "micro-glitter on lips"] },
+  "chunky_glitter": { "tags": ["chunky glitter lipstick"] },
+  "holographic": { "tags": ["holographic lip gloss", "holo shimmer on lips"] },
+  "iridescent": { "tags": ["iridescent lip sheen"] },
+  "wet_highlights": { "tags": ["wet glossy highlights on lips"] },
+  "glitter_gradient": { "tags": ["glitter gradient lipstick"] }
+}

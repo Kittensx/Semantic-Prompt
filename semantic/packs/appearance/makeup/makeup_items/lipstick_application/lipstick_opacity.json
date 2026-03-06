@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "category": "lipstick_opacity",
+    "version": "1.0",
+    "notes": "Coverage strength."
+  },
+
+  "sheer": { "tags": ["sheer lipstick", "lip tint"] },
+  "medium": { "tags": ["medium coverage lipstick"] },
+  "opaque": { "tags": ["opaque lipstick", "full coverage lipstick"] }
+}

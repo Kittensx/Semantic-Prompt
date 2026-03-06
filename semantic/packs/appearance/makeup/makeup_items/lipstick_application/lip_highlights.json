@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "category": "lip_highlights",
+    "version": "1.0",
+    "notes": "Specular highlights and light reflections on lips."
+  },
+
+  "cupid_bow_highlight": {
+    "tags": [
+      "highlight on cupid's bow",
+      "bright highlight above upper lip"
+    ]
+  },
+
+  "center_gloss": {
+    "tags": [
+      "gloss highlight at center of lips",
+      "lip gloss reflection at center"
+    ]
+  },
+
+  "soft_sheen": {
+    "tags": [
+      "soft lip sheen",
+      "subtle reflective highlight on lips"
+    ]
+  },
+
+  "wet_shine": {
+    "tags": [
+      "wet glossy lip highlights",
+      "moist reflective lips"
+    ]
+  },
+
+  "sharp_specular": {
+    "tags": [
+      "sharp specular highlight on lips",
+      "high gloss lip reflection"
+    ]
+  },
+
+  "dual_highlights": {
+    "tags": [
+      "two highlight reflections on lips",
+      "double gloss highlights"
+    ]
+  },
+
+  "bottom_lip_highlight": {
+    "tags": [
+      "highlight on lower lip",
+      "bright reflection on bottom lip"
+    ]
+  },
+
+  "studio_gloss": {
+    "tags": [
+      "studio lighting lip gloss highlight",
+      "beauty photography lip highlight"
+    ]
+  }
+}

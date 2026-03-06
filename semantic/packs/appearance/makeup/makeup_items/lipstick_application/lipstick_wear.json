@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "category": "lipstick_wear",
+    "version": "1.0",
+    "notes": "State of lipstick after wear, transfer, or time."
+  },
+
+  "fresh": {
+    "tags": [
+      "freshly applied lipstick",
+      "perfect lipstick application"
+    ]
+  },
+
+  "slightly_faded": {
+    "tags": [
+      "slightly faded lipstick",
+      "lipstick slightly worn"
+    ]
+  },
+
+  "worn_edges": {
+    "tags": [
+      "lipstick worn at the edges",
+      "lipstick fading along lip line"
+    ]
+  },
+
+  "smudged": {
+    "tags": [
+      "smudged lipstick",
+      "lipstick slightly smeared"
+    ]
+  },
+
+  "messy": {
+    "tags": [
+      "messy lipstick",
+      "lipstick outside the lip line"
+    ]
+  },
+
+  "kissed_off": {
+    "tags": [
+      "lipstick partially kissed off",
+      "lipstick worn from kissing"
+    ]
+  },
+
+  "transferred": {
+    "tags": [
+      "lipstick transfer marks",
+      "lipstick partly transferred"
+    ]
+  },
+
+  "gloss_faded": {
+    "tags": [
+      "lip gloss faded",
+      "gloss worn down"
+    ]
+  }
+}

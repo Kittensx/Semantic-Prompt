@@ -1,0 +1,107 @@
+{
+  "_meta": {
+    "category": "lipstick_examples",
+    "version": "1.0",
+    "notes": "Example lipstick styles built from modular lipstick packs."
+  },
+
+  "classic_red_glam": {
+    "requires": [
+      "lipstick_color:red",
+      "lipstick_finish:satin",
+      "lipstick_application:crisp",
+      "lipstick_opacity:opaque",
+      "lip_highlights:cupid_bow_highlight"
+    ]
+  },
+
+  "hollywood_gloss": {
+    "requires": [
+      "lipstick_color:deep_red",
+      "lipstick_finish:gloss",
+      "lipstick_application:crisp",
+      "lip_highlights:bottom_lip_highlight"
+    ]
+  },
+
+  "soft_nude_makeup": {
+    "requires": [
+      "lipstick_color:nude",
+      "lipstick_finish:cream",
+      "lipstick_opacity:sheer",
+      "lipstick_application:soft_blur"
+    ]
+  },
+
+  "korean_gradient_lips": {
+    "requires": [
+      "lipstick_color:pink",
+      "lipstick_application:inner_gradient",
+      "lipstick_opacity:sheer"
+    ]
+  },
+
+  "berry_evening_gloss": {
+    "requires": [
+      "lipstick_color:berry",
+      "lipstick_finish:gloss",
+      "lip_highlights:dual_highlights"
+    ]
+  },
+
+  "plum_vamp_style": {
+    "requires": [
+      "lipstick_color:plum",
+      "lipstick_finish:velvet_matte",
+      "lipstick_opacity:opaque"
+    ]
+  },
+
+  "coral_summer_gloss": {
+    "requires": [
+      "lipstick_color:coral",
+      "lipstick_finish:gloss",
+      "lip_highlights:soft_sheen"
+    ]
+  },
+
+  "sparkle_party_lips": {
+    "requires": [
+      "lipstick_color:hot_pink",
+      "lipstick_finish:gloss",
+      "lipstick_effects:fine_glitter"
+    ]
+  },
+
+  "metallic_runway": {
+    "requires": [
+      "lipstick_color:purple",
+      "lipstick_finish:metallic",
+      "lip_highlights:sharp_specular"
+    ]
+  },
+
+  "natural_lip_tint": {
+    "requires": [
+      "lipstick_color:peach",
+      "lipstick_opacity:sheer",
+      "lipstick_application:soft_blur"
+    ]
+  },
+
+  "smudged_after_party": {
+    "requires": [
+      "lipstick_color:red",
+      "lipstick_finish:cream",
+      "lipstick_wear:smudged"
+    ]
+  },
+
+  "kissed_off_romance": {
+    "requires": [
+      "lipstick_color:berry",
+      "lipstick_finish:satin",
+      "lipstick_wear:kissed_off"
+    ]
+  }
+}

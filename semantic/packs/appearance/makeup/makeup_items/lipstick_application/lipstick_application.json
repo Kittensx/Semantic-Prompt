@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "category": "lipstick_application",
+    "version": "1.0",
+    "notes": "How lipstick is applied: edge sharpness, overlining, gradients."
+  },
+
+  "crisp": { "tags": ["crisp lipstick edges", "sharp lip line"] },
+  "soft_blur": { "tags": ["soft blurred lipstick", "diffused lip color"] },
+  "overlined": { "tags": ["overlined lips", "lip liner overline"] },
+  "underlined": { "tags": ["slightly underlined lips"] },
+  "gradient": { "tags": ["gradient lipstick", "ombre lips"] },
+  "inner_gradient": { "tags": ["inner lip gradient", "korean gradient lips"] },
+  "gloss_center": { "tags": ["gloss concentrated at the center of lips"] }
+}
