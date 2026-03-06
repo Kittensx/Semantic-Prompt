@@ -2,12 +2,144 @@ import gradio as gr
 from modules import scripts
 import json
 import os
+import re
 from pathlib import Path
 from datetime import datetime
 
 from semantic.rewriter import rewrite_prompt, RewriteSettings
 from semantic.loaders import registry
+from semantic.panels.registry import build_all
+from semantic.panels.registry import get_panels
+from semantic.discovery import discover_everything
+from semantic.loaders import BASE_DIR, PACKS_DIRS, PANELS_DIRS, TOOLS_DIRS, ADDONS_DIR, TRIGGERS_DIRS
+from modules import script_callbacks
 
+_PROMPT_COMPS = {"txt2img": None, "img2img": None}
+
+def _on_after_component(component, **kwargs):
+    elem_id = kwargs.get("elem_id")
+    if elem_id == "txt2img_prompt":
+        _PROMPT_COMPS["txt2img"] = component
+    elif elem_id == "img2img_prompt":
+        _PROMPT_COMPS["img2img"] = component
+
+script_callbacks.on_after_component(_on_after_component)
+
+
+
+_RE_BLOCK = re.compile(r"%%(.*?)%%", re.DOTALL)
+_RE_DIRECTIVES = re.compile(r"^\s*\{([^}]*)\}", re.DOTALL)
+
+def _norm_token(s: str) -> str:
+    s = (s or "").strip().lower()
+    s = re.sub(r"\s+", "_", s)
+    return s
+
+def _extract_directive_pairs(prompt_text: str) -> list[tuple[str, str]]:
+    """
+    Returns ordered (category, key) pairs found in directive headers inside %%...%% blocks.
+    Example: %%{subject=1girl|beach, appearance=blue eyes}%% -> [("subject","1girl"),("subject","beach"),("appearance","blue_eyes")]
+    """
+    out: list[tuple[str, str]] = []
+    if not prompt_text:
+        return out
+
+    for m in _RE_BLOCK.finditer(prompt_text):
+        inner = m.group(1) or ""
+        dm = _RE_DIRECTIVES.match(inner)
+        if not dm:
+            continue
+
+        directive_text = dm.group(1) or ""
+        parts = [p.strip() for p in directive_text.split(",") if p.strip()]
+
+        for part in parts:
+            if "=" not in part:
+                continue
+            cat, val = part.split("=", 1)
+            cat = _norm_token(cat)
+
+            # ignore negative directives for ordering
+            if cat.startswith("negative"):
+                continue
+
+            # support multiple values: a|b|c
+            vals = [v.strip() for v in val.split("|") if v.strip()]
+            for v in vals:
+                out.append((cat, _norm_token(v)))
+
+    return out
+
+def _extract_used_categories(prompt_text: str) -> list[str]:
+    pairs = _extract_directive_pairs(prompt_text)
+    seen = set()
+    out = []
+    for cat, _key in pairs:
+        if cat not in seen:
+            seen.add(cat)
+            out.append(cat)
+    return out
+
+def _priority_to_categories(priority_lines: list[str]) -> list[str]:
+    """
+    Accepts lines like 'subject', 'subject.1girl', 'lighting.theater.overhead'
+    and returns ordered unique categories: ['subject','lighting',...]
+    """
+    seen = set()
+    out = []
+    for line in priority_lines:
+        t = _norm_token(line)
+        if not t:
+            continue
+        cat = t.split(".", 1)[0]
+        if cat and cat not in seen:
+            seen.add(cat)
+            out.append(cat)
+    return out
+
+def _build_order_from_prompt(prompt_text: str, priority_lines: list[str], known_categories: list[str]) -> tuple[list[str], list[str]]:
+    """
+    Returns (category_order, detected_items_for_display)
+    detected items are like ['subject.1girl','appearance.blue_eyes',...]
+    """
+    pairs = _extract_directive_pairs(prompt_text)
+    detected_items = [f"{c}.{k}" for (c, k) in pairs]
+
+    used_cats = _extract_used_categories(prompt_text)
+    prio_cats = _priority_to_categories(priority_lines)
+
+    # order = priority cats first (if used), then remaining used cats
+    used_set = set(used_cats)
+    out = []
+    seen = set()
+
+    for c in prio_cats:
+        if c in used_set and c in known_categories and c not in seen:
+            out.append(c)
+            seen.add(c)
+
+    for c in used_cats:
+        if c in known_categories and c not in seen:
+            out.append(c)
+            seen.add(c)
+
+    # if prompt has no directives, fall back to known_categories (or your default)
+    if not out:
+        out = known_categories[:]
+
+    return out, detected_items
+def container_builder_for_source(source):
+    def builder(title, build_fn):
+        panel_items = []
+        for p in get_panels():
+            if p.source != source:
+                continue
+            with gr.Tab(p.title):
+                items = p.build_fn() or []
+                panel_items.extend(items)
+        return panel_items
+    return builder
+    
 def _ext_root_dir() -> Path:
     # scripts/semantic_prompt.py -> scripts -> extension root
     return Path(__file__).resolve().parent.parent
@@ -156,6 +288,13 @@ class SemanticPromptScript(scripts.Script):
 
     def ui(self, is_img2img):
         categories = sorted(registry.get_categories())
+        report = discover_everything(
+            base_dir=BASE_DIR,
+            packs_dirs=PACKS_DIRS,
+            panels_dirs=PANELS_DIRS,
+            tools_dirs=TOOLS_DIRS,
+            addons_dir=ADDONS_DIR,
+        )
 
         with gr.Accordion("Semantic Prompt (%%...%%) - sentence expansion", open=False):
             enabled = gr.Checkbox(value=True, label="Enable semantic rewrite (only inside %%...%%)")
@@ -186,57 +325,14 @@ class SemanticPromptScript(scripts.Script):
                 label="Apply 'excludes' filtering (remove excluded tags from output)",
                 value=False
             )
+            
             debug = gr.Checkbox(
                 value=False,
                 label="Debug (strict only): write prompt_in/out to infotext + print stages"
             )
            
             
-            cats_lower = [c.lower() for c in registry.get_categories()]
-            default_order = _default_category_order(cats_lower)
-
-
-            order_text = gr.Textbox(
-                label="Category order (comma-separated)",
-                value=", ".join(default_order),  # auto-populated from loaded packs
-            )
-            reset_order_btn = gr.Button("Reset order to default")
-
-            def _reset_order():
-                cats2 = [c.lower() for c in registry.get_categories()]
-                return ", ".join(_default_category_order(cats2))
-
-            reset_order_btn.click(fn=_reset_order, inputs=[], outputs=[order_text])
-            available_md = gr.Markdown(
-                value="Available categories: " + ", ".join(cats_lower)
-            )
-
-            fill_order_btn = gr.Button("Fill order from loaded categories")
-            def _fill_order():
-                # re-pull in case you have a reload button that updates registry
-                cats2 = [c.lower() for c in registry.get_categories()]
-                return gr.update(value=", ".join(cats2))
-
-            fill_order_btn.click(fn=_fill_order, inputs=[], outputs=[order_text])
-            randomize_order = gr.Checkbox(value=False, label="Randomize category order each iteration")
             
-            use_default_order = gr.Checkbox(
-                value=True,
-                label="Use default order (subject, extras, then canonical list)"
-            )
-            def _toggle_order_box(use_default):
-                return gr.update(interactive=not use_default)
-
-            use_default_order.change(fn=_toggle_order_box, inputs=[use_default_order], outputs=[order_text])
-
-            gr.Markdown("### Categories to apply (auto-detected from packs)")
-            category_checks = []
-            default_on = {c: (c != "quality") for c in categories}
-
-            with gr.Row():
-                for c in categories:
-                    category_checks.append(gr.Checkbox(value=default_on.get(c, True), label=c))
-
             # Tips for markdown
             gr.Markdown(
                 "Tip: Inline directives inside a block are supported.\n\n"
@@ -272,6 +368,113 @@ class SemanticPromptScript(scripts.Script):
                 label="Debug (triggers matched per %%...%% block)",
                 lines=8
             )
+            panel_items = []
+
+            with gr.Accordion("Panels", open=False):
+                with gr.Tabs():
+                    with gr.Tab("Core"):
+                        panel_items += build_all(container_builder_for_source("core"))
+                    with gr.Tab("Patches"):
+                        panel_items += build_all(container_builder_for_source("patch"))
+                    with gr.Tab("User"):
+                        panel_items += build_all(container_builder_for_source("user"))
+                        
+            with gr.Accordion("Categories", open=False):
+                order_from_prompt = gr.Checkbox(
+                    value=False,
+                    label="During generation: derive category order from directives in the prompt"
+                )
+                cats_lower = [c.lower() for c in registry.get_categories()]
+                default_order = _default_category_order(cats_lower)
+
+
+                order_text = gr.Textbox(
+                    label="Category order (comma-separated)",
+                    value=", ".join(default_order),  # auto-populated from loaded packs
+                    )
+                reset_order_btn = gr.Button("Reset order to default")
+                
+                display_mode = gr.Radio(
+                    choices=["All categories", "Used in prompt only"],
+                    value="All categories",
+                    label="Category display"
+                )
+
+                priority_text = gr.Textbox(
+                    label="Priority (one per line, supports category or category.key)",
+                    lines=4,
+                    placeholder="subject.1girl\nappearance.blue_eyes\nlighting.theater.theater_overhead"
+                )
+
+                
+                prompt_comp = _PROMPT_COMPS["img2img"] if is_img2img else _PROMPT_COMPS["txt2img"]
+
+                def _refresh_from_prompt(main_prompt_text: str, preview_text: str, mode: str, priority_lines: str):
+                    cats2 = [c.lower() for c in registry.get_categories()]
+                    prio = _lines_to_list(priority_lines)
+                    prompt_text = (main_prompt_text or "").strip() or (preview_text or "").strip()
+
+                    order, detected = _build_order_from_prompt(prompt_text or "", prio, cats2)
+
+                    # update category checkbox visibility if "used only"
+                    used_set = set(order) if mode == "Used in prompt only" else None
+                    cat_updates = []
+                    for c in categories:
+                        if used_set is None:
+                            cat_updates.append(gr.update(visible=True))
+                        else:
+                            cat_updates.append(gr.update(visible=(c.lower() in used_set)))
+
+                    md = "Detected from prompt: " + (", ".join(detected) if detected else "(none)")
+                    return (
+                        gr.update(value=", ".join(order)),
+                        gr.update(value=md),
+                        *cat_updates
+                    )
+                #Detect Prompts from text and show category order
+                detected_md = gr.Markdown(value="Detected from prompt: (none)")
+                
+
+                def _reset_order():
+                    cats2 = [c.lower() for c in registry.get_categories()]
+                    return ", ".join(_default_category_order(cats2))
+
+                reset_order_btn.click(fn=_reset_order, inputs=[], outputs=[order_text])
+                
+
+                fill_order_btn = gr.Button("Order grouping by all categories")
+                def _fill_order():
+                    # re-pull in case you have a reload button that updates registry
+                    cats2 = [c.lower() for c in registry.get_categories()]
+                    return gr.update(value=", ".join(cats2))
+                refresh_from_prompt_btn = gr.Button("Refresh from prompt window")
+                fill_order_btn.click(fn=_fill_order, inputs=[], outputs=[order_text])
+                randomize_order = gr.Checkbox(value=False, label="Randomize category order each iteration")
+            
+                use_default_order = gr.Checkbox(
+                    value=True,
+                    label="Use default order (subject, extras, then canonical list)"
+                )
+                def _toggle_order_box(use_default):
+                    return gr.update(interactive=not use_default)
+
+                use_default_order.change(fn=_toggle_order_box, inputs=[use_default_order], outputs=[order_text])
+
+                gr.Markdown("### Categories to apply (auto-detected from packs)")
+                category_checks = []
+                default_on = {c: (c != "quality") for c in categories}
+
+                with gr.Row():
+                    for c in categories:
+                        category_checks.append(gr.Checkbox(value=default_on.get(c, True), label=c))
+                refresh_inputs = [prompt_comp, display_mode, priority_text] if prompt_comp is not None else [preview_in, display_mode, priority_text]
+                refresh_outputs = [order_text, detected_md] + category_checks
+                
+                refresh_from_prompt_btn.click(
+                    fn=_refresh_from_prompt,
+                    inputs=[prompt_comp, preview_in, display_mode, priority_text],
+                    outputs=[order_text, detected_md] + category_checks
+                )
             # ----------------------------
             # Live Pack Editor
             # ----------------------------
@@ -318,19 +521,21 @@ class SemanticPromptScript(scripts.Script):
                     delete_btn = gr.Button("Delete")
 
                 edit_status = gr.Textbox(label="Status", lines=2)
-
+    
         saved_key_state = gr.State(value="")
-       
-        # Build return list (must include everything you created!)
-        ui_items = [enabled, inject_negatives, strict, include_raw, cross_expansion_mode, keep_original_if_no_change, apply_excludes, debug, order_text, use_default_order, randomize_order] + category_checks + [
+        ui_items = [enabled, inject_negatives, strict, include_raw, cross_expansion_mode, keep_original_if_no_change, apply_excludes,  debug,  order_from_prompt, order_text, use_default_order, randomize_order] + category_checks + [
             preview_in, preview_btn, preview_out_prompt, preview_out_negs, preview_out_debug,
             edit_category, edit_key, new_key,
             tags_box, negative_box, lighting_box, palette_box, composition_box, quality_box, style_box,
-            load_btn, save_btn, save_as_btn, confirm_delete, delete_btn, edit_status, saved_key_state
-        ]
+            load_btn, save_btn, save_as_btn, confirm_delete, delete_btn, edit_status, saved_key_state] + panel_items
         
         
-
+        
+       
+        
+        
+        
+        
         # Wire preview button
         def _preview(preview_text, enabled_val, inject_negs_val, strict_val, include_raw_val, cross_bucket_val, keep_original_val, apply_excludes_val, debug_val, *cat_vals):
             # Preview should work even if the main toggle is off.
@@ -343,8 +548,8 @@ class SemanticPromptScript(scripts.Script):
             # If user leaves preview box empty, don't guess; tell them to paste something.
             if not (preview_text or "").strip():
                 return "", "", "Paste a prompt into Preview input, then click Preview rewrite."
-            
-            
+        
+        
 
             enabled_categories = [cat for cat, on in zip(categories, cat_vals) if on]
 
@@ -389,13 +594,16 @@ class SemanticPromptScript(scripts.Script):
                 debug_text = ""
             return res.rewritten_prompt, negs, debug_text
 
-            
+        
 
         preview_btn.click(
             fn=_preview,
             inputs=[preview_in, enabled, inject_negatives, strict, include_raw, cross_expansion_mode, keep_original_if_no_change, apply_excludes, debug] + category_checks,
             outputs=[preview_out_prompt, preview_out_negs, preview_out_debug]
-        )
+            )
+            
+        # Build return list (must include everything you created!)
+        
         # ----------------------------
         # Live Pack Editor wiring
         # ----------------------------
@@ -601,7 +809,7 @@ class SemanticPromptScript(scripts.Script):
         self,
         p,
         stage: str,
-        enabled, inject_negatives, strict, include_raw, cross_expansion_mode, keep_original_if_no_change, apply_excludes, debug, 
+        enabled, inject_negatives, strict, include_raw, cross_expansion_mode, keep_original_if_no_change, apply_excludes,  debug, order_from_prompt,
         order_text, use_default_order, randomize_order,
         *args
     ):
@@ -629,10 +837,13 @@ class SemanticPromptScript(scripts.Script):
         )
 
         known = [c.lower() for c in registry.get_categories()]
+            
+        # establish a base order (used if not deriving, or as a fallback)
         if use_default_order:
             settings.category_order = _default_category_order(known)
         else:
             settings.category_order = _parse_category_order(order_text, known)
+
         settings.randomize_category_order = bool(randomize_order)
 
         all_prompts = getattr(p, "all_prompts", None) or [getattr(p, "prompt", "")]
@@ -660,7 +871,11 @@ class SemanticPromptScript(scripts.Script):
         for i, pr in enumerate(all_prompts):
             neg = all_negative_prompts[i] if all_negative_prompts and i < len(all_negative_prompts) else ""
             seen_pack_negs = set()
-
+                
+            if order_from_prompt:
+                derived_order, _detected = _build_order_from_prompt(pr or "", [], known)
+                settings.category_order = derived_order
+            
             res = rewrite_prompt(pr, settings=settings)
             new_prompts.append(res.rewritten_prompt)
 
@@ -722,37 +937,13 @@ class SemanticPromptScript(scripts.Script):
                     seen.add(xl)
                     uniq.append(x)
                 p.extra_generation_params["SemanticPrompt negatives_added"] = ", ".join(uniq)
-                
-    def before_process(self, p, enabled, inject_negatives, strict, include_raw, debug,
-                   order_text, use_default_order, randomize_order, *args, **kwargs):
-        self._apply_semantic_rewrite(
-            p,
-            "before_process",
-            enabled, inject_negatives, strict, include_raw, debug,
-            order_text, use_default_order, randomize_order,
-            *args
-        )
+    
+    def before_process(self, p, *args, **kwargs):
+        self._apply_semantic_rewrite(p, "before_process", *args)
 
-    def process(self, p, enabled, inject_negatives, strict, include_raw, debug,
-                order_text, use_default_order, randomize_order, *args, **kwargs):
-        # Late re-assertion in case something overwrote prompts after before_process/batch
-        self._apply_semantic_rewrite(
-            p,
-            "process",
-            enabled, inject_negatives, strict, include_raw, debug,
-            order_text, use_default_order, randomize_order,
-            *args
-        )
-    def before_process_batch(self, p, enabled, inject_negatives, strict, include_raw, debug,
-                             order_text, use_default_order, randomize_order, *args, **kwargs):
-        self._apply_semantic_rewrite(
-            p,
-            "before_process_batch",
-            enabled, inject_negatives, strict, include_raw, debug,
-            order_text, use_default_order, randomize_order,
-            *args
-        )    
-        """
-        A1111 hook: rewrites only %%...%% blocks before extra networks parsing.
-        """
+    def process(self, p, *args, **kwargs):
+        self._apply_semantic_rewrite(p, "process", *args)
+
+    def before_process_batch(self, p, *args, **kwargs):
+        self._apply_semantic_rewrite(p, "before_process_batch", *args)
         
