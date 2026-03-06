@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "category": "palette_colors",
+    "version": "0.3",
+    "notes": "Expanded palette colors. Upgraded with aliases/related/requires/excludes. Designed for compositional use."
+  }, 
+ "red": {
+    "tags": ["red tones", "classic red color", "bold crimson shade"],
+    "aliases": ["crimson", "scarlet red"],
+    "related": ["vibrant", "romantic", "jewel tones"],
+    "excludes": []
+  },
+
+  "deep_red": {
+    "tags": ["deep red tones", "dark crimson", "rich burgundy red"],
+    "aliases": ["burgundy", "wine red"],
+    "related": ["deep", "jewel tones", "romantic"],
+    "excludes": []
+  },
+
+  "pink": {
+    "tags": ["pink tones", "soft pink color", "classic pink shade"],
+    "aliases": ["rose pink", "bubblegum pink"],
+    "related": ["pastel", "romantic", "spring"],
+    "excludes": []
+  },
+
+  "hot_pink": {
+    "tags": ["hot pink color", "vivid magenta pink", "neon pink tone"],
+    "aliases": ["fuchsia", "electric pink"],
+    "related": ["vibrant", "neon palette"],
+    "excludes": ["muted"]
+  },
+
+  "nude": {
+    "tags": ["nude tones", "soft beige pink", "natural skin tone colors"],
+    "aliases": ["natural nude", "neutral nude"],
+    "related": ["neutral", "clean", "earthy"],
+    "excludes": []
+  },
+
+  "peach": {
+    "tags": ["peach tones", "warm peach color", "soft orange pink"],
+    "aliases": ["peachy tone"],
+    "related": ["spring", "warm", "pastel"],
+    "excludes": []
+  },
+
+  "coral": {
+    "tags": ["coral tones", "pink orange coral", "warm coral color"],
+    "aliases": ["tropical coral"],
+    "related": ["tropical", "summer", "vibrant"],
+    "excludes": []
+  },
+
+  "berry": {
+    "tags": ["berry tones", "deep raspberry", "rich berry color"],
+    "aliases": ["raspberry", "berry red"],
+    "related": ["deep", "jewel tones", "romantic"],
+    "excludes": []
+  },
+
+  "plum": {
+    "tags": ["plum tones", "deep purple plum", "dark wine purple"],
+    "aliases": ["plum purple"],
+    "related": ["deep", "jewel tones"],
+    "excludes": []
+  },
+
+  "brown": {
+    "tags": ["brown tones", "warm chocolate brown", "soft earthy brown"],
+    "aliases": ["chocolate", "mocha"],
+    "related": ["earthy", "neutral", "autumn"],
+    "excludes": []
+  },
+
+  "black": {
+    "tags": ["black tones", "deep black color", "pure black shade"],
+    "aliases": ["jet black", "ink black"],
+    "related": ["noir", "deep", "high contrast"],
+    "excludes": ["pastel"]
+  },
+
+  "purple": {
+    "tags": ["purple tones", "vivid violet", "rich purple color"],
+    "aliases": ["violet", "amethyst"],
+    "related": ["jewel tones", "vibrant"],
+    "excludes": []
+  }
+}
