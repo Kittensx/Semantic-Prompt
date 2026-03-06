@@ -1,0 +1,79 @@
+{
+  "_meta": {
+    "category": "clothing_color",
+    "version": "1.0",
+    "notes": "Fabric color descriptors for clothing, swimwear, lingerie, and outfits. Does not imply garment type."
+  },
+
+  "black": {
+    "tags": ["solid black fabric", "black colored fabric", "deep black fabric"]
+  },
+
+  "white": {
+    "tags": ["solid white fabric", "white colored fabric", "bright white fabric"]
+  },
+
+  "gray": {
+    "tags": ["gray fabric", "neutral gray fabric", "charcoal gray fabric"]
+  },
+
+  "red": {
+    "tags": ["red fabric", "deep red fabric", "crimson colored fabric"]
+  },
+
+  "blue": {
+    "tags": ["blue fabric", "deep blue fabric", "navy blue fabric"]
+  },
+
+  "green": {
+    "tags": ["green fabric", "deep green fabric", "emerald green fabric"]
+  },
+
+  "yellow": {
+    "tags": ["yellow fabric", "bright yellow fabric", "golden yellow fabric"]
+  },
+
+  "orange": {
+    "tags": ["orange fabric", "bright orange fabric", "burnt orange fabric"]
+  },
+
+  "pink": {
+    "tags": ["pink fabric", "soft pink fabric", "hot pink fabric"]
+  },
+
+  "purple": {
+    "tags": ["purple fabric", "deep purple fabric", "violet colored fabric"]
+  },
+
+  "brown": {
+    "tags": ["brown fabric", "rich brown fabric", "chocolate brown fabric"]
+  },
+
+  "teal": {
+    "tags": ["teal fabric", "deep teal fabric", "teal colored fabric"]
+  },
+
+  "cyan": {
+    "tags": ["cyan fabric", "bright cyan fabric", "cyan colored fabric"]
+  },
+
+  "magenta": {
+    "tags": ["magenta fabric", "bright magenta fabric", "magenta colored fabric"]
+  },
+
+  "beige": {
+    "tags": ["beige fabric", "warm beige fabric", "sand colored fabric"]
+  },
+
+  "ivory": {
+    "tags": ["ivory fabric", "soft ivory colored fabric", "cream ivory fabric"]
+  },
+
+  "gold": {
+    "tags": ["gold colored fabric", "metallic gold fabric", "golden fabric"]
+  },
+
+  "silver": {
+    "tags": ["silver colored fabric", "metallic silver fabric", "silvery fabric"]
+  }
+}

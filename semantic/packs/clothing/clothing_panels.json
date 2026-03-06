@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "category": "clothing_panels",
+    "version": "1.0",
+    "notes": "Garment paneling and seam construction."
+  },
+
+  "princess_seams": { "tags": ["princess seams"] },
+  "panel_lines": { "tags": ["panel seam lines"] },
+  "segmented_panels": { "tags": ["segmented panel design"] },
+  "corset_paneling": { "tags": ["corset-style paneling"] },
+  "color_block_panels": { "tags": ["color block panels"] },
+  "vertical_panels": { "tags": ["vertical panel seams"] },
+  "horizontal_panels": { "tags": ["horizontal panel seams"] },
+  "geometric_panels": { "tags": ["geometric panel construction"] }
+}

@@ -1,0 +1,127 @@
+{
+  "_meta": {
+    "category": "clothing_light_effects",
+    "version": "0.1",
+    "notes": "Lighting/emissive effects applied to clothing (edges, seams, panels, prints). Use for sci-fi, cyberpunk, rave, fantasy glow, or reflective accents."
+  },
+
+  "glowing_edges": {
+    "tags": ["glowing edges"]
+  },
+
+  "edge_glow": {
+    "tags": ["edge glow"]
+  },
+
+  "glowing_seams": {
+    "tags": ["glowing seams"]
+  },
+
+  "glowing_stitches": {
+    "tags": ["glowing stitches"]
+  },
+
+  "glowing_piping": {
+    "tags": ["glowing piping"]
+  },
+
+  "neon_piping": {
+    "tags": ["neon piping"]
+  },
+
+  "neon_outline": {
+    "tags": ["neon outline"]
+  },
+
+  "electroluminescent_wire": {
+    "tags": ["electroluminescent wire accents"]
+  },
+
+  "fiberoptic_threads": {
+    "tags": ["fiber optic threads"]
+  },
+
+  "led_strips": {
+    "tags": ["LED strip accents"]
+  },
+
+  "soft_luminescent_fabric": {
+    "tags": ["soft luminescent fabric"]
+  },
+
+  "phosphorescent": {
+    "tags": ["phosphorescent fabric"]
+  },
+
+  "uv_reactive": {
+    "tags": ["UV reactive fabric"]
+  },
+
+  "blacklight_pop": {
+    "tags": ["blacklight reactive accents"]
+  },
+
+  "iridescent_glow": {
+    "tags": ["iridescent glow"]
+  },
+
+  "holographic_sheen": {
+    "tags": ["holographic sheen"]
+  },
+
+  "prismatic_highlights": {
+    "tags": ["prismatic highlights"]
+  },
+
+  "sparkle_highlights": {
+    "tags": ["sparkling highlights"]
+  },
+
+  "glitter_scatter": {
+    "tags": ["glitter scatter"]
+  },
+
+  "reflective_trim": {
+    "tags": ["reflective trim"]
+  },
+
+  "reflective_stripes": {
+    "tags": ["reflective stripes"]
+  },
+
+  "retroreflective": {
+    "tags": ["retroreflective accents"]
+  },
+
+  "glowing_logo": {
+    "tags": ["glowing logo"]
+  },
+
+  "lighted_emblem": {
+    "tags": ["lighted emblem"]
+  },
+
+  "glowing_print": {
+    "tags": ["glowing print"]
+  },
+
+  "bioluminescent_pattern": {
+    "tags": ["bioluminescent pattern"]
+  },
+
+  "rune_glow": {
+    "tags": ["glowing runes"]
+  },
+
+  "energy_lines": {
+    "tags": ["glowing energy lines"]
+  },
+
+  "pulse_glow": {
+    "tags": ["pulsing glow effect"]
+  },
+
+  "underlit_panels": {
+    "tags": ["underlit panels"]
+  }
+}

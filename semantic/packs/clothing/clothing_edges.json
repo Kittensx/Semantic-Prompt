@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "category": "clothing_edges",
+    "version": "1.0",
+    "notes": "Edge finishing and hem styles."
+  },
+
+  "hemmed": { "tags": ["hemmed edges"] },
+  "rolled_hem": { "tags": ["rolled hem"] },
+  "raw_edge": { "tags": ["raw edges"] },
+  "scalloped": { "tags": ["scalloped edges"] },
+  "picot": { "tags": ["picot edge"] },
+  "ruffled_edge": { "tags": ["ruffled edges"] },
+  "piped_edge": { "tags": ["piping along edges"] },
+  "frayed_edge": { "tags": ["frayed edges"] }
+}

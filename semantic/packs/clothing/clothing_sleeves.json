@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "category": "clothing_sleeves",
+    "version": "1.0",
+    "notes": "Sleeve design and structure."
+  },
+
+  "sleeveless": { "tags": ["sleeveless"] },
+  "cap": { "tags": ["cap sleeves"] },
+  "short": { "tags": ["short sleeves"] },
+  "three_quarter": { "tags": ["three-quarter sleeves"] },
+  "long": { "tags": ["long sleeves"] },
+  "puff": { "tags": ["puff sleeves"] },
+  "bell": { "tags": ["bell sleeves"] },
+  "bishop": { "tags": ["bishop sleeves"] },
+  "batwing": { "tags": ["batwing sleeves"] },
+  "raglan": { "tags": ["raglan sleeves"] },
+  "detached": { "tags": ["detached sleeves"] },
+  "cold_shoulder": { "tags": ["cold shoulder sleeves"] },
+  "one_sleeve": { "tags": ["one sleeve"] }
+}

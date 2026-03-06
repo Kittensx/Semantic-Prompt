@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "category": "clothing_straps",
+    "version": "1.0",
+    "notes": "Strap configurations used in tops, swimwear, dresses, and bras."
+  },
+
+  "spaghetti": { "tags": ["spaghetti straps"] },
+  "wide": { "tags": ["wide straps"] },
+  "thin": { "tags": ["thin straps"] },
+  "halter": { "tags": ["halter straps"] },
+  "crisscross": { "tags": ["crisscross straps"] },
+  "cross_back": { "tags": ["cross-back straps"] },
+  "asymmetrical": { "tags": ["asymmetrical straps"] },
+  "multi_strap": { "tags": ["multi-strap design"] },
+  "strap_rings": { "tags": ["strap rings"] },
+  "adjustable": { "tags": ["adjustable straps"] }
+}

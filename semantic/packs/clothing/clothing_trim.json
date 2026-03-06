@@ -1,0 +1,400 @@
+{
+  "_meta": {
+    "category": "clothihng_trim",
+    "version": "0.1",
+    "notes": "Decorative trim."
+  },
+
+  "feather_trim": {
+    "tags": ["feather trimmed "]
+  },
+
+  "feather_edge": {
+    "tags": ["feather edge trim "]
+  },
+
+  "feather_fringe": {
+    "tags": ["feather fringe "]
+  },
+
+  "layered_feathers": {
+    "tags": ["layered feather trim "]
+  },
+
+  "mini_feathers": {
+    "tags": ["small feather trim "]
+  },
+
+  "color_feathers": {
+    "tags": ["colorful feather trimmed "]
+  },
+  "tassel_trim": {
+    "tags": ["tassel trimmed "]
+  },
+
+  "center_tassel": {
+    "tags": ["center tassel "]
+  },
+
+  "side_tassels": {
+    "tags": ["side tassel "]
+  },
+
+  "micro_tassels": {
+    "tags": ["small tassel trim "]
+  },
+
+  "long_tassels": {
+    "tags": ["long tassel "]
+  },
+
+  "beaded_tassels": {
+    "tags": ["beaded tassel "]
+  },
+  "fringe_trim": {
+    "tags": ["fringe trimmed "]
+  },
+
+  "long_fringe": {
+    "tags": ["long fringe "]
+  },
+
+  "short_fringe": {
+    "tags": ["short fringe trim "]
+  },
+
+  "layered_fringe": {
+    "tags": ["layered fringe "]
+  },
+
+  "knotted_fringe": {
+    "tags": ["knotted fringe trim "]
+  },
+
+  "beaded_fringe": {
+    "tags": ["beaded fringe "]
+  },
+  "pom_pom_trim": {
+    "tags": ["pom pom trimmed "]
+  },
+
+  "mini_pom_poms": {
+    "tags": ["small pom pom trim "]
+  },
+
+  "color_pom_poms": {
+    "tags": ["colorful pom pom trim "]
+  },
+
+  "pom_pom_edge": {
+    "tags": ["pom pom edge trim "]
+  },
+
+  "spaced_pom_poms": {
+    "tags": ["spaced pom pom trim "]
+  },
+  "shell_trim": {
+    "tags": ["shell trimmed "]
+  },
+
+  "cowrie_shell_trim": {
+    "tags": ["cowrie shell trim "]
+  },
+
+  "shell_edge": {
+    "tags": ["shell edge trim "]
+  },
+
+  "center_shell": {
+    "tags": ["shell centerpiece "]
+  },
+
+  "small_shells": {
+    "tags": ["small shell trim "]
+  },
+  "rope_trim": {
+    "tags": ["rope trim "]
+  },
+
+  "braided_rope_trim": {
+    "tags": ["braided rope trim "]
+  },
+
+  "nautical_rope_trim": {
+    "tags": ["nautical rope trim "]
+  },
+
+  "rope_edge": {
+    "tags": ["rope edge "]
+  },
+
+  "rope_knot_detail": {
+    "tags": ["rope knot "]
+  },
+  "fur_trim": {
+    "tags": ["fur trimmed "]
+  },
+
+  "faux_fur_trim": {
+    "tags": ["faux fur trimmed "]
+  },
+
+  "fur_edge": {
+    "tags": ["fur edge trim "]
+  },
+
+  "soft_fur_trim": {
+    "tags": ["soft fur trimmed "]
+  },
+
+  "plush_fur_trim": {
+    "tags": ["plush fur trimmed "]
+  },
+
+  "color_fur_trim": {
+    "tags": ["colored fur trim "]
+  },
+
+  "contrast_fur_trim": {
+    "tags": ["contrast fur trimmed "]
+  },
+
+  "thick_fur_trim": {
+    "tags": ["thick fur trim "]
+  },
+
+  "fluffy_fur_trim": {
+    "tags": ["fluffy fur trimmed "]
+  },
+
+  "micro_fur_trim": {
+    "tags": ["short fur trim "]
+  },
+  "metallic_trim": {
+    "tags": ["metallic trimmed "]
+  },
+
+  "gold_trim": {
+    "tags": ["gold trimmed "]
+  },
+
+  "silver_trim": {
+    "tags": ["silver trimmed "]
+  },
+
+  "rose_gold_trim": {
+    "tags": ["rose gold trimmed "]
+  },
+
+  "metallic_edge": {
+    "tags": ["metallic edge trim "]
+  },
+
+  "metallic_piping": {
+    "tags": ["metallic piping "]
+  },
+
+  "foil_trim": {
+    "tags": ["foil trim "]
+  },
+
+  "reflective_trim": {
+    "tags": ["reflective trim "]
+  },
+
+  "metallic_thread": {
+    "tags": ["metallic thread trim "]
+  },
+
+  "brushed_metal_trim": {
+    "tags": ["brushed metal trim "]
+  },
+  "metal_plate_trim": {
+  "tags": ["metal plate trim "]
+},
+
+  "chain_trim": {
+    "tags": ["chain trim "]
+  },
+
+  "metal_bar_trim": {
+    "tags": ["metal bar trim "]
+  },
+
+  "stud_trim": {
+    "tags": ["metal stud trim "]
+  },
+  "dragonscale_trim": {
+    "tags": ["dragonscale trimmed "]
+  },
+
+  "metal_dragonscale_trim": {
+    "tags": ["metal dragonscale trim "]
+  },
+
+  "embossed_dragonscale_trim": {
+    "tags": ["embossed dragonscale trim "]
+  },
+
+  "iridescent_dragonscale_trim": {
+    "tags": ["iridescent dragonscale trim "]
+  },
+
+  "dark_dragonscale_trim": {
+    "tags": ["dark dragonscale trim "]
+  },
+
+  "mini_dragonscale_trim": {
+    "tags": ["small dragonscale trim "]
+  },
+  "fishscale_trim": {
+    "tags": ["fishscale trimmed "]
+  },
+
+  "metal_fishscale_trim": {
+    "tags": ["metal fishscale trim "]
+  },
+
+  "iridescent_fishscale_trim": {
+    "tags": ["iridescent fishscale trim "]
+  },
+
+  "pearl_fishscale_trim": {
+    "tags": ["pearl fishscale trim "]
+  },
+
+  "mini_fishscale_trim": {
+    "tags": ["small fishscale trim "]
+  },
+
+  "layered_fishscale_trim": {
+    "tags": ["layered fishscale trim "]
+  },
+  "shell_trim": {
+    "tags": ["shell trimmed "]
+  },
+
+  "cowrie_shell_trim": {
+    "tags": ["cowrie shell trimmed "]
+  },
+
+  "small_shell_trim": {
+    "tags": ["small shell trim "]
+  },
+
+  "shell_edge_trim": {
+    "tags": ["shell edge trim "]
+  },
+
+  "shell_cluster_trim": {
+    "tags": ["clustered shell trim "]
+  },
+
+  "shell_center_trim": {
+    "tags": ["shell centerpiece "]
+  },
+  "pearl_trim": {
+    "tags": ["pearl trimmed "]
+  },
+
+  "mini_pearl_trim": {
+    "tags": ["small pearl trim "]
+  },
+
+  "pearl_edge_trim": {
+    "tags": ["pearl edge trim "]
+  },
+
+  "pearl_cluster_trim": {
+    "tags": ["clustered pearl trim "]
+  },
+
+  "pearl_strand_trim": {
+    "tags": ["pearl strand trim "]
+  },
+
+  "pearl_centerpiece": {
+    "tags": ["pearl centerpiece "]
+  },
+  "moonrock_trim": {
+    "tags": ["moon rock trim "]
+  },
+
+  "crater_moonrock_trim": {
+    "tags": ["crater textured moon rock trim "]
+  },
+
+  "dark_moonrock_trim": {
+    "tags": ["dark moon rock trim "]
+  },
+
+  "glowing_moonrock_trim": {
+    "tags": ["glowing moon rock trim "]
+  },
+
+  "cosmic_moonrock_trim": {
+    "tags": ["cosmic moon rock trim "]
+  },
+
+  "mini_moonrock_trim": {
+    "tags": ["small moon rock trim "]
+  },
+  "glow_trim": {
+    "tags": ["glow in the dark trim "]
+  },
+
+  "neon_glow_trim": {
+    "tags": ["neon glow trim "]
+  },
+
+  "phosphorescent_trim": {
+    "tags": ["phosphorescent trim "]
+  },
+
+  "uv_reactive_trim": {
+    "tags": ["UV reactive trim "]
+  },
+
+  "glowing_edge_trim": {
+    "tags": ["glowing edge trim "]
+  },
+
+  "soft_glow_trim": {
+    "tags": ["soft glowing trim "]
+  },
+  "braided_trim": {
+    "tags": ["braided trim "]
+  },
+
+  "rope_braid_trim": {
+    "tags": ["rope braided trim "]
+  },
+
+  "fabric_braid_trim": {
+    "tags": ["fabric braided trim "]
+  },
+
+  "multi_color_braid": {
+    "tags": ["multi colored braided trim "]
+  },
+
+  "thick_braid_trim": {
+    "tags": ["thick braided trim "]
+  },
+
+  "thin_braid_trim": {
+    "tags": ["thin braided trim "]
+  },
+
+  "double_braid_trim": {
+    "tags": ["double braided trim "]
+  },
+
+  "twisted_braid_trim": {
+    "tags": ["twisted braid trim "]
+  },
+
+  "metallic_braid_trim": {
+    "tags": ["metallic braided trim "]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "category": "clothing_neckline",
+    "version": "1.0",
+    "notes": "Neckline shapes and upper garment openings."
+  },
+
+  "crew": { "tags": ["crew neckline"] },
+  "v_neck": { "tags": ["v-neckline"] },
+  "deep_v": { "tags": ["deep v-neckline"] },
+  "scoop": { "tags": ["scoop neckline"] },
+  "square": { "tags": ["square neckline"] },
+  "sweetheart": { "tags": ["sweetheart neckline"] },
+  "halter": { "tags": ["halter neckline"] },
+  "off_shoulder": { "tags": ["off-shoulder neckline"] },
+  "one_shoulder": { "tags": ["one-shoulder neckline"] },
+  "strapless": { "tags": ["strapless neckline"] },
+  "boatneck": { "tags": ["boat neckline"] },
+  "turtleneck": { "tags": ["turtleneck"] },
+  "high_neck": { "tags": ["high neckline"] },
+  "plunging": { "tags": ["plunging neckline"] }
+}

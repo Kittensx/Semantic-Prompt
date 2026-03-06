@@ -1,0 +1,109 @@
+{
+  "_meta": {
+    "category": "clothing_stitching",
+    "version": "1.0",
+    "notes": "Stitching styles, visibility, and decorative seams."
+  },
+
+  "topstitch": {
+    "tags": [
+      "visible topstitching",
+      "decorative topstitching"
+    ]
+  },
+
+  "double_stitch": {
+    "tags": [
+      "double stitching",
+      "double stitched seams"
+    ]
+  },
+
+  "contrast_stitch": {
+    "tags": [
+      "contrast stitching",
+      "contrasting thread stitching"
+    ]
+  },
+
+  "heavy_stitch": {
+    "tags": [
+      "heavy stitching",
+      "thick reinforced stitching"
+    ]
+  },
+
+  "fine_stitch": {
+    "tags": [
+      "fine stitching",
+      "delicate stitching"
+    ]
+  },
+
+  "hidden_stitch": {
+    "tags": [
+      "hidden stitching",
+      "invisible stitching"
+    ]
+  },
+
+  "exposed_seams": {
+    "tags": [
+      "exposed seams",
+      "visible seam construction"
+    ]
+  },
+
+  "decorative_stitch": {
+    "tags": [
+      "decorative stitching",
+      "ornamental stitch patterns"
+    ]
+  },
+
+  "cross_stitch": {
+    "tags": [
+      "cross stitch pattern"
+    ]
+  },
+
+  "zigzag_stitch": {
+    "tags": [
+      "zigzag stitching"
+    ]
+  },
+
+  "chain_stitch": {
+    "tags": [
+      "chain stitch"
+    ]
+  },
+
+  "reinforced_seams": {
+    "tags": [
+      "reinforced seams",
+      "reinforced stitching"
+    ]
+  },
+
+  "patchwork_stitch": {
+    "tags": [
+      "patchwork stitching",
+      "patchwork seams"
+    ]
+  },
+
+  "patches": {
+    "tags": [
+      "fabric patches",
+      "stitched patches"
+    ]
+  },
+
+  "embroidered_patch": {
+    "tags": [
+      "embroidered patch",
+      "stitched emblem patch"
+    ]
+  }
+}

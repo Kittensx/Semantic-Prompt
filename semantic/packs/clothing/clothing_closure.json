@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "category": "clothing_closure",
+    "version": "1.0",
+    "notes": "Garment fastening mechanisms."
+  },
+
+  "buttons": { "tags": ["button closure", "buttoned garment"] },
+  "snaps": { "tags": ["snap buttons", "snap closure"] },
+  "hooks": { "tags": ["hook closure", "hook fasteners"] },
+  "hook_eye": { "tags": ["hook and eye closure"] },
+  "buckle": { "tags": ["buckle closure"] },
+  "tie": { "tags": ["tie closure", "fabric ties"] },
+  "drawstring": { "tags": ["drawstring closure"] },
+  "corset_lacing": { "tags": ["corset lacing", "lace-up closure"] },
+  "toggle": { "tags": ["toggle closure"] },
+  "velcro": { "tags": ["velcro closure"] },
+  "zipper": { "tags": ["zipper closure"] }
+}
