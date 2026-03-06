@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "category": "shorts_style",
+    "version": "1.0",
+    "notes": "Style variations for shorts without specifying material or length."
+  },
+
+  "casual": {
+    "tags": [
+      "casual shorts",
+      "everyday shorts"
+    ]
+  },
+
+  "athletic": {
+    "tags": [
+      "athletic shorts",
+      "sporty shorts"
+    ]
+  },
+
+  "vintage": {
+    "tags": [
+      "vintage style shorts",
+      "retro shorts"
+    ]
+  },
+
+  "streetwear": {
+    "tags": [
+      "streetwear shorts",
+      "urban fashion shorts"
+    ]
+  },
+
+  "minimal": {
+    "tags": [
+      "minimalist shorts",
+      "clean design shorts"
+    ]
+  },
+
+  "cute": {
+    "tags": [
+      "cute shorts",
+      "playful shorts"
+    ]
+  },
+
+  "preppy": {
+    "tags": [
+      "preppy style shorts",
+      "college style shorts"
+    ]
+  },
+
+  "sporty": {
+    "tags": [
+      "sporty shorts",
+      "active style shorts"
+    ]
+  },
+
+  "fashion": {
+    "tags": [
+      "fashion shorts",
+      "stylish shorts"
+    ]
+  },
+
+  "punk": {
+    "tags": [
+      "punk style shorts",
+      "rebellious fashion shorts"
+    ]
+  },
+
+  "goth": {
+    "tags": [
+      "goth style shorts",
+      "dark fashion shorts"
+    ]
+  },
+
+  "y2k": {
+    "tags": [
+      "y2k fashion shorts",
+      "2000s style shorts"
+    ]
+  },
+
+  "festival": {
+    "tags": [
+      "festival fashion shorts",
+      "music festival shorts"
+    ]
+  },
+
+  "edgy": {
+    "tags": [
+      "edgy style shorts",
+      "bold fashion shorts"
+    ]
+  },
+
+  "relaxed": {
+    "tags": [
+      "relaxed style shorts",
+      "laid back shorts"
+    ]
+  }
+}

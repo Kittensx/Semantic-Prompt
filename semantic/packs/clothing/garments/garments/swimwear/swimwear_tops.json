@@ -1,0 +1,232 @@
+{
+  "_meta": {
+    "category": "clothing_swimwear_bikini_tops",
+    "version": "0.1",
+    "notes": "Modular bikini top designs using structural, decorative, and strap elements."
+  },
+
+  "triangle": {
+    "tags": [
+      "triangle bikini top",
+      "string bikini top",
+      "adjustable triangle cups"
+    ]
+  },
+
+  "bandeau": {
+    "tags": [
+      "bandeau bikini top",
+      "strapless swim top",
+      "straight bandeau cut"
+    ]
+  },
+
+  "halter": {
+    "tags": [
+      "halter bikini top",
+      "neck tie straps",
+      "supportive halter design"
+    ]
+  },
+
+  "sports": {
+    "tags": [
+      "sports bikini top",
+      "athletic swim top",
+      "supportive sporty cut"
+    ]
+  },
+
+  "underwire": {
+    "tags": [
+      "underwire bikini top",
+      "structured swim cups",
+      "supportive underwire design"
+    ]
+  },
+
+  "balconette": {
+    "tags": [
+      "balconette bikini top",
+      "lifted cup swimwear",
+      "structured balconette cups"
+    ]
+  },
+
+  "longline": {
+    "tags": [
+      "longline bikini top",
+      "extended band swim top",
+      "crop style swim top"
+    ]
+  },
+
+  "wrap": {
+    "tags": [
+      "wrap bikini top",
+      "cross wrap swim design",
+      "overlapping front panels"
+    ]
+  },
+
+  "micro": {
+    "tags": [
+      "micro bikini top",
+      "minimal coverage swim top"
+    ]
+  },
+
+  "plunge": {
+    "tags": [
+      "deep plunge bikini top",
+      "low center swim neckline"
+    ]
+  },
+
+  "high_support": {
+    "tags": [
+      "high support bikini top",
+      "full coverage swim cups"
+    ]
+  },
+
+  "racerback": {
+    "tags": [
+      "racerback bikini top",
+      "athletic racerback straps"
+    ]
+  },
+
+  "crossback": {
+    "tags": [
+      "crossback bikini top",
+      "crisscross back straps"
+    ]
+  },
+
+  "tie_back": {
+    "tags": [
+      "tie back bikini top",
+      "string tied back straps"
+    ]
+  },
+
+  "front_tie": {
+    "tags": [
+      "front tie bikini top",
+      "center tie swim top"
+    ]
+  },
+
+  "ruched": {
+    "tags": [
+      "ruched bikini top",
+      "gathered fabric swim top"
+    ]
+  },
+
+  "seamed": {
+    "tags": [
+      "decorative seam bikini top",
+      "panel seam swim design"
+    ]
+  },
+
+  "mesh_panel": {
+    "tags": [
+      "mesh panel bikini top",
+      "sheer mesh swim insert"
+    ]
+  },
+
+  "keyhole": {
+    "tags": [
+      "keyhole bikini top",
+      "center cutout swim design"
+    ]
+  },
+
+  "ring_center": {
+    "tags": [
+      "ring center bikini top",
+      "metal ring front detail"
+    ]
+  },
+
+  "chain_strap": {
+    "tags": [
+      "chain strap bikini top",
+      "metal chain shoulder straps"
+    ]
+  },
+
+  "bow_center": {
+    "tags": [
+      "bow center bikini top",
+      "decorative bow swim detail"
+    ]
+  },
+
+  "charm_pendant": {
+    "tags": [
+      "pendant bikini top",
+      "charm centerpiece swim top"
+    ]
+  },
+
+  "lace_trim": {
+    "tags": [
+      "lace trimmed bikini top",
+      "delicate lace edge swimwear"
+    ]
+  },
+
+  "contrast_trim": {
+    "tags": [
+      "contrast trim bikini top",
+      "outlined swim edges"
+    ]
+  },
+
+  "zip_front": {
+    "tags": [
+      "zip front bikini top",
+      "front zipper swimwear"
+    ]
+  },
+
+  "metallic": {
+    "tags": [
+      "metallic bikini top",
+      "shiny metallic swim fabric"
+    ]
+  },
+
+  "ribbed": {
+    "tags": [
+      "ribbed bikini top",
+      "textured rib knit swimwear"
+    ]
+  },
+
+  "sport_stripe": {
+    "tags": [
+      "sport stripe bikini top",
+      "athletic stripe swim design"
+    ]
+  },
+
+  "tropical_print": {
+    "tags": [
+      "tropical print bikini top",
+      "palm leaf swim print"
+    ]
+  },
+
+  "floral_print": {
+    "tags": [
+      "floral print bikini top",
+      "flower patterned swimwear"
+    ]
+  }
+}

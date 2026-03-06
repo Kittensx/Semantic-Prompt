@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "category": "bikini_top_straps",
+    "version": "0.1",
+    "notes": "Strap and support systems."
+  },
+
+  "halter": {
+    "tags": ["halter neck straps"]
+  },
+
+  "shoulder": {
+    "tags": ["shoulder straps"]
+  },
+
+  "racerback": {
+    "tags": ["racerback straps"]
+  },
+
+  "crossback": {
+    "tags": ["cross back straps"]
+  },
+
+  "strapless": {
+    "tags": ["strapless bikini top"]
+  },
+
+  "string_ties": {
+    "tags": ["string tie straps"]
+  },
+  
+  "double_straps": {
+    "tags": ["double shoulder straps"]
+  },
+
+  "multi_strap": {
+    "tags": ["multi strap bikini top"]
+  },
+
+  "caged_straps": {
+    "tags": ["caged strap bikini top"]
+  },
+
+  "adjustable": {
+    "tags": ["adjustable shoulder straps"]
+  },
+
+  "detachable": {
+    "tags": ["detachable straps"]
+  },
+
+  "off_shoulder": {
+    "tags": ["off shoulder bikini top"]
+  }
+}

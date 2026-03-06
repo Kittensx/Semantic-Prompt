@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "category": "skirt_fasteners",
+    "version": "1.0",
+    "notes": "Fasteners and closures for skirts (zippers, buttons, buckles, belts)."
+  },
+
+  "belt": {
+    "tags": [
+      "belted skirt",
+      "belt at waist"
+    ]
+  },
+
+  "buckle": {
+    "tags": [
+      "buckle closure",
+      "waist buckle detail"
+    ]
+  },
+
+  "side_buckle": {
+    "tags": [
+      "side buckle closure",
+      "buckle at hip"
+    ]
+  },
+
+  "zipper": {
+    "tags": [
+      "zipper closure",
+      "visible zipper"
+    ]
+  },
+
+  "side_zipper": {
+    "tags": [
+      "side zipper skirt",
+      "zipper on the side"
+    ]
+  },
+
+  "front_zipper": {
+    "tags": [
+      "front zipper skirt",
+      "zipper down the front"
+    ]
+  },
+
+  "back_zipper": {
+    "tags": [
+      "back zipper skirt",
+      "zipper in the back"
+    ]
+  },
+
+  "button_front": {
+    "tags": [
+      "button front skirt",
+      "buttons down the front"
+    ]
+  },
+
+  "snap": {
+    "tags": [
+      "snap button closure",
+      "snap fasteners"
+    ]
+  },
+
+  "hook": {
+    "tags": [
+      "hook and eye closure",
+      "hook closure at waist"
+    ]
+  },
+
+  "lace_up": {
+    "tags": [
+      "lace up closure",
+      "lace up front"
+    ]
+  },
+
+  "corset_lace": {
+    "tags": [
+      "corset lacing",
+      "lace up back"
+    ]
+  },
+
+  "drawstring": {
+    "tags": [
+      "drawstring waist",
+      "tie string closure"
+    ]
+  },
+
+  "sash_tie": {
+    "tags": [
+      "waist tie sash",
+      "sash tied at waist"
+    ]
+  },
+
+  "wrap_tie": {
+    "tags": [
+      "wrap skirt tie",
+      "wrap closure with tie"
+    ]
+  },
+
+  "suspenders": {
+    "tags": [
+      "skirt suspenders",
+      "suspender straps attached"
+    ]
+  }
+}

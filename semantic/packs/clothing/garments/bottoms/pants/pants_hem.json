@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "category": "pants_hem",
+    "version": "1.0"
+  },
+
+  "cuffed": {
+    "tags": ["cuffed pants"]
+  },
+
+  "rolled": {
+    "tags": ["rolled hem pants"]
+  },
+
+  "raw": {
+    "tags": ["raw hem pants"]
+  },
+
+  "frayed": {
+    "tags": ["frayed hem pants"]
+  },
+
+  "elastic_cuff": {
+    "tags": ["elastic cuff pants"]
+  },
+
+  "split": {
+    "tags": ["split hem pants"]
+  },
+
+  "stacked": {
+    "tags": ["stacked pants"]
+  }
+}

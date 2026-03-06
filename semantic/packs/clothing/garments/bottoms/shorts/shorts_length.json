@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "category": "shorts_length",
+    "version": "1.0",
+    "notes": "Length variations for shorts. Does not specify material or style."
+  },
+
+  "micro": {
+    "tags": [
+      "micro shorts",
+      "very short shorts",
+      "ultra short shorts"
+    ]
+  },
+
+  "extra_short": {
+    "tags": [
+      "extra short shorts",
+      "very short cut shorts"
+    ]
+  },
+
+  "short": {
+    "tags": [
+      "short shorts",
+      "high cut shorts"
+    ]
+  },
+
+  "mid": {
+    "tags": [
+      "mid length shorts",
+      "classic length shorts"
+    ]
+  },
+
+  "long": {
+    "tags": [
+      "long shorts",
+      "extended length shorts"
+    ]
+  },
+
+  "bermuda": {
+    "tags": [
+      "bermuda shorts",
+      "knee length shorts"
+    ]
+  },
+
+  "knee": {
+    "tags": [
+      "knee length shorts",
+      "long knee shorts"
+    ]
+  }
+}

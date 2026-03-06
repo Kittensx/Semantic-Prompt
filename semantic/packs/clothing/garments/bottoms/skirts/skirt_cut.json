@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "category": "skirt_cut",
+    "version": "1.0",
+    "notes": "Skirt silhouette/cut. No material or length."
+  },
+
+  "a_line": { "tags": ["a-line skirt", "fitted waist", "flared hem"] },
+  "pencil": { "tags": ["pencil skirt", "straight silhouette", "fitted skirt"] },
+  "circle": { "tags": ["circle skirt", "full skirt", "wide flared skirt"] },
+  "wrap": { "tags": ["wrap skirt", "overlapping front panel", "wrap style skirt"] },
+  "tiered": { "tags": ["tiered skirt", "layered tiers", "multi tier skirt"] },
+  "bubble": { "tags": ["bubble skirt", "gathered hem", "puffed skirt silhouette"] },
+  "tulip": { "tags": ["tulip skirt", "overlapping panels", "curved front panels"] },
+  "asymmetrical": { "tags": ["asymmetrical skirt", "uneven hemline", "irregular hem skirt"] },
+  "gored": { "tags": ["gored skirt", "panel seams", "flared panel skirt"] },
+  "godet": { "tags": ["godet skirt", "inserted flare panels", "flared godet panels"] }
+}

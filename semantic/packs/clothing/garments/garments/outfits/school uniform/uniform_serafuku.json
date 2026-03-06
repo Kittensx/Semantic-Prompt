@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "category": "uniform_serafuku",
+    "version": "1.0",
+    "notes": "Combined sailor school uniform outfit (top + skirt)."
+  },
+
+  "classic": {
+    "tags": [
+      "sailor collar blouse",
+      "pleated school skirt",
+      "striped sailor collar",
+      "neck ribbon tie"
+    ]
+  },
+
+  "long_sleeve": {
+    "tags": [
+      "long sleeve sailor blouse",
+      "pleated school skirt",
+      "striped sailor collar",
+      "neck ribbon tie"
+    ]
+  },
+
+  "short_sleeve": {
+    "tags": [
+      "short sleeve sailor blouse",
+      "pleated school skirt",
+      "striped sailor collar",
+      "neck ribbon tie"
+    ]
+  },
+
+  "double_stripe": {
+    "tags": [
+      "sailor collar blouse",
+      "double stripe sailor collar",
+      "pleated school skirt",
+      "neck ribbon tie"
+    ]
+  },
+
+  "bow_tie": {
+    "tags": [
+      "sailor collar blouse",
+      "large ribbon bow tie",
+      "pleated school skirt",
+      "striped sailor cuffs"
+    ]
+  },
+
+  "winter_uniform": {
+    "tags": [
+      "long sleeve sailor blouse",
+      "pleated school skirt",
+      "striped sailor collar",
+      "decorative ribbon tie"
+    ]
+  },
+
+  "idol_stage": {
+    "tags": [
+      "sailor style stage costume",
+      "decorative sailor collar",
+      "pleated performance skirt",
+      "large ribbon bow"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "category": "idol_stage_strict",
+    "version": "1.0",
+    "notes": "Strictly safe idol stage outfits with reinforced coverage and performance attire."
+  },
+
+  "standard": {
+    "tags": [
+      "idol stage outfit",
+      "performance costume",
+      "stage idol costume",
+      "coordinated stage uniform"
+    ]
+  },
+
+  "tights_required": {
+    "tags": [
+      "idol stage outfit",
+      "opaque tights",
+      "dance tights",
+      "stage performance tights"
+    ]
+  },
+
+  "safety_shorts": {
+    "tags": [
+      "idol stage outfit",
+      "safety shorts under skirt",
+      "performance undershorts",
+      "dance uniform undershorts"
+    ]
+  },
+
+  "full_coverage": {
+    "tags": [
+      "idol stage outfit",
+      "modest stage costume",
+      "full coverage performance outfit",
+      "dance performance uniform"
+    ]
+  },
+
+  "layered_stage": {
+    "tags": [
+      "idol stage costume",
+      "layered performance outfit",
+      "decorative stage layers",
+      "stage costume coordination"
+    ]
+  },
+
+  "uniform_group": {
+    "tags": [
+      "idol group stage outfit",
+      "coordinated group costume",
+      "matching performance outfits",
+      "idol group uniform styling"
+    ]
+  },
+
+  "dance_ready": {
+    "tags": [
+      "dance performance outfit",
+      "stage choreography costume",
+      "movement friendly stage outfit",
+      "performance ready costume"
+    ]
+  }
+}

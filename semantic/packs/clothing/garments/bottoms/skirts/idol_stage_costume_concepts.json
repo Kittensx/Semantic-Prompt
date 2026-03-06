@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "category": "idol_stage_costume_concepts",
+    "version": "1.0",
+    "notes": "Common idol stage costume archetypes inspired by real performance outfits."
+  },
+
+  "school_stage": {
+    "tags": [
+      "idol stage uniform",
+      "pleated performance skirt",
+      "decorative ribbon bow",
+      "structured uniform jacket"
+    ]
+  },
+
+  "cheer_stage": {
+    "tags": [
+      "cheerleader stage costume",
+      "pleated cheer skirt",
+      "cropped cheer top",
+      "contrast stripe trim"
+    ]
+  },
+
+  "military_stage": {
+    "tags": [
+      "military style stage costume",
+      "epaulettes on shoulders",
+      "decorative button jacket",
+      "structured performance skirt"
+    ]
+  },
+
+  "princess_stage": {
+    "tags": [
+      "idol princess dress",
+      "layered frill skirt",
+      "corset bodice",
+      "large decorative ribbon bow"
+    ]
+  },
+
+  "dance_stage": {
+    "tags": [
+      "dance performance costume",
+      "stage dance bodysuit",
+      "decorative waist belt",
+      "performance thigh high boots"
+    ]
+  },
+
+  "festival_stage": {
+    "tags": [
+      "festival performance outfit",
+      "wide sash belt",
+      "layered skirt panels",
+      "decorative ribbon ties"
+    ]
+  },
+
+  "fantasy_stage": {
+    "tags": [
+      "fantasy idol costume",
+      "decorative armor accents",
+      "layered stage skirt",
+      "dramatic shoulder details"
+    ]
+  },
+
+  "idol_rock": {
+    "tags": [
+      "rock idol stage outfit",
+      "decorative strap harness",
+      "cropped stage jacket",
+      "performance stage boots"
+    ]
+  },
+
+  "idol_uniform": {
+    "tags": [
+      "matching idol group uniforms",
+      "coordinated stage costumes",
+      "decorative trim panels",
+      "stage performance outfit"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "category": "skirt_volume",
+    "version": "1.0",
+    "notes": "Overall skirt volume/drape. No material or length."
+  },
+
+  "fitted": { "tags": ["fitted skirt", "close to body silhouette"] },
+  "moderate": { "tags": ["moderate flare skirt", "soft silhouette"] },
+  "full": { "tags": ["full skirt", "wide silhouette"] },
+  "very_full": { "tags": ["very full skirt", "dramatic volume"] },
+  "structured": { "tags": ["structured skirt", "stiff silhouette", "holds shape"] },
+  "flowing": { "tags": ["flowing skirt", "soft drape", "fluid movement"] }
+}

@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "category": "panties_trim",
+    "version": "1.0"
+  },
+
+  "lace_edge": { "tags": ["lace trim edges"] },
+
+  "scalloped": { "tags": ["scalloped lace trim"] },
+
+  "ruffled": { "tags": ["ruffled trim"] },
+
+  "elastic_edge": { "tags": ["elastic waistband trim"] },
+
+  "pico_trim": { "tags": ["pico edge trim"] },
+  
+  "decorative_seams": {
+    "tags": [
+      "decorative seam lines",
+      "visible seam stitching",
+      "ornamental seam detailing",
+      "accent seam lines"
+    ]
+  }
+}

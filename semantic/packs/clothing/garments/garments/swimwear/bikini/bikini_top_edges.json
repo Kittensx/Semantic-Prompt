@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "category": "bikini_top_edges",
+    "version": "0.1",
+    "notes": "Edge trims and finishing styles."
+  },
+
+  "contrast_binding": {
+    "tags": ["contrast binding bikini top"]
+  },
+
+  "scalloped_edge": {
+    "tags": ["scalloped edge bikini top"]
+  },
+
+  "rolled_edge": {
+    "tags": ["rolled edge bikini top"]
+  },
+
+  "lace_edge": {
+    "tags": ["lace trimmed edges"]
+  },
+
+  "ruffled_edge": {
+    "tags": ["ruffled edge bikini top"]
+  },
+
+  "frayed_edge": {
+    "tags": ["frayed edge bikini top"]
+  },
+
+  "piped_edge": {
+    "tags": ["piped edge bikini top"]
+  },
+
+  "double_edge": {
+    "tags": ["double stitched edges"]
+  }
+}

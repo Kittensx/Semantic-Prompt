@@ -1,0 +1,314 @@
+{
+  "_meta": {
+    "category": "underlayers",
+    "version": "0.1",
+    "notes": "Base layers worn under clothing or swimwear. Useful as positive styling controls or as negatives to prevent unwanted underlayers."
+  },
+  "camisole": {
+    "tags": [
+      "camisole",
+      "thin strap undershirt",
+      "lightweight underlayer",
+      "layered top"
+    ],
+    "aliases": [
+      "cami",
+      "spaghetti strap camisole"
+    ],
+    "related": [
+      "sheer camisole",
+      "lace trim camisole",
+      "bandeau"
+    ],
+    "excludes": [
+      "turtleneck",
+      "hoodie"
+    ],
+    "negative": []
+  },
+  "tank undershirt": {
+    "tags": [
+      "tank top undershirt",
+      "sleeveless undershirt",
+      "base layer top",
+      "layered clothing"
+    ],
+    "aliases": [
+      "tank underlayer",
+      "undershirt tank",
+      "tank top under shirt"
+    ],
+    "related": [
+      "camisole",
+      "sports bra",
+      "compression top"
+    ],
+    "excludes": [
+      "long sleeves",
+      "turtleneck"
+    ],
+    "negative": []
+  },
+  "bandeau underlayer": {
+    "tags": [
+      "bandeau top",
+      "strapless underlayer",
+      "layered top",
+      "minimal base layer"
+    ],
+    "aliases": [
+      "bandeau",
+      "tube top underlayer"
+    ],
+    "related": [
+      "bralette",
+      "mesh top",
+      "sheer top"
+    ],
+    "excludes": [
+      "long sleeves",
+      "t-shirt"
+    ],
+    "negative": []
+  },
+  "bralette": {
+    "tags": [
+      "bralette",
+      "soft bra",
+      "light support undergarment",
+      "layered top"
+    ],
+    "aliases": [
+      "lace bralette",
+      "triangle bralette"
+    ],
+    "related": [
+      "sports bra",
+      "camisole",
+      "bandeau underlayer"
+    ],
+    "excludes": [
+      "corset",
+      "underbust corset"
+    ],
+    "negative": []
+  },
+  "sports bra": {
+    "tags": [
+      "sports bra",
+      "athletic underlayer",
+      "supportive base layer",
+      "sporty outfit"
+    ],
+    "aliases": [
+      "athletic bra",
+      "training bra style"
+    ],
+    "related": [
+      "compression top",
+      "tank undershirt",
+      "rashguard"
+    ],
+    "excludes": [
+      "corset",
+      "lace lingerie"
+    ],
+    "negative": []
+  },
+  "compression top": {
+    "tags": [
+      "compression top",
+      "tight base layer",
+      "athletic underlayer",
+      "sleek fitted top"
+    ],
+    "aliases": [
+      "compression shirt",
+      "base layer compression"
+    ],
+    "related": [
+      "sports bra",
+      "rashguard",
+      "tank undershirt"
+    ],
+    "excludes": [
+      "loose shirt",
+      "oversized hoodie"
+    ],
+    "negative": []
+  },
+  "rashguard": {
+    "tags": [
+      "rashguard",
+      "swim shirt",
+      "sun protection top",
+      "layered swimwear"
+    ],
+    "aliases": [
+      "rash guard",
+      "swim rashguard",
+      "swim top shirt"
+    ],
+    "related": [
+      "compression top",
+      "surf swimsuit",
+      "bikini with swim shirt"
+    ],
+    "excludes": [
+      "lace corset",
+      "formal blouse"
+    ],
+    "negative": []
+  },
+  "bikini with swim shirt": {
+    "tags": [
+      "bikini",
+      "swim shirt",
+      "layered swimwear",
+      "modest swimwear layering"
+    ],
+    "aliases": [
+      "bikini with tshirt",
+      "bikini with top",
+      "layered bikini"
+    ],
+    "related": [
+      "rashguard",
+      "sarong over swimsuit",
+      "beach cover-up"
+    ],
+    "excludes": [
+      "string bikini",
+      "minimal swimwear"
+    ],
+    "negative": []
+  },
+  "sheer top layer": {
+    "tags": [
+      "sheer top",
+      "transparent fabric top",
+      "lightweight overlay",
+      "layered look"
+    ],
+    "aliases": [
+      "mesh top",
+      "see-through top"
+    ],
+    "related": [
+      "bandeau underlayer",
+      "bralette",
+      "camisole"
+    ],
+    "excludes": [
+      "opaque sweater",
+      "heavy jacket"
+    ],
+    "negative": []
+  },
+  "corset underlayer": {
+    "tags": [
+      "corset",
+      "structured bodice",
+      "waist shaping",
+      "boned garment",
+      "vintage understructure"
+    ],
+    "aliases": [
+      "laced corset",
+      "boned corset",
+      "structured corset"
+    ],
+    "related": [
+      "underbust corset",
+      "overbust corset",
+      "bustier"
+    ],
+    "excludes": [
+      "sports bra",
+      "compression top"
+    ],
+    "negative": []
+  },
+  "underbust corset": {
+    "tags": [
+      "underbust corset",
+      "waist cincher",
+      "structured waist",
+      "laced understructure"
+    ],
+    "aliases": [
+      "waist corset",
+      "waist cincher corset"
+    ],
+    "related": [
+      "corset underlayer",
+      "bustier"
+    ],
+    "excludes": [
+      "overbust corset"
+    ],
+    "negative": []
+  },
+  "overbust corset": {
+    "tags": [
+      "overbust corset",
+      "corset bodice",
+      "structured top",
+      "laced bodice"
+    ],
+    "aliases": [
+      "corset top",
+      "corset bodice"
+    ],
+    "related": [
+      "corset underlayer",
+      "bustier",
+      "lace-up bodice"
+    ],
+    "excludes": [
+      "sports bra"
+    ],
+    "negative": []
+  },
+  "bustier": {
+    "tags": [
+      "bustier",
+      "structured lingerie top",
+      "boned bodice",
+      "fitted underlayer"
+    ],
+    "aliases": [
+      "corset bustier",
+      "boned bustier"
+    ],
+    "related": [
+      "overbust corset",
+      "bralette",
+      "camisole"
+    ],
+    "excludes": [
+      "rashguard"
+    ],
+    "negative": []
+  },
+  "slip dress underlayer": {
+    "tags": [
+      "slip dress",
+      "under dress layer",
+      "smooth underlayer",
+      "thin fabric dress"
+    ],
+    "aliases": [
+      "dress slip",
+      "underslip"
+    ],
+    "related": [
+      "camisole",
+      "layered clothing"
+    ],
+    "excludes": [
+      "thick sweater dress"
+    ],
+    "negative": []
+  }
+}

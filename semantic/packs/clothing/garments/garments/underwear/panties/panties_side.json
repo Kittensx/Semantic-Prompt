@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "category": "panties_side",
+    "version": "1.0"
+  },
+
+  "thin_band": { "tags": ["thin side bands"] },
+
+  "wide_band": { "tags": ["wide side panels"] },
+
+  "double_strap": { "tags": ["double side straps"] },
+
+  "triple_strap": { "tags": ["triple side straps"] },
+
+  "side_ties": { "tags": ["tie side panties"] },
+
+  "lace_sides": { "tags": ["lace side panels"] },
+
+  "strap_cutout": { "tags": ["cutout side straps"] }
+}
