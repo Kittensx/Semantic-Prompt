@@ -7,63 +7,485 @@
   "close_up": {
     "tags": ["close-up", "tight framing"],
     "aliases": ["close up", "tight shot"],
-    "related": ["portrait", "centered"],
-    "excludes": ["wide_shot", "establishing shot"],
+    "related": ["composition:portrait", "composition:centered"],
+    "excludes": ["composition:wide_shot", "composition:wide_shot"],
     "negative": []
   },
   "portrait": {
     "tags": ["portrait", "head and shoulders"],
     "aliases": ["portrait framing"],
-    "related": ["close_up", "centered", "rule_of_thirds"],
-    "excludes": ["wide_shot"],
+    "related": ["composition:close_up", "composition:centered", "composition:rule_of_thirds"],
+    "excludes": ["composition:wide_shot"],
     "negative": []
   },
   "wide_shot": {
     "tags": ["wide shot", "establishing shot"],
     "aliases": ["wide angle view", "establishing view"],
-    "related": ["leading_lines", "rule_of_thirds"],
-    "excludes": ["close_up"],
+    "related": ["composition:leading_lines", "composition:rule_of_thirds"],
+    "excludes": ["composition:close_up"],
     "negative": []
   },
   "overhead": {
     "tags": ["overhead shot", "top-down view"],
     "aliases": ["top down", "bird's eye view"],
-    "related": ["centered", "leading_lines"],
-    "excludes": ["low_angle"],
+    "related": ["composition:centered", "composition:leading_lines"],
+    "excludes": ["composition:low_angle"],
     "negative": []
   },
   "low_angle": {
     "tags": ["low angle"],
     "aliases": ["worm's eye view"],
-    "related": ["centered", "leading_lines"],
-    "excludes": ["high_angle", "overhead"],
+    "related": ["composition:centered", "composition:leading_lines"],
+    "excludes": ["composition:high_angle", "composition:overhead"],
     "negative": []
   },
   "high_angle": {
     "tags": ["high angle"],
     "aliases": ["looking down angle"],
-    "related": ["overhead", "rule_of_thirds"],
-    "excludes": ["low_angle"],
+    "related": ["composition:overhead", "composition:rule_of_thirds"],
+    "excludes": ["composition:low_angle"],
     "negative": []
   },
   "rule_of_thirds": {
     "tags": ["rule of thirds composition", "subject placed on thirds"],
     "aliases": ["thirds composition"],
-    "related": ["portrait", "wide_shot", "leading_lines"],
-    "excludes": ["centered"],
+    "related": ["composition:portrait", "composition:wide_shot", "composition:leading_lines"],
+    "excludes": ["composition:centered"],
     "negative": []
   },
   "centered": {
     "tags": ["centered composition", "symmetrical framing"],
     "aliases": ["symmetry", "center framing"],
-    "related": ["portrait", "close_up"],
-    "excludes": ["rule_of_thirds"],
+    "related": ["composition:portrait", "composition:close_up"],
+    "excludes": ["composition:rule_of_thirds"],
     "negative": []
   },
   "leading_lines": {
     "tags": ["leading lines", "strong directional lines"],
     "aliases": ["directional composition"],
-    "related": ["wide_shot", "rule_of_thirds"],
+    "related": ["composition:wide_shot", "composition:rule_of_thirds"],
+    "excludes": [],
+    "negative": []
+  },
+  "facing_forward": {
+    "tags": [
+      "facing forward",
+      "looking directly at viewer",
+      "front-facing pose"
+    ],
+    "aliases": [
+      "front view",
+      "looking forward"
+    ],
+    "related": [
+      "composition:portrait",
+      "composition:centered"
+    ],
+    "excludes": [
+      "composition:profile_view",
+      "composition:back_view"
+    ],
+    "negative": []
+  },
+
+  "profile_view": {
+    "tags": [
+      "profile view",
+      "side view",
+      "side profile"
+    ],
+    "aliases": [
+      "view from side",
+      "side-facing"
+    ],
+    "related": [
+      "composition:portrait"
+    ],
+    "excludes": [
+      "composition:facing_forward"
+    ],
+    "negative": []
+  },
+
+  "back_view": {
+    "tags": [
+      "back view",
+      "view from behind",
+      "facing away from viewer"
+    ],
+    "aliases": [
+      "rear view",
+      "back facing"
+    ],
+    "related": [
+      "composition:wide_shot",
+      "composition:over_the_shoulder"
+    ],
+    "excludes": [
+      "composition:facing_forward"
+    ],
+    "negative": []
+  },
+
+  "over_the_shoulder": {
+    "tags": [
+      "over the shoulder",
+      "looking back over shoulder",
+      "over shoulder glance"
+    ],
+    "aliases": [
+      "shoulder glance",
+      "looking back"
+    ],
+    "related": [
+      "composition:portrait",
+      "composition:back_view"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "medium_shot": {
+    "tags": ["medium shot", "waist-up framing"],
+    "aliases": ["mid shot", "medium framing"],
+    "related": ["composition:portrait", "composition:rule_of_thirds"],
+    "excludes": ["composition:close_up"],
+    "negative": []
+  },
+  "full_body": {
+    "tags": ["full body shot", "entire body visible"],
+    "aliases": ["full figure", "head to toe"],
+    "related": ["composition:wide_shot"],
+    "excludes": ["composition:close_up"],
+    "negative": []
+  },
+  "extreme_close_up": {
+    "tags": ["extreme close-up", "macro face detail", "very tight framing"],
+    "aliases": ["ecu", "macro close up"],
+    "related": ["composition:close_up"],
+    "excludes": ["composition:wide_shot"],
+    "negative": []
+  },
+  "dutch_angle": {
+    "tags": ["dutch angle", "tilted camera", "diagonal horizon"],
+    "aliases": ["canted angle"],
+    "related": ["composition:low_angle", "composition:high_angle"],
+    "excludes": [],
+    "negative": []
+  },
+  "top_down_center": {
+    "tags": ["top-down centered shot", "camera directly above subject"],
+    "aliases": ["vertical overhead"],
+    "related": ["composition:overhead", "composition:centered"],
+    "excludes": ["composition:low_angle"],
+    "negative": []
+  },
+  "three_quarter_view": {
+    "tags": ["three-quarter view", "three-quarter angle"],
+    "aliases": ["3/4 view", "three quarter pose"],
+    "related": ["composition:profile_view", "composition:portrait"],
+    "excludes": [],
+    "negative": []
+  },
+  "worm_eye_view": {
+    "tags": ["worm's eye view", "extreme low angle looking up"],
+    "aliases": ["ground level shot"],
+    "related": ["composition:low_angle"],
+    "excludes": ["composition:overhead"],
+    "negative": []
+  },
+  "looking_up": {
+    "tags": ["looking up at subject", "camera angled upward"],
+    "aliases": ["upward perspective"],
+    "related": ["composition:low_angle"],
+    "excludes": ["composition:overhead"],
+    "negative": []
+  },
+  "looking_down": {
+    "tags": ["looking down at subject", "camera angled downward"],
+    "aliases": ["downward perspective"],
+    "related": ["composition:high_angle"],
+    "excludes": ["composition:low_angle"],
+    "negative": []
+  },
+  "foreground_framing": {
+    "tags": ["foreground framing", "subject framed by foreground elements"],
+    "aliases": ["foreground frame"],
+    "related": ["composition:rule_of_thirds", "composition:leading_lines"],
+    "excludes": [],
+    "negative": []
+  },
+  "deep_focus": {
+    "tags": ["deep focus composition", "foreground midground background visible"],
+    "aliases": ["layered depth"],
+    "related": ["composition:leading_lines", "composition:wide_shot"],
+    "excludes": [],
+    "negative": []
+  },
+  "silhouette": {
+    "tags": ["silhouette composition", "subject in silhouette"],
+    "aliases": ["backlit silhouette"],
+    "related": ["composition:back_view"],
+    "excludes": [],
+    "negative": []
+  },
+  "off_center": {
+    "tags": ["subject off center", "asymmetrical composition"],
+    "aliases": ["off centered"],
+    "related": ["composition:rule_of_thirds"],
+    "excludes": ["composition:centered"],
+    "negative": []
+  },
+  "pov_shot": {
+    "tags": [
+      "point of view shot",
+      "first person perspective"
+    ],
+    "aliases": [
+      "pov",
+      "first person view"
+    ],
+    "related": [
+      "composition:over_the_shoulder"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "over_the_hip": {
+    "tags": [
+      "over the hip shot",
+      "camera slightly behind subject"
+    ],
+    "aliases": [
+      "hip view"
+    ],
+    "related": [
+      "composition:over_the_shoulder"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "rear_three_quarter": {
+    "tags": [
+      "rear three quarter view",
+      "three quarter back view"
+    ],
+    "aliases": [
+      "rear 3/4 view"
+    ],
+    "related": [
+      "composition:back_view",
+      "composition:three_quarter_view"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "front_three_quarter": {
+    "tags": [
+      "front three quarter view",
+      "three quarter front view"
+    ],
+    "aliases": [
+      "front 3/4 view"
+    ],
+    "related": [
+      "composition:portrait",
+      "composition:three_quarter_view"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "tracking_shot": {
+    "tags": [
+      "tracking shot composition",
+      "dynamic motion framing"
+    ],
+    "aliases": [
+      "moving camera shot"
+    ],
+    "related": [
+      "composition:wide_shot"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "dramatic_low": {
+    "tags": [
+      "dramatic low angle shot",
+      "heroic upward camera angle"
+    ],
+    "aliases": [
+      "hero angle"
+    ],
+    "related": [
+      "composition:low_angle",
+      "composition:worm_eye_view"
+    ],
+    "excludes": [
+      "composition:overhead"
+    ],
+    "negative": []
+  },
+  "dramatic_high": {
+    "tags": [
+      "dramatic high angle shot",
+      "camera looking down dramatically"
+    ],
+    "aliases": [
+      "surveillance angle"
+    ],
+    "related": [
+      "composition:high_angle"
+    ],
+    "excludes": [
+      "composition:low_angle"
+    ],
+    "negative": []
+  },
+  "silhouette_backlight": {
+    "tags": [
+      "backlit silhouette composition",
+      "strong backlight silhouette"
+    ],
+    "aliases": [
+      "cinematic silhouette"
+    ],
+    "related": [
+      "composition:silhouette"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "frame_within_frame": {
+    "tags": [
+      "frame within a frame composition",
+      "subject framed by environment"
+    ],
+    "aliases": [
+      "environmental framing"
+    ],
+    "related": [
+      "composition:foreground_framing"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "diagonal_composition": {
+    "tags": [
+      "diagonal composition",
+      "dynamic diagonal framing"
+    ],
+    "aliases": [
+      "diagonal lines composition"
+    ],
+    "related": [
+      "composition:leading_lines"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "negative_space": {
+    "tags": [
+      "negative space composition",
+      "large empty space around subject"
+    ],
+    "aliases": [
+      "minimalist framing"
+    ],
+    "related": [
+      "composition:off_center"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "symmetrical_corridor": {
+    "tags": [
+      "symmetrical corridor framing",
+      "perfect central symmetry"
+    ],
+    "aliases": [
+      "hallway symmetry"
+    ],
+    "related": [
+      "composition:centered"
+    ],
+    "excludes": [
+      "composition:rule_of_thirds"
+    ],
+    "negative": []
+  },
+  "foreground_obstruction": {
+    "tags": [
+      "foreground obstruction framing",
+      "objects partially blocking view"
+    ],
+    "aliases": [
+      "peeking shot"
+    ],
+    "related": [
+      "composition:foreground_framing"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "wide_environmental": {
+    "tags": [
+      "environmental wide shot",
+      "subject small within large environment"
+    ],
+    "aliases": [
+      "epic wide shot"
+    ],
+    "related": [
+      "composition:wide_shot",
+      "composition:deep_focus"
+    ],
+    "excludes": [
+      "composition:close_up"
+    ],
+    "negative": []
+  },
+  "shoulder_level_camera": {
+    "tags": [
+      "shoulder level camera angle",
+      "natural eye level framing"
+    ],
+    "aliases": [
+      "eye level shot"
+    ],
+    "related": [
+      "composition:portrait"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "overhead_spiral": {
+    "tags": [
+      "spiral overhead shot",
+      "circular overhead composition"
+    ],
+    "aliases": [
+      "spiral top view"
+    ],
+    "related": [
+      "composition:overhead"
+    ],
+    "excludes": [
+      "composition:low_angle"
+    ],
+    "negative": []
+  },
+  "subject_silhouette_landscape": {
+    "tags": [
+      "subject silhouette against landscape",
+      "figure against horizon"
+    ],
+    "aliases": [
+      "horizon silhouette"
+    ],
+    "related": [
+      "composition:wide_shot",
+      "composition:silhouette"
+    ],
     "excludes": [],
     "negative": []
   }

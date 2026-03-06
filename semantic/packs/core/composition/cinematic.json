@@ -1,0 +1,261 @@
+{
+  "_meta": {
+    "category": "composition",
+    "version": "1.0",
+    "notes": "Cinematic composition expansion pack focusing on filmmaking camera framing and dynamic perspectives."
+  },
+  "pov_shot": {
+    "tags": [
+      "point of view shot",
+      "first person perspective"
+    ],
+    "aliases": [
+      "pov",
+      "first person view"
+    ],
+    "related": [
+      "composition:over_the_shoulder"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "over_the_hip": {
+    "tags": [
+      "over the hip shot",
+      "camera slightly behind subject"
+    ],
+    "aliases": [
+      "hip view"
+    ],
+    "related": [
+      "composition:over_the_shoulder"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "rear_three_quarter": {
+    "tags": [
+      "rear three quarter view",
+      "three quarter back view"
+    ],
+    "aliases": [
+      "rear 3/4 view"
+    ],
+    "related": [
+      "composition:back_view",
+      "composition:three_quarter_view"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "front_three_quarter": {
+    "tags": [
+      "front three quarter view",
+      "three quarter front view"
+    ],
+    "aliases": [
+      "front 3/4 view"
+    ],
+    "related": [
+      "composition:portrait",
+      "composition:three_quarter_view"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "tracking_shot": {
+    "tags": [
+      "tracking shot composition",
+      "dynamic motion framing"
+    ],
+    "aliases": [
+      "moving camera shot"
+    ],
+    "related": [
+      "composition:wide_shot"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "dramatic_low": {
+    "tags": [
+      "dramatic low angle shot",
+      "heroic upward camera angle"
+    ],
+    "aliases": [
+      "hero angle"
+    ],
+    "related": [
+      "composition:low_angle",
+      "composition:worm_eye_view"
+    ],
+    "excludes": [
+      "composition:overhead"
+    ],
+    "negative": []
+  },
+  "dramatic_high": {
+    "tags": [
+      "dramatic high angle shot",
+      "camera looking down dramatically"
+    ],
+    "aliases": [
+      "surveillance angle"
+    ],
+    "related": [
+      "composition:high_angle"
+    ],
+    "excludes": [
+      "composition:low_angle"
+    ],
+    "negative": []
+  },
+  "silhouette_backlight": {
+    "tags": [
+      "backlit silhouette composition",
+      "strong backlight silhouette"
+    ],
+    "aliases": [
+      "cinematic silhouette"
+    ],
+    "related": [
+      "composition:silhouette"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "frame_within_frame": {
+    "tags": [
+      "frame within a frame composition",
+      "subject framed by environment"
+    ],
+    "aliases": [
+      "environmental framing"
+    ],
+    "related": [
+      "composition:foreground_framing"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "diagonal_composition": {
+    "tags": [
+      "diagonal composition",
+      "dynamic diagonal framing"
+    ],
+    "aliases": [
+      "diagonal lines composition"
+    ],
+    "related": [
+      "composition:leading_lines"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "negative_space": {
+    "tags": [
+      "negative space composition",
+      "large empty space around subject"
+    ],
+    "aliases": [
+      "minimalist framing"
+    ],
+    "related": [
+      "composition:off_center"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "symmetrical_corridor": {
+    "tags": [
+      "symmetrical corridor framing",
+      "perfect central symmetry"
+    ],
+    "aliases": [
+      "hallway symmetry"
+    ],
+    "related": [
+      "composition:centered"
+    ],
+    "excludes": [
+      "composition:rule_of_thirds"
+    ],
+    "negative": []
+  },
+  "foreground_obstruction": {
+    "tags": [
+      "foreground obstruction framing",
+      "objects partially blocking view"
+    ],
+    "aliases": [
+      "peeking shot"
+    ],
+    "related": [
+      "composition:foreground_framing"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "wide_environmental": {
+    "tags": [
+      "environmental wide shot",
+      "subject small within large environment"
+    ],
+    "aliases": [
+      "epic wide shot"
+    ],
+    "related": [
+      "composition:wide_shot",
+      "composition:deep_focus"
+    ],
+    "excludes": [
+      "composition:close_up"
+    ],
+    "negative": []
+  },
+  "shoulder_level_camera": {
+    "tags": [
+      "shoulder level camera angle",
+      "natural eye level framing"
+    ],
+    "aliases": [
+      "eye level shot"
+    ],
+    "related": [
+      "composition:portrait"
+    ],
+    "excludes": [],
+    "negative": []
+  },
+  "overhead_spiral": {
+    "tags": [
+      "spiral overhead shot",
+      "circular overhead composition"
+    ],
+    "aliases": [
+      "spiral top view"
+    ],
+    "related": [
+      "composition:overhead"
+    ],
+    "excludes": [
+      "composition:low_angle"
+    ],
+    "negative": []
+  },
+  "subject_silhouette_landscape": {
+    "tags": [
+      "subject silhouette against landscape",
+      "figure against horizon"
+    ],
+    "aliases": [
+      "horizon silhouette"
+    ],
+    "related": [
+      "composition:wide_shot",
+      "composition:silhouette"
+    ],
+    "excludes": [],
+    "negative": []
+  }
+}

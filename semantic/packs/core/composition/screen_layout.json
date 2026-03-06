@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "category": "screen_layout",
+    "version": "1.0",
+    "notes": "Screen dividing / multi-panel / composite layout effects: split-screen, triptych, grid panels, picture-in-picture, and collage styles."
+  },
+
+  "split_vertical": {
+    "tags": [
+      "split-screen vertical",
+      "vertical split composition",
+      "screen divided into two vertical halves"
+    ]
+  },
+
+  "split_horizontal": {
+    "tags": [
+      "split-screen horizontal",
+      "horizontal split composition",
+      "screen divided into two horizontal halves"
+    ]
+  },
+
+  "split_diagonal": {
+    "tags": [
+      "diagonal split-screen",
+      "diagonal split composition",
+      "screen divided by a diagonal line"
+    ]
+  },
+
+  "quad_split": {
+    "tags": [
+      "four-panel split-screen",
+      "quad split composition",
+      "screen divided into four equal panels"
+    ]
+  },
+
+  "three_panel_triptych": {
+    "tags": [
+      "triptych layout",
+      "three panel composition",
+      "screen divided into three vertical panels"
+    ]
+  },
+
+  "filmstrip": {
+    "tags": [
+      "filmstrip layout",
+      "multiple frames in a strip",
+      "cinematic filmstrip composition"
+    ]
+  },
+
+  "comic_panels": {
+    "tags": [
+      "comic panel layout",
+      "multiple comic panels",
+      "panel grid composition"
+    ]
+  },
+
+  "manga_panels": {
+    "tags": [
+      "manga panel layout",
+      "dynamic manga panels",
+      "comic page composition"
+    ]
+  },
+
+  "polaroid_collage": {
+    "tags": [
+      "polaroid collage",
+      "overlapping polaroid frames",
+      "photo collage layout"
+    ]
+  },
+
+  "contact_sheet": {
+    "tags": [
+      "contact sheet layout",
+      "photo contact sheet grid",
+      "multiple small frames in a grid"
+    ]
+  },
+
+  "picture_in_picture": {
+    "tags": [
+      "picture-in-picture",
+      "inset frame overlay",
+      "small inset scene in corner"
+    ]
+  },
+
+  "inset_circles": {
+    "tags": [
+      "multiple inset frames",
+      "circular inset frames",
+      "round picture cutouts overlay"
+    ]
+  },
+
+  "panel_borders": {
+    "tags": [
+      "strong panel borders",
+      "thick border separators",
+      "clear frame dividers"
+    ]
+  },
+
+  "soft_dividers": {
+    "tags": [
+      "soft panel dividers",
+      "subtle separators",
+      "thin divider lines"
+    ]
+  },
+
+  "blurred_dividers": {
+    "tags": [
+      "blurred panel separators",
+      "soft blurred dividers",
+      "diffused split-screen edges"
+    ]
+  },
+
+  "mirror_split": {
+    "tags": [
+      "mirror split-screen",
+      "symmetrical split composition",
+      "mirrored halves composition"
+    ]
+  },
+
+  "before_after": {
+    "tags": [
+      "before and after split-screen",
+      "comparison layout",
+      "two panel comparison composition"
+    ]
+  },
+
+  "then_now": {
+    "tags": [
+      "then and now split-screen",
+      "timeline comparison layout",
+      "two panel time comparison"
+    ]
+  },
+
+  "multi_exposure_panels": {
+    "tags": [
+      "multi exposure panel layout",
+      "layered panel montage",
+      "composite frame collage"
+    ]
+  },
+
+  "grid_mosaic": {
+    "tags": [
+      "mosaic grid layout",
+      "many small panels",
+      "tiled screen composition"
+    ]
+  }
+}
