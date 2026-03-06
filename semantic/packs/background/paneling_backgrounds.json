@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "category": "paneling_backgrounds",
+    "version": "1.0",
+    "notes": "Decorative background paneling and structured surface designs. Used to add architectural or geometric panel structures behind subjects."
+  },
+
+  "vertical_panels": {
+    "tags": [
+      "vertical wall panels",
+      "vertical paneling background",
+      "decorative vertical panels"
+    ]
+  },
+
+  "horizontal_panels": {
+    "tags": [
+      "horizontal wall panels",
+      "horizontal paneling background",
+      "decorative horizontal panels"
+    ]
+  },
+
+  "square_panels": {
+    "tags": [
+      "square wall panels",
+      "square paneling background",
+      "decorative square panel grid"
+    ]
+  },
+
+  "rectangular_panels": {
+    "tags": [
+      "rectangular wall panels",
+      "rectangular panel background",
+      "architectural panel grid"
+    ]
+  },
+
+  "hex_panels": {
+    "tags": [
+      "hexagon wall panels",
+      "honeycomb paneling",
+      "hexagonal panel background"
+    ]
+  },
+
+  "triangle_panels": {
+    "tags": [
+      "triangular wall panels",
+      "triangle panel background",
+      "geometric triangle paneling"
+    ]
+  },
+
+  "diamond_panels": {
+    "tags": [
+      "diamond shaped panels",
+      "diamond paneling background",
+      "geometric diamond panel wall"
+    ]
+  },
+
+  "angled_panels": {
+    "tags": [
+      "angled wall panels",
+      "tilted paneling background",
+      "modern angled panels"
+    ]
+  },
+
+  "stepped_panels": {
+    "tags": [
+      "stepped panel wall",
+      "layered wall panels",
+      "tiered panel background"
+    ]
+  },
+
+  "layered_panels": {
+    "tags": [
+      "layered wall panels",
+      "multi-depth paneling",
+      "dimensional panel background"
+    ]
+  },
+
+  "acoustic_panels": {
+    "tags": [
+      "acoustic wall panels",
+      "sound dampening panels",
+      "studio acoustic panel wall"
+    ]
+  },
+
+  "padded_panels": {
+    "tags": [
+      "padded wall panels",
+      "soft padded paneling",
+      "upholstered wall panels"
+    ]
+  },
+
+  "quilted_panels": {
+    "tags": [
+      "quilted wall panels",
+      "diamond tufted paneling",
+      "luxury quilted wall background"
+    ]
+  },
+
+  "light_panels": {
+    "tags": [
+      "illuminated wall panels",
+      "backlit panel wall",
+      "glowing panel background"
+    ]
+  },
+
+  "neon_panels": {
+    "tags": [
+      "neon panel wall",
+      "glowing neon panels",
+      "futuristic illuminated panels"
+    ]
+  },
+
+  "glass_panels": {
+    "tags": [
+      "glass wall panels",
+      "transparent panel wall",
+      "glass panel background"
+    ]
+  },
+
+  "metal_panels": {
+    "tags": [
+      "metal wall panels",
+      "industrial metal paneling",
+      "metallic panel wall"
+    ]
+  },
+
+  "wood_panels": {
+    "tags": [
+      "wood wall panels",
+      "wood paneling background",
+      "decorative wood panel wall"
+    ]
+  },
+
+  "mosaic_panels": {
+    "tags": [
+      "mosaic tile panels",
+      "decorative mosaic panel wall",
+      "patterned tile paneling"
+    ]
+  },
+
+  "framed_panels": {
+    "tags": [
+      "framed wall panels",
+      "decorative framed wall sections",
+      "classic wall molding panels"
+    ]
+  }
+}

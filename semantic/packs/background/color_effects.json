@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "category": "color_effects",
+    "version": "1.0",
+    "notes": "Stylized color rendering effects such as drawing media, paint styles, splatter, and texture-based color applications."
+  },
+
+  "crayon": {
+    "tags": [
+      "crayon coloring",
+      "crayon texture"
+    ]
+  },
+
+  "colored_pencil": {
+    "tags": [
+      "colored pencil shading",
+      "colored pencil texture",
+      "pencil coloring style"
+    ]
+  },
+
+  "marker": {
+    "tags": [
+      "marker coloring",
+      "felt-tip marker style",
+      "marker illustration texture"
+    ]
+  },
+
+  "pastel_chalk": {
+    "tags": [
+      "pastel chalk coloring",
+      "soft pastel texture",
+      "chalk pastel shading"
+    ]
+  },
+
+  "oil_pastel": {
+    "tags": [
+      "oil pastel texture",
+      "oil pastel coloring",
+      "thick pastel strokes"
+    ]
+  },
+
+  "watercolor": {
+    "tags": [
+      "watercolor paint",
+      "soft watercolor wash",
+      "watercolor bleeding pigments"
+    ]
+  },
+
+  "ink_wash": {
+    "tags": [
+      "ink wash coloring",
+      "ink wash shading",
+      "liquid ink gradients"
+    ]
+  },
+
+  "paint_brush": {
+    "tags": [
+      "paint brush strokes",
+      "visible brush strokes",
+      "painted texture"
+    ]
+  },
+
+  "paint_splatter": {
+    "tags": [
+      "paint splatter",
+      "paint splashes",
+      "random paint droplets"
+    ]
+  },
+
+  "paint_drips": {
+    "tags": [
+      "dripping paint",
+      "paint dripping downward",
+      "color drips"
+    ]
+  },
+
+  "paint_pour": {
+    "tags": [
+      "acrylic paint pouring",
+      "liquid paint patterns",
+      "flowing paint colors"
+    ]
+  },
+
+  "paintball": {
+    "tags": [
+      "paintball splatter",
+      "paintball impact splashes",
+      "explosive paint splashes"
+    ]
+  },
+
+  "speckled": {
+    "tags": [
+      "speckled color pattern",
+      "fine color speckles",
+      "sprayed pigment speckles"
+    ]
+  },
+
+  "spray_paint": {
+    "tags": [
+      "spray paint texture",
+      "aerosol paint effect",
+      "graffiti spray paint"
+    ]
+  },
+
+  "airbrush": {
+    "tags": [
+      "airbrushed color",
+      "soft airbrush shading",
+      "smooth airbrush gradients"
+    ]
+  },
+
+  "glitter_color": {
+    "tags": [
+      "glitter colored surface",
+      "sparkling pigment",
+      "glitter paint texture"
+    ]
+  },
+
+  "metallic_paint": {
+    "tags": [
+      "metallic paint finish",
+      "shimmering metallic pigment",
+      "reflective metallic color"
+    ]
+  },
+
+  "neon_paint": {
+    "tags": [
+      "neon paint colors",
+      "fluorescent pigment",
+      "glowing neon paint"
+    ]
+  },
+
+  "tie_dye": {
+    "tags": [
+      "tie-dye color pattern",
+      "swirling dye colors",
+      "psychedelic dye effect"
+    ]
+  },
+
+  "marbled_paint": {
+    "tags": [
+      "marbled paint pattern",
+      "swirling marble pigments",
+      "fluid marble colors"
+    ]
+  }
+}

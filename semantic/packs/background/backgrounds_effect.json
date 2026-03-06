@@ -1,0 +1,175 @@
+{
+  "_meta": {
+    "category": "backgrounds_effect",
+    "version": "1.0",
+    "notes": "Overlay/projection/distortion effects intended to sit on top of backgrounds_base or place. Additive visual layers."
+  },
+
+  "prism": {
+    "tags": [
+      "prismatic light refraction",
+      "rainbow light refraction",
+      "glass prism effect"
+    ]
+  },
+
+  "chromatic_aberration": {
+    "tags": [
+      "chromatic aberration",
+      "color fringing",
+      "subtle rgb split"
+    ]
+  },
+
+  "lens_flare": {
+    "tags": [
+      "lens flare",
+      "cinematic lens flare",
+      "light flare streaks"
+    ]
+  },
+
+  "light_rays": {
+    "tags": [
+      "volumetric light rays",
+      "light beams through air",
+      "visible light shafts"
+    ]
+  },
+
+  "bokeh": {
+    "tags": [
+      "bokeh background lights",
+      "out of focus light orbs",
+      "soft bokeh circles"
+    ]
+  },
+
+  "sparkles": {
+    "tags": [
+      "sparkling particles",
+      "twinkling sparkles",
+      "glittering points of light"
+    ]
+  },
+
+  "dust_particles": {
+    "tags": [
+      "floating dust particles",
+      "dust motes in the air",
+      "atmospheric particles"
+    ]
+  },
+
+  "embers": {
+    "tags": [
+      "floating embers",
+      "glowing ember particles",
+      "sparks drifting in air"
+    ]
+  },
+
+  "haze": {
+    "tags": [
+      "atmospheric haze",
+      "soft hazy air",
+      "low contrast haze"
+    ]
+  },
+
+  "smoke_swirls": {
+    "tags": [
+      "swirling smoke",
+      "smoke in the background",
+      "wisps of smoke"
+    ]
+  },
+
+  "ripples": {
+    "tags": [
+      "ripple distortion effect",
+      "subtle water ripple refraction",
+      "wavy ripple overlay"
+    ]
+  },
+
+  "heat_haze": {
+    "tags": [
+      "heat haze distortion",
+      "shimmering air distortion",
+      "mirage-like waviness"
+    ]
+  },
+
+  "liquid_warp": {
+    "tags": [
+      "liquid warp distortion",
+      "fluid-like refraction",
+      "liquid lens effect"
+    ]
+  },
+
+  "glass_refraction": {
+    "tags": [
+      "glass refraction",
+      "distorted through glass",
+      "refractive glass overlay"
+    ]
+  },
+
+  "mirror_fragments": {
+    "tags": [
+      "mirror fragments",
+      "reflective shards",
+      "broken mirror reflections"
+    ]
+  },
+
+  "geometric_projection": {
+    "tags": [
+      "geometric light projection",
+      "projected abstract shapes",
+      "patterned light overlay"
+    ]
+  },
+
+  "grid_overlay": {
+    "tags": [
+      "subtle grid overlay",
+      "graphic grid pattern",
+      "technical grid background layer"
+    ]
+  },
+
+  "kaleidoscope": {
+    "tags": [
+      "kaleidoscope effect",
+      "symmetrical refracted patterns",
+      "kaleidoscopic light"
+    ]
+  },
+
+  "fractals": {
+    "tags": [
+      "fractal patterns",
+      "fractal light textures",
+      "mathematical fractal overlay"
+    ]
+  },
+
+  "scanlines": {
+    "tags": [
+      "scanlines overlay",
+      "subtle crt scanlines",
+      "retro scanline texture"
+    ]
+  },
+
+  "glitch": {
+    "tags": [
+      "digital glitch effect",
+      "visual glitch artifacts",
+      "datamosh-like distortion"
+    ]
+  }
+}

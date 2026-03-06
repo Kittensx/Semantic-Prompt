@@ -1,0 +1,207 @@
+{
+  "_meta": {
+    "category": "curtains_backgrounds",
+    "version": "1.0",
+    "notes": "Curtain and drapery style backgrounds for stages, studios, and decorative backdrops. Focuses on curtain style, material feel, and hang/shape."
+  },
+
+  "theater_red": {
+    "tags": [
+      "red theater curtains",
+      "classic stage drapes",
+      "heavy velvet stage curtain"
+    ]
+  },
+
+  "velvet": {
+    "tags": [
+      "velvet curtains",
+      "heavy velvet drapes",
+      "soft velvet curtain backdrop"
+    ]
+  },
+
+  "sheer": {
+    "tags": [
+      "sheer curtains",
+      "transparent drapes",
+      "lightweight sheer curtain backdrop"
+    ]
+  },
+
+  "lace": {
+    "tags": [
+      "lace curtains",
+      "lace curtain backdrop",
+      "delicate lace drapes"
+    ]
+  },
+
+  "blackout": {
+    "tags": [
+      "blackout curtains",
+      "thick opaque drapes",
+      "light-blocking curtain backdrop"
+    ]
+  },
+
+  "satin": {
+    "tags": [
+      "satin curtains",
+      "shiny satin drapes",
+      "smooth satin curtain backdrop"
+    ]
+  },
+
+  "silk": {
+    "tags": [
+      "silk curtains",
+      "luxurious silk drapes",
+      "soft flowing silk curtain backdrop"
+    ]
+  },
+
+  "linen": {
+    "tags": [
+      "linen curtains",
+      "textured linen drapes",
+      "natural linen curtain backdrop"
+    ]
+  },
+
+  "cotton": {
+    "tags": [
+      "cotton curtains",
+      "simple cotton drapes",
+      "soft cotton curtain backdrop"
+    ]
+  },
+
+  "gauze": {
+    "tags": [
+      "gauzy curtains",
+      "airy gauze drapes",
+      "light gauze curtain backdrop"
+    ]
+  },
+
+  "pleated": {
+    "tags": [
+      "pleated curtains",
+      "tight pleats in drapes",
+      "structured pleated curtain backdrop"
+    ]
+  },
+
+  "floor_to_ceiling": {
+    "tags": [
+      "floor-to-ceiling curtains",
+      "tall drapes",
+      "full height curtain backdrop"
+    ]
+  },
+
+  "wide_drapes": {
+    "tags": [
+      "wide drapes",
+      "extra wide curtains",
+      "large curtain folds"
+    ]
+  },
+
+  "tied_back": {
+    "tags": [
+      "curtains tied back",
+      "drapes pulled to the sides",
+      "tieback curtains"
+    ]
+  },
+
+  "parted_center": {
+    "tags": [
+      "curtains parted in the center",
+      "open curtains",
+      "drapes split down the middle"
+    ]
+  },
+
+  "swag_valance": {
+    "tags": [
+      "swag valance curtains",
+      "draped valance",
+      "decorative swag curtain top"
+    ]
+  },
+
+  "scalloped_valance": {
+    "tags": [
+      "scalloped valance",
+      "scalloped curtain top",
+      "decorative scallop drape"
+    ]
+  },
+
+  "string_lights": {
+    "tags": [
+      "curtains with string lights",
+      "fairy lights on drapes",
+      "twinkling lights curtain backdrop"
+    ]
+  },
+
+  "sparkle": {
+    "tags": [
+      "sparkly curtains",
+      "glittering drapes",
+      "shimmer curtain backdrop"
+    ]
+  },
+
+  "fringe": {
+    "tags": [
+      "fringed curtains",
+      "fringe trim drapes",
+      "decorative fringe curtain backdrop"
+    ]
+  },
+
+  "tassel_tiebacks": {
+    "tags": [
+      "tassel tiebacks",
+      "ornate curtain tiebacks",
+      "decorative tassel drapes"
+    ]
+  },
+
+  "striped": {
+    "tags": [
+      "striped curtains",
+      "striped drapes backdrop",
+      "vertical stripe curtain fabric"
+    ]
+  },
+
+  "patterned": {
+    "tags": [
+      "patterned curtains",
+      "decorative printed drapes",
+      "ornamental curtain backdrop"
+    ]
+  },
+
+  "gold_trim": {
+    "tags": [
+      "curtains with gold trim",
+      "gold trimmed drapes",
+      "ornate gold detail curtains"
+    ]
+  },
+
+  "beaded": {
+    "tags": [
+      "beaded curtains",
+      "bead curtain backdrop",
+      "hanging bead strands"
+    ]
+  }
+}

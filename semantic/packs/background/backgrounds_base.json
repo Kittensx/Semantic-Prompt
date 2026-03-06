@@ -1,0 +1,135 @@
+{
+  "_meta": {
+    "category": "backgrounds_base",
+    "version": "1.0",
+    "notes": "Base environment/backdrop layer. Non-location foundations like studio backdrops, abstract backdrops, gradients, and simple scene foundations."
+  },
+
+  "studio_white_seamless": {
+    "tags": [
+      "white seamless studio background",
+      "clean studio paper backdrop",
+      "high key studio backdrop"
+    ]
+  },
+
+  "studio_gray_seamless": {
+    "tags": [
+      "neutral gray seamless backdrop",
+      "studio gray paper background",
+      "soft studio backdrop"
+    ]
+  },
+
+  "studio_black_seamless": {
+    "tags": [
+      "black seamless studio background",
+      "dark studio paper backdrop",
+      "low key studio backdrop"
+    ]
+  },
+
+  "paper_backdrop": {
+    "tags": [
+      "studio paper backdrop",
+      "photography backdrop paper",
+      "seamless backdrop"
+    ]
+  },
+
+  "muslin_backdrop": {
+    "tags": [
+      "muslin backdrop",
+      "fabric studio backdrop",
+      "textured cloth backdrop"
+    ]
+  },
+
+  "canvas_backdrop": {
+    "tags": [
+      "canvas backdrop",
+      "painted canvas background",
+      "art studio backdrop"
+    ]
+  },
+
+  "concrete_wall": {
+    "tags": [
+      "concrete wall background",
+      "industrial wall backdrop",
+      "subtle concrete texture"
+    ]
+  },
+
+  "plaster_wall": {
+    "tags": [
+      "plaster wall background",
+      "smooth plaster backdrop",
+      "light wall texture"
+    ]
+  },
+
+  "brick_wall": {
+    "tags": [
+      "brick wall background",
+      "brick texture backdrop",
+      "masonry wall background"
+    ]
+  },
+
+  "gradient_backdrop": {
+    "tags": [
+      "smooth gradient background",
+      "soft gradient backdrop",
+      "studio gradient background"
+    ]
+  },
+
+  "radial_gradient": {
+    "tags": [
+      "radial gradient background",
+      "center glow gradient backdrop",
+      "soft vignette gradient background"
+    ]
+  },
+
+  "abstract_backdrop": {
+    "tags": [
+      "abstract background",
+      "non-representational backdrop",
+      "modern abstract backdrop"
+    ]
+  },
+
+  "geometric_backdrop": {
+    "tags": [
+      "geometric background",
+      "abstract geometric backdrop",
+      "clean geometric shapes background"
+    ]
+  },
+
+  "starfield_backdrop": {
+    "tags": [
+      "starfield background",
+      "stars in the background",
+      "cosmic star backdrop"
+    ]
+  },
+
+  "cloudy_sky_backdrop": {
+    "tags": [
+      "cloudy sky background",
+      "soft clouds backdrop",
+      "bright sky backdrop"
+    ]
+  },
+
+  "infinite_void": {
+    "tags": [
+      "infinite void background",
+      "empty backdrop",
+      "minimal void background"
+    ]
+  }
+}

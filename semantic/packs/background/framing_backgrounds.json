@@ -1,0 +1,248 @@
+{
+  "_meta": {
+    "category": "framing_backgrounds",
+    "version": "1.0",
+    "notes": "Background elements that visually frame the subject. Useful for creating natural borders, arches, foliage frames, and decorative framing structures."
+  },
+
+  "archway": {
+    "tags": [
+      "framed by an archway",
+      "arched frame behind subject",
+      "decorative arch background"
+    ]
+  },
+
+  "window_frame": {
+    "tags": [
+      "framed by a window",
+      "window frame behind subject",
+      "light coming through a window frame"
+    ]
+  },
+
+  "doorway": {
+    "tags": [
+      "framed by a doorway",
+      "standing within a doorway frame",
+      "doorway framing the subject"
+    ]
+  },
+
+  "columns": {
+    "tags": [
+      "framed by columns",
+      "architectural columns on both sides",
+      "classical column framing"
+    ]
+  },
+
+  "pillars": {
+    "tags": [
+      "pillars framing the subject",
+      "stone pillars on both sides",
+      "architectural pillar frame"
+    ]
+  },
+
+  "curtain_frame": {
+    "tags": [
+      "framed by curtains",
+      "curtains parted on both sides",
+      "stage curtains framing the scene"
+    ]
+  },
+
+  "draped_fabric": {
+    "tags": [
+      "framed by draped fabric",
+      "flowing drapery around the edges",
+      "decorative fabric framing"
+    ]
+  },
+
+  "tree_branches": {
+    "tags": [
+      "tree branches framing the subject",
+      "branches arching around the scene",
+      "natural branch framing"
+    ]
+  },
+
+  "flower_vines": {
+    "tags": [
+      "flowering vines framing the scene",
+      "vines wrapping around the edges",
+      "floral vine frame"
+    ]
+  },
+
+  "leaves": {
+    "tags": [
+      "leaves framing the subject",
+      "foliage framing the scene",
+      "leafy natural frame"
+    ]
+  },
+
+  "rock_arch": {
+    "tags": [
+      "rock arch framing the scene",
+      "natural stone arch frame",
+      "rock formation arch"
+    ]
+  },
+
+  "cave_opening": {
+    "tags": [
+      "framed by a cave opening",
+      "looking out from a cave entrance",
+      "cave walls framing the scene"
+    ]
+  },
+
+  "mirror_frame": {
+    "tags": [
+      "ornate mirror frame",
+      "decorative mirror border",
+      "subject framed within a mirror"
+    ]
+  },
+
+  "picture_frame": {
+    "tags": [
+      "decorative picture frame",
+      "subject inside a frame",
+      "framed like a painting"
+    ]
+  },
+
+  "neon_frame": {
+    "tags": [
+      "neon light frame",
+      "glowing neon border",
+      "rectangular neon frame around subject"
+    ]
+  },
+
+  "light_ring": {
+    "tags": [
+      "circular light ring frame",
+      "halo of light behind subject",
+      "glowing ring framing the subject"
+    ]
+  },
+
+  "portal_frame": {
+    "tags": [
+      "energy portal frame",
+      "glowing portal surrounding the subject",
+      "circular portal opening"
+    ]
+  },
+
+  "geometric_frame": {
+    "tags": [
+      "geometric frame",
+      "abstract geometric border",
+      "polygonal frame shapes"
+    ]
+  },
+
+  "hex_frame": {
+    "tags": [
+      "hexagonal frame",
+      "honeycomb shaped frame",
+      "hexagon border around subject"
+    ]
+  },
+
+  "light_beams_frame": {
+    "tags": [
+      "light beams framing the subject",
+      "radiating beams behind subject",
+      "light rays forming a frame"
+    ]
+  },
+
+  "shadow_frame": {
+    "tags": [
+      "shadow framing effect",
+      "dark edges framing the scene",
+      "dramatic shadow border"
+    ]
+  },
+
+  "foreground_objects": {
+    "tags": [
+      "foreground objects framing the subject",
+      "foreground blur creating frame",
+      "objects in foreground forming a frame"
+    ]
+  },
+  
+  "offcenter_white_frame": {
+    "tags": [
+      "off-center white frame background",
+      "asymmetrical white border framing the scene",
+      "white framing offset to one side"
+    ]
+  },
+
+  "white_60_40_frame": {
+    "tags": [
+      "60-40 white framing background",
+      "dominant white frame occupying most of the background",
+      "asymmetrical white margin framing the subject"
+    ]
+  },
+
+  "white_70_30_frame": {
+    "tags": [
+      "70-30 white framing composition",
+      "large white frame on one side",
+      "minimalist asymmetrical white framing"
+    ]
+  },
+
+  "color_block_frame": {
+    "tags": [
+      "asymmetrical color block framing",
+      "large color block framing the scene",
+      "offset color field background"
+    ]
+  },
+
+  "two_tone_offset_frame": {
+    "tags": [
+      "two-tone offset background frame",
+      "split color framing background",
+      "asymmetrical two-color border"
+    ]
+  },
+
+  "corner_frame": {
+    "tags": [
+      "corner frame composition",
+      "framing lines along the edges",
+      "minimalist corner framing design"
+    ]
+  },
+
+  "l_shape_frame": {
+    "tags": [
+      "L-shaped framing border",
+      "asymmetrical L-frame composition",
+      "graphic L-shaped frame around subject"
+    ]
+  },
+
+  "minimal_offset_border": {
+    "tags": [
+      "minimal offset border frame",
+      "thin asymmetrical border",
+      "modern offset framing layout"
+    ]
+  }
+
+}

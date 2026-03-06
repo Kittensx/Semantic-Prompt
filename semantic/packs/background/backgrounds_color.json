@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "category": "backgrounds_color",
+    "version": "1.0",
+    "notes": "Background color treatment layer. Uses background/backdrop phrasing to reduce color bleeding into subjects."
+  },
+
+  "white": {
+    "tags": [
+      "pure white background",
+      "clean white backdrop",
+      "white studio background"
+    ]
+  },
+
+  "black": {
+    "tags": [
+      "deep black background",
+      "black studio backdrop",
+      "dark black background"
+    ]
+  },
+
+  "neutral_gray": {
+    "tags": [
+      "neutral gray background",
+      "soft gray backdrop",
+      "studio gray background"
+    ]
+  },
+
+  "warm_gray": {
+    "tags": [
+      "warm gray background",
+      "greige backdrop",
+      "warm neutral backdrop"
+    ]
+  },
+
+  "cool_gray": {
+    "tags": [
+      "cool gray background",
+      "slate gray backdrop",
+      "cool neutral backdrop"
+    ]
+  },
+
+  "cream": {
+    "tags": [
+      "cream background",
+      "soft cream backdrop",
+      "warm off-white background"
+    ]
+  },
+
+  "beige": {
+    "tags": [
+      "beige background",
+      "sand beige backdrop",
+      "warm beige background"
+    ]
+  },
+
+  "chocolate": {
+    "tags": [
+      "chocolate brown background",
+      "dark brown backdrop",
+      "rich brown background"
+    ]
+  },
+
+  "crimson": {
+    "tags": [
+      "crimson background",
+      "deep red backdrop",
+      "rich red background"
+    ]
+  },
+
+  "navy": {
+    "tags": [
+      "navy background",
+      "deep blue backdrop",
+      "dark blue background"
+    ]
+  },
+
+  "emerald": {
+    "tags": [
+      "emerald background",
+      "deep green backdrop",
+      "rich green background"
+    ]
+  },
+
+  "teal": {
+    "tags": [
+      "teal background",
+      "deep teal backdrop",
+      "teal studio background"
+    ]
+  },
+
+  "cyan": {
+    "tags": [
+      "cyan background",
+      "bright cyan backdrop",
+      "cool cyan background"
+    ]
+  },
+
+  "magenta": {
+    "tags": [
+      "magenta background",
+      "bright magenta backdrop",
+      "vivid magenta background"
+    ]
+  },
+
+  "violet": {
+    "tags": [
+      "violet background",
+      "deep violet backdrop",
+      "purple-violet background"
+    ]
+  },
+
+  "pastel_mix": {
+    "tags": [
+      "pastel colored background",
+      "soft pastel backdrop",
+      "light pastel tones background"
+    ]
+  },
+
+  "neon_mix": {
+    "tags": [
+      "neon colored background",
+      "vivid neon backdrop",
+      "bright neon tones background"
+    ]
+  },
+
+  "monochrome": {
+    "tags": [
+      "monochrome background",
+      "single-tone background",
+      "minimal monochrome backdrop"
+    ]
+  },
+
+  "duotone": {
+    "tags": [
+      "duotone background",
+      "two-tone backdrop",
+      "dual color background"
+    ]
+  },
+
+  "iridescent": {
+    "tags": [
+      "iridescent background",
+      "color-shifting backdrop",
+      "pearlescent background tones"
+    ]
+  }
+}
