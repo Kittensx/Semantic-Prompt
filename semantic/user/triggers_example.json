@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "description": "Example trigger mappings for Semantic Prompt",
+    "version": "1.0"
+  },
+  "bikini": {
+    "categories": [
+      "clothing.swimwear.bikini_top",
+      "clothing.swimwear.bikini_bottom"
+    ]
+  },
+  "high heels": {
+    "categories": [
+      "clothing.footwear.heels"
+    ]
+  },
+  "beach": {
+    "categories": [
+      "location.beach"
+    ]
+  },
+  "dress": {
+    "categories": [
+      "clothing.dresses"
+    ]
+  },
+  "hoodie": {
+    "categories": [
+      "clothing.tops.hoodie"
+    ]
+  }
+}
