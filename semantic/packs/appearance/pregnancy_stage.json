@@ -1,0 +1,109 @@
+{
+  "_meta": {
+    "category": "pregnancy_stage",
+    "version": "0.1",
+    "notes": "Stages of pregnancy from early to late. Designed for visual belly progression and maternity context."
+  },
+
+  "not_pregnant": {
+    "tags": [
+      "not pregnant",
+      "flat stomach",
+      "no baby bump"
+    ],
+    "aliases": [
+      "pre pregnancy"
+    ],
+    "negative": [
+      "pregnant belly",
+      "baby bump"
+    ]
+  },
+
+  "very_early": {
+    "tags": [
+      "very early pregnancy",
+      "barely visible baby bump",
+      "slight belly swelling",
+      "early pregnancy stage"
+    ],
+    "aliases": [
+      "1 month pregnant",
+      "early pregnancy"
+    ]
+  },
+
+  "small_bump": {
+    "tags": [
+      "small baby bump",
+      "early pregnancy belly",
+      "slight pregnant belly",
+      "first trimester pregnancy"
+    ],
+    "aliases": [
+      "2 months pregnant",
+      "3 months pregnant"
+    ]
+  },
+
+  "medium_bump": {
+    "tags": [
+      "noticeable baby bump",
+      "pregnant belly",
+      "mid pregnancy",
+      "second trimester pregnancy"
+    ],
+    "aliases": [
+      "4 months pregnant",
+      "5 months pregnant"
+    ]
+  },
+
+  "large_bump": {
+    "tags": [
+      "large baby bump",
+      "advanced pregnancy",
+      "prominent pregnant belly",
+      "third trimester pregnancy"
+    ],
+    "aliases": [
+      "6 months pregnant",
+      "7 months pregnant"
+    ]
+  },
+
+  "very_large_bump": {
+    "tags": [
+      "very large baby bump",
+      "late pregnancy",
+      "heavily pregnant",
+      "round pregnant belly"
+    ],
+    "aliases": [
+      "8 months pregnant"
+    ]
+  },
+
+  "full_term": {
+    "tags": [
+      "full term pregnancy",
+      "very large pregnant belly",
+      "ready to give birth",
+      "extremely pregnant"
+    ],
+    "aliases": [
+      "9 months pregnant"
+    ]
+  },
+
+  "post_birth": {
+    "tags": [
+      "post pregnancy body",
+      "recently gave birth",
+      "postpartum body"
+    ],
+    "aliases": [
+      "after pregnancy"
+    ]
+  }
+}
