@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "category": "emblem_symbol",
+    "version": "1.0"
+  },
+
+  "star": { "tags": ["star symbol"] },
+  "heart": { "tags": ["heart symbol"] },
+  "animal": { "tags": ["animal mascot symbol"] },
+  "letter": { "tags": ["single letter symbol"] },
+  "monogram": { "tags": ["monogram symbol"] },
+  "crown": { "tags": ["crown symbol"] },
+  "shield_icon": { "tags": ["shield symbol"] },
+  "crossed_swords": { "tags": ["crossed swords symbol"] },
+  "wings": { "tags": ["winged symbol"] },
+  "flame": { "tags": ["flame symbol"] }
+}

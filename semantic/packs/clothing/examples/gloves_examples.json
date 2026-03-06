@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "category": "gloves_examples",
+    "version": "1.0",
+    "notes": "Examples demonstrating combinations of modular glove packs."
+  },
+
+  "opera_evening": {
+    "tags": ["opera gloves"],
+    "requires": [
+      "gloves_material:satin",
+      "gloves_length:opera",
+      "gloves_fingers:full_finger",
+      "gloves_style:elegant",
+      "gloves_fit:snug"
+    ]
+  },
+
+  "lace_formal": {
+    "tags": ["lace gloves"],
+    "requires": [
+      "gloves_material:lace",
+      "gloves_length:mid_forearm",
+      "gloves_fingers:full_finger",
+      "gloves_style:elegant"
+    ]
+  },
+
+  "fingerless_street": {
+    "tags": ["fingerless gloves"],
+    "requires": [
+      "gloves_material:leather",
+      "gloves_length:wrist",
+      "gloves_fingers:fingerless",
+      "gloves_style:casual",
+      "gloves_features:stitching"
+    ]
+  },
+
+  "driving_classic": {
+    "tags": ["driving gloves"],
+    "requires": [
+      "gloves_material:leather",
+      "gloves_length:wrist",
+      "gloves_fingers:full_finger",
+      "gloves_style:vintage",
+      "gloves_features:vent_holes",
+      "gloves_features:stitching"
+    ]
+  },
+
+  "tactical_grip": {
+    "tags": ["tactical gloves"],
+    "requires": [
+      "gloves_material:leather",
+      "gloves_length:wrist",
+      "gloves_fingers:half_finger",
+      "gloves_style:tactical",
+      "gloves_features:reinforced_knuckles",
+      "gloves_features:grip_palm",
+      "gloves_features:wrist_strap"
+    ]
+  },
+
+  "winter_knit": {
+    "tags": ["winter gloves"],
+    "requires": [
+      "gloves_material:knit",
+      "gloves_length:wrist",
+      "gloves_fingers:full_finger",
+      "gloves_style:utilitarian",
+      "gloves_fit:snug"
+    ]
+  },
+
+  "rubber_household": {
+    "tags": ["rubber gloves"],
+    "requires": [
+      "gloves_material:rubber",
+      "gloves_length:mid_forearm",
+      "gloves_fingers:full_finger",
+      "gloves_fit:tight"
+    ]
+  },
+
+  "mesh_fashion": {
+    "tags": ["mesh gloves"],
+    "requires": [
+      "gloves_material:mesh",
+      "gloves_length:wrist",
+      "gloves_fingers:full_finger",
+      "gloves_style:elegant"
+    ]
+  },
+
+  "frilled_party": {
+    "tags": ["frilled gloves"],
+    "requires": [
+      "gloves_material:satin",
+      "gloves_length:wrist",
+      "gloves_fingers:full_finger",
+      "gloves_style:elegant",
+      "gloves_features:frills"
+    ]
+  }
+}

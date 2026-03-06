@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "category": "hat_worn",
+    "version": "0.1",
+    "notes": "How hats are worn or interacted with."
+  },
+
+  "standard": {
+    "tags": [
+      "wearing a hat",
+      "hat worn normally",
+      "hat on head"
+    ]
+  },
+
+  "tilted": {
+    "tags": [
+      "hat tilted to one side",
+      "tilted hat",
+      "hat worn at an angle"
+    ]
+  },
+
+  "low_over_eyes": {
+    "tags": [
+      "hat pulled low over eyes",
+      "hat shading eyes",
+      "low brim hat"
+    ]
+  },
+
+  "pushed_back": {
+    "tags": [
+      "hat pushed back on head",
+      "hat resting toward back of head",
+      "loose hat position"
+    ]
+  },
+
+  "holding_brim": {
+    "tags": [
+      "holding hat brim",
+      "hand touching hat brim",
+      "adjusting hat"
+    ]
+  },
+
+  "removing_hat": {
+    "tags": [
+      "removing hat",
+      "lifting hat off head",
+      "taking off hat"
+    ]
+  },
+
+  "hat_in_hand": {
+    "tags": [
+      "holding hat in hand",
+      "hat held at side",
+      "carrying hat"
+    ]
+  },
+
+  "wind_holding_hat": {
+    "tags": [
+      "holding hat to prevent wind",
+      "hand securing hat",
+      "wind blowing hat"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "category": "emblem_text",
+    "version": "1.0",
+    "notes": "Text-like elements inside emblems. Intended to suggest typographic shapes and placement, not guaranteed readable lettering (especially on SD1.5)."
+  },
+
+  "nameplate": {
+    "tags": [
+      "nameplate text on emblem",
+      "small nameplate inside the emblem",
+      "text nameplate"
+    ]
+  },
+
+  "motto_ribbon": {
+    "tags": [
+      "motto ribbon with text",
+      "banner ribbon with text",
+      "text on a ribbon banner"
+    ]
+  },
+
+  "initials": {
+    "tags": [
+      "stylized initials",
+      "monogram initials",
+      "initials on the emblem"
+    ]
+  },
+
+  "monogram": {
+    "tags": [
+      "monogram lettering",
+      "interlocked monogram letters",
+      "monogram symbol"
+    ]
+  },
+
+  "roman_numerals": {
+    "tags": [
+      "roman numerals",
+      "roman numeral inscription",
+      "roman numerals on the emblem"
+    ]
+  },
+
+  "numbers": {
+    "tags": [
+      "numbers on the emblem",
+      "jersey-style number",
+      "badge number"
+    ]
+  },
+
+  "serial_code": {
+    "tags": [
+      "serial code text",
+      "small serial marking",
+      "alphanumeric marking"
+    ]
+  },
+
+  "team_name": {
+    "tags": [
+      "team name text",
+      "sports logo text",
+      "bold team lettering"
+    ]
+  },
+
+  "latin_motto": {
+    "tags": [
+      "latin motto text",
+      "motto inscription",
+      "formal motto lettering"
+    ]
+  },
+
+  "curved_text": {
+    "tags": [
+      "curved text around emblem",
+      "text along a circular border",
+      "arched lettering"
+    ]
+  },
+
+  "stacked_text": {
+    "tags": [
+      "stacked text lines",
+      "two-line text layout",
+      "stacked lettering"
+    ]
+  },
+
+  "block_letters": {
+    "tags": [
+      "block letter shapes",
+      "bold block lettering",
+      " varsity-style lettering"
+    ]
+  },
+
+  "script_letters": {
+    "tags": [
+      "script letter shapes",
+      "cursive-style lettering",
+      "flowing script text"
+    ]
+  },
+
+  "tiny_caption": {
+    "tags": [
+      "tiny caption text",
+      "small caption under the emblem",
+      "small subtitle text"
+    ]
+  }
+}

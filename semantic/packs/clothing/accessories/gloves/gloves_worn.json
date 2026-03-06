@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "category": "gloves_worn",
+    "version": "1.0",
+    "notes": "Describes how gloves are worn, held, or positioned.",
+	"related_packs": "gloves"
+  },
+
+  "both_hands": {
+    "tags": [
+      "gloves worn on both hands"
+    ]
+  },
+
+  "one_hand": {
+    "tags": [
+      "glove worn on one hand"
+    ]
+  },
+
+  "single_glove": {
+    "tags": [
+      "only one glove worn"
+    ]
+  },
+
+  "mismatched": {
+    "tags": [
+      "mismatched gloves"
+    ]
+  },
+
+  "holding_gloves": {
+    "tags": [
+      "holding gloves in hand"
+    ]
+  },
+
+  "gloves_removed": {
+    "tags": [
+      "gloves removed",
+      "gloves taken off"
+    ]
+  },
+
+  "one_removed": {
+    "tags": [
+      "one glove removed",
+      "one glove pulled off"
+    ]
+  },
+
+  "dangling": {
+    "tags": [
+      "gloves dangling from fingers"
+    ]
+  },
+
+  "tucked_belt": {
+    "tags": [
+      "gloves tucked into belt"
+    ]
+  },
+
+  "tucked_pocket": {
+    "tags": [
+      "gloves tucked into pocket"
+    ]
+  },
+
+  "holding_single_glove": {
+    "tags": [
+      "holding a single glove"
+    ]
+  }
+}

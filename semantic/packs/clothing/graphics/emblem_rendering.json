@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "category": "emblem_rendering",
+    "version": "1.0"
+  },
+
+  "embroidered": { "tags": ["embroidered emblem"] },
+  "stitched_patch": { "tags": ["stitched fabric patch"] },
+  "printed": { "tags": ["printed logo"] },
+  "screen_print": { "tags": ["screen printed emblem"] },
+  "metal_badge": { "tags": ["metal badge emblem"] },
+  "woven_patch": { "tags": ["woven patch emblem"] }
+}

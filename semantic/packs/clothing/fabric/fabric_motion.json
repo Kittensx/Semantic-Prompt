@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "category": "fabric_motion",
+    "version": "0.1",
+    "notes": "Controls motion and movement of clothing such as wind, flowing fabric, and dynamic cloth behavior."
+  },
+
+  "still": {
+    "tags": [
+      "still clothing",
+      "fabric resting naturally",
+      "no movement in clothing"
+    ],
+    "negative": [
+      "flowing fabric",
+      "fluttering cloth",
+      "wind blowing clothing"
+    ]
+  },
+
+  "light_breeze": {
+    "tags": [
+      "fabric moving in a light breeze",
+      "gentle fabric movement",
+      "slightly fluttering clothing"
+    ]
+  },
+
+  "wind": {
+    "tags": [
+      "clothing blowing in the wind",
+      "wind catching the fabric",
+      "fabric lifting in wind"
+    ]
+  },
+
+  "fluttering": {
+    "tags": [
+      "fluttering fabric",
+      "light cloth flutter",
+      "fabric flickering with motion"
+    ]
+  },
+
+  "flowing": {
+    "tags": [
+      "flowing fabric",
+      "cloth flowing behind movement",
+      "smooth flowing garment motion"
+    ]
+  },
+
+  "billowing": {
+    "tags": [
+      "billowing fabric",
+      "large flowing cloth shapes",
+      "fabric swelling outward"
+    ]
+  },
+
+  "lifted": {
+    "tags": [
+      "fabric lifted slightly",
+      "clothing lifted by motion",
+      "hemline raised by airflow"
+    ]
+  },
+
+  "cape_flow": {
+    "tags": [
+      "cape flowing dramatically",
+      "long fabric trailing behind",
+      "dramatic flowing cloth"
+    ]
+  },
+
+  "skirt_swirl": {
+    "tags": [
+      "skirt swirling with motion",
+      "spinning skirt movement",
+      "circular skirt flow"
+    ]
+  },
+
+  "motion_trailing": {
+    "tags": [
+      "fabric trailing behind movement",
+      "cloth lagging behind motion",
+      "dynamic flowing garment"
+    ]
+  }
+}

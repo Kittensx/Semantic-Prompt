@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "category": "accessory_backpack_worn",
+    "version": "0.1",
+    "notes": "Backpack wearing positions and interactions. Focuses on how the backpack is worn rather than backpack design."
+  },
+
+  "standard": {
+    "tags": [
+      "wearing a backpack",
+      "backpack worn normally",
+      "backpack on both shoulders"
+    ]
+  },
+
+  "one_strap": {
+    "aliases": ["single strap backpack"],
+    "tags": [
+      "backpack worn over one shoulder",
+      "one strap backpack carry",
+      "casual single strap backpack"
+    ]
+  },
+
+  "both_straps_tight": {
+    "aliases": ["tight backpack straps"],
+    "tags": [
+      "backpack worn snugly on both shoulders",
+      "tight backpack straps",
+      "securely worn backpack"
+    ]
+  },
+
+  "loose_straps": {
+    "tags": [
+      "loose backpack straps",
+      "backpack hanging loosely",
+      "relaxed backpack carry"
+    ]
+  },
+
+  "slipping_one_shoulder": {
+    "aliases": ["backpack slipping"],
+    "tags": [
+      "backpack slipping off one shoulder",
+      "loose backpack sliding down",
+      "backpack hanging from one strap"
+    ]
+  },
+
+  "one_hand_holding_strap": {
+    "tags": [
+      "holding backpack strap",
+      "hand gripping backpack strap",
+      "holding one backpack strap"
+    ]
+  },
+
+  "both_hands_on_straps": {
+    "tags": [
+      "hands gripping both backpack straps",
+      "holding backpack straps",
+      "adjusting backpack straps"
+    ]
+  },
+
+  "adjusting_straps": {
+    "tags": [
+      "adjusting backpack straps",
+      "tightening backpack straps",
+      "pulling backpack straps tighter"
+    ]
+  },
+
+  "backpack_front_carry": {
+    "aliases": ["backpack worn in front"],
+    "tags": [
+      "backpack worn on front",
+      "backpack carried on chest",
+      "front facing backpack"
+    ]
+  },
+
+  "backpack_slung_over_back": {
+    "tags": [
+      "backpack slung over back",
+      "backpack hanging behind",
+      "backpack resting on back"
+    ]
+  },
+
+  "one_strap_sling": {
+    "aliases": ["sling backpack"],
+    "tags": [
+      "sling style backpack",
+      "crossbody backpack strap",
+      "backpack worn diagonally"
+    ]
+  },
+
+  "backpack_on_ground": {
+    "tags": [
+      "backpack placed on ground",
+      "backpack set beside subject",
+      "backpack resting nearby"
+    ]
+  },
+
+  "taking_off_backpack": {
+    "tags": [
+      "taking off backpack",
+      "removing backpack",
+      "lifting backpack off shoulders"
+    ]
+  },
+
+  "putting_on_backpack": {
+    "tags": [
+      "putting on backpack",
+      "swinging backpack onto shoulders",
+      "lifting backpack onto back"
+    ]
+  }
+}

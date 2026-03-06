@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "category": "gloves_material",
+    "version": "1.0",
+    "notes": "Primary glove material / fabric."
+  },
+
+  "leather": { "tags": ["leather gloves"] },
+  "suede": { "tags": ["suede gloves"] },
+  "latex": { "tags": ["latex gloves"] },
+  "rubber": { "tags": ["rubber gloves"] },
+  "cotton": { "tags": ["cotton gloves"] },
+  "knit": { "tags": ["knitted gloves"] },
+  "wool": { "tags": ["wool gloves"] },
+  "satin": { "tags": ["satin gloves"] },
+  "silk": { "tags": ["silk gloves"] },
+  "velvet": { "tags": ["velvet gloves"] },
+  "lace": { "tags": ["lace gloves"] },
+  "mesh": { "tags": ["mesh gloves"] }
+}

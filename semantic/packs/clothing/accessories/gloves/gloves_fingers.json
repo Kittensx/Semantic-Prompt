@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "category": "gloves_fingers",
+    "version": "1.0",
+    "notes": "Finger coverage and finger styling."
+  },
+
+  "full_finger": { "tags": ["full-finger gloves"] },
+  "fingerless": { "tags": ["fingerless gloves"] },
+  "half_finger": { "tags": ["half-finger gloves"] },
+  "open_knuckle": { "tags": ["open knuckle gloves"] }
+}

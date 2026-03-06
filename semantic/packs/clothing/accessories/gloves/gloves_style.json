@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "category": "gloves_style",
+    "version": "1.0",
+    "notes": "High-level glove style cues that do NOT assume a specific job/scene."
+  },
+
+  "elegant": { "tags": ["elegant gloves"] },
+  "casual": { "tags": ["casual gloves"] },
+  "sporty": { "tags": ["sporty gloves"] },
+  "tactical": { "tags": ["tactical gloves"] },
+  "utilitarian": { "tags": ["utilitarian gloves"] },
+  "vintage": { "tags": ["vintage gloves"] }
+}

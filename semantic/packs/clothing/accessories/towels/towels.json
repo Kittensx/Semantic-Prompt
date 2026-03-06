@@ -1,0 +1,263 @@
+{
+  "_meta": {
+    "category": "towels",
+    "version": "1.0",
+    "notes": "Towel props and arrangements. Includes ways towels are worn, held, draped, placed, and presented. Designed as a neutral prop pack."
+  },
+
+  "wrapped_waist": {
+    "tags": [
+      "towel wrapped around waist",
+      "waist towel wrap",
+      "towel tied at the waist"
+    ]
+  },
+
+  "wrapped_chest": {
+    "tags": [
+      "towel wrapped around chest",
+      "towel wrap covering torso",
+      "towel tied above the bust"
+    ]
+  },
+
+  "wrapped_full_body": {
+    "tags": [
+      "wrapped in a towel",
+      "full body towel wrap",
+      "towel wrapped around the body"
+    ]
+  },
+
+  "over_shoulders": {
+    "tags": [
+      "towel draped over shoulders",
+      "towel over both shoulders",
+      "towel resting on shoulders"
+    ]
+  },
+
+  "over_one_shoulder": {
+    "tags": [
+      "towel over one shoulder",
+      "towel draped on one shoulder",
+      "single shoulder towel drape"
+    ]
+  },
+
+  "around_neck": {
+    "tags": [
+      "towel around neck",
+      "towel looped around the neck",
+      "towel hanging from neck"
+    ]
+  },
+
+  "on_head_turban": {
+    "tags": [
+      "towel turban on head",
+      "hair wrapped in a towel",
+      "towel wrapped around hair"
+    ]
+  },
+
+  "held_front": {
+    "tags": [
+      "holding a towel in front",
+      "towel held covering the front",
+      "towel held up in front of body"
+    ]
+  },
+
+  "held_behind": {
+    "tags": [
+      "holding a towel behind",
+      "towel held behind the back",
+      "towel stretched behind body"
+    ]
+  },
+
+  "held_one_hand": {
+    "tags": [
+      "holding a towel in one hand",
+      "towel dangling from one hand",
+      "towel held loosely in one hand"
+    ]
+  },
+
+  "held_two_hands": {
+    "tags": [
+      "holding a towel with both hands",
+      "towel held in both hands",
+      "towel stretched between hands"
+    ]
+  },
+
+  "twisted": {
+    "tags": [
+      "twisting a towel",
+      "towel wrung out",
+      "twisted towel in hands"
+    ]
+  },
+
+  "folded_neatly": {
+    "tags": [
+      "neatly folded towel",
+      "folded towel",
+      "stacked folded towel"
+    ]
+  },
+
+  "towel_stack": {
+    "tags": [
+      "stack of towels",
+      "pile of folded towels",
+      "towels stacked neatly"
+    ]
+  },
+
+  "draped_over_chair": {
+    "tags": [
+      "towel draped over a chair",
+      "towel hanging on chair back",
+      "towel over chair"
+    ]
+  },
+
+  "draped_over_rail": {
+    "tags": [
+      "towel draped over a railing",
+      "towel hanging on a rail",
+      "towel over rail"
+    ]
+  },
+
+  "hung_on_hook": {
+    "tags": [
+      "towel hanging on a hook",
+      "towel on wall hook",
+      "hanging towel"
+    ]
+  },
+
+  "hung_on_rack": {
+    "tags": [
+      "towel hanging on a rack",
+      "towel on towel rack",
+      "bath towel on rack"
+    ]
+  },
+
+  "on_floor": {
+    "tags": [
+      "towel on the floor",
+      "towel tossed on floor",
+      "crumpled towel on floor"
+    ]
+  },
+
+  "spread_on_ground": {
+    "tags": [
+      "towel spread on the ground",
+      "towel laid out flat",
+      "beach towel spread out"
+    ]
+  },
+
+  "wrapped_around_arms": {
+    "tags": [
+      "towel wrapped around arms",
+      "arms wrapped in a towel",
+      "towel around forearms"
+    ]
+  },
+
+  "wrapped_around_shoulders": {
+    "tags": [
+      "towel wrapped around shoulders",
+      "towel wrapped like a shawl",
+      "towel wrapped around upper body"
+    ]
+  },
+
+  "open_front": {
+    "tags": [
+      "towel open in front",
+      "towel draped open at the front",
+      "towel wrap loose in front"
+    ]
+  },
+
+  "open_back": {
+    "tags": [
+      "towel open at the back",
+      "towel wrap loose at the back",
+      "back-open towel wrap"
+    ]
+  },
+
+  "knot_tie": {
+    "tags": [
+      "towel tied in a knot",
+      "knotted towel wrap",
+      "towel secured with a knot"
+    ]
+  },
+
+  "tucked_in": {
+    "tags": [
+      "towel tucked in",
+      "towel tucked at the waist",
+      "towel secured by tucking"
+    ]
+  },
+
+  "striped": {
+    "tags": [
+      "striped towel",
+      "striped towel fabric",
+      "striped towel pattern"
+    ]
+  },
+
+  "checkered": {
+    "tags": [
+      "checkered towel",
+      "checkered towel pattern",
+      "patterned towel fabric"
+    ]
+  },
+
+  "plaid": {
+    "tags": [
+      "plaid towel",
+      "plaid towel pattern",
+      "towel with plaid design"
+    ]
+  },
+
+  "terrycloth": {
+    "tags": [
+      "terrycloth towel",
+      "thick terry towel fabric",
+      "soft terrycloth texture"
+    ]
+  },
+
+  "waffle_texture": {
+    "tags": [
+      "waffle weave towel",
+      "waffle texture towel",
+      "textured waffle towel fabric"
+    ]
+  },
+
+  "microfiber": {
+    "tags": [
+      "microfiber towel",
+      "smooth microfiber towel fabric",
+      "quick-dry microfiber towel"
+    ]
+  }
+}

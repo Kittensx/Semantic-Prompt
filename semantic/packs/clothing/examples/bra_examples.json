@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "category": "bra_examples",
+    "version": "1.0"
+  },
+
+  "classic_lace": {
+    "requires": [
+      "bra_style:balconette",
+      "bra_cup:underwire",
+      "bra_trim:lace_edge",
+      "bra_straps:thin"
+    ]
+  },
+
+  "sport_support": {
+    "requires": [
+      "bra_style:sports",
+      "bra_band:wide_band",
+      "bra_straps:racerback"
+    ]
+  },
+
+  "strappy_lingerie": {
+    "requires": [
+      "bra_style:bralette",
+      "bra_accessories:strap_harness",
+      "bra_trim:lace_edge"
+    ]
+  },
+  
+  "lace_heart_charm": {
+    "tags": [
+      "romantic lingerie bra"
+    ],
+    "requires": [
+      "bra_style:balconette",
+      "bra_cup:underwire",
+      "bra_trim:lace_edge",
+      "bra_accessories:heart_pendant",
+      "bra_straps:thin"
+    ]
+  },
+
+  "rose_lingerie": {
+    "tags": [
+      "romantic rose lingerie bra"
+    ],
+    "requires": [
+      "bra_style:balconette",
+      "bra_cup:softcup",
+      "bra_trim:lace_edge",
+      "bra_accessories:rose_charm",
+      "bra_straps:thin"
+    ]
+  },
+
+  "key_charm_lingerie": {
+    "tags": [
+      "lingerie bra with key charm"
+    ],
+    "requires": [
+      "bra_style:bralette",
+      "bra_trim:lace_edge",
+      "bra_accessories:key_pendant",
+      "bra_straps:thin"
+    ]
+  },
+
+  "classic_ribbon_bow": {
+    "tags": [
+      "cute lingerie bra"
+    ],
+    "requires": [
+      "bra_style:triangle",
+      "bra_trim:lace_edge",
+      "bra_accessories:ribbon_bow",
+      "bra_straps:thin"
+    ]
+  },
+
+  "double_ribbon_lingerie": {
+    "tags": [
+      "romantic ribbon lingerie bra"
+    ],
+    "requires": [
+      "bra_style:balconette",
+      "bra_trim:lace_edge",
+      "bra_accessories:ribbon_bow",
+      "bra_accessories:strap_ribbons",
+      "bra_straps:thin"
+    ]
+  },
+
+  "gem_charm_bra": {
+    "tags": [
+      "jewel accented lingerie bra"
+    ],
+    "requires": [
+      "bra_style:balconette",
+      "bra_cup:molded",
+      "bra_accessories:gem_pendant",
+      "bra_trim:scalloped",
+      "bra_straps:thin"
+    ]
+  },
+
+  "strappy_ribbon_lingerie": {
+    "tags": [
+      "strappy lingerie bra"
+    ],
+    "requires": [
+      "bra_style:bralette",
+      "bra_accessories:ribbon_bow",
+      "bra_accessories:strap_ribbons",
+      "bra_straps:decorative"
+    ]
+  }
+}

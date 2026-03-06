@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "category": "hat",
+    "version": "0.1",
+    "notes": "Common hat types and styles."
+  },
+
+  "baseball_cap": {
+    "tags": [
+      "baseball cap",
+      "casual baseball hat"
+    ]
+  },
+
+  "beanie": {
+    "tags": [
+      "beanie hat",
+      "knit beanie"
+    ]
+  },
+
+  "beret": {
+    "tags": [
+      "beret",
+      "soft wool beret"
+    ]
+  },
+
+  "fedora": {
+    "tags": [
+      "fedora hat",
+      "classic fedora"
+    ]
+  },
+
+  "cowboy_hat": {
+    "tags": [
+      "cowboy hat",
+      "western cowboy hat"
+    ]
+  },
+
+  "sun_hat": {
+    "tags": [
+      "wide brim sun hat",
+      "sun hat"
+    ]
+  },
+
+  "straw_hat": {
+    "tags": [
+      "straw hat",
+      "woven straw hat"
+    ]
+  },
+  "umbrella_hat": {
+    "tags": [
+      "umbrella hat",
+      "small umbrella above the head",
+	  "background umbrella"
+    ]
+  },
+
+  "bucket_hat": {
+    "tags": [
+      "bucket hat",
+      "casual bucket hat"
+    ]
+  },
+
+  "top_hat": {
+    "tags": [
+      "top hat",
+      "tall formal top hat"
+    ]
+  },
+
+  "newsboy_cap": {
+    "tags": [
+      "newsboy cap",
+      "flat cap hat"
+    ]
+  }
+}

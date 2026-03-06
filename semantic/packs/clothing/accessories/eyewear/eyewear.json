@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "category": "eyewear",
+    "version": "0.1",
+    "notes": "Types and styles of eyeglasses and sunglasses."
+  },
+
+  "round": {
+    "tags": [
+      "round glasses",
+      "round frame eyeglasses"
+    ]
+  },
+
+  "square": {
+    "tags": [
+      "square glasses",
+      "square frame eyeglasses"
+    ]
+  },
+
+  "rectangular": {
+    "tags": [
+      "rectangular glasses",
+      "rectangular frame glasses"
+    ]
+  },
+
+  "thin_wire": {
+    "tags": [
+      "thin wire frame glasses",
+      "metal wire glasses"
+    ]
+  },
+
+  "thick_frame": {
+    "tags": [
+      "thick frame glasses",
+      "bold eyeglass frames"
+    ]
+  },
+
+  "cat_eye": {
+    "tags": [
+      "cat eye glasses",
+      "cat eye frame eyewear"
+    ]
+  },
+
+  "oversized": {
+    "tags": [
+      "oversized glasses",
+      "large fashion glasses"
+    ]
+  },
+
+  "aviator": {
+    "tags": [
+      "aviator sunglasses",
+      "aviator style glasses"
+    ]
+  },
+
+  "sport": {
+    "tags": [
+      "sport sunglasses",
+      "wraparound sunglasses"
+    ]
+  },
+
+  "wide_rim": {
+    "tags": [
+      "wide rim glasses",
+      "wide frame eyeglasses"
+    ]
+  }
+}

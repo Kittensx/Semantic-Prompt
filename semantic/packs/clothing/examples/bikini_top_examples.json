@@ -1,0 +1,241 @@
+{
+  "_meta": {
+    "category": "bikini_top_examples",
+    "version": "0.2",
+    "notes": "Example bikini top assemblies built by referencing existing modular packs via requires: category:key."
+  },
+  "micro_triangle":{
+	"requires": [
+	  "bikini_top_cups:micro",
+	  "bikini_top_cups:triangle",
+	  "bikini_top_straps:halter",
+	  "bikini_top_support:unpadded",
+	  "bikini_top_connectors:chain_center",
+	  "bikini_top_decorations:chain_detail",
+	  "clothing_fit:tight",
+	  "fabric_tension:stretched",
+	  "nipple_visibility:visible_outline"
+	]
+  },
+
+  "classic_triangle_beach": {
+    "requires": [
+      "bikini_top_cups:triangle",
+      "bikini_top_straps:string_ties",
+      "bikini_top_closure:back_tie",
+      "bikini_top_support:light_padding",
+      "bikini_top_edges:contrast_binding",
+      "clothing_trim:shell_trim"
+    ]
+  },
+
+  "boho_festival_triangle": {
+    "requires": [
+      "bikini_top_cups:triangle",
+      "bikini_top_straps:halter",
+      "bikini_top_closure:back_tie",
+      "bikini_top_support:unpadded",
+      "clothing_trim:braided_rope_trim",
+      "clothing_trim:tassel_trim"
+    ]
+  },
+
+  "luxury_triangle": {
+    "requires": [
+      "bikini_top_cups:triangle",
+      "bikini_top_straps:shoulder",
+      "bikini_top_closure:back_clasp",
+      "bikini_top_support:light_padding",
+      "clothing_trim:pearl_trim",
+      "clothing_trim:metallic_piping"
+    ]
+  },
+
+  "clean_resort_bandeau": {
+    "requires": [
+      "bikini_top_cups:bandeau",
+      "bikini_top_straps:strapless",
+      "bikini_top_closure:pull_on",
+      "bikini_top_support:molded_cups",
+      "bikini_top_edges:rolled_edge",
+      "clothing_trim:gold_trim"
+    ]
+  },
+
+  "sport_bandeau": {
+    "requires": [
+      "bikini_top_cups:bandeau",
+      "bikini_top_straps:detachable",
+      "bikini_top_closure:pull_on",
+      "bikini_top_support:wireless",
+      "bikini_top_edges:contrast_binding",
+      "clothing_trim:reflective_trim"
+    ]
+  },
+
+  "fashion_bandeau": {
+    "requires": [
+      "bikini_top_cups:bandeau",
+      "bikini_top_straps:strapless",
+      "bikini_top_closure:front_clasp",
+      "bikini_top_support:light_padding",
+      "bikini_top_edges:ruffled_edge",
+      "clothing_trim:pearl_trim"
+    ]
+  },
+
+  "classic_balconette": {
+    "requires": [
+      "bikini_top_cups:balconette",
+      "bikini_top_straps:shoulder",
+      "bikini_top_closure:back_clasp",
+      "bikini_top_support:underwire_support",
+      "bikini_top_edges:scalloped_edge",
+      "bikini_top_decorations:lace_trim"
+    ]
+  },
+
+  "luxury_balconette": {
+    "requires": [
+      "bikini_top_cups:balconette",
+      "bikini_top_straps:shoulder",
+      "bikini_top_closure:back_clasp",
+      "bikini_top_support:push_up",
+      "clothing_trim:pearl_trim",
+      "clothing_trim:gold_trim"
+    ]
+  },
+
+  "fashion_balconette": {
+    "requires": [
+      "bikini_top_cups:balconette",
+      "bikini_top_straps:double_straps",
+      "bikini_top_closure:front_clasp",
+      "bikini_top_support:molded_cups",
+      "clothing_trim:feather_trim",
+      "bikini_top_decorations:beaded"
+    ]
+  },
+
+  "sport_active": {
+    "requires": [
+      "bikini_top_cups:sports",
+      "bikini_top_straps:racerback",
+      "bikini_top_closure:pull_on",
+      "bikini_top_support:structured_support",
+      "bikini_top_edges:contrast_binding",
+      "clothing_trim:reflective_trim"
+    ]
+  },
+
+  "surf_sport": {
+    "requires": [
+      "bikini_top_cups:sports",
+      "bikini_top_straps:crossback",
+      "bikini_top_closure:zip_front",
+      "bikini_top_support:molded_cups",
+      "bikini_top_edges:piped_edge",
+      "clothing_trim:nautical_rope_trim"
+    ]
+  },
+
+  "neon_sport": {
+    "requires": [
+      "bikini_top_cups:sports",
+      "bikini_top_straps:racerback",
+      "bikini_top_closure:pull_on",
+      "bikini_top_support:wireless",
+      "clothing_trim:neon_glow_trim",
+      "bikini_top_decorations:contrast_trim"
+    ]
+  },
+
+  "elegant_wrap": {
+    "requires": [
+      "bikini_top_cups:wrap",
+      "bikini_top_straps:halter",
+      "bikini_top_closure:back_tie",
+      "bikini_top_support:light_padding",
+      "bikini_top_edges:scalloped_edge",
+      "clothing_trim:pearl_trim"
+    ]
+  },
+
+  "resort_wrap": {
+    "requires": [
+      "bikini_top_cups:wrap",
+      "bikini_top_straps:shoulder",
+      "bikini_top_closure:side_tie",
+      "bikini_top_support:molded_cups",
+      "clothing_trim:shell_trim",
+      "clothing_trim:braided_rope_trim"
+    ]
+  },
+
+  "editorial_wrap": {
+    "requires": [
+      "bikini_top_cups:wrap",
+      "bikini_top_straps:crossback",
+      "bikini_top_closure:back_clasp",
+      "bikini_top_support:push_up",
+      "bikini_top_material:metallic",
+      "clothing_trim:foil_trim"
+    ]
+  },
+
+  "mermaid_fantasy": {
+    "requires": [
+      "bikini_top_cups:triangle",
+      "bikini_top_straps:halter",
+      "bikini_top_connectors:ring_center",
+      "clothing_trim:iridescent_fishscale_trim",
+      "clothing_trim:shell_trim",
+      "bikini_top_material:mesh"
+    ]
+  },
+
+  "cyberpunk_rave": {
+    "requires": [
+      "bikini_top_cups:sports",
+      "bikini_top_straps:racerback",
+      "bikini_top_closure:zip_front",
+      "clothing_trim:neon_glow_trim",
+      "bikini_top_material:metallic",
+      "bikini_top_decorations:ring_hardware"
+    ]
+  },
+
+  "luxury_pearl": {
+    "requires": [
+      "bikini_top_cups:balconette",
+      "bikini_top_straps:shoulder",
+      "bikini_top_closure:back_clasp",
+      "bikini_top_support:push_up",
+      "clothing_trim:pearl_strand_trim",
+      "clothing_trim:gold_trim",
+      "bikini_top_edges:scalloped_edge"
+    ]
+  },
+
+  "dragon_queen": {
+    "requires": [
+      "bikini_top_cups:plunge",
+      "bikini_top_straps:crossback",
+      "bikini_top_connectors:bar_center",
+      "bikini_top_material:latex",
+      "clothing_trim:dragonscale_trim",
+      "clothing_trim:metallic_braid_trim"
+    ]
+  },
+
+  "festival_goddess": {
+    "requires": [
+      "bikini_top_cups:triangle",
+      "bikini_top_straps:halter",
+      "bikini_top_connectors:tie_center",
+      "clothing_trim:long_fringe",
+      "clothing_trim:color_feathers",
+      "bikini_top_decorations:beaded"
+    ]
+  }
+}

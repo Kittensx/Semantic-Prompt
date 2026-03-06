@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "category": "gloves",
+    "version": "1.0",
+    "notes": "Types and styles of hand gloves."
+  },
+
+  "leather": {
+    "tags": [
+      "leather gloves"
+    ]
+  },
+
+  "lace": {
+    "tags": [
+      "lace gloves"
+    ]
+  },
+
+  "latex": {
+    "tags": [
+      "latex gloves"
+    ]
+  },
+
+  "satin": {
+    "tags": [
+      "satin gloves"
+    ]
+  },
+
+  "silk": {
+    "tags": [
+      "silk gloves"
+    ]
+  },
+
+  "velvet": {
+    "tags": [
+      "velvet gloves"
+    ]
+  },
+
+  "wool": {
+    "tags": [
+      "wool gloves"
+    ]
+  },
+
+  "knit": {
+    "tags": [
+      "knitted gloves"
+    ]
+  },
+
+  "fingerless": {
+    "tags": [
+      "fingerless gloves"
+    ]
+  },
+
+  "opera": {
+    "tags": [
+      "opera gloves",
+      "long opera gloves"
+    ]
+  },
+
+  "short": {
+    "tags": [
+      "short gloves"
+    ]
+  },
+
+  "arm_length": {
+    "tags": [
+      "arm-length gloves",
+      "long gloves"
+    ]
+  },
+
+  "tactical": {
+    "tags": [
+      "tactical gloves"
+    ]
+  },
+
+  "motorcycle": {
+    "tags": [
+      "motorcycle gloves"
+    ]
+  },
+
+  "winter": {
+    "tags": [
+      "winter gloves"
+    ]
+  }
+}

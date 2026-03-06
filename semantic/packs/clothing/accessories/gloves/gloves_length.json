@@ -1,0 +1,13 @@
+{
+  "_meta": {
+    "category": "gloves_length",
+    "version": "1.0",
+    "notes": "How long the gloves are."
+  },
+
+  "wrist": { "tags": ["wrist-length gloves"] },
+  "mid_forearm": { "tags": ["mid-forearm gloves"] },
+  "elbow": { "tags": ["elbow-length gloves"] },
+  "opera": { "tags": ["opera gloves", "long opera gloves"] },
+  "arm_length": { "tags": ["arm-length gloves", "long gloves"] }
+}

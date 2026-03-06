@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "category": "emblem_style",
+    "version": "1.0"
+  },
+
+  "academic": { "tags": ["academic emblem"] },
+  "military": { "tags": ["military insignia"] },
+  "sports": { "tags": ["sports team logo"] },
+  "streetwear": { "tags": ["streetwear logo"] },
+  "luxury": { "tags": ["luxury brand emblem"] },
+  "fantasy": { "tags": ["fantasy heraldic emblem"] },
+  "magical": { "tags": ["arcane magical emblem"] },
+  "retro": { "tags": ["retro varsity emblem"] },
+  "minimal": { "tags": ["minimalist logo design"] }
+}

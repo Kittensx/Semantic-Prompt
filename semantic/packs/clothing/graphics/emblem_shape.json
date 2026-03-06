@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "category": "emblem_shape",
+    "version": "1.0"
+  },
+
+  "crest": { "tags": ["heraldic shape emblem"] },
+  "shield": { "tags": ["shield shape emblem"] },
+  "circle": { "tags": ["circular emblem shape"] },
+  "badge": { "tags": ["badge emblem shape"] },
+  "patch": { "tags": ["fabric patch"] },
+  "seal": { "tags": ["official seal shape"] },
+  "banner": { "tags": ["banner style shape"] },
+  "medallion": { "tags": ["medallion badge shape"] }
+}

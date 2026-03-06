@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "category": "gloves_fit",
+    "version": "1.0",
+    "notes": "Fit and silhouette."
+  },
+
+  "tight": { "tags": ["tight-fitting gloves"] },
+  "snug": { "tags": ["snug gloves"] },
+  "loose": { "tags": ["loose gloves"] },
+  "oversized": { "tags": ["oversized gloves"] }
+}

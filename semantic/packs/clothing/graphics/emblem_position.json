@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "category": "emblem_position",
+    "version": "1.0"
+  },
+
+  "center_chest": {
+    "tags": [
+      "center chest emblem",
+      "logo printed on chest"
+    ]
+  },
+
+  "strap_logo": {
+    "tags": [
+      "logo printed on strap",
+      "brand text on strap"
+    ]
+  },
+
+  "corner_patch": {
+    "tags": [
+      "small corner logo patch",
+      "subtle clothing logo"
+    ]
+  }
+}

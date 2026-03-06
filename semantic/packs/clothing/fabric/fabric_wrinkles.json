@@ -1,0 +1,100 @@
+{
+  "_meta": {
+    "category": "fabric_wrinkles",
+    "version": "0.1",
+    "notes": "Controls fabric folds, creases, and wrinkle patterns independent of fabric tension."
+  },
+
+  "none": {
+    "tags": [
+      "smooth fabric",
+      "no wrinkles",
+      "perfectly flat cloth surface"
+    ],
+    "negative": [
+      "wrinkled fabric",
+      "creases",
+      "folded fabric"
+    ]
+  },
+
+  "light": {
+    "tags": [
+      "light fabric wrinkles",
+      "subtle creases",
+      "soft fabric folds"
+    ]
+  },
+
+  "natural": {
+    "tags": [
+      "natural fabric wrinkles",
+      "realistic cloth folds",
+      "organic fabric creases"
+    ]
+  },
+
+  "heavy": {
+    "tags": [
+      "heavily wrinkled fabric",
+      "deep fabric creases",
+      "many cloth folds"
+    ]
+  },
+
+  "waist_wrinkles": {
+    "tags": [
+      "wrinkles around the waist",
+      "fabric bunching at the waist",
+      "creased fabric near waistband"
+    ]
+  },
+
+  "arm_wrinkles": {
+    "tags": [
+      "wrinkles around the elbows",
+      "fabric creasing along arms",
+      "folded sleeves"
+    ]
+  },
+
+  "hip_wrinkles": {
+    "tags": [
+      "wrinkles around the hips",
+      "fabric bunching at the hips",
+      "cloth folding near hip line"
+    ]
+  },
+
+  "seated_wrinkles": {
+    "tags": [
+      "fabric creased from sitting",
+      "compression wrinkles",
+      "cloth folded at lap"
+    ]
+  },
+
+  "movement_wrinkles": {
+    "tags": [
+      "fabric folds from movement",
+      "dynamic cloth wrinkles",
+      "clothing shifting with motion"
+    ]
+  },
+
+  "soft_folds": {
+    "tags": [
+      "soft fabric folds",
+      "draped cloth folds",
+      "flowing fabric creases"
+    ]
+  },
+
+  "sharp_creases": {
+    "tags": [
+      "sharp clothing creases",
+      "pressed fabric lines",
+      "structured cloth folds"
+    ]
+  }
+}

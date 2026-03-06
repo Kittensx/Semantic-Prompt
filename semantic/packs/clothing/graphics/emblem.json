@@ -1,0 +1,175 @@
+{
+  "_meta": {
+    "category": "emblem",
+    "version": "0.1",
+    "notes": "Emblems, logos, badges, and printed chest graphics for shirts, uniforms, patches."
+  },
+
+  "school crest": {
+    "tags": [
+      "embroidered school crest",
+      "academic emblem",
+      "shield shaped badge",
+      "detailed embroidery",
+      "chest emblem"
+    ]
+  },
+  
+  "barcode": {
+    "tags": [
+      "a simple barcode"
+      
+    ]
+  },
+  "qr_code": {
+    "tags": [
+      "a simple qr code",
+	  "geometric design"
+      
+    ]
+  },
+
+  "academy logo": {
+    "tags": [
+      "academy logo",
+      "minimalist school emblem",
+      "embroidered chest logo",
+      "formal uniform badge"
+    ]
+  },
+
+  "scout badge": {
+    "tags": [
+      "embroidered scout badge",
+      "merit badge patch",
+      "stitched border",
+      "circular fabric patch",
+      "uniform insignia"
+    ]
+  },
+
+  "girl scout patch": {
+    "tags": [
+      "embroidered girl scout style patch",
+      "achievement badge",
+      "colorful stitched emblem",
+      "fabric chest patch"
+    ]
+  },
+  
+  "boy scout patch": {
+    "tags": [
+      "embroidered boy scout style patch",
+      "achievement badge",
+      "colorful stitched emblem",
+      "fabric chest patch"
+    ]
+  },
+
+  "military insignia": {
+    "tags": [
+      "military style insignia",
+      "embroidered rank patch",
+      "tactical emblem",
+      "uniform chest patch"
+    ]
+  },
+
+  "sports team logo": {
+    "tags": [
+      "sports team logo",
+      "bold graphic emblem",
+      "printed jersey logo",
+      "team mascot graphic"
+    ]
+  },
+
+  "mascot emblem": {
+    "tags": [
+      "mascot emblem",
+      "stylized animal logo",
+      "bold chest graphic",
+      "vector logo style"
+    ]
+  },
+
+  "streetwear logo": {
+    "tags": [
+      "streetwear logo",
+      "minimal chest print",
+      "clean vector graphic",
+      "modern brand aesthetic"
+    ]
+  },
+
+  "luxury brand style": {
+    "tags": [
+      "luxury monogram logo",
+      "embroidered gold emblem",
+      "minimal high fashion branding",
+      "subtle chest logo"
+    ]
+  },
+
+  "athletic brand style": {
+    "tags": [
+      "athletic logo style",
+      "simple swoosh inspired emblem",
+      "minimal sport branding",
+      "clean chest logo"
+    ]
+  },
+
+  "retro varsity patch": {
+    "tags": [
+      "retro varsity patch",
+      "letterman jacket emblem",
+      "chenille patch",
+      "stitched felt lettering"
+    ]
+  },
+
+  "fantasy guild crest": {
+    "tags": [
+      "fantasy guild crest",
+      "ornate heraldic emblem",
+      "metallic embroidered badge",
+      "detailed fantasy insignia"
+    ]
+  },
+
+  "magical academy seal": {
+    "tags": [
+      "magical academy seal",
+      "arcane symbol emblem",
+      "ornate circular crest",
+      "embroidered mystical badge"
+    ]
+  },
+
+  "minimal text logo": {
+    "tags": [
+      "minimal text logo",
+      "clean typography emblem",
+      "simple chest print",
+      "modern brand mark"
+    ]
+  },
+
+  "embroidered heart patch": {
+    "tags": [
+      "small embroidered heart patch",
+      "cute chest emblem",
+      "stitched fabric badge"
+    ]
+  },
+
+  "cartoon badge": {
+    "tags": [
+      "cartoon style badge",
+      "playful patch design",
+      "bright stitched emblem",
+      "youthful uniform insignia"
+    ]
+  }
+}

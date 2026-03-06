@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "category": "emblem_examples",
+    "version": "1.0",
+    "notes": "Example emblems built from modular emblem components."
+  },
+
+  "school_crest": {
+    "requires": [
+      "emblem_shape:shield",
+      "emblem_style:academic",
+      "emblem_symbol:letter",
+      "emblem_rendering:embroidered",
+      "emblem_border:stitched_border",
+      "emblem_position:center_chest"
+    ]
+  },
+
+  "academy_logo": {
+    "requires": [
+      "emblem_shape:crest",
+      "emblem_style:academic",
+      "emblem_symbol:monogram",
+      "emblem_rendering:embroidered",
+      "emblem_border:double_border",
+      "emblem_position:center_chest"
+    ]
+  },
+
+  "scout_badge": {
+    "requires": [
+      "emblem_shape:badge",
+      "emblem_style:retro",
+      "emblem_symbol:star",
+      "emblem_rendering:stitched_patch",
+      "emblem_border:stitched_border",
+      "emblem_position:corner_patch"
+    ]
+  },
+
+  "military_insignia": {
+    "requires": [
+      "emblem_shape:shield",
+      "emblem_style:military",
+      "emblem_symbol:crossed_swords",
+      "emblem_rendering:embroidered",
+      "emblem_border:gold_border",
+      "emblem_position:corner_patch"
+    ]
+  },
+
+  "sports_team_logo": {
+    "requires": [
+      "emblem_shape:circle",
+      "emblem_style:sports",
+      "emblem_symbol:animal",
+      "emblem_rendering:screen_print",
+      "emblem_border:no_border",
+      "emblem_position:center_chest"
+    ]
+  },
+
+  "mascot_emblem": {
+    "requires": [
+      "emblem_shape:circle",
+      "emblem_style:sports",
+      "emblem_symbol:animal",
+      "emblem_rendering:printed",
+      "emblem_border:no_border",
+      "emblem_position:center_chest"
+    ]
+  },
+
+  "streetwear_logo": {
+    "requires": [
+      "emblem_shape:banner",
+      "emblem_style:streetwear",
+      "emblem_symbol:letter",
+      "emblem_rendering:screen_print",
+      "emblem_border:no_border",
+      "emblem_position:center_chest"
+    ]
+  },
+
+  "luxury_brand_style": {
+    "requires": [
+      "emblem_shape:crest",
+      "emblem_style:luxury",
+      "emblem_symbol:monogram",
+      "emblem_rendering:embroidered",
+      "emblem_border:gold_border",
+      "emblem_position:corner_patch"
+    ]
+  },
+
+  "retro_varsity_patch": {
+    "requires": [
+      "emblem_shape:patch",
+      "emblem_style:retro",
+      "emblem_symbol:letter",
+      "emblem_rendering:stitched_patch",
+      "emblem_border:rope_border",
+      "emblem_position:corner_patch"
+    ]
+  },
+
+  "fantasy_guild_crest": {
+    "requires": [
+      "emblem_shape:crest",
+      "emblem_style:fantasy",
+      "emblem_symbol:crown",
+      "emblem_rendering:embroidered",
+      "emblem_border:gold_border",
+      "emblem_position:center_chest"
+    ]
+  },
+
+  "magical_academy_seal": {
+    "requires": [
+      "emblem_shape:seal",
+      "emblem_style:magical",
+      "emblem_symbol:star",
+      "emblem_rendering:embroidered",
+      "emblem_border:double_border",
+      "emblem_position:center_chest"
+    ]
+  },
+
+  "minimal_text_logo": {
+    "requires": [
+      "emblem_shape:banner",
+      "emblem_style:minimal",
+      "emblem_symbol:letter",
+      "emblem_rendering:printed",
+      "emblem_border:no_border",
+      "emblem_position:strap_logo"
+    ]
+  },
+
+  "embroidered_heart_patch": {
+    "requires": [
+      "emblem_shape:patch",
+      "emblem_style:minimal",
+      "emblem_symbol:heart",
+      "emblem_rendering:embroidered",
+      "emblem_border:stitched_border",
+      "emblem_position:corner_patch"
+    ]
+  },
+
+  "cartoon_badge": {
+    "requires": [
+      "emblem_shape:badge",
+      "emblem_style:streetwear",
+      "emblem_symbol:animal",
+      "emblem_rendering:printed",
+      "emblem_border:double_border",
+      "emblem_position:center_chest"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "category": "gloves_features",
+    "version": "1.0",
+    "notes": "Construction and functional features that define glove styles."
+  },
+
+  "stitching": { "tags": ["visible stitching on gloves"] },
+  "padded": { "tags": ["padded gloves"] },
+  "reinforced_knuckles": { "tags": ["reinforced knuckles"] },
+  "vent_holes": { "tags": ["vent holes on gloves", "perforated gloves"] },
+  "grip_palm": { "tags": ["grip palm gloves", "non-slip palm"] },
+  "wrist_strap": { "tags": ["wrist strap gloves"] },
+  "buckle": { "tags": ["buckled gloves"] },
+  "buttons": { "tags": ["buttoned gloves"] },
+  "zipper": { "tags": ["zipper gloves"] },
+  "lace_up": { "tags": ["lace-up gloves"] },
+  "frills": { "tags": ["frilled gloves", "ruffled gloves"] },
+  "embroidery": { "tags": ["embroidered gloves"] }
+}

@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "category": "emblem_border",
+    "version": "1.0"
+  },
+
+  "stitched_border": { "tags": ["stitched border"] },
+  "gold_border": { "tags": ["gold trimmed border"] },
+  "double_border": { "tags": ["double line border"] },
+  "rope_border": { "tags": ["rope style border"] },
+  "no_border": { "tags": ["borderless emblem"] }
+}

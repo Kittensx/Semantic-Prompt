@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "category": "eyewear_worn",
+    "version": "0.1",
+    "notes": "How eyeglasses or sunglasses are worn or interacted with."
+  },
+
+  "standard": {
+    "tags": [
+      "wearing eyeglasses",
+      "glasses worn normally",
+      "eyeglasses on face"
+    ]
+  },
+
+  "sunglasses": {
+    "tags": [
+      "wearing sunglasses",
+      "dark sunglasses",
+      "sunglasses covering eyes"
+    ]
+  },
+
+  "reading_glasses": {
+    "tags": [
+      "reading glasses",
+      "small reading glasses",
+      "thin reading spectacles"
+    ]
+  },
+
+  "glasses_lowered": {
+    "aliases": ["glasses_low"],
+    "tags": [
+      "glasses lowered on nose",
+      "looking over glasses",
+      "glasses resting low on nose"
+    ]
+  },
+
+  "glasses_pushed_up": {
+    "tags": [
+      "pushing glasses up",
+      "adjusting glasses",
+      "finger pushing glasses up nose"
+    ]
+  },
+
+  "holding_glasses": {
+    "tags": [
+      "holding eyeglasses",
+      "glasses held in hand",
+      "holding glasses by the frame"
+    ]
+  },
+
+  "glasses_on_head": {
+    "tags": [
+      "glasses resting on head",
+      "sunglasses on head",
+      "glasses pushed up into hair"
+    ]
+  },
+
+  "one_hand_adjusting": {
+    "tags": [
+      "adjusting glasses with one hand",
+      "hand touching glasses frame",
+      "fixing glasses on face"
+    ]
+  },
+
+  "glasses_removed": {
+    "tags": [
+      "glasses removed",
+      "not wearing glasses",
+      "glasses off face"
+    ]
+  }
+}
