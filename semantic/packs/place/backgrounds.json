@@ -1,193 +1,191 @@
 {
   "_meta": {
     "category": "backgrounds",
-    "version": "0.2",
-    "notes": "Expanded environmental themes. Designed to control scene tone, scale, and atmosphere."
+    "version": "1.0",
+    "notes": "Simple background colors, gradients, and abstract backdrop themes. Designed for studio shots, minimal scenes, and controlled environments. Avoids location-based places."
   },
 
-
-  "forest": {
-    "tags": ["dense forest", "tall trees", "natural light filtering through leaves"],
-    "negative": []
+  "white": {
+    "tags": [
+      "white background",
+      "pure white backdrop",
+      "clean white studio background"
+    ]
   },
 
-  "enchanted forest": {
-    "tags": ["glowing enchanted forest", "mystical atmosphere", "floating lights", "fantasy woodland"],
-    "negative": []
+  "black": {
+    "tags": [
+      "black background",
+      "dark studio backdrop",
+      "deep black background"
+    ]
   },
 
-  "mountains": {
-    "tags": ["mountain range", "dramatic peaks", "wide landscape view"],
-    "negative": []
+  "gray": {
+    "tags": [
+      "gray background",
+      "neutral gray studio backdrop",
+      "soft gray gradient background"
+    ]
   },
 
-  "snowy tundra": {
-    "tags": ["snow covered landscape", "icy wind", "frozen horizon"],
-    "negative": []
+  "dark": {
+    "tags": [
+      "dark background",
+      "shadowy backdrop",
+      "low light background"
+    ]
   },
 
-  "desert": {
-    "tags": ["vast desert", "sand dunes", "heat haze", "bright sun"],
-    "negative": []
+  "light": {
+    "tags": [
+      "bright background",
+      "soft light backdrop",
+      "high key background"
+    ]
   },
 
-  "tropical beach": {
-    "tags": ["tropical beach", "clear blue ocean", "palm trees", "bright sky"],
-    "negative": []
+  "sky_blue": {
+    "tags": [
+      "sky blue background",
+      "soft blue backdrop",
+      "clear sky colored background"
+    ]
   },
 
-  "cliffside ocean": {
-    "tags": ["cliff overlooking ocean", "waves crashing below", "dramatic coastline"],
-    "negative": []
+  "sunset_gradient": {
+    "tags": [
+      "sunset gradient background",
+      "orange pink gradient backdrop",
+      "warm sky gradient"
+    ]
   },
 
-  "waterfall": {
-    "tags": ["large waterfall", "misty air", "lush greenery"],
-    "negative": []
+  "purple_gradient": {
+    "tags": [
+      "purple gradient background",
+      "violet gradient backdrop",
+      "purple fading background"
+    ]
   },
 
-  "field sunset": {
-    "tags": ["open field at sunset", "golden hour glow", "long shadows"],
-    "negative": []
+  "pastel_gradient": {
+    "tags": [
+      "pastel gradient background",
+      "soft pastel color backdrop",
+      "dreamy pastel gradient"
+    ]
   },
 
-  "night meadow": {
-    "tags": ["open meadow at night", "star filled sky", "soft moonlight"],
-    "negative": []
+  "rainbow_gradient": {
+    "tags": [
+      "rainbow gradient background",
+      "multi color gradient backdrop",
+      "colorful spectrum background"
+    ]
   },
 
-
-  "city street": {
-    "tags": ["busy city street", "buildings lining road", "urban atmosphere"],
-    "negative": []
+  "studio_seamless": {
+    "tags": [
+      "seamless studio background",
+      "studio paper backdrop",
+      "photography studio backdrop"
+    ]
   },
 
-  "neon city": {
-    "tags": ["neon lit city", "cyberpunk skyline", "rain reflections", "glowing signs"],
-    "negative": []
+  "vignette": {
+    "tags": [
+      "vignette background",
+      "dark edges fading to center",
+      "soft vignette backdrop"
+    ]
   },
 
-  "rooftop night": {
-    "tags": ["city rooftop at night", "glowing skyline", "wind blowing"],
-    "negative": []
+  "bokeh": {
+    "tags": [
+      "bokeh background",
+      "blurred light circles",
+      "soft out of focus lights"
+    ]
   },
 
-  "abandoned building": {
-    "tags": ["abandoned building interior", "cracked walls", "dust particles in air"],
-    "negative": []
+  "sparkle": {
+    "tags": [
+      "sparkling background",
+      "glitter light background",
+      "twinkling light particles"
+    ]
   },
 
-  "subway station": {
-    "tags": ["underground subway station", "industrial lighting", "urban grit"],
-    "negative": []
+  "glow": {
+    "tags": [
+      "soft glowing background",
+      "ambient glow backdrop",
+      "subtle luminous background"
+    ]
   },
 
-  "luxury penthouse": {
-    "tags": ["modern penthouse interior", "floor to ceiling windows", "city view"],
-    "negative": []
+  "neon_glow": {
+    "tags": [
+      "neon glow background",
+      "vibrant neon lights",
+      "colorful glowing backdrop"
+    ]
   },
 
-
-  "floating islands": {
-    "tags": ["floating islands in sky", "fantasy clouds", "epic scale"],
-    "negative": []
+  "cinematic_dark": {
+    "tags": [
+      "cinematic dark background",
+      "dramatic shadow backdrop",
+      "film style dark atmosphere"
+    ]
   },
 
-  "ancient ruins": {
-    "tags": ["ancient stone ruins", "weathered pillars", "overgrown vines"],
-    "negative": []
+  "foggy": {
+    "tags": [
+      "foggy background",
+      "soft mist backdrop",
+      "hazy atmospheric background"
+    ]
   },
 
-  "crystal cavern": {
-    "tags": ["glowing crystal cave", "sparkling mineral walls", "fantasy cavern"],
-    "negative": []
+  "smoke": {
+    "tags": [
+      "smoky background",
+      "smoke swirling in background",
+      "dramatic smoke atmosphere"
+    ]
   },
 
-  "castle courtyard": {
-    "tags": ["medieval castle courtyard", "stone architecture", "open sky"],
-    "negative": []
+  "abstract_light": {
+    "tags": [
+      "abstract light background",
+      "soft glowing shapes",
+      "modern abstract lighting"
+    ]
   },
 
-  "throne room": {
-    "tags": ["ornate throne room", "grand hall", "dramatic architecture"],
-    "negative": []
+  "color_wash": {
+    "tags": [
+      "color washed background",
+      "soft color overlay backdrop",
+      "diffused color lighting"
+    ]
   },
 
-  "portal chamber": {
-    "tags": ["glowing magical portal", "ancient stone chamber", "energy swirling"],
-    "negative": []
+  "textured_wall": {
+    "tags": [
+      "textured wall background",
+      "subtle textured backdrop",
+      "studio texture background"
+    ]
   },
 
-
-  "space": {
-    "tags": ["outer space", "starfield", "deep cosmic backdrop"],
-    "negative": []
-  },
-
-  "spaceship interior": {
-    "tags": ["futuristic spaceship interior", "control panels", "blue glow"],
-    "negative": []
-  },
-
-  "alien planet": {
-    "tags": ["alien landscape", "strange terrain", "unfamiliar sky colors"],
-    "negative": []
-  },
-
-  "high tech lab": {
-    "tags": ["advanced research lab", "holographic screens", "clean sci-fi interior"],
-    "negative": []
-  },
-
-
-  "bedroom": {
-    "tags": ["cozy bedroom", "soft bedding", "window light"],
-    "negative": []
-  },
-
-  "modern apartment": {
-    "tags": ["modern apartment interior", "clean design", "natural daylight"],
-    "negative": []
-  },
-
-  "library": {
-    "tags": ["large library", "wooden bookshelves", "warm lighting"],
-    "negative": []
-  },
-
-  "cafe": {
-    "tags": ["cozy cafe", "warm ambient light", "casual seating"],
-    "negative": []
-  },
-
-  "classroom": {
-    "tags": ["school classroom", "desks and chalkboard", "daylight windows"],
-    "negative": []
-  },
-
-
-  "storm": {
-    "tags": ["dark storm clouds", "dramatic sky", "wind and rain"],
-    "negative": []
-  },
-
-  "apocalyptic city": {
-    "tags": ["ruined cityscape", "smoke and debris", "post disaster environment"],
-    "negative": []
-  },
-
-  "battlefield": {
-    "tags": ["war torn battlefield", "dust in air", "dramatic lighting"],
-    "negative": []
-  },
-
-  "volcanic landscape": {
-    "tags": ["lava flows", "volcanic rock", "embers in air"],
-    "negative": []
-  },
-
-  "underwater": {
-    "tags": ["underwater scene", "light rays through water", "floating particles"],
-    "negative": []
+  "paint_texture": {
+    "tags": [
+      "paint texture background",
+      "artistic painted backdrop",
+      "brush stroke background"
+    ]
   }
 }
