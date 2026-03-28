@@ -1,0 +1,509 @@
+# Pack Bundle Manager (Proposed Design)
+
+## Overview
+
+`pack_bundle_manager` is a distribution and packaging tool for Semantic Prompt packs.
+Its purpose is to allow packs to be **collected, bundled, distributed, and re-installed** using a database instead of ZIP archives.
+
+The tool is **not intended to replace existing pack intake tools** such as:
+
+```
+update_db_from_json
+sync_packs_from_db
+```
+
+Instead, it acts as a **distribution layer** that sits between pack authoring and pack installation.
+
+The system supports:
+
+* Official pack distribution bundles
+* Community pack bundles
+* Future pack releases without overwriting user edits
+* Rebuilding pack JSON files from bundle databases
+* Sharing bundles as a single `.sqlite` file
+
+---
+
+# Core Philosophy
+
+Pack authoring and pack distribution should remain **separate systems**.
+
+Two distinct workflows exist:
+
+### Authoring Workflow
+
+Used by developers and pack creators.
+
+```
+author JSON pack
+↓
+update_db_from_json
+↓
+cat_id assigned
+↓
+canonical packs folder updated
+↓
+search index updated
+```
+
+### Distribution Workflow
+
+Used for shipping packs to users.
+
+```
+bundle database
+↓
+export pack JSON files
+↓
+update_db_from_json
+↓
+canonical packs folder updated
+```
+
+The **Pack Bundle Manager** only handles the **bundle layer**.
+
+It does **not attempt to normalize metadata** or assign `cat_id`.
+That responsibility remains with the existing intake system.
+
+---
+
+# Key Goals
+
+1. Allow pack bundles to be distributed without ZIP archives.
+2. Prevent overwriting user-modified packs during updates.
+3. Allow new packs to be added in future releases.
+4. Allow users to create and share their own pack bundles.
+5. Allow pack JSON files to be regenerated from a bundle database.
+6. Keep compatibility with existing tools.
+
+---
+
+# Identity Model
+
+Each pack is uniquely identified by:
+
+```
+cat_id
+```
+
+This remains the **stable identity key** across:
+
+* databases
+* bundles
+* JSON files
+* pack updates
+
+Pack paths are derived from:
+
+```
+category
+```
+
+Example:
+
+```
+category: appearance.examples.faces.girl_next_door
+cat_id:   cat_3d174j0zlqww
+```
+
+Export path:
+
+```
+appearance/examples/faces/girl_next_door/cat_3d174j0zlqww.json
+```
+
+Rule:
+
+```
+path = category.replace(".", "/") + "/" + cat_id + ".json"
+```
+
+---
+
+# Two Phase Installation System
+
+Bundle installation intentionally uses **two phases**.
+
+## Phase 1 — Bundle Export
+
+`pack_bundle_manager` exports pack JSON files.
+
+Output location should be a **staging folder**:
+
+```
+packs_staging/
+```
+
+Example structure:
+
+```
+packs_staging/
+  appearance/
+    examples/
+      faces/
+        girl_next_door/
+          cat_3d174j0zlqww.json
+```
+
+Files are valid pack JSON files but **not yet normalized**.
+
+---
+
+## Phase 2 — Intake Processing
+
+The existing tool processes the staging files:
+
+```
+update_db_from_json
+```
+
+Responsibilities:
+
+* assign missing `cat_id`
+* normalize metadata
+* move files into canonical `packs/`
+* update the pack database
+* register packs with search UI
+
+---
+
+# Bundle Database
+
+Bundles are stored as a **SQLite database file**.
+
+Example filename:
+
+```
+pack_bundles.sqlite
+```
+
+Users can share this single file instead of distributing pack folders.
+
+---
+
+# Database Schema (Proposed)
+
+## bundles
+
+Stores bundle definitions.
+
+| field       | type             |
+| ----------- | ---------------- |
+| bundle_id   | TEXT PRIMARY KEY |
+| name        | TEXT             |
+| description | TEXT             |
+| version     | TEXT             |
+| author      | TEXT             |
+| created_at  | TEXT             |
+| updated_at  | TEXT             |
+
+Example:
+
+```
+bundle_id: core_starter
+name: Core Starter Packs
+version: 1.0
+```
+
+---
+
+## pack_payloads
+
+Stores full pack JSON objects.
+
+| field        | type             |
+| ------------ | ---------------- |
+| cat_id       | TEXT PRIMARY KEY |
+| category     | TEXT             |
+| pack_json    | TEXT             |
+| content_hash | TEXT             |
+| created_at   | TEXT             |
+| updated_at   | TEXT             |
+
+`pack_json` contains the full serialized pack.
+
+---
+
+## bundle_packs
+
+Maps packs to bundles.
+
+| field      | type    |
+| ---------- | ------- |
+| bundle_id  | TEXT    |
+| cat_id     | TEXT    |
+| sort_order | INTEGER |
+
+Composite primary key:
+
+```
+(bundle_id, cat_id)
+```
+
+---
+
+# JSON Export Rules
+
+Exported JSON must follow canonical formatting.
+
+```
+UTF-8
+ensure_ascii = False
+indent = 2
+trailing newline
+```
+
+Example writer:
+
+```
+json.dumps(data, ensure_ascii=False, indent=2) + "\n"
+```
+
+Key ordering:
+
+```
+_meta first
+entries sorted alphabetically
+```
+
+---
+
+# Command Interface (Proposed)
+
+The tool should behave as a CLI utility.
+
+Example location:
+
+```
+semantic/tools/core/pack_bundle_manager.py
+```
+
+---
+
+## create-bundle-db
+
+Creates a new empty bundle database.
+
+Example:
+
+```
+python pack_bundle_manager.py create-bundle-db bundles.sqlite
+```
+
+---
+
+## list-bundles
+
+Displays bundles inside a DB.
+
+Example:
+
+```
+python pack_bundle_manager.py list-bundles --db bundles.sqlite
+```
+
+Output:
+
+```
+core_starter
+community_pack_1
+anime_faces_bundle
+```
+
+---
+
+## import-from-packs
+
+Imports JSON packs into a bundle database.
+
+Example:
+
+```
+python pack_bundle_manager.py import-from-packs \
+  --db bundles.sqlite \
+  --packs-root packs \
+  --bundle core_starter
+```
+
+Steps:
+
+1. scan pack folder
+2. read `_meta.cat_id`
+3. store pack JSON in DB
+4. register pack with bundle
+
+---
+
+## export-bundle
+
+Exports bundle packs to staging folder.
+
+Example:
+
+```
+python pack_bundle_manager.py export-bundle \
+  --db bundles.sqlite \
+  --bundle core_starter \
+  --out packs_staging
+```
+
+Steps:
+
+1. load bundle pack list
+2. derive path from category
+3. write pack JSON files
+
+---
+
+## diff-bundle-vs-folder
+
+Compares bundle contents with a folder.
+
+Example:
+
+```
+python pack_bundle_manager.py diff-bundle-vs-folder \
+  --db bundles.sqlite \
+  --bundle core_starter \
+  --packs-root packs
+```
+
+Reports:
+
+```
+missing locally
+extra locally
+modified
+matching
+```
+
+---
+
+# Default Safety Rules
+
+The tool should **never overwrite user content automatically**.
+
+Bundle installation rules:
+
+| condition                  | action        |
+| -------------------------- | ------------- |
+| file missing               | install       |
+| file exists same hash      | skip          |
+| file exists different hash | skip + report |
+
+Overwrite should require an explicit flag.
+
+---
+
+# Bundle Sharing
+
+A bundle database file can be shared directly.
+
+Example:
+
+```
+community_anime_faces.sqlite
+```
+
+Installation workflow:
+
+```
+download bundle DB
+↓
+export bundle
+↓
+run update_db_from_json
+↓
+packs installed
+```
+
+This replaces ZIP pack distribution.
+
+---
+
+# Example Workflows
+
+## Build Official Bundle
+
+```
+import-from-packs
+↓
+bundle database created
+↓
+export-bundle
+↓
+publish bundle DB
+```
+
+---
+
+## Install Bundle
+
+```
+download bundle DB
+↓
+export-bundle → packs_staging
+↓
+update_db_from_json
+↓
+packs normalized and installed
+```
+
+---
+
+## User Creates New Pack
+
+```
+create new JSON pack
+↓
+place in staging folder
+↓
+update_db_from_json
+↓
+cat_id generated
+↓
+pack becomes searchable
+```
+
+---
+
+# Advantages
+
+This architecture provides:
+
+* safe updates
+* shareable pack bundles
+* reproducible pack exports
+* database backed distribution
+* compatibility with existing tooling
+* community bundle ecosystem
+
+---
+
+# Future Extensions
+
+Possible improvements:
+
+* GUI bundle browser
+* in-app bundle installer
+* signed official bundles
+* bundle version upgrades
+* pack dependency validation
+* bundle diff reports
+
+---
+
+# Summary
+
+`pack_bundle_manager` provides a **database-backed pack distribution layer**.
+
+It enables:
+
+* sharing packs as a single database
+* installing packs safely
+* regenerating pack JSON files
+* future pack updates without breaking user edits
+
+while leaving **metadata normalization and cat_id assignment** to the existing pack intake tools.
+
+This separation keeps the system robust and maintainable.

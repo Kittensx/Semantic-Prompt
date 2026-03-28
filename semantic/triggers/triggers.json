@@ -1,0 +1,1004 @@
+{
+  "_meta": {
+    "version": "0.2",
+    "notes": "Keyword/phrase triggers for semantic %%...%% rewriting. Longest phrase match recommended. (auto-aligned to current pack keys).",
+    "generated_from_packs_zip": "packs.zip"
+  },
+  "photo": {
+    "medium": {
+      "pick": "photograph",
+      "priority": 100
+    }
+  },
+  "photograph": {
+    "medium": {
+      "pick": "photograph",
+      "priority": 100
+    }
+  },
+  "film": {
+    "medium": {
+      "pick": "film_still",
+      "priority": 90
+    }
+  },
+  "cinematic": {
+    "medium": {
+      "pick": "film_still",
+      "priority": 80
+    }
+  },
+  "watercolor": {
+    "medium": {
+      "pick": "watercolor",
+      "priority": 100
+    }
+  },
+  "oil painting": {
+    "medium": {
+      "pick": "oil_painting",
+      "priority": 100
+    }
+  },
+  "pencil sketch": {
+    "medium": {
+      "pick": "pencil_sketch",
+      "priority": 100
+    }
+  },
+  "sketch": {
+    "medium": {
+      "pick": "pencil_sketch",
+      "priority": 70
+    }
+  },
+  "comic": {
+    "medium": {
+      "pick": "comic",
+      "priority": 100
+    }
+  },
+  "digital art": {
+    "medium": {
+      "pick": "digital_art",
+      "priority": 100
+    }
+  },
+  "illustration": {
+    "medium": {
+      "pick": "digital_art",
+      "priority": 70
+    }
+  },
+  "neon": {
+    "lighting": {
+      "add": [
+        "neon"
+      ]
+    }
+  },
+  "golden hour": {
+    "lighting": {
+      "add": [
+        "golden hour"
+      ]
+    }
+  },
+  "sunset": {
+    "subject": {
+      "add": [
+        "sunset"
+      ]
+    }
+  },
+  "dusk": {
+    "subject": {
+      "add": [
+        "dusk"
+      ]
+    }
+  },
+  "night": {
+    "subject": {
+      "add": [
+        "night"
+      ]
+    }
+  },
+  "studio": {
+    "lighting": {
+      "add": [
+        "softbox"
+      ]
+    }
+  },
+  "volumetric": {
+    "lighting": {
+      "add": [
+        "foggy"
+      ]
+    }
+  },
+  "backlit": {
+    "lighting": {
+      "add": [
+        "backlit"
+      ]
+    }
+  },
+  "rim light": {
+    "lighting": {
+      "add": [
+        "rim light"
+      ]
+    }
+  },
+  "valley": {
+    "subject": {
+      "add": [
+        "valley"
+      ]
+    }
+  },
+  "ocean": {
+    "subject": {
+      "add": [
+        "ocean"
+      ]
+    }
+  },
+  "beach": {
+    "subject": {
+      "add": [
+        "beach"
+      ]
+    }
+  },
+  "forest": {
+    "subject": {
+      "add": [
+        "forest"
+      ]
+    }
+  },
+  "rain": {
+    "subject": {
+      "add": [
+        "rain"
+      ]
+    }
+  },
+  "storm": {
+    "subject": {
+      "add": [
+        "storm"
+      ]
+    }
+  },
+  "snow": {
+    "subject": {
+      "add": [
+        "snow"
+      ]
+    }
+  },
+  "underwater": {
+    "subject": {
+      "add": [
+        "underwater"
+      ]
+    }
+  },
+  "space": {
+    "subject": {
+      "add": [
+        "space"
+      ]
+    }
+  },
+  "cabin": {
+    "subject": {
+      "add": [
+        "cabin"
+      ]
+    }
+  },
+  "cafe": {
+    "subject": {
+      "add": [
+        "cafe"
+      ]
+    }
+  },
+  "coffee shop": {
+    "subject": {
+      "add": [
+        "cafe"
+      ]
+    }
+  },
+  "close up": {
+    "composition": {
+      "add": [
+        "close_up"
+      ]
+    }
+  },
+  "close-up": {
+    "composition": {
+      "add": [
+        "close_up"
+      ]
+    }
+  },
+  "portrait": {
+    "composition": {
+      "add": [
+        "portrait"
+      ]
+    }
+  },
+  "wide shot": {
+    "composition": {
+      "add": [
+        "wide_shot"
+      ]
+    }
+  },
+  "overhead": {
+    "composition": {
+      "add": [
+        "overhead"
+      ]
+    }
+  },
+  "top down": {
+    "composition": {
+      "add": [
+        "overhead"
+      ]
+    }
+  },
+  "low angle": {
+    "composition": {
+      "add": [
+        "low_angle"
+      ]
+    }
+  },
+  "high angle": {
+    "composition": {
+      "add": [
+        "high_angle"
+      ]
+    }
+  },
+  "rule of thirds": {
+    "composition": {
+      "add": [
+        "rule_of_thirds"
+      ]
+    }
+  },
+  "centered": {
+    "composition": {
+      "add": [
+        "centered"
+      ]
+    }
+  },
+  "symmetry": {
+    "composition": {
+      "add": [
+        "centered"
+      ]
+    }
+  },
+  "leading lines": {
+    "composition": {
+      "add": [
+        "leading_lines"
+      ]
+    }
+  },
+  "muted": {
+    "palette": {
+      "add": [
+        "muted"
+      ]
+    }
+  },
+  "vibrant": {
+    "palette": {
+      "add": [
+        "vibrant"
+      ]
+    }
+  },
+  "pastel": {
+    "palette": {
+      "add": [
+        "pastel"
+      ]
+    }
+  },
+  "monochrome": {
+    "palette": {
+      "add": [
+        "monochrome"
+      ]
+    }
+  },
+  "black and white": {
+    "palette": {
+      "add": [
+        "monochrome"
+      ]
+    }
+  },
+  "teal and orange": {
+    "palette": {
+      "add": [
+        "teal_orange"
+      ]
+    }
+  },
+  "cool colors": {
+    "palette": {
+      "add": [
+        "cool"
+      ]
+    }
+  },
+  "warm colors": {
+    "palette": {
+      "add": [
+        "warm"
+      ]
+    }
+  },
+  "highly detailed": {
+    "quality": {
+      "add": [
+        "high detail"
+      ]
+    }
+  },
+  "film grain": {
+    "quality": {
+      "add": [
+        "film grain"
+      ]
+    }
+  },
+  "classroom": {
+    "backgrounds": {
+      "add": [
+        "classroom"
+      ]
+    }
+  },
+  "library": {
+    "backgrounds": {
+      "add": [
+        "library"
+      ]
+    }
+  },
+  "city street": {
+    "backgrounds": {
+      "add": [
+        "city street"
+      ]
+    }
+  },
+  "neon city": {
+    "backgrounds": {
+      "add": [
+        "neon city"
+      ]
+    },
+    "subject": {
+      "add": [
+        "neon city"
+      ]
+    }
+  },
+  "rooftop": {
+    "backgrounds": {
+      "add": [
+        "rooftop night"
+      ]
+    }
+  },
+  "space station": {
+    "backgrounds": {
+      "add": [
+        "spaceship interior"
+      ]
+    }
+  },
+  "spaceship": {
+    "backgrounds": {
+      "add": [
+        "spaceship interior"
+      ]
+    }
+  },
+  "castle": {
+    "backgrounds": {
+      "add": [
+        "castle courtyard"
+      ]
+    }
+  },
+  "throne room": {
+    "backgrounds": {
+      "add": [
+        "throne room"
+      ]
+    }
+  },
+  "ancient ruins": {
+    "backgrounds": {
+      "add": [
+        "ancient ruins"
+      ]
+    }
+  },
+  "cavern": {
+    "backgrounds": {
+      "add": [
+        "crystal cavern"
+      ]
+    }
+  },
+  "portal": {
+    "backgrounds": {
+      "add": [
+        "portal chamber"
+      ]
+    }
+  },
+  "lab": {
+    "backgrounds": {
+      "add": [
+        "high tech lab"
+      ]
+    }
+  },
+  "bedroom": {
+    "backgrounds": {
+      "add": [
+        "bedroom"
+      ]
+    }
+  },
+  "apartment": {
+    "backgrounds": {
+      "add": [
+        "modern apartment"
+      ]
+    }
+  },
+  "subway": {
+    "backgrounds": {
+      "add": [
+        "subway station"
+      ]
+    }
+  },
+  "penthouse": {
+    "backgrounds": {
+      "add": [
+        "luxury penthouse"
+      ]
+    }
+  },
+  "tropical beach": {
+    "backgrounds": {
+      "add": [
+        "tropical beach"
+      ]
+    }
+  },
+  "black hair": {
+    "appearance": {
+      "add": [
+        "black hair"
+      ]
+    }
+  },
+  "brown hair": {
+    "appearance": {
+      "add": [
+        "brown hair"
+      ]
+    }
+  },
+  "blonde hair": {
+    "appearance": {
+      "add": [
+        "blonde hair"
+      ]
+    }
+  },
+  "red hair": {
+    "appearance": {
+      "add": [
+        "red hair"
+      ]
+    }
+  },
+  "pink hair": {
+    "appearance": {
+      "add": [
+        "pink hair"
+      ]
+    }
+  },
+  "blue hair": {
+    "appearance": {
+      "add": [
+        "blue hair"
+      ]
+    }
+  },
+  "white hair": {
+    "appearance": {
+      "add": [
+        "white hair"
+      ]
+    }
+  },
+  "silver hair": {
+    "appearance": {
+      "add": [
+        "silver hair"
+      ]
+    }
+  },
+  "brown eyes": {
+    "appearance": {
+      "add": [
+        "brown eyes"
+      ]
+    }
+  },
+  "blue eyes": {
+    "appearance": {
+      "add": [
+        "blue eyes"
+      ]
+    }
+  },
+  "green eyes": {
+    "appearance": {
+      "add": [
+        "green eyes"
+      ]
+    }
+  },
+  "hazel eyes": {
+    "appearance": {
+      "add": [
+        "hazel eyes"
+      ]
+    }
+  },
+  "golden eyes": {
+    "appearance": {
+      "add": [
+        "golden eyes"
+      ]
+    }
+  },
+  "pale skin": {
+    "appearance": {
+      "add": [
+        "pale skin"
+      ]
+    }
+  },
+  "tan skin": {
+    "appearance": {
+      "add": [
+        "tan skin"
+      ]
+    }
+  },
+  "dark skin": {
+    "appearance": {
+      "add": [
+        "dark skin"
+      ]
+    }
+  },
+  "freckles": {
+    "appearance": {
+      "add": [
+        "freckles"
+      ]
+    }
+  },
+  "heterochromia": {
+    "appearance": {
+      "add": [
+        "heterochromia"
+      ]
+    }
+  },
+  "angry": {
+    "facial_expressions": {
+      "add": [
+        "angry"
+      ]
+    }
+  },
+  "crying": {
+    "facial_expressions": {
+      "add": [
+        "crying"
+      ]
+    }
+  },
+  "blushing": {
+    "facial_expressions": {
+      "add": [
+        "blushing"
+      ]
+    }
+  },
+  "surprised": {
+    "facial_expressions": {
+      "add": [
+        "surprised"
+      ]
+    }
+  },
+  "serious": {
+    "facial_expressions": {
+      "add": [
+        "serious"
+      ]
+    }
+  },
+  "laughing": {
+    "facial_expressions": {
+      "add": [
+        "laughing"
+      ]
+    }
+  },
+  "school uniform": {
+    "school_uniform": {
+      "add": [
+        "classic"
+      ]
+    }
+  },
+  "uniform": {
+    "school_uniform": {
+      "add": [
+        "classic"
+      ]
+    }
+  },
+  "elite academy uniform": {
+    "school_uniform": {
+      "add": [
+        "elite",
+        "blazer"
+      ]
+    }
+  },
+  "elite academy": {
+    "school_uniform": {
+      "add": [
+        "elite"
+      ]
+    }
+  },
+  "academy uniform": {
+    "school_uniform": {
+      "add": [
+        "modern academy"
+      ]
+    }
+  },
+  "sailor uniform": {
+    "school_uniform": {
+      "add": [
+        "sailor"
+      ]
+    }
+  },
+  "winter uniform": {
+    "school_uniform": {
+      "add": [
+        "winter"
+      ]
+    }
+  },
+  "summer uniform": {
+    "school_uniform": {
+      "add": [
+        "summer"
+      ]
+    }
+  },
+  "knee socks": {
+    "school_uniform": {
+      "add": [
+        "knee socks"
+      ]
+    }
+  },
+  "thigh highs": {
+    "school_uniform": {
+      "add": [
+        "thigh highs"
+      ]
+    }
+  },
+  "mary janes": {
+    "school_uniform": {
+      "add": [
+        "mary janes"
+      ]
+    }
+  },
+  "loafers": {
+    "school_uniform": {
+      "add": [
+        "loafers"
+      ]
+    }
+  },
+  "ribbon tie": {
+    "school_uniform": {
+      "add": [
+        "ribbon tie"
+      ]
+    }
+  },
+  "necktie": {
+    "school_uniform": {
+      "add": [
+        "necktie"
+      ]
+    }
+  },
+  "beret": {
+    "school_uniform": {
+      "add": [
+        "beret"
+      ]
+    }
+  },
+  "varsity": {
+    "school_uniform": {
+      "add": [
+        "varsity"
+      ]
+    }
+  },
+  "cheer uniform": {
+    "school_uniform": {
+      "add": [
+        "cheer"
+      ]
+    }
+  },
+  "track uniform": {
+    "school_uniform": {
+      "add": [
+        "track"
+      ]
+    }
+  },
+  "gym uniform": {
+    "school_uniform": {
+      "add": [
+        "gym"
+      ]
+    }
+  },
+  "swimsuit": {
+    "swimwear": {
+      "add": [
+        "one piece"
+      ]
+    }
+  },
+  "bikini": {
+	"categories": [
+      "clothing.swimwear.bikini_top",
+      "clothing.swimwear.bikini_bottom"
+    ],
+    "swimwear": {
+      "add": [
+        "bikini"
+      ]
+    }
+  },
+  "one-piece": {
+    "swimwear": {
+      "add": [
+        "one piece"
+      ]
+    }
+  },
+  "one piece": {
+    "swimwear": {
+      "add": [
+        "one piece"
+      ]
+    }
+  },
+  "sports bikini": {
+    "swimwear": {
+      "add": [
+        "sports bikini"
+      ]
+    }
+  },
+  "cosplay": {
+    "cosplay": {
+      "add": [
+        "anime school"
+      ]
+    }
+  },
+  "magical girl": {
+    "cosplay": {
+      "add": [
+        "magical girl"
+      ]
+    }
+  },
+  "cyberpunk": {
+    "cosplay": {
+      "add": [
+        "cyberpunk"
+      ]
+    }
+  },
+  "elf": {
+    "cosplay": {
+      "add": [
+        "elf"
+      ]
+    }
+  },
+  "angel": {
+    "cosplay": {
+      "add": [
+        "angel"
+      ]
+    }
+  },
+  "demon": {
+    "cosplay": {
+      "add": [
+        "demon"
+      ]
+    }
+  },
+  "superhero": {
+    "cosplay": {
+      "add": [
+        "superhero"
+      ]
+    }
+  },
+  "dark vigilante": {
+    "cosplay": {
+      "add": [
+        "dark vigilante"
+      ]
+    }
+  },
+  "tech armor": {
+    "cosplay": {
+      "add": [
+        "tech armor"
+      ]
+    }
+  },
+  "wedding dress": {
+    "dresses": {
+      "add": [
+        "wedding"
+      ]
+    }
+  },
+  "evening gown": {
+    "dresses": {
+      "add": [
+        "evening gown"
+      ]
+    }
+  },
+  "ball gown": {
+    "dresses": {
+      "add": [
+        "ball gown"
+      ]
+    }
+  },
+  "sundress": {
+    "dresses": {
+      "add": [
+        "sundress"
+      ]
+    }
+  },
+  "cocktail dress": {
+    "dresses": {
+      "add": [
+        "cocktail"
+      ]
+    }
+  },
+  "kimono": {
+    "dresses": {
+      "add": [
+        "traditional kimono"
+      ]
+    }
+  },
+  "gothic dress": {
+    "dresses": {
+      "add": [
+        "gothic"
+      ]
+    }
+  },
+  "lolita dress": {
+    "dresses": {
+      "add": [
+        "lolita"
+      ]
+    }
+  },
+  "lace dress": {
+    "dresses": {
+      "add": [
+        "lace"
+      ]
+    }
+  },
+  "anime": {
+    "medium": {
+      "pick": "anime",
+      "priority": 100
+    }
+  },
+  "ink drawing": {
+    "medium": {
+      "pick": "ink_drawing",
+      "priority": 100
+    }
+  },
+  "ink": {
+    "medium": {
+      "pick": "ink_drawing",
+      "priority": 60
+    }
+  },
+  "fog": {
+    "subject": {
+      "add": [
+        "fog"
+      ]
+    }
+  },
+  "1girl": {
+    "subject": {
+      "add": [
+        "1girl"
+      ]
+    }
+  }
+}

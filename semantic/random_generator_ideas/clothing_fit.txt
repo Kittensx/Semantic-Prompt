@@ -1,0 +1,200 @@
+%%{clothing.mod.fit=skin_tight, clothing.mod.light_effects=glowing_print}%%
+
+%%{clothing.mod.light_effects=retroreflective, clothing.mod.fit=compression}%%
+
+%%{clothing.mod.fit=skin_tight, clothing.mod.light_effects=energy_lines}%%
+
+%%{clothing.mod.light_effects=glowing_print, clothing.mod.fit=relaxed}%%
+
+%%{clothing.mod.fit=skin_tight, clothing.mod.light_effects=iridescent_glow}%%
+
+%%{clothing.mod.fit=fitted, clothing.mod.light_effects=edge_glow}%%
+
+%%{clothing.mod.fit=loose, clothing.mod.light_effects=iridescent_glow}%%
+
+%%{clothing.mod.light_effects=neon_piping, clothing.mod.fit=fitted}%%
+
+%%{clothing.mod.light_effects=soft_luminescent_fabric, clothing.mod.fit=compression}%%
+
+%%{clothing.mod.fit=oversized, clothing.mod.light_effects=glowing_stitches}%%
+
+%%{clothing.mod.light_effects=fiberoptic_threads, clothing.mod.fit=loose}%%
+
+%%{clothing.mod.fit=oversized, clothing.mod.light_effects=prismatic_highlights}%%
+
+%%{clothing.mod.fit=oversized, clothing.mod.light_effects=phosphorescent}%%
+
+%%{clothing.mod.light_effects=led_strips, clothing.mod.fit=tight}%%
+
+%%{clothing.mod.fit=fitted, clothing.mod.light_effects=electroluminescent_wire}%%
+
+%%{clothing.mod.light_effects=pulse_glow, clothing.mod.fit=fitted}%%
+
+%%{clothing.mod.light_effects=prismatic_highlights, clothing.mod.fit=loose}%%
+
+%%{clothing.mod.fit=skin_tight, clothing.mod.light_effects=reflective_trim}%%
+
+%%{clothing.mod.light_effects=fiberoptic_threads, clothing.mod.fit=loose}%%
+
+%%{clothing.mod.fit=relaxed, clothing.mod.light_effects=phosphorescent}%%
+
+%%{clothing.mod.fit=skin_tight, clothing.mod.light_effects=reflective_stripes}%%
+
+%%{clothing.mod.light_effects=holographic_sheen, clothing.mod.fit=loose}%%
+
+%%{clothing.mod.light_effects=bioluminescent_pattern, clothing.mod.fit=oversized}%%
+
+%%{clothing.mod.fit=tight, clothing.mod.light_effects=bioluminescent_pattern}%%
+
+%%{clothing.mod.fit=fitted, clothing.mod.light_effects=electroluminescent_wire}%%
+
+%%{clothing.mod.light_effects=glitter_scatter, clothing.mod.fit=skin_tight}%%
+
+%%{clothing.mod.fit=skin_tight, clothing.mod.light_effects=soft_luminescent_fabric}%%
+
+%%{clothing.mod.light_effects=energy_lines, clothing.mod.fit=compression}%%
+
+%%{clothing.mod.fit=relaxed, clothing.mod.light_effects=bioluminescent_pattern}%%
+
+%%{clothing.mod.light_effects=underlit_panels, clothing.mod.fit=fitted}%%
+
+%%{clothing.mod.fit=tight, clothing.mod.light_effects=holographic_sheen}%%
+
+%%{clothing.mod.fit=compression, clothing.mod.light_effects=pulse_glow}%%
+
+%%{clothing.mod.light_effects=holographic_sheen, clothing.mod.fit=skin_tight}%%
+
+%%{clothing.mod.light_effects=phosphorescent, clothing.mod.fit=oversized}%%
+
+%%{clothing.mod.fit=tight, clothing.mod.light_effects=neon_outline}%%
+
+%%{clothing.mod.light_effects=edge_glow, clothing.mod.fit=relaxed}%%
+
+%%{clothing.mod.light_effects=soft_luminescent_fabric, clothing.mod.fit=oversized}%%
+
+%%{clothing.mod.light_effects=glowing_stitches, clothing.mod.fit=loose}%%
+
+%%{clothing.mod.fit=skin_tight, clothing.mod.light_effects=neon_outline}%%
+
+%%{clothing.mod.light_effects=glowing_print, clothing.mod.fit=fitted}%%
+
+%%{clothing.mod.fit=fitted, clothing.mod.light_effects=glowing_print}%%
+
+%%{clothing.mod.fit=relaxed, clothing.mod.light_effects=glowing_print}%%
+
+%%{clothing.mod.fit=tight, clothing.mod.light_effects=phosphorescent}%%
+
+%%{clothing.mod.light_effects=uv_reactive, clothing.mod.fit=tight}%%
+
+%%{clothing.mod.fit=loose, clothing.mod.light_effects=retroreflective}%%
+
+%%{clothing.mod.light_effects=uv_reactive, clothing.mod.fit=loose}%%
+
+%%{clothing.mod.fit=relaxed, clothing.mod.light_effects=uv_reactive}%%
+
+%%{clothing.mod.light_effects=energy_lines, clothing.mod.fit=loose}%%
+
+%%{clothing.mod.light_effects=phosphorescent, clothing.mod.fit=fitted}%%
+
+%%{clothing.mod.light_effects=uv_reactive, clothing.mod.fit=relaxed}%%
+
+%%{clothing.mod.fit=relaxed, clothing.mod.light_effects=edge_glow}%%
+
+%%{clothing.mod.fit=tight, clothing.mod.light_effects=glowing_piping}%%
+
+%%{clothing.mod.fit=skin_tight, clothing.mod.light_effects=bioluminescent_pattern}%%
+
+%%{clothing.mod.fit=loose, clothing.mod.light_effects=retroreflective}%%
+
+%%{clothing.mod.light_effects=iridescent_glow, clothing.mod.fit=compression}%%
+
+%%{clothing.mod.light_effects=fiberoptic_threads, clothing.mod.fit=relaxed}%%
+
+%%{clothing.mod.fit=compression, clothing.mod.light_effects=reflective_stripes}%%
+
+%%{clothing.mod.fit=oversized, clothing.mod.light_effects=electroluminescent_wire}%%
+
+%%{clothing.mod.fit=skin_tight, clothing.mod.light_effects=reflective_stripes}%%
+
+%%{clothing.mod.fit=loose, clothing.mod.light_effects=phosphorescent}%%
+
+%%{clothing.mod.fit=compression, clothing.mod.light_effects=uv_reactive}%%
+
+%%{clothing.mod.light_effects=neon_piping, clothing.mod.fit=skin_tight}%%
+
+%%{clothing.mod.fit=fitted, clothing.mod.light_effects=glowing_piping}%%
+
+%%{clothing.mod.light_effects=sparkle_highlights, clothing.mod.fit=relaxed}%%
+
+%%{clothing.mod.light_effects=reflective_stripes, clothing.mod.fit=fitted}%%
+
+%%{clothing.mod.fit=tight, clothing.mod.light_effects=glowing_print}%%
+
+%%{clothing.mod.fit=compression, clothing.mod.light_effects=energy_lines}%%
+
+%%{clothing.mod.fit=skin_tight, clothing.mod.light_effects=glowing_piping}%%
+
+%%{clothing.mod.fit=tight, clothing.mod.light_effects=glitter_scatter}%%
+
+%%{clothing.mod.fit=skin_tight, clothing.mod.light_effects=glowing_print}%%
+
+%%{clothing.mod.light_effects=underlit_panels, clothing.mod.fit=tight}%%
+
+%%{clothing.mod.fit=tight, clothing.mod.light_effects=rune_glow}%%
+
+%%{clothing.mod.fit=loose, clothing.mod.light_effects=iridescent_glow}%%
+
+%%{clothing.mod.light_effects=energy_lines, clothing.mod.fit=tight}%%
+
+%%{clothing.mod.light_effects=glowing_stitches, clothing.mod.fit=tight}%%
+
+%%{clothing.mod.fit=compression, clothing.mod.light_effects=underlit_panels}%%
+
+%%{clothing.mod.light_effects=fiberoptic_threads, clothing.mod.fit=oversized}%%
+
+%%{clothing.mod.fit=fitted, clothing.mod.light_effects=reflective_trim}%%
+
+%%{clothing.mod.light_effects=soft_luminescent_fabric, clothing.mod.fit=loose}%%
+
+%%{clothing.mod.fit=fitted, clothing.mod.light_effects=reflective_stripes}%%
+
+%%{clothing.mod.fit=loose, clothing.mod.light_effects=iridescent_glow}%%
+
+%%{clothing.mod.fit=tight, clothing.mod.light_effects=glowing_seams}%%
+
+%%{clothing.mod.light_effects=bioluminescent_pattern, clothing.mod.fit=relaxed}%%
+
+%%{clothing.mod.light_effects=energy_lines, clothing.mod.fit=oversized}%%
+
+%%{clothing.mod.light_effects=bioluminescent_pattern, clothing.mod.fit=oversized}%%
+
+%%{clothing.mod.light_effects=neon_piping, clothing.mod.fit=fitted}%%
+
+%%{clothing.mod.fit=tight, clothing.mod.light_effects=glowing_print}%%
+
+%%{clothing.mod.light_effects=uv_reactive, clothing.mod.fit=tight}%%
+
+%%{clothing.mod.fit=oversized, clothing.mod.light_effects=fiberoptic_threads}%%
+
+%%{clothing.mod.light_effects=retroreflective, clothing.mod.fit=loose}%%
+
+%%{clothing.mod.fit=relaxed, clothing.mod.light_effects=led_strips}%%
+
+%%{clothing.mod.light_effects=neon_outline, clothing.mod.fit=loose}%%
+
+%%{clothing.mod.fit=tight, clothing.mod.light_effects=sparkle_highlights}%%
+
+%%{clothing.mod.light_effects=glowing_logo, clothing.mod.fit=skin_tight}%%
+
+%%{clothing.mod.fit=compression, clothing.mod.light_effects=glowing_print}%%
+
+%%{clothing.mod.light_effects=edge_glow, clothing.mod.fit=fitted}%%
+
+%%{clothing.mod.light_effects=neon_piping, clothing.mod.fit=skin_tight}%%
+
+%%{clothing.mod.light_effects=soft_luminescent_fabric, clothing.mod.fit=compression}%%
+
+%%{clothing.mod.light_effects=glowing_seams, clothing.mod.fit=oversized}%%
+
+%%{clothing.mod.fit=loose, clothing.mod.light_effects=neon_outline}%%
+

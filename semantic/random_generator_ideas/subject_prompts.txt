@@ -1,0 +1,200 @@
+%%{appearance.physical.skin.ethnicity=east_asian, appearance.physical.torso.breasts=flat, core.palette=moonlight, core.lighting=overcast}%%
+
+%%{appearance.physical.skin.ethnicity=black, appearance.physical.torso.breasts=augmented, core.lighting=foggy, core.palette=vintage}%%
+
+%%{appearance.physical.skin.ethnicity=caucasian, core.lighting=split lighting, core.palette=forest, appearance.physical.torso.breasts=augmented}%%
+
+%%{core.lighting=firelight, appearance.physical.torso.breasts=medium, appearance.physical.skin.ethnicity=latina, core.palette=sepia}%%
+
+%%{appearance.physical.skin.ethnicity=indigenous, appearance.physical.torso.breasts=natural, core.lighting=harsh sunlight, core.palette=grayscale}%%
+
+%%{core.palette=dreamy, appearance.physical.skin.ethnicity=caucasian, core.lighting=softbox, appearance.physical.torso.breasts=medium}%%
+
+%%{core.palette=desert, core.lighting=overcast, appearance.physical.skin.ethnicity=middle_eastern, appearance.physical.torso.breasts=flat}%%
+
+%%{appearance.physical.skin.ethnicity=latina, core.lighting=harsh sunlight, appearance.physical.torso.breasts=flat, core.palette=cyberpunk}%%
+
+%%{core.lighting=rim light, core.palette=tropical, appearance.physical.skin.ethnicity=east_asian, appearance.physical.torso.breasts=natural}%%
+
+%%{core.lighting=noon sun, appearance.physical.torso.breasts=natural, core.palette=summer, appearance.physical.skin.ethnicity=caucasian}%%
+
+%%{core.lighting=neon, appearance.physical.torso.breasts=very large, core.palette=clean, appearance.physical.skin.ethnicity=caucasian}%%
+
+%%{core.lighting=neon, appearance.physical.skin.ethnicity=middle_eastern, core.palette=rainbow, appearance.physical.torso.breasts=medium}%%
+
+%%{appearance.physical.skin.ethnicity=southeast_asian, core.palette=ocean, core.lighting=rim light, appearance.physical.torso.breasts=medium}%%
+
+%%{core.lighting=foggy, appearance.physical.skin.ethnicity=east_asian, core.palette=jewel tones, appearance.physical.torso.breasts=medium}%%
+
+%%{appearance.physical.skin.ethnicity=middle_eastern, core.lighting=split lighting, core.palette=high contrast, appearance.physical.torso.breasts=medium}%%
+
+%%{appearance.physical.skin.ethnicity=caucasian, appearance.physical.torso.breasts=small, core.lighting=rim light, core.palette=deep}%%
+
+%%{core.lighting=golden hour, core.palette=deep, appearance.physical.torso.breasts=natural, appearance.physical.skin.ethnicity=caucasian}%%
+
+%%{core.lighting=noon sun, core.palette=synthwave, appearance.physical.torso.breasts=small, appearance.physical.skin.ethnicity=middle_eastern}%%
+
+%%{appearance.physical.skin.ethnicity=south_asian, core.palette=earthy, appearance.physical.torso.breasts=natural, core.lighting=rim light}%%
+
+%%{appearance.physical.skin.ethnicity=indigenous, core.palette=muted, appearance.physical.torso.breasts=very large, core.lighting=candlelight}%%
+
+%%{core.lighting=overcast, appearance.physical.skin.ethnicity=east_asian, core.palette=duotone, appearance.physical.torso.breasts=flat}%%
+
+%%{appearance.physical.torso.breasts=very large, appearance.physical.skin.ethnicity=latina, core.lighting=candlelight, core.palette=ocean}%%
+
+%%{core.lighting=rainy neon, appearance.physical.torso.breasts=very large, core.palette=rainbow, appearance.physical.skin.ethnicity=mixed}%%
+
+%%{appearance.physical.skin.ethnicity=black, core.palette=noir, core.lighting=neon, appearance.physical.torso.breasts=augmented}%%
+
+%%{core.palette=romantic, core.lighting=neon, appearance.physical.torso.breasts=large, appearance.physical.skin.ethnicity=indigenous}%%
+
+%%{core.lighting=backlit, appearance.physical.skin.ethnicity=caucasian, appearance.physical.torso.breasts=large, core.palette=forest}%%
+
+%%{core.lighting=harsh sunlight, appearance.physical.torso.breasts=natural, appearance.physical.skin.ethnicity=caucasian, core.palette=spring}%%
+
+%%{appearance.physical.torso.breasts=medium, core.lighting=neon, appearance.physical.skin.ethnicity=black, core.palette=light}%%
+
+%%{appearance.physical.skin.ethnicity=southeast_asian, appearance.physical.torso.breasts=augmented, core.palette=warm, core.lighting=noon sun}%%
+
+%%{appearance.physical.skin.ethnicity=mixed, core.lighting=candlelight, appearance.physical.torso.breasts=flat, core.palette=jewel tones}%%
+
+%%{appearance.physical.torso.breasts=natural, core.lighting=noir, core.palette=winter, appearance.physical.skin.ethnicity=east_asian}%%
+
+%%{core.lighting=noon sun, appearance.physical.skin.ethnicity=latina, appearance.physical.torso.breasts=small, core.palette=ocean}%%
+
+%%{appearance.physical.torso.breasts=natural, core.lighting=rim light, appearance.physical.skin.ethnicity=mixed, core.palette=sunset}%%
+
+%%{appearance.physical.torso.breasts=natural, appearance.physical.skin.ethnicity=caucasian, core.lighting=rainy neon, core.palette=ocean}%%
+
+%%{core.lighting=rainy neon, core.palette=earthy, appearance.physical.torso.breasts=medium, appearance.physical.skin.ethnicity=southeast_asian}%%
+
+%%{appearance.physical.skin.ethnicity=mixed, core.lighting=rim light, appearance.physical.torso.breasts=small, core.palette=muted}%%
+
+%%{core.lighting=neon, appearance.physical.skin.ethnicity=east_asian, appearance.physical.torso.breasts=natural, core.palette=winter}%%
+
+%%{core.lighting=backlit, core.palette=vibrant, appearance.physical.torso.breasts=very large, appearance.physical.skin.ethnicity=southeast_asian}%%
+
+%%{core.lighting=harsh sunlight, core.palette=noir, appearance.physical.skin.ethnicity=indigenous, appearance.physical.torso.breasts=very large}%%
+
+%%{core.lighting=overcast, core.palette=desert, appearance.physical.skin.ethnicity=black, appearance.physical.torso.breasts=augmented}%%
+
+%%{core.palette=winter, appearance.physical.skin.ethnicity=mixed, core.lighting=backlit, appearance.physical.torso.breasts=medium}%%
+
+%%{core.lighting=split lighting, core.palette=pastel, appearance.physical.skin.ethnicity=east_asian, appearance.physical.torso.breasts=natural}%%
+
+%%{appearance.physical.skin.ethnicity=middle_eastern, core.lighting=backlit, core.palette=neon palette, appearance.physical.torso.breasts=augmented}%%
+
+%%{appearance.physical.torso.breasts=augmented, core.lighting=noon sun, core.palette=rainbow, appearance.physical.skin.ethnicity=south_asian}%%
+
+%%{core.lighting=overcast, appearance.physical.torso.breasts=flat, appearance.physical.skin.ethnicity=south_asian, core.palette=sepia}%%
+
+%%{core.palette=tropical, appearance.physical.skin.ethnicity=south_asian, appearance.physical.torso.breasts=flat, core.lighting=foggy}%%
+
+%%{appearance.physical.torso.breasts=augmented, appearance.physical.skin.ethnicity=middle_eastern, core.lighting=foggy, core.palette=winter}%%
+
+%%{appearance.physical.skin.ethnicity=latina, core.palette=earthy, core.lighting=rim light, appearance.physical.torso.breasts=natural}%%
+
+%%{core.palette=autumn, appearance.physical.torso.breasts=large, appearance.physical.skin.ethnicity=south_asian, core.lighting=split lighting}%%
+
+%%{core.lighting=split lighting, core.palette=ocean, appearance.physical.skin.ethnicity=black, appearance.physical.torso.breasts=flat}%%
+
+%%{core.lighting=harsh sunlight, appearance.physical.torso.breasts=flat, core.palette=grayscale, appearance.physical.skin.ethnicity=black}%%
+
+%%{core.palette=vintage, appearance.physical.skin.ethnicity=east_asian, appearance.physical.torso.breasts=large, core.lighting=noir}%%
+
+%%{appearance.physical.skin.ethnicity=south_asian, core.palette=noir, appearance.physical.torso.breasts=natural, core.lighting=split lighting}%%
+
+%%{appearance.physical.torso.breasts=small, core.lighting=candlelight, core.palette=forest, appearance.physical.skin.ethnicity=southeast_asian}%%
+
+%%{appearance.physical.skin.ethnicity=latina, core.lighting=foggy, appearance.physical.torso.breasts=very large, core.palette=monochrome}%%
+
+%%{core.lighting=backlit, core.palette=desert, appearance.physical.skin.ethnicity=middle_eastern, appearance.physical.torso.breasts=small}%%
+
+%%{appearance.physical.skin.ethnicity=east_asian, appearance.physical.torso.breasts=very large, core.lighting=candlelight, core.palette=winter}%%
+
+%%{appearance.physical.torso.breasts=augmented, appearance.physical.skin.ethnicity=middle_eastern, core.lighting=rainy neon, core.palette=sepia}%%
+
+%%{core.palette=winter, core.lighting=rim light, appearance.physical.torso.breasts=medium, appearance.physical.skin.ethnicity=east_asian}%%
+
+%%{appearance.physical.skin.ethnicity=caucasian, core.lighting=foggy, appearance.physical.torso.breasts=very large, core.palette=monochrome}%%
+
+%%{core.palette=ocean, core.lighting=foggy, appearance.physical.skin.ethnicity=indigenous, appearance.physical.torso.breasts=flat}%%
+
+%%{core.lighting=softbox, appearance.physical.skin.ethnicity=mixed, appearance.physical.torso.breasts=small, core.palette=summer}%%
+
+%%{core.lighting=noir, appearance.physical.skin.ethnicity=middle_eastern, core.palette=muted, appearance.physical.torso.breasts=very large}%%
+
+%%{appearance.physical.torso.breasts=flat, core.lighting=firelight, appearance.physical.skin.ethnicity=east_asian, core.palette=vintage}%%
+
+%%{appearance.physical.torso.breasts=augmented, core.palette=neutral, core.lighting=golden hour, appearance.physical.skin.ethnicity=latina}%%
+
+%%{appearance.physical.torso.breasts=medium, core.lighting=rim light, appearance.physical.skin.ethnicity=mixed, core.palette=cyberpunk}%%
+
+%%{appearance.physical.torso.breasts=very large, core.lighting=backlit, appearance.physical.skin.ethnicity=latina, core.palette=cyberpunk}%%
+
+%%{appearance.physical.torso.breasts=medium, core.palette=desert, appearance.physical.skin.ethnicity=black, core.lighting=split lighting}%%
+
+%%{core.lighting=rim light, appearance.physical.skin.ethnicity=caucasian, appearance.physical.torso.breasts=flat, core.palette=cyberpunk}%%
+
+%%{appearance.physical.torso.breasts=natural, core.palette=low contrast, core.lighting=rainy neon, appearance.physical.skin.ethnicity=black}%%
+
+%%{appearance.physical.torso.breasts=medium, appearance.physical.skin.ethnicity=indigenous, core.lighting=noon sun, core.palette=tropical}%%
+
+%%{appearance.physical.skin.ethnicity=middle_eastern, appearance.physical.torso.breasts=very large, core.palette=vintage, core.lighting=candlelight}%%
+
+%%{core.lighting=backlit, appearance.physical.torso.breasts=augmented, core.palette=duotone, appearance.physical.skin.ethnicity=southeast_asian}%%
+
+%%{appearance.physical.torso.breasts=large, core.palette=sepia, core.lighting=firelight, appearance.physical.skin.ethnicity=southeast_asian}%%
+
+%%{appearance.physical.torso.breasts=large, core.palette=autumn, appearance.physical.skin.ethnicity=indigenous, core.lighting=moonlight}%%
+
+%%{core.palette=low contrast, appearance.physical.skin.ethnicity=black, appearance.physical.torso.breasts=very large, core.lighting=candlelight}%%
+
+%%{appearance.physical.torso.breasts=flat, appearance.physical.skin.ethnicity=south_asian, core.lighting=harsh sunlight, core.palette=cool}%%
+
+%%{appearance.physical.torso.breasts=flat, core.palette=earthy, core.lighting=noon sun, appearance.physical.skin.ethnicity=mixed}%%
+
+%%{core.lighting=neon, core.palette=low contrast, appearance.physical.torso.breasts=very large, appearance.physical.skin.ethnicity=south_asian}%%
+
+%%{core.palette=low contrast, appearance.physical.torso.breasts=flat, core.lighting=candlelight, appearance.physical.skin.ethnicity=east_asian}%%
+
+%%{appearance.physical.torso.breasts=augmented, core.lighting=moonlight, appearance.physical.skin.ethnicity=mixed, core.palette=low contrast}%%
+
+%%{core.palette=high contrast, appearance.physical.torso.breasts=flat, core.lighting=neon, appearance.physical.skin.ethnicity=mixed}%%
+
+%%{appearance.physical.torso.breasts=augmented, core.lighting=split lighting, core.palette=winter, appearance.physical.skin.ethnicity=mixed}%%
+
+%%{core.lighting=backlit, appearance.physical.skin.ethnicity=indigenous, core.palette=summer, appearance.physical.torso.breasts=flat}%%
+
+%%{appearance.physical.torso.breasts=small, core.palette=moonlight, appearance.physical.skin.ethnicity=latina, core.lighting=rim light}%%
+
+%%{core.palette=clean, core.lighting=rim light, appearance.physical.torso.breasts=small, appearance.physical.skin.ethnicity=black}%%
+
+%%{core.lighting=softbox, appearance.physical.skin.ethnicity=caucasian, appearance.physical.torso.breasts=very large, core.palette=desert}%%
+
+%%{core.palette=autumn, appearance.physical.skin.ethnicity=east_asian, core.lighting=moonlight, appearance.physical.torso.breasts=natural}%%
+
+%%{appearance.physical.torso.breasts=small, core.lighting=golden hour, core.palette=warm, appearance.physical.skin.ethnicity=caucasian}%%
+
+%%{appearance.physical.torso.breasts=very large, appearance.physical.skin.ethnicity=latina, core.palette=clean, core.lighting=moonlight}%%
+
+%%{appearance.physical.torso.breasts=very large, core.lighting=rim light, appearance.physical.skin.ethnicity=latina, core.palette=vintage}%%
+
+%%{core.lighting=noir, appearance.physical.skin.ethnicity=black, core.palette=monochrome, appearance.physical.torso.breasts=large}%%
+
+%%{core.lighting=backlit, appearance.physical.skin.ethnicity=mixed, core.palette=dreamy, appearance.physical.torso.breasts=natural}%%
+
+%%{appearance.physical.skin.ethnicity=middle_eastern, appearance.physical.torso.breasts=augmented, core.palette=earthy, core.lighting=rainy neon}%%
+
+%%{core.palette=neon palette, core.lighting=rainy neon, appearance.physical.torso.breasts=medium, appearance.physical.skin.ethnicity=southeast_asian}%%
+
+%%{core.palette=vaporwave, appearance.physical.torso.breasts=very large, core.lighting=softbox, appearance.physical.skin.ethnicity=east_asian}%%
+
+%%{core.palette=pastel, core.lighting=rim light, appearance.physical.torso.breasts=large, appearance.physical.skin.ethnicity=indigenous}%%
+
+%%{core.lighting=golden hour, appearance.physical.torso.breasts=augmented, core.palette=forest, appearance.physical.skin.ethnicity=southeast_asian}%%
+
+%%{appearance.physical.torso.breasts=medium, core.palette=monochrome, core.lighting=neon, appearance.physical.skin.ethnicity=south_asian}%%
+
+%%{appearance.physical.skin.ethnicity=latina, appearance.physical.torso.breasts=very large, core.lighting=neon, core.palette=teal_orange}%%
+

@@ -1,0 +1,200 @@
+%%{animal.cat.mod.coat_pattern=tuxedo_cat, animal.cat.mod.paws=soft_paws, animal.cat.mod.tail=bobtail, animal.cat.mod.pose=loaf_cat, animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.appearance=elegant_cat, animal.cat.mod.coat_color=silver_cat, animal.cat.mod.fangs=visible_fangs, animal.cat.mod.fur_length=silky_fur_cat, animal.cat.mod.tongue=licking_lips}%%
+
+%%{animal.cat.mod.fangs=visible_fangs, animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.tail=bushy_tail, animal.cat.mod.whiskers=long_whiskers, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.fur_length=fluffy_cat, animal.cat.mod.pose=pouncing_cat, animal.cat.mod.appearance=sleepy_cat, animal.cat.mod.paws=small_paws, animal.cat.mod.eye_color=green_eyes}%%
+
+%%{animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.paws=soft_paws, animal.cat.mod.fangs=long_fangs, animal.cat.mod.pose=sitting_cat, animal.cat.mod.appearance=sleepy_cat, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.coat_color=blue_gray_cat, animal.cat.mod.fur_length=shaggy_fur_cat, animal.cat.mod.ear_shape=folded_ears, animal.cat.mod.nose=dark_brown_nose}%%
+
+%%{animal.cat.mod.eye_color=golden_eyes, animal.cat.mod.nose=dark_brown_nose, animal.cat.mod.pose=stretching_cat, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.appearance=luxurious_cat, animal.cat.mod.ear_shape=rounded_ears, animal.cat.mod.coat_color=cream_cat, animal.cat.mod.coat_pattern=tabby_cat, animal.cat.mod.tail=short_tail}%%
+
+%%{animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.paws=soft_paws, animal.cat.mod.coat_color=gray_cat, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.whiskers=long_whiskers, animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.nose=heart_shaped_nose, animal.cat.mod.appearance=chubby_cat, animal.cat.mod.tail=raised_tail, animal.cat.mod.fangs=sharp_fangs}%%
+
+%%{animal.cat.mod.pose=stretching_cat, animal.cat.mod.fangs=sharp_fangs, animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.paws=large_paws, animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.tongue=blep, animal.cat.mod.tail=short_tail, animal.cat.mod.fur_length=shaggy_fur_cat, animal.cat.mod.nose=dark_brown_nose}%%
+
+%%{animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.whiskers=curved_whiskers, animal.cat.mod.nose=pink_nose, animal.cat.mod.pose=sitting_cat, animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.fangs=long_fangs, animal.cat.mod.coat_color=smoky_black_cat, animal.cat.mod.paws=delicate_paws, animal.cat.mod.ear_shape=angled_ears, animal.cat.mod.fur_length=fluffy_cat}%%
+
+%%{animal.cat.mod.appearance=elderly_cat, animal.cat.mod.fangs=long_fangs, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.tail=short_tail, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.tongue=tongue_out, animal.cat.mod.coat_color=black_cat, animal.cat.mod.pose=loaf_cat, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.nose=small_nose}%%
+
+%%{animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.coat_color=silver_cat, animal.cat.mod.paws=fluffy_paws, animal.cat.mod.coat_pattern=bicolor_cat, animal.cat.mod.nose=pink_nose, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.fur_length=silky_fur_cat, animal.cat.mod.tail=swishing_tail, animal.cat.mod.pose=walking_cat}%%
+
+%%{animal.cat.mod.paws=striped_paws, animal.cat.mod.nose=wet_nose, animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.tail=ringed_tail, animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.coat_pattern=tuxedo_cat, animal.cat.mod.appearance=elderly_cat, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.pose=curled_up_cat, animal.cat.mod.fangs=small_fangs}%%
+
+%%{animal.cat.mod.tail=raised_tail, animal.cat.mod.paws=striped_paws, animal.cat.mod.fangs=small_fangs, animal.cat.mod.fur_length=shaggy_fur_cat, animal.cat.mod.pose=sitting_cat, animal.cat.mod.tongue=licking_lips, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.coat_color=silver_cat, animal.cat.mod.coat_pattern=solid_coat_cat, animal.cat.mod.nose=heart_shaped_nose}%%
+
+%%{animal.cat.mod.pose=walking_cat, animal.cat.mod.paws=dark_paws, animal.cat.mod.fur_length=short_hair_cat, animal.cat.mod.tongue=blep, animal.cat.mod.coat_pattern=solid_coat_cat, animal.cat.mod.coat_color=cream_cat, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.nose=small_nose, animal.cat.mod.appearance=sleek_cat, animal.cat.mod.tail=short_tail}%%
+
+%%{animal.cat.mod.fangs=sharp_fangs, animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.paws=fluffy_paws, animal.cat.mod.coat_pattern=colorpoint_cat, animal.cat.mod.ear_shape=upright_ears, animal.cat.mod.nose=dark_brown_nose, animal.cat.mod.coat_color=gray_cat}%%
+
+%%{animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.tail=ringed_tail, animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.coat_color=smoky_black_cat, animal.cat.mod.pose=pouncing_cat, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.coat_pattern=classic_tabby}%%
+
+%%{animal.cat.mod.pose=stretching_cat, animal.cat.mod.fur_length=fluffy_cat, animal.cat.mod.coat_pattern=tuxedo_cat, animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.coat_color=gray_cat, animal.cat.mod.paws=fluffy_paws, animal.cat.mod.nose=small_nose, animal.cat.mod.appearance=elegant_cat, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.tail=fluffy_tail}%%
+
+%%{animal.cat.mod.coat_color=black_cat, animal.cat.mod.paws=white_paws, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.coat_pattern=spotted_tabby, animal.cat.mod.fur_length=silky_fur_cat, animal.cat.mod.tail=bobtail, animal.cat.mod.nose=dark_brown_nose, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.appearance=chubby_cat, animal.cat.mod.ear_shape=folded_ears}%%
+
+%%{animal.cat.mod.nose=dark_brown_nose, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.appearance=chubby_cat, animal.cat.mod.whiskers=long_whiskers, animal.cat.mod.coat_pattern=mackerel_tabby, animal.cat.mod.pose=stretching_cat, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.tongue=tongue_out, animal.cat.mod.tail=fluffy_tail, animal.cat.mod.coat_color=golden_cat}%%
+
+%%{animal.cat.mod.fur_length=fluffy_cat, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.tongue=licking_lips, animal.cat.mod.coat_pattern=mackerel_tabby, animal.cat.mod.nose=pink_nose, animal.cat.mod.coat_color=brown_cat, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.tail=curled_tail, animal.cat.mod.paws=large_paws}%%
+
+%%{animal.cat.mod.ear_shape=folded_ears, animal.cat.mod.paws=white_paws, animal.cat.mod.tail=long_tail, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.tongue=blep, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.pose=curled_up_cat, animal.cat.mod.fur_length=short_hair_cat, animal.cat.mod.coat_pattern=spotted_tabby, animal.cat.mod.nose=dark_brown_nose}%%
+
+%%{animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.fur_length=short_hair_cat, animal.cat.mod.appearance=elegant_cat, animal.cat.mod.paws=white_paws, animal.cat.mod.coat_color=silver_cat, animal.cat.mod.nose=black_nose, animal.cat.mod.coat_pattern=classic_tabby, animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.ear_shape=folded_ears, animal.cat.mod.tail=swishing_tail}%%
+
+%%{animal.cat.mod.eye_color=golden_eyes, animal.cat.mod.paws=dark_paws, animal.cat.mod.coat_pattern=bicolor_cat, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.fur_length=short_hair_cat, animal.cat.mod.appearance=tiny_kitten, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.coat_color=gray_cat, animal.cat.mod.tail=long_tail}%%
+
+%%{animal.cat.mod.fangs=playful_fangs, animal.cat.mod.nose=heart_shaped_nose, animal.cat.mod.coat_pattern=classic_tabby, animal.cat.mod.coat_color=black_cat, animal.cat.mod.whiskers=curved_whiskers, animal.cat.mod.fur_length=short_hair_cat, animal.cat.mod.appearance=playful_cat, animal.cat.mod.tail=short_tail, animal.cat.mod.tongue=blep, animal.cat.mod.pose=loaf_cat}%%
+
+%%{animal.cat.mod.fur_length=short_hair_cat, animal.cat.mod.coat_color=gray_cat, animal.cat.mod.paws=fluffy_paws, animal.cat.mod.fangs=playful_fangs, animal.cat.mod.pose=sitting_cat, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.ear_shape=folded_ears, animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.tail=bushy_tail, animal.cat.mod.tongue=licking_lips}%%
+
+%%{animal.cat.mod.coat_color=black_cat, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.tongue=licking_lips, animal.cat.mod.ear_shape=upright_ears, animal.cat.mod.pose=sitting_cat, animal.cat.mod.nose=small_nose, animal.cat.mod.paws=fluffy_paws, animal.cat.mod.fangs=small_fangs, animal.cat.mod.coat_pattern=mackerel_tabby, animal.cat.mod.appearance=elegant_cat}%%
+
+%%{animal.cat.mod.pose=stretching_cat, animal.cat.mod.whiskers=curved_whiskers, animal.cat.mod.fangs=small_fangs, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.coat_color=white_cat, animal.cat.mod.paws=white_paws, animal.cat.mod.appearance=majestic_cat, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.tail=short_tail}%%
+
+%%{animal.cat.mod.coat_pattern=tabby_cat, animal.cat.mod.coat_color=blue_gray_cat, animal.cat.mod.fangs=long_fangs, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.pose=stretching_cat, animal.cat.mod.ear_shape=upright_ears, animal.cat.mod.fur_length=silky_fur_cat, animal.cat.mod.tail=long_tail, animal.cat.mod.tongue=tongue_out}%%
+
+%%{animal.cat.mod.tongue=blep, animal.cat.mod.coat_pattern=tuxedo_cat, animal.cat.mod.ear_shape=angled_ears, animal.cat.mod.nose=small_nose, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.coat_color=smoky_black_cat, animal.cat.mod.pose=sitting_cat, animal.cat.mod.tail=swishing_tail, animal.cat.mod.paws=delicate_paws, animal.cat.mod.eye_color=heterochromia_eyes}%%
+
+%%{animal.cat.mod.nose=heart_shaped_nose, animal.cat.mod.coat_pattern=tortoiseshell_cat, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.tongue=licking_lips, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.ear_shape=upright_ears, animal.cat.mod.paws=striped_paws, animal.cat.mod.coat_color=gray_cat, animal.cat.mod.tail=fluffy_tail, animal.cat.mod.eye_color=golden_eyes}%%
+
+%%{animal.cat.mod.nose=wet_nose, animal.cat.mod.fur_length=short_hair_cat, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.pose=curled_up_cat, animal.cat.mod.paws=dark_paws, animal.cat.mod.appearance=luxurious_cat, animal.cat.mod.coat_color=white_cat, animal.cat.mod.coat_pattern=tuxedo_cat, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.ear_shape=upright_ears}%%
+
+%%{animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.paws=fluffy_paws, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.coat_pattern=mackerel_tabby, animal.cat.mod.tongue=licking_lips, animal.cat.mod.whiskers=long_whiskers, animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.coat_color=golden_cat, animal.cat.mod.ear_shape=folded_ears, animal.cat.mod.nose=dark_brown_nose}%%
+
+%%{animal.cat.mod.paws=white_paws, animal.cat.mod.fangs=playful_fangs, animal.cat.mod.appearance=luxurious_cat, animal.cat.mod.tail=short_tail, animal.cat.mod.pose=sitting_cat, animal.cat.mod.nose=wet_nose, animal.cat.mod.tongue=blep, animal.cat.mod.eye_color=golden_eyes, animal.cat.mod.ear_shape=angled_ears, animal.cat.mod.fur_length=long_hair_cat}%%
+
+%%{animal.cat.mod.coat_color=white_cat, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.fangs=playful_fangs, animal.cat.mod.whiskers=long_whiskers, animal.cat.mod.coat_pattern=mackerel_tabby, animal.cat.mod.pose=sleeping_cat, animal.cat.mod.fur_length=shaggy_fur_cat, animal.cat.mod.tongue=licking_lips, animal.cat.mod.paws=small_paws, animal.cat.mod.appearance=luxurious_cat}%%
+
+%%{animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.coat_color=orange_cat, animal.cat.mod.nose=small_nose, animal.cat.mod.tail=ringed_tail, animal.cat.mod.pose=walking_cat, animal.cat.mod.fangs=small_fangs, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.paws=small_paws, animal.cat.mod.whiskers=straight_whiskers}%%
+
+%%{animal.cat.mod.eye_color=golden_eyes, animal.cat.mod.appearance=mysterious_cat, animal.cat.mod.pose=pouncing_cat, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.paws=white_paws, animal.cat.mod.nose=black_nose, animal.cat.mod.tongue=tongue_out, animal.cat.mod.coat_pattern=tuxedo_cat, animal.cat.mod.ear_shape=rounded_ears, animal.cat.mod.coat_color=cream_cat}%%
+
+%%{animal.cat.mod.tail=ringed_tail, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.nose=wet_nose, animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.coat_pattern=bicolor_cat, animal.cat.mod.fangs=long_fangs, animal.cat.mod.coat_color=golden_cat, animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.tongue=tongue_out}%%
+
+%%{animal.cat.mod.paws=delicate_paws, animal.cat.mod.tongue=tongue_out, animal.cat.mod.tail=curled_tail, animal.cat.mod.fangs=small_fangs, animal.cat.mod.appearance=sleek_cat, animal.cat.mod.coat_pattern=mackerel_tabby, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.ear_shape=large_ears, animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.pose=pouncing_cat}%%
+
+%%{animal.cat.mod.tail=curled_tail, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.paws=white_paws, animal.cat.mod.fangs=playful_fangs, animal.cat.mod.ear_shape=large_ears, animal.cat.mod.coat_color=smoky_black_cat, animal.cat.mod.coat_pattern=classic_tabby, animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.whiskers=curved_whiskers, animal.cat.mod.nose=heart_shaped_nose}%%
+
+%%{animal.cat.mod.tail=curled_tail, animal.cat.mod.paws=soft_paws, animal.cat.mod.appearance=sleek_cat, animal.cat.mod.fangs=playful_fangs, animal.cat.mod.tongue=licking_lips, animal.cat.mod.pose=sleeping_cat, animal.cat.mod.whiskers=curved_whiskers, animal.cat.mod.fur_length=silky_fur_cat, animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.nose=black_nose}%%
+
+%%{animal.cat.mod.pose=loaf_cat, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.coat_pattern=mackerel_tabby, animal.cat.mod.paws=dark_paws, animal.cat.mod.appearance=grumpy_cat, animal.cat.mod.ear_shape=folded_ears, animal.cat.mod.nose=pink_nose, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.eye_color=golden_eyes, animal.cat.mod.coat_color=silver_cat}%%
+
+%%{animal.cat.mod.pose=sitting_cat, animal.cat.mod.nose=black_nose, animal.cat.mod.tongue=licking_lips, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.whiskers=short_whiskers, animal.cat.mod.appearance=elderly_cat, animal.cat.mod.tail=swishing_tail, animal.cat.mod.fangs=visible_fangs, animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.coat_pattern=classic_tabby}%%
+
+%%{animal.cat.mod.tail=raised_tail, animal.cat.mod.pose=sitting_cat, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.coat_color=cream_cat, animal.cat.mod.ear_shape=upright_ears, animal.cat.mod.nose=heart_shaped_nose, animal.cat.mod.coat_pattern=spotted_tabby, animal.cat.mod.fangs=small_fangs, animal.cat.mod.eye_color=amber_eyes}%%
+
+%%{animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.coat_pattern=solid_coat_cat, animal.cat.mod.nose=small_nose, animal.cat.mod.tail=bobtail, animal.cat.mod.appearance=mysterious_cat, animal.cat.mod.coat_color=golden_cat, animal.cat.mod.pose=stretching_cat, animal.cat.mod.ear_shape=angled_ears, animal.cat.mod.whiskers=curved_whiskers, animal.cat.mod.fur_length=silky_fur_cat}%%
+
+%%{animal.cat.mod.pose=stretching_cat, animal.cat.mod.appearance=grumpy_cat, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.paws=white_paws, animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.coat_color=silver_cat}%%
+
+%%{animal.cat.mod.fur_length=fluffy_cat, animal.cat.mod.appearance=wild_looking_cat, animal.cat.mod.whiskers=short_whiskers, animal.cat.mod.paws=fluffy_paws, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.coat_pattern=colorpoint_cat, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.coat_color=white_cat, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.tail=long_tail}%%
+
+%%{animal.cat.mod.pose=stretching_cat, animal.cat.mod.appearance=grumpy_cat, animal.cat.mod.coat_pattern=tuxedo_cat, animal.cat.mod.paws=small_paws, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.tail=swishing_tail, animal.cat.mod.eye_color=golden_eyes, animal.cat.mod.fangs=playful_fangs, animal.cat.mod.coat_color=black_cat, animal.cat.mod.whiskers=straight_whiskers}%%
+
+%%{animal.cat.mod.fangs=playful_fangs, animal.cat.mod.coat_color=gray_cat, animal.cat.mod.tail=curled_tail, animal.cat.mod.pose=sleeping_cat, animal.cat.mod.paws=small_paws, animal.cat.mod.nose=wet_nose, animal.cat.mod.fur_length=silky_fur_cat, animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.tongue=yawning_tongue}%%
+
+%%{animal.cat.mod.nose=black_nose, animal.cat.mod.tail=long_tail, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.tongue=blep, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.coat_pattern=bicolor_cat, animal.cat.mod.coat_color=golden_cat, animal.cat.mod.appearance=curious_cat}%%
+
+%%{animal.cat.mod.appearance=sleek_cat, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.coat_color=silver_cat, animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.paws=large_paws, animal.cat.mod.pose=lying_cat, animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.fangs=small_fangs, animal.cat.mod.tail=ringed_tail, animal.cat.mod.ear_shape=small_ears}%%
+
+%%{animal.cat.mod.nose=heart_shaped_nose, animal.cat.mod.appearance=sleepy_cat, animal.cat.mod.whiskers=long_whiskers, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.coat_color=cream_cat, animal.cat.mod.paws=delicate_paws, animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.fangs=small_fangs, animal.cat.mod.tail=ringed_tail, animal.cat.mod.eye_color=yellow_eyes}%%
+
+%%{animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.fangs=long_fangs, animal.cat.mod.coat_color=smoky_black_cat, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.appearance=mysterious_cat, animal.cat.mod.tail=fluffy_tail, animal.cat.mod.coat_pattern=mackerel_tabby, animal.cat.mod.fur_length=silky_fur_cat, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.eye_color=heterochromia_eyes}%%
+
+%%{animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.fangs=small_fangs, animal.cat.mod.coat_pattern=colorpoint_cat, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.nose=heart_shaped_nose, animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.tail=ringed_tail, animal.cat.mod.coat_color=silver_cat, animal.cat.mod.paws=dark_paws}%%
+
+%%{animal.cat.mod.tongue=tongue_out, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.appearance=playful_cat, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.coat_color=white_cat, animal.cat.mod.ear_shape=angled_ears, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.coat_pattern=tortoiseshell_cat, animal.cat.mod.tail=curled_tail, animal.cat.mod.fangs=vampire_like_fangs}%%
+
+%%{animal.cat.mod.coat_pattern=solid_coat_cat, animal.cat.mod.fur_length=silky_fur_cat, animal.cat.mod.nose=black_nose, animal.cat.mod.ear_shape=angled_ears, animal.cat.mod.tongue=tongue_out, animal.cat.mod.coat_color=golden_cat, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.paws=soft_paws, animal.cat.mod.pose=loaf_cat, animal.cat.mod.fangs=playful_fangs}%%
+
+%%{animal.cat.mod.ear_shape=small_ears, animal.cat.mod.nose=black_nose, animal.cat.mod.fur_length=short_hair_cat, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.coat_color=black_cat, animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.fangs=visible_fangs, animal.cat.mod.appearance=mysterious_cat, animal.cat.mod.paws=small_paws, animal.cat.mod.tongue=grooming_tongue}%%
+
+%%{animal.cat.mod.whiskers=curved_whiskers, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.pose=stretching_cat, animal.cat.mod.tail=bushy_tail, animal.cat.mod.fangs=small_fangs, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.paws=large_paws, animal.cat.mod.coat_pattern=solid_coat_cat, animal.cat.mod.fur_length=shaggy_fur_cat, animal.cat.mod.appearance=majestic_cat}%%
+
+%%{animal.cat.mod.nose=black_nose, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.tongue=blep, animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.coat_pattern=solid_coat_cat, animal.cat.mod.tail=short_tail, animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.coat_color=smoky_black_cat, animal.cat.mod.fur_length=fluffy_cat, animal.cat.mod.fangs=playful_fangs}%%
+
+%%{animal.cat.mod.fangs=sharp_fangs, animal.cat.mod.appearance=elegant_cat, animal.cat.mod.paws=small_paws, animal.cat.mod.ear_shape=rounded_ears, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.tail=swishing_tail, animal.cat.mod.pose=loaf_cat, animal.cat.mod.nose=small_nose, animal.cat.mod.eye_color=golden_eyes, animal.cat.mod.coat_pattern=colorpoint_cat}%%
+
+%%{animal.cat.mod.nose=dark_brown_nose, animal.cat.mod.coat_color=silver_cat, animal.cat.mod.pose=stretching_cat, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.fangs=playful_fangs, animal.cat.mod.paws=large_paws, animal.cat.mod.appearance=sleepy_cat, animal.cat.mod.ear_shape=angled_ears, animal.cat.mod.tail=fluffy_tail}%%
+
+%%{animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.coat_pattern=bicolor_cat, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.tail=curled_tail, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.paws=white_paws, animal.cat.mod.pose=walking_cat, animal.cat.mod.coat_color=smoky_black_cat, animal.cat.mod.ear_shape=angled_ears}%%
+
+%%{animal.cat.mod.nose=wet_nose, animal.cat.mod.pose=lying_cat, animal.cat.mod.fangs=long_fangs, animal.cat.mod.ear_shape=upright_ears, animal.cat.mod.paws=small_paws, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.coat_color=cream_cat, animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.appearance=playful_cat}%%
+
+%%{animal.cat.mod.ear_shape=large_ears, animal.cat.mod.coat_color=white_cat, animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.whiskers=short_whiskers, animal.cat.mod.appearance=curious_cat, animal.cat.mod.tongue=licking_lips, animal.cat.mod.pose=loaf_cat, animal.cat.mod.fangs=small_fangs, animal.cat.mod.nose=dark_brown_nose, animal.cat.mod.paws=white_paws}%%
+
+%%{animal.cat.mod.tail=long_tail, animal.cat.mod.appearance=majestic_cat, animal.cat.mod.paws=white_paws, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.coat_pattern=classic_tabby, animal.cat.mod.coat_color=white_cat, animal.cat.mod.pose=sleeping_cat, animal.cat.mod.ear_shape=large_ears, animal.cat.mod.tongue=blep}%%
+
+%%{animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.appearance=mysterious_cat, animal.cat.mod.whiskers=curved_whiskers, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.tail=curled_tail, animal.cat.mod.coat_color=golden_cat, animal.cat.mod.nose=pink_nose, animal.cat.mod.pose=walking_cat, animal.cat.mod.paws=fluffy_paws, animal.cat.mod.ear_shape=upright_ears}%%
+
+%%{animal.cat.mod.paws=fluffy_paws, animal.cat.mod.nose=pink_nose, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.fangs=sharp_fangs, animal.cat.mod.ear_shape=angled_ears, animal.cat.mod.coat_pattern=classic_tabby, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.whiskers=short_whiskers, animal.cat.mod.coat_color=white_cat, animal.cat.mod.pose=sleeping_cat}%%
+
+%%{animal.cat.mod.coat_pattern=solid_coat_cat, animal.cat.mod.pose=walking_cat, animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.coat_color=cream_cat, animal.cat.mod.tongue=licking_lips, animal.cat.mod.nose=dark_brown_nose, animal.cat.mod.appearance=grumpy_cat, animal.cat.mod.fangs=long_fangs, animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.whiskers=delicate_whiskers}%%
+
+%%{animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.pose=walking_cat, animal.cat.mod.nose=dark_brown_nose, animal.cat.mod.ear_shape=rounded_ears, animal.cat.mod.tail=short_tail, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.fangs=sharp_fangs, animal.cat.mod.paws=soft_paws, animal.cat.mod.tongue=licking_lips}%%
+
+%%{animal.cat.mod.coat_color=silver_cat, animal.cat.mod.paws=white_paws, animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.nose=heart_shaped_nose, animal.cat.mod.appearance=majestic_cat, animal.cat.mod.pose=walking_cat, animal.cat.mod.fangs=sharp_fangs, animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.ear_shape=rounded_ears}%%
+
+%%{animal.cat.mod.pose=lying_cat, animal.cat.mod.whiskers=long_whiskers, animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.coat_color=white_cat, animal.cat.mod.fangs=long_fangs, animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.tail=long_tail, animal.cat.mod.appearance=playful_cat, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.nose=wet_nose}%%
+
+%%{animal.cat.mod.appearance=majestic_cat, animal.cat.mod.tail=ringed_tail, animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.pose=sleeping_cat, animal.cat.mod.fangs=small_fangs, animal.cat.mod.tongue=blep, animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.coat_color=brown_cat, animal.cat.mod.paws=large_paws}%%
+
+%%{animal.cat.mod.tail=ringed_tail, animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.coat_pattern=mackerel_tabby, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.fur_length=fluffy_cat, animal.cat.mod.appearance=elderly_cat, animal.cat.mod.coat_color=silver_cat, animal.cat.mod.ear_shape=upright_ears, animal.cat.mod.nose=small_nose, animal.cat.mod.whiskers=long_whiskers}%%
+
+%%{animal.cat.mod.pose=curled_up_cat, animal.cat.mod.coat_pattern=bicolor_cat, animal.cat.mod.tongue=blep, animal.cat.mod.fur_length=short_hair_cat, animal.cat.mod.appearance=mysterious_cat, animal.cat.mod.coat_color=cream_cat, animal.cat.mod.fangs=sharp_fangs, animal.cat.mod.ear_shape=angled_ears, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.tail=short_tail}%%
+
+%%{animal.cat.mod.nose=heart_shaped_nose, animal.cat.mod.tongue=blep, animal.cat.mod.fangs=visible_fangs, animal.cat.mod.coat_color=golden_cat, animal.cat.mod.coat_pattern=colorpoint_cat, animal.cat.mod.fur_length=shaggy_fur_cat, animal.cat.mod.tail=fluffy_tail, animal.cat.mod.eye_color=golden_eyes, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.ear_shape=rounded_ears}%%
+
+%%{animal.cat.mod.nose=dark_brown_nose, animal.cat.mod.fur_length=silky_fur_cat, animal.cat.mod.tail=fluffy_tail, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.fangs=sharp_fangs, animal.cat.mod.coat_color=silver_cat, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.paws=dark_paws, animal.cat.mod.ear_shape=small_ears}%%
+
+%%{animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.fangs=visible_fangs, animal.cat.mod.tongue=licking_lips, animal.cat.mod.coat_color=blue_gray_cat, animal.cat.mod.coat_pattern=spotted_tabby, animal.cat.mod.tail=bushy_tail, animal.cat.mod.nose=pink_nose, animal.cat.mod.pose=loaf_cat, animal.cat.mod.fur_length=shaggy_fur_cat, animal.cat.mod.ear_shape=small_ears}%%
+
+%%{animal.cat.mod.fur_length=short_hair_cat, animal.cat.mod.pose=stretching_cat, animal.cat.mod.nose=black_nose, animal.cat.mod.coat_color=white_cat, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.paws=white_paws, animal.cat.mod.tail=fluffy_tail, animal.cat.mod.whiskers=short_whiskers, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.coat_pattern=calico_cat}%%
+
+%%{animal.cat.mod.paws=delicate_paws, animal.cat.mod.tail=long_tail, animal.cat.mod.fangs=playful_fangs, animal.cat.mod.whiskers=short_whiskers, animal.cat.mod.nose=wet_nose, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.pose=pouncing_cat, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.coat_pattern=calico_cat}%%
+
+%%{animal.cat.mod.appearance=curious_cat, animal.cat.mod.paws=white_paws, animal.cat.mod.pose=sleeping_cat, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.nose=pink_nose, animal.cat.mod.tongue=blep, animal.cat.mod.coat_pattern=tabby_cat, animal.cat.mod.tail=swishing_tail, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.fangs=visible_fangs}%%
+
+%%{animal.cat.mod.coat_pattern=tabby_cat, animal.cat.mod.paws=white_paws, animal.cat.mod.fangs=playful_fangs, animal.cat.mod.appearance=sleek_cat, animal.cat.mod.whiskers=curved_whiskers, animal.cat.mod.tongue=licking_lips, animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.tail=long_tail, animal.cat.mod.coat_color=blue_gray_cat, animal.cat.mod.nose=wet_nose}%%
+
+%%{animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.coat_pattern=spotted_tabby, animal.cat.mod.appearance=fluffy_cat, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.fangs=long_fangs, animal.cat.mod.paws=white_paws, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.nose=wet_nose}%%
+
+%%{animal.cat.mod.fur_length=fluffy_cat, animal.cat.mod.coat_pattern=tuxedo_cat, animal.cat.mod.fangs=long_fangs, animal.cat.mod.tail=long_tail, animal.cat.mod.nose=heart_shaped_nose, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.coat_color=white_cat, animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.paws=small_paws}%%
+
+%%{animal.cat.mod.nose=wet_nose, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.coat_color=black_cat, animal.cat.mod.paws=large_paws, animal.cat.mod.pose=sitting_cat, animal.cat.mod.appearance=wild_looking_cat, animal.cat.mod.coat_pattern=bicolor_cat, animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.tongue=yawning_tongue}%%
+
+%%{animal.cat.mod.nose=wet_nose, animal.cat.mod.fangs=small_fangs, animal.cat.mod.fur_length=shaggy_fur_cat, animal.cat.mod.coat_pattern=tortoiseshell_cat, animal.cat.mod.appearance=tiny_kitten, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.tail=ringed_tail, animal.cat.mod.pose=loaf_cat, animal.cat.mod.coat_color=orange_cat, animal.cat.mod.whiskers=long_whiskers}%%
+
+%%{animal.cat.mod.coat_pattern=tabby_cat, animal.cat.mod.coat_color=brown_cat, animal.cat.mod.fur_length=shaggy_fur_cat, animal.cat.mod.tail=bobtail, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.pose=sleeping_cat, animal.cat.mod.appearance=fluffy_cat, animal.cat.mod.nose=wet_nose, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.eye_color=amber_eyes}%%
+
+%%{animal.cat.mod.paws=fluffy_paws, animal.cat.mod.whiskers=short_whiskers, animal.cat.mod.coat_pattern=classic_tabby, animal.cat.mod.tail=bobtail, animal.cat.mod.appearance=grumpy_cat, animal.cat.mod.coat_color=silver_cat, animal.cat.mod.nose=black_nose, animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.ear_shape=folded_ears}%%
+
+%%{animal.cat.mod.tail=bushy_tail, animal.cat.mod.fur_length=fluffy_cat, animal.cat.mod.whiskers=short_whiskers, animal.cat.mod.pose=pouncing_cat, animal.cat.mod.coat_pattern=tortoiseshell_cat, animal.cat.mod.ear_shape=rounded_ears, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.paws=small_paws, animal.cat.mod.nose=wet_nose, animal.cat.mod.tongue=yawning_tongue}%%
+
+%%{animal.cat.mod.coat_color=gray_cat, animal.cat.mod.pose=curled_up_cat, animal.cat.mod.whiskers=long_whiskers, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.paws=dark_paws, animal.cat.mod.coat_pattern=classic_tabby, animal.cat.mod.appearance=wild_looking_cat, animal.cat.mod.tail=curled_tail, animal.cat.mod.ear_shape=tufted_ears}%%
+
+%%{animal.cat.mod.nose=black_nose, animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.fangs=small_fangs, animal.cat.mod.coat_pattern=mackerel_tabby, animal.cat.mod.tail=raised_tail, animal.cat.mod.paws=large_paws, animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.pose=sitting_cat}%%
+
+%%{animal.cat.mod.pose=loaf_cat, animal.cat.mod.coat_pattern=spotted_tabby, animal.cat.mod.whiskers=short_whiskers, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.paws=large_paws, animal.cat.mod.ear_shape=angled_ears, animal.cat.mod.tongue=tongue_out, animal.cat.mod.tail=fluffy_tail, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.eye_color=golden_eyes}%%
+
+%%{animal.cat.mod.coat_color=brown_cat, animal.cat.mod.appearance=elderly_cat, animal.cat.mod.nose=pink_nose, animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.whiskers=prominent_whiskers, animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.tail=curled_tail, animal.cat.mod.coat_pattern=tuxedo_cat, animal.cat.mod.paws=large_paws, animal.cat.mod.fangs=visible_fangs}%%
+
+%%{animal.cat.mod.tongue=yawning_tongue, animal.cat.mod.coat_pattern=calico_cat, animal.cat.mod.pose=sleeping_cat, animal.cat.mod.whiskers=delicate_whiskers, animal.cat.mod.appearance=luxurious_cat, animal.cat.mod.coat_color=blue_gray_cat, animal.cat.mod.ear_shape=large_ears, animal.cat.mod.paws=striped_paws, animal.cat.mod.eye_color=amber_eyes, animal.cat.mod.fur_length=shaggy_fur_cat}%%
+
+%%{animal.cat.mod.nose=wet_nose, animal.cat.mod.fur_length=short_hair_cat, animal.cat.mod.pose=lying_cat, animal.cat.mod.paws=delicate_paws, animal.cat.mod.fangs=small_fangs, animal.cat.mod.tail=swishing_tail, animal.cat.mod.ear_shape=large_ears, animal.cat.mod.appearance=playful_cat, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.coat_pattern=classic_tabby}%%
+
+%%{animal.cat.mod.appearance=chubby_cat, animal.cat.mod.fur_length=long_hair_cat, animal.cat.mod.nose=wet_nose, animal.cat.mod.tail=ringed_tail, animal.cat.mod.fangs=sharp_fangs, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.pose=curled_up_cat, animal.cat.mod.coat_color=golden_cat, animal.cat.mod.ear_shape=large_ears, animal.cat.mod.eye_color=blue_eyes}%%
+
+%%{animal.cat.mod.tongue=licking_lips, animal.cat.mod.eye_color=blue_eyes, animal.cat.mod.whiskers=curved_whiskers, animal.cat.mod.ear_shape=rounded_ears, animal.cat.mod.pose=walking_cat, animal.cat.mod.fur_length=fluffy_cat, animal.cat.mod.fangs=small_fangs, animal.cat.mod.appearance=wild_looking_cat, animal.cat.mod.coat_color=brown_cat, animal.cat.mod.nose=black_nose}%%
+
+%%{animal.cat.mod.pose=sitting_cat, animal.cat.mod.eye_color=green_eyes, animal.cat.mod.fangs=vampire_like_fangs, animal.cat.mod.coat_color=cream_cat, animal.cat.mod.nose=pink_nose, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.coat_pattern=tuxedo_cat, animal.cat.mod.appearance=sleepy_cat, animal.cat.mod.paws=dark_paws}%%
+
+%%{animal.cat.mod.pose=pouncing_cat, animal.cat.mod.coat_color=blue_gray_cat, animal.cat.mod.nose=dark_brown_nose, animal.cat.mod.paws=striped_paws, animal.cat.mod.tail=short_tail, animal.cat.mod.fangs=small_fangs, animal.cat.mod.whiskers=short_whiskers, animal.cat.mod.appearance=curious_cat, animal.cat.mod.fur_length=medium_fur_cat, animal.cat.mod.ear_shape=upright_ears}%%
+
+%%{animal.cat.mod.paws=white_paws, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.nose=black_nose, animal.cat.mod.fangs=playful_fangs, animal.cat.mod.eye_color=yellow_eyes, animal.cat.mod.tongue=grooming_tongue, animal.cat.mod.whiskers=straight_whiskers, animal.cat.mod.coat_color=orange_cat, animal.cat.mod.appearance=sleepy_cat, animal.cat.mod.coat_pattern=colorpoint_cat}%%
+
+%%{animal.cat.mod.ear_shape=tufted_ears, animal.cat.mod.coat_pattern=solid_coat_cat, animal.cat.mod.nose=dark_brown_nose, animal.cat.mod.fur_length=fluffy_cat, animal.cat.mod.fangs=playful_fangs, animal.cat.mod.coat_color=silver_cat, animal.cat.mod.paws=dark_paws, animal.cat.mod.pose=curled_up_cat, animal.cat.mod.tongue=licking_lips, animal.cat.mod.appearance=chubby_cat}%%
+
+%%{animal.cat.mod.pose=stretching_cat, animal.cat.mod.fangs=sharp_fangs, animal.cat.mod.coat_pattern=tuxedo_cat, animal.cat.mod.tail=swishing_tail, animal.cat.mod.tongue=tongue_out, animal.cat.mod.ear_shape=rounded_ears, animal.cat.mod.paws=striped_paws, animal.cat.mod.appearance=fluffy_cat, animal.cat.mod.nose=pink_nose, animal.cat.mod.fur_length=shaggy_fur_cat}%%
+
+%%{animal.cat.mod.coat_color=smoky_black_cat, animal.cat.mod.appearance=elegant_cat, animal.cat.mod.nose=black_nose, animal.cat.mod.tail=short_tail, animal.cat.mod.tongue=tongue_out, animal.cat.mod.fur_length=silky_fur_cat, animal.cat.mod.eye_color=heterochromia_eyes, animal.cat.mod.paws=soft_paws, animal.cat.mod.whiskers=long_whiskers, animal.cat.mod.pose=lying_cat}%%
+
+%%{animal.cat.mod.coat_pattern=bicolor_cat, animal.cat.mod.tail=bobtail, animal.cat.mod.paws=white_paws, animal.cat.mod.appearance=elegant_cat, animal.cat.mod.whiskers=long_whiskers, animal.cat.mod.fur_length=shaggy_fur_cat, animal.cat.mod.tongue=tongue_out, animal.cat.mod.coat_color=brown_cat, animal.cat.mod.ear_shape=small_ears, animal.cat.mod.pose=pouncing_cat}%%
+

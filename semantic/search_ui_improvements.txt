@@ -1,0 +1,504 @@
+# Semantic Prompt — Pack Search UI Improvements & Future Search Settings
+
+## Overview
+
+The Pack Search system is now functional in both CLI and UI form. The current UI provides:
+
+* Query input
+* Search execution
+* Ranked results dropdown
+* Token selection
+* Token insertion into preview or prompt
+* Pack definition inspection
+
+This document outlines **recommended improvements** for the UI and additional **search settings** that may be introduced later.
+
+The goal is to keep the interface **fast, compact, and focused on prompt construction**.
+
+---
+
+# Current Working Features
+
+The first version of Pack Search UI supports:
+
+### Query Input
+
+Users can enter natural search phrases.
+
+Examples:
+
+```
+double cutouts blouse
+open shoulder top
+medallion
+bikini
+```
+
+### Preset Selection
+
+Presets control ranking emphasis:
+
+* `prompt`
+* `exact_key`
+* `broad`
+* `relationships`
+* `debug`
+
+These presets adjust field weights and search behavior.
+
+### Token Format
+
+Users can select output format:
+
+```
+category:key
+category=key
+```
+
+Example:
+
+```
+clothing.garments.swimwear.generic=string bikini
+```
+
+### Ranked Results Dropdown
+
+Results appear as a dropdown list with score indicators.
+
+Example result entry:
+
+```
+string bikini — clothing.garments.swimwear.generic | score=270
+```
+
+### Result Selection
+
+Selecting a result:
+
+* updates the **Selected Token**
+* displays **pack metadata**
+* shows tags, aliases, related packs, excludes
+
+### Token Insertion
+
+Two insertion targets exist:
+
+* **Insert into Preview input**
+* **Insert into Prompt**
+
+This allows users to quickly build prompts from discovered tokens.
+
+### Pack Inspection Panel
+
+Displays detailed metadata:
+
+* Category
+* Key
+* Score
+* Matched fields
+* Match reasons
+* File path
+* Meta title
+* Meta notes
+* Tags
+* Aliases
+* Related packs
+* Excludes
+
+This doubles as a **Pack Debug Viewer** for developers.
+
+---
+
+# Core UI Improvements (Recommended)
+
+These are small improvements that significantly improve usability.
+
+---
+
+## 1. Result Label Formatting
+
+Current format:
+
+```
+clothing.garments.swimwear.generic=string bikini | score=270
+```
+
+Recommended format:
+
+```
+string bikini — clothing.garments.swimwear.generic | score=270
+```
+
+Reason:
+
+Users usually care about the **token first**, not the category path.
+
+---
+
+## 2. Auto Highlight Selected Token
+
+When a result is selected:
+
+* automatically highlight the text in the **Selected Token** field
+
+This allows quick manual copying without needing a separate copy button.
+
+---
+
+## 3. Keyboard Navigation
+
+Recommended shortcuts:
+
+| Key                            | Behavior          |
+| ------------------------------ | ----------------- |
+| Enter                          | Run search        |
+| ↑ ↓                            | Navigate dropdown |
+| Enter (while dropdown focused) | Insert token      |
+
+This makes search behave like a **command palette**.
+
+---
+
+## 4. Preserve Results After Insertion
+
+Current behavior should remain:
+
+After inserting a token, **do not clear results**.
+
+This enables rapid workflow:
+
+```
+search → insert
+search → insert
+search → insert
+```
+
+---
+
+## 5. Score Formatting
+
+Scores currently include decimal precision.
+
+Example:
+
+```
+score=270.4
+```
+
+Recommended:
+
+```
+score=270
+```
+
+Scores are mainly for ranking visibility, not numeric accuracy.
+
+---
+
+# Future Search Settings
+
+These are optional settings that may be added later to increase search flexibility.
+
+---
+
+# Category Filtering
+
+Allow restricting search to a specific category.
+
+Example UI:
+
+```
+Category Filter: clothing.garments.swimwear
+```
+
+Example query:
+
+```
+bikini
+```
+
+Would only search within swimwear-related packs.
+
+Benefits:
+
+* faster results
+* reduced noise
+* useful for large pack libraries
+
+---
+
+# Search Scope Options
+
+Allow choosing which fields are searchable.
+
+Possible settings:
+
+| Setting              | Behavior               |
+| -------------------- | ---------------------- |
+| Search keys          | search only entry keys |
+| Search tags          | search tags only       |
+| Search aliases       | include alias matches  |
+| Search relationships | include related packs  |
+
+Example UI:
+
+```
+[✓] keys
+[✓] tags
+[ ] aliases
+[ ] related
+```
+
+---
+
+# Advanced Search Mode
+
+Advanced search mode allows query directives.
+
+Example syntax:
+
+```
+rank key:2.0
+ignore meta.notes
+```
+
+This adjusts ranking behavior directly in the query.
+
+Example:
+
+```
+bikini rank key:2.0 ignore meta.notes
+```
+
+UI option:
+
+```
+[ ] Enable advanced query syntax
+```
+
+---
+
+# Result Limit Control
+
+Users can control how many results appear.
+
+Current slider example:
+
+```
+Max results: 25
+```
+
+Recommended range:
+
+```
+10–100
+```
+
+---
+
+# Token Match Modes
+
+Future match modes may allow different search behaviors.
+
+| Mode         | Behavior              |
+| ------------ | --------------------- |
+| Token match  | match full tokens     |
+| Token prefix | allow prefix matches  |
+| Phrase match | match token sequences |
+| Substring    | match inside words    |
+
+Default should remain:
+
+```
+token + prefix
+```
+
+Substring matching should remain **optional** to prevent noise like:
+
+```
+lion → medallion
+```
+
+---
+
+# Live Search (Optional)
+
+Instead of pressing **Search**, results update while typing.
+
+Example:
+
+```
+user types → results update
+```
+
+Only recommended after search performance is optimized.
+
+---
+
+# Search History
+
+Allow quick reuse of previous queries.
+
+Example UI:
+
+```
+Recent Searches
+---------------
+bikini
+double cutouts
+shoulder opening
+medallion
+```
+
+---
+
+# Multi-Insert Mode
+
+Allow inserting multiple tokens at once.
+
+Example workflow:
+
+1. select multiple results
+2. insert them together
+
+Example output:
+
+```
+clothing.garments.swimwear.generic=string bikini,
+clothing.garments.swimwear.generic=triangle bikini
+```
+
+---
+
+# Developer Features (Optional)
+
+These are helpful for pack development but not required for normal users.
+
+### Open Pack File
+
+Button:
+
+```
+Open pack file
+```
+
+Opens the JSON pack in an editor.
+
+---
+
+### Raw JSON View
+
+Allow viewing raw pack JSON.
+
+Useful for debugging:
+
+* malformed packs
+* missing metadata
+* incorrect tags
+
+---
+
+# Performance Improvements
+
+As pack libraries grow, search performance may need optimization.
+
+Recommended improvements:
+
+### Persistent Index
+
+Currently:
+
+```
+index rebuilt every search
+```
+
+Future improvement:
+
+```
+index built once on UI load
+```
+
+Benefits:
+
+* instant search
+* lower CPU usage
+
+---
+
+### Incremental Pack Reload
+
+When packs change:
+
+```
+reload only changed files
+```
+
+instead of rebuilding the entire index.
+
+---
+
+# Long-Term UI Concepts
+
+These are larger features that could evolve from the search system.
+
+---
+
+## Pack Relationship Viewer
+
+Visual graph of:
+
+* related packs
+* required packs
+* excluded packs
+
+Useful for pack design.
+
+---
+
+## Category Browser
+
+Hierarchical navigation of pack categories.
+
+Example:
+
+```
+clothing
+ ├ garments
+ │   ├ swimwear
+ │   │   ├ bikini
+ │   │   └ one-piece
+```
+
+---
+
+## Prompt Builder Interface
+
+Search + drag tokens into a prompt builder.
+
+Example:
+
+```
+[ search results ] → drag → [ prompt composition panel ]
+```
+
+---
+
+# Summary
+
+The Pack Search UI is already a **fully functional prompt discovery tool**.
+
+Current strengths:
+
+* compact UI
+* fast dropdown navigation
+* token insertion workflow
+* pack metadata inspection
+
+The next improvements should focus on:
+
+* usability
+* category filtering
+* search flexibility
+* performance scaling
+
+The goal is to keep the tool **simple, fast, and powerful for prompt construction** while supporting pack development workflows.

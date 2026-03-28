@@ -1,0 +1,553 @@
+# Semantic Prompt — Search Engine Backend Roadmap
+
+## Overview
+
+The Pack Search Engine provides a structured way to locate prompt tokens across semantic packs. The current implementation already supports:
+
+* token normalization
+* field weighting
+* ranking presets
+* token-aware matching
+* advanced query directives
+* CLI and UI integration
+
+This document outlines the **future roadmap for backend search improvements**.
+The goal is to maintain **fast, predictable, developer-friendly search behavior** while scaling to very large pack libraries.
+
+---
+
+# Current Architecture
+
+The search engine currently operates in the following pipeline:
+
+```
+Query
+  ↓
+Normalization
+  ↓
+Advanced directive parsing
+  ↓
+Pack index build
+  ↓
+Field extraction
+  ↓
+Token-aware matching
+  ↓
+Scoring
+  ↓
+Ranking
+  ↓
+Result output
+```
+
+Core backend components include:
+
+* `build_index()`
+* `search_index()`
+* `score_single_match()`
+* `SearchOptions`
+* `parse_advanced_query()`
+
+---
+
+# Phase 1 — Index & Performance Improvements
+
+## Persistent Index Cache
+
+Current behavior:
+
+```
+index rebuilt every search
+```
+
+Future improvement:
+
+```
+build index once
+reuse index for all searches
+```
+
+Benefits:
+
+* dramatically faster searches
+* lower CPU usage
+* better UI responsiveness
+
+Implementation concept:
+
+```
+GLOBAL_SEARCH_INDEX = None
+```
+
+Build once during UI initialization.
+
+---
+
+## Incremental Pack Reload
+
+Instead of rebuilding the entire index when packs change:
+
+```
+detect changed files
+reload only modified packs
+```
+
+Possible approaches:
+
+* file modification timestamps
+* hash comparison
+* filesystem watchers
+
+---
+
+## Memory-Efficient Index Structure
+
+Future optimization:
+
+Replace list-based structures with optimized maps.
+
+Example structure:
+
+```
+token → pack entries
+category → pack entries
+key → pack entry
+```
+
+This enables:
+
+```
+O(1) token lookup
+```
+
+instead of scanning every pack entry.
+
+---
+
+# Phase 2 — Ranking Improvements
+
+## Field Weight Refinement
+
+Current scoring relies on weighted fields such as:
+
+* key
+* tags
+* aliases
+* relationships
+* metadata
+
+Future improvement:
+
+Create a centralized **weight configuration table**.
+
+Example:
+
+```
+FIELD_WEIGHTS = {
+    "key": 10.0,
+    "tags": 6.0,
+    "aliases": 5.0,
+    "related": 3.0,
+    "meta.title": 2.0,
+    "meta.notes": 1.0,
+}
+```
+
+This allows easier tuning of ranking behavior.
+
+---
+
+## Exact Match Priority Tier
+
+Exact key matches should always rank above fuzzy matches.
+
+Ranking tiers:
+
+```
+Tier 1: exact key match
+Tier 2: alias exact match
+Tier 3: token phrase match
+Tier 4: token prefix match
+Tier 5: general token overlap
+```
+
+Sorting algorithm:
+
+```
+tier first
+score second
+```
+
+---
+
+## Token Coverage Scoring
+
+Add scoring for how many query tokens matched.
+
+Example:
+
+```
+Query: open shoulder blouse
+```
+
+Entry containing all tokens:
+
+```
++ coverage bonus
+```
+
+Entry containing one token:
+
+```
+lower ranking
+```
+
+Possible formula:
+
+```
+coverage_score = matched_tokens / total_query_tokens
+```
+
+---
+
+## Field Diversity Bonus
+
+Entries matching across multiple fields should receive a small bonus.
+
+Example:
+
+```
+match in key + tags
+```
+
+should rank higher than:
+
+```
+match only in tags
+```
+
+---
+
+# Phase 3 — Advanced Query Language
+
+## Field-Specific Search
+
+Allow users to search specific fields.
+
+Examples:
+
+```
+key:bikini
+tags:"string bikini"
+aliases:"sports bikini"
+```
+
+This gives precise control over search behavior.
+
+---
+
+## Weighted Query Terms
+
+Allow users to weight query tokens.
+
+Example:
+
+```
+bikini^2 straps
+```
+
+Meaning:
+
+```
+bikini has higher ranking weight
+```
+
+---
+
+## Boolean Operators
+
+Future support for logical operators.
+
+Example:
+
+```
+bikini AND triangle
+bikini OR swimsuit
+bikini NOT string
+```
+
+Possible syntax:
+
+```
++required
+-excluded
+```
+
+Example:
+
+```
+bikini +triangle -string
+```
+
+---
+
+## Phrase Matching
+
+Support quoted phrase search.
+
+Example:
+
+```
+"string bikini"
+```
+
+Matches only exact token sequences.
+
+---
+
+# Phase 4 — Fuzzy Matching
+
+## Edit Distance Matching
+
+Allow approximate spelling matches.
+
+Example:
+
+```
+bikni → bikini
+```
+
+Using algorithms such as:
+
+* Levenshtein distance
+* Damerau–Levenshtein
+
+Distance threshold example:
+
+```
+distance <= 2
+```
+
+---
+
+## Synonym Expansion
+
+Allow predefined synonym dictionaries.
+
+Example:
+
+```
+swimsuit → bikini
+pants → trousers
+shirt → blouse
+```
+
+Synonyms can be defined in configuration files.
+
+---
+
+# Phase 5 — Category Awareness
+
+## Category Path Boosting
+
+Entries in more relevant categories should receive ranking boosts.
+
+Example:
+
+```
+Query: bikini
+```
+
+Category:
+
+```
+clothing.garments.swimwear
+```
+
+should rank above unrelated categories.
+
+---
+
+## Category Proximity Scoring
+
+Allow category tree distance scoring.
+
+Example:
+
+```
+clothing.garments.swimwear
+```
+
+is closer to:
+
+```
+clothing.garments.swimwear.bikini
+```
+
+than:
+
+```
+clothing.graphics.patterns
+```
+
+---
+
+# Phase 6 — Relationship-Aware Search
+
+## Related Pack Expansion
+
+If a pack contains:
+
+```
+related_packs
+```
+
+search results can optionally include related entries.
+
+Example:
+
+```
+triangle bikini
+```
+
+might surface related:
+
+```
+string bikini
+bikini straps
+bikini bottoms
+```
+
+---
+
+## Requires Awareness
+
+Entries with `requires` fields could trigger additional search suggestions.
+
+Example:
+
+```
+cutout dress
+```
+
+suggest:
+
+```
+cutout top
+cutout back
+```
+
+---
+
+# Phase 7 — Query Suggestions
+
+## Auto-Suggest Tokens
+
+Suggest tokens while typing.
+
+Example:
+
+```
+bik → bikini
+```
+
+Based on:
+
+```
+token frequency
+pack popularity
+```
+
+---
+
+## Did-You-Mean Corrections
+
+Example:
+
+```
+bikni → bikini
+```
+
+Suggestions based on fuzzy matching.
+
+---
+
+# Phase 8 — Search Analytics
+
+Optional future feature.
+
+Track common queries:
+
+```
+most searched tokens
+failed searches
+popular packs
+```
+
+Benefits:
+
+* improve pack tagging
+* detect missing tags
+* refine ranking weights
+
+---
+
+# Phase 9 — Large Library Scaling
+
+When pack libraries exceed thousands of packs:
+
+Possible improvements:
+
+### Trie-based token index
+
+```
+token prefix search in O(k)
+```
+
+### Inverted search index
+
+```
+token → entries
+```
+
+### Parallel scoring
+
+Use multi-threading for scoring large result sets.
+
+---
+
+# Long-Term Vision
+
+The Pack Search Engine should evolve into a **semantic discovery engine for prompt tokens**, not just a text matcher.
+
+Future capabilities could include:
+
+* semantic grouping of packs
+* relationship graph traversal
+* prompt composition assistance
+* AI-assisted token suggestions
+
+The goal is to support:
+
+```
+natural language → structured prompt tokens
+```
+
+with high accuracy and speed.
+
+---
+
+# Summary
+
+The search engine already provides strong functionality.
+
+Key priorities moving forward:
+
+1. Persistent indexing
+2. Improved ranking tiers
+3. Advanced query syntax
+4. fuzzy matching
+5. category-aware ranking
+6. scalable indexing
+
+These improvements will allow the system to scale smoothly as pack libraries grow and prompt composition workflows become more complex.

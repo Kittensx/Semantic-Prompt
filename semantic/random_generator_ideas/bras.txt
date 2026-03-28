@@ -1,0 +1,200 @@
+%%{clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.accessories=heart_pendant, clothing.garments.underwear.bras.mod.cup=half_cup}%%
+
+%%{clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.accessories=strap_rings}%%
+
+%%{clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.accessories=strap_sliders, clothing.garments.underwear.bras.mod.style=balconette, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.cup=underwire}%%
+
+%%{clothing.garments.underwear.bras.mod.style=balconette, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.accessories=key_pendant, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.straps=decorative}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.style=plunge, clothing.garments.underwear.bras.mod.accessories=gem_pendant}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.accessories=rose_charm, clothing.garments.underwear.bras.mod.style=plunge, clothing.garments.underwear.bras.mod.trim=lace_edge}%%
+
+%%{clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.accessories=heart_pendant, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.straps=crossback}%%
+
+%%{clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.accessories=strap_ribbons, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.cup=softcup, clothing.garments.underwear.bras.mod.style=strapless}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.accessories=ribbon_trim}%%
+
+%%{clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.accessories=gem_pendant, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.style=strapless}%%
+
+%%{clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.cup=unlined, clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.accessories=strap_rings, clothing.garments.underwear.bras.mod.trim=embroidered}%%
+
+%%{clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.accessories=heart_pendant, clothing.garments.underwear.bras.mod.style=plunge, clothing.garments.underwear.bras.mod.cup=underwire}%%
+
+%%{clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.accessories=gem_pendant}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.accessories=rose_charm}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.accessories=key_pendant, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.trim=embroidered}%%
+
+%%{clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.accessories=strap_rings, clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.style=pushup}%%
+
+%%{clothing.garments.underwear.bras.mod.style=plunge, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.accessories=lock_charm, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.band=elastic_band}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.accessories=ribbon_trim, clothing.garments.underwear.bras.mod.cup=unlined, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.trim=embroidered}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.style=balconette, clothing.garments.underwear.bras.mod.accessories=strap_rings, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.band=thin_band}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.accessories=strap_harness}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.accessories=strap_ribbons, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.style=sports}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.accessories=ribbon_trim}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.accessories=ribbon_ties, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.cup=unlined}%%
+
+%%{clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.accessories=ribbon_ties, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.straps=racerback}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=unlined, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.accessories=center_pendant, clothing.garments.underwear.bras.mod.straps=racerback}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.accessories=key_pendant, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.cup=softcup}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.accessories=strap_ribbons, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.cup=softcup}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.accessories=ribbon_ties}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.accessories=strap_ribbons}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.accessories=ribbon_trim, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.band=longline}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=strap_ribbons, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.cup=softcup}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=ribbon_bow, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.cup=padded}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.accessories=strap_harness, clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.style=pushup}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.accessories=heart_pendant, clothing.garments.underwear.bras.mod.style=balconette}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=center_pendant, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.band=wide_band}%%
+
+%%{clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.accessories=ribbon_bow}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=softcup, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.accessories=key_pendant, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.straps=halter}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=strap_sliders, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.style=balconette, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.trim=scalloped}%%
+
+%%{clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.accessories=center_pendant, clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.cup=unlined}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=rose_charm, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.style=balconette}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.style=plunge, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.accessories=strap_harness}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.accessories=strap_harness, clothing.garments.underwear.bras.mod.cup=softcup, clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.band=longline}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=unlined, clothing.garments.underwear.bras.mod.accessories=strap_rings, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.band=wide_band}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=ribbon_trim, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.style=plunge, clothing.garments.underwear.bras.mod.cup=underwire}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.accessories=ribbon_trim, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.style=plunge, clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.cup=padded}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.accessories=strap_rings}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=strap_rings, clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.style=balconette}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.style=plunge, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.accessories=key_pendant, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.straps=racerback}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=strap_sliders, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.cup=unlined}%%
+
+%%{clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.accessories=strap_rings}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=strap_sliders, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.straps=decorative}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.accessories=lock_charm, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.cup=molded}%%
+
+%%{clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.accessories=lock_charm, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.straps=decorative}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.accessories=ribbon_ties, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.straps=racerback}%%
+
+%%{clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.accessories=rose_charm, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.cup=unlined}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.accessories=center_pendant}%%
+
+%%{clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.accessories=strap_sliders, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.straps=racerback}%%
+
+%%{clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.cup=unlined, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.accessories=ribbon_trim, clothing.garments.underwear.bras.mod.band=longline}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.accessories=ribbon_trim, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.style=balconette, clothing.garments.underwear.bras.mod.band=longline}%%
+
+%%{clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.accessories=rose_charm, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.trim=scalloped}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.accessories=strap_ribbons, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.straps=crossback}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.accessories=ribbon_bow, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.style=sports}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=strap_sliders, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.straps=thin}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.accessories=strap_ribbons, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.cup=half_cup}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.accessories=center_pendant, clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.straps=thin}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.accessories=ribbon_trim, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.style=balconette, clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.trim=embroidered}%%
+
+%%{clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.cup=softcup, clothing.garments.underwear.bras.mod.accessories=center_pendant, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.straps=thin}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.accessories=lock_charm}%%
+
+%%{clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.accessories=ribbon_trim, clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.band=elastic_band}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=unlined, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.accessories=lock_charm, clothing.garments.underwear.bras.mod.trim=bow}%%
+
+%%{clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.cup=softcup, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.accessories=ribbon_bow}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.accessories=ribbon_ties, clothing.garments.underwear.bras.mod.cup=unlined, clothing.garments.underwear.bras.mod.band=elastic_band}%%
+
+%%{clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.accessories=strap_sliders, clothing.garments.underwear.bras.mod.trim=scalloped}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=strap_rings, clothing.garments.underwear.bras.mod.style=balconette, clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.cup=molded}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=lock_charm, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.band=wide_band}%%
+
+%%{clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.accessories=gem_pendant, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.band=elastic_band}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=rose_charm, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.style=pushup}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=strap_sliders, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.trim=bow}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.accessories=rose_charm, clothing.garments.underwear.bras.mod.cup=softcup}%%
+
+%%{clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.cup=softcup, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.accessories=strap_ribbons, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.style=pushup}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.accessories=strap_ribbons, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.style=bralette}%%
+
+%%{clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.accessories=ribbon_ties, clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.band=elastic_band}%%
+
+%%{clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.straps=racerback, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.accessories=gem_pendant}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.accessories=strap_rings, clothing.garments.underwear.bras.mod.straps=wide}%%
+
+%%{clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.accessories=ribbon_trim}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.accessories=ribbon_bow, clothing.garments.underwear.bras.mod.straps=crossback}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.accessories=center_pendant, clothing.garments.underwear.bras.mod.style=plunge, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.cup=unlined, clothing.garments.underwear.bras.mod.trim=scalloped}%%
+
+%%{clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.accessories=strap_sliders, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.cup=unlined}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.accessories=strap_sliders, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.style=bralette, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.cup=molded}%%
+
+%%{clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.accessories=key_pendant, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.style=balconette, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.cup=half_cup}%%
+
+%%{clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.accessories=gem_pendant, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.straps=thin}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.accessories=ribbon_trim, clothing.garments.underwear.bras.mod.cup=half_cup, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.style=plunge}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=strap_harness, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.cup=underwire}%%
+
+%%{clothing.garments.underwear.bras.mod.accessories=center_pendant, clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.cup=softcup, clothing.garments.underwear.bras.mod.trim=scalloped}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=crossback, clothing.garments.underwear.bras.mod.accessories=ribbon_trim, clothing.garments.underwear.bras.mod.cup=molded, clothing.garments.underwear.bras.mod.trim=scalloped, clothing.garments.underwear.bras.mod.band=thin_band, clothing.garments.underwear.bras.mod.style=bralette}%%
+
+%%{clothing.garments.underwear.bras.mod.straps=thin, clothing.garments.underwear.bras.mod.style=sports, clothing.garments.underwear.bras.mod.trim=lace_edge, clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.band=elastic_band, clothing.garments.underwear.bras.mod.accessories=lock_charm}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.accessories=lock_charm, clothing.garments.underwear.bras.mod.straps=decorative, clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.style=plunge, clothing.garments.underwear.bras.mod.trim=lace_edge}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=underwire, clothing.garments.underwear.bras.mod.trim=bow, clothing.garments.underwear.bras.mod.straps=halter, clothing.garments.underwear.bras.mod.accessories=ribbon_bow, clothing.garments.underwear.bras.mod.style=pushup, clothing.garments.underwear.bras.mod.band=wide_band}%%
+
+%%{clothing.garments.underwear.bras.mod.band=longline, clothing.garments.underwear.bras.mod.accessories=center_pendant, clothing.garments.underwear.bras.mod.style=strapless, clothing.garments.underwear.bras.mod.trim=embroidered, clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.straps=halter}%%
+
+%%{clothing.garments.underwear.bras.mod.cup=padded, clothing.garments.underwear.bras.mod.style=triangle, clothing.garments.underwear.bras.mod.accessories=center_pendant, clothing.garments.underwear.bras.mod.straps=wide, clothing.garments.underwear.bras.mod.band=wide_band, clothing.garments.underwear.bras.mod.trim=scalloped}%%
+

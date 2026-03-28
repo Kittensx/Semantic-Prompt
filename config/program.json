@@ -1,0 +1,14 @@
+{
+  "version": "0.1",
+  "entrypoint": "scripts.semantic_prompt:main",
+  "patches": [
+    "patches.patch_registry_recursive_load:apply",
+    "patches.patch_category_graph:apply"
+  ],
+  "settings": {
+    "packs_dir": "packs",
+    "category_index": "config/categories.index.json",
+    "enable_category_graph": true,
+    "show_unindexed_bucket": true
+  }
+}
