@@ -41,32 +41,12 @@ def install_requirements():
     ])
 
 
-def run_install_bat():
-    if not INSTALL_BAT.exists():
-        print(f"[semantic_prompt] install bat not found: {INSTALL_BAT}")
-        return
-
-    print("[semantic_prompt] Running pack installer...")
-    try:
-        subprocess.check_call(
-            ["cmd", "/c", str(INSTALL_BAT)],
-            cwd=INSTALL_BAT.parent  # IMPORTANT: run inside semantic/
-        )
-    except subprocess.CalledProcessError as e:
-        print("[semantic_prompt] Pack install failed.")
-        raise e
-
-
 def main():
     missing = missing_modules()
 
     if missing:
         print(f"[semantic_prompt] Missing modules: {', '.join(missing)}")
         install_requirements()
-
-    # Always run pack install (safe because your bat uses --backup)
-    run_install_bat()
-
 
 if __name__ == "__main__":
     main()
