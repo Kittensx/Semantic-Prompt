@@ -25,6 +25,14 @@ Outside of `%% ... %%`, your prompt is left untouched.
 Once installed, you'll see **"Semantic Prompt (%%...%%)"** in the Script
 dropdown.
 
+4. First-time setup
+After downloading the extension, run:
+semantic/install_packs_manual.bat
+
+> This will generate the required pack files from the included database.
+> This step only needs to be done once.
+
+> These pack files are required for the extension to function.
 ------------------------------------------------------------------------
 
 ## The core idea
