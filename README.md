@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Semantic Prompt (%%...%%) --- JSON Pack + Trigger-based Prompt Expansion (A1111)
 
 Semantic Prompt is an Automatic1111 extension that expands *only* the
