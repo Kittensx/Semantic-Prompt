@@ -328,8 +328,8 @@ def build_semantic_ui(
                 label="Preset",
             )
             pack_search_format = gr.Dropdown(
-                choices=["colon", "equals"],
-                value="colon",
+                choices=["equals", "colon"],
+                value="equals",
                 label="Token format",
             )
             pack_search_max = gr.Slider(
