@@ -75,6 +75,7 @@ def generate_random_directives(
     include_min: Optional[List[str]] = None,
     include_any: Optional[List[str]] = None,
     include_only: Optional[List[str]] = None,
+    locked_items: Optional[List[Tuple[str, str]]] = None,
     exclude: Optional[List[str]] = None,
     safe: bool = False,
     subject_category: str = "subject",
@@ -95,8 +96,16 @@ def generate_random_directives(
         return []
 
     rng = random.Random(seed)
-
+    locked_items = list(locked_items or [])
     prompts = []
+    include_min_refs, include_min_locked = split_category_refs_and_locked(include_min)
+    include_any_refs, include_any_locked = split_category_refs_and_locked(include_any)
+    include_only_refs, include_only_locked = split_category_refs_and_locked(include_only)
+
+    locked_items.extend(include_min_locked)
+    locked_items.extend(include_any_locked)
+    locked_items.extend(include_only_locked)
+
     for _ in range(max(1, int(prints))):
         items = choose_items(
             packs=packs,
@@ -106,10 +115,12 @@ def generate_random_directives(
             include_min=include_min,
             include_any=include_any,
             include_only=include_only,
+            locked_items=locked_items,
             exclude=exclude,
             safe=safe,
             subject_category=subject_category,
-            other_random=max(0, int(other_random)),
+            other_random=max(0, int(other_random)),            
+            
             debug_resolve=debug_resolve,
         )
         prompts.append(format_directive(items))
@@ -183,7 +194,22 @@ def load_pack(path: Path) -> Tuple[str, List[str]]:
 
     return category, out
 
+def split_category_refs_and_locked(items: Optional[List[str]]) -> tuple[List[str], List[Tuple[str, str]]]:
+    refs: List[str] = []
+    locked: List[Tuple[str, str]] = []
 
+    for item in norm_list(items):
+        if "=" in item:
+            cat, key = item.split("=", 1)
+            cat = norm(cat)
+            key = norm(key)
+            if cat and key:
+                locked.append((cat, key))
+        else:
+            refs.append(item)
+
+    return refs, locked
+    
 def scan_packs(folder: Path) -> Dict[str, List[str]]:
     """Scan folder recursively for *.json and build category -> keys mapping."""
     packs: Dict[str, List[str]] = {}
@@ -346,16 +372,18 @@ def choose_items(
     include_min: Optional[List[str]] = None,
     include_any: Optional[List[str]] = None,
     include_only: Optional[List[str]] = None,
+    locked_items: Optional[List[Tuple[str, str]]] = None,
     exclude: Optional[List[str]] = None,
     safe: bool = False,
     subject_category: str = "subject",
-    other_random: int = 0,
+    other_random: int = 0,    
     debug_resolve: bool = False,
 ) -> List[Tuple[str, str]]:
     """
     Build a list of (category, key) selections for ONE prompt.
     Supports shorthand category refs like skirts.length.
     """
+    locked_items = locked_items or []
     include_min_n = norm_list(include_min)
     include_any_n = norm_list(include_any)
     include_only_n = norm_list(include_only)
@@ -427,6 +455,34 @@ def choose_items(
         per_cat_count[cat] = per_cat_count.get(cat, 0) + 1
         return True
 
+    # 0) Locked exact category=key picks
+    for raw_cat, raw_key in locked_items:
+        if len(chosen) >= total:
+            break
+
+        resolved_cats = expand_category_refs([raw_cat], list(norm_packs.keys()))
+        for cat in resolved_cats:
+            if len(chosen) >= total:
+                break
+            if cat not in norm_packs:
+                continue
+
+            key = norm(raw_key)
+            available_keys = set(norm_packs.get(cat, []))
+
+            if key not in available_keys:
+                continue
+
+            if per_cat_count.get(cat, 0) >= max_per_category:
+                continue
+
+            if (cat, key) in used_pairs:
+                continue
+
+            chosen.append((cat, key))
+            used_pairs.add((cat, key))
+            per_cat_count[cat] = per_cat_count.get(cat, 0) + 1
+        
     # Prefer subject category first when available and not excluded
     if len(chosen) < total and subject_category_n in norm_packs:
         add_pick(subject_category_n)
@@ -556,7 +612,7 @@ def main() -> None:
         max_per_category=args.max_per_category,
         include_min=args.include_min,
         include_any=args.include_any,
-        include_only=args.include_only,
+        include_only=args.include_only,        
         exclude=args.exclude,
         safe=args.safe,
         subject_category=args.subject_category,
