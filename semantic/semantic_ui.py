@@ -29,7 +29,7 @@ from __future__ import annotations
 import re
 import gradio as gr
 from typing import Any, Callable, Dict
-
+import random
 
 
 try:
@@ -614,9 +614,13 @@ def build_semantic_ui(
                     label="Other random picks",
                 )
                 random_seed = gr.Number(
-                    value=None,
-                    label="Seed",
+                    value=-1,
+                    label="Seed (-1 = randomize)",
                     precision=0,
+                )
+                random_auto_seed = gr.Checkbox(
+                    value=True,
+                    label="Auto-randomize seed each click",
                 )
 
             with gr.Row():
@@ -646,16 +650,23 @@ def build_semantic_ui(
                 seed,
                 safe,
                 debug_resolve,
+                auto_seed, 
             ):
                 if generate_random_directives is None:
-                    return "Random Pack Mixer import failed. Check random_prompt_packs.py location."
+                    return (
+                        "Random Pack Mixer import failed. Check random_prompt_packs.py location.",
+                        gr.update(),
+                    )
 
-                seed_value = None
+                seed_value = -1
                 if seed not in (None, ""):
                     try:
                         seed_value = int(float(seed))
                     except Exception:
-                        seed_value = None
+                        seed_value = -1
+
+                if auto_seed or seed_value == -1:
+                    seed_value = random.randint(0, 2_147_483_647)
 
                 prompts = generate_random_directives(
                     total=int(total or 6),
@@ -673,7 +684,8 @@ def build_semantic_ui(
                     debug_resolve=bool(debug_resolve),
                 )
 
-                return "\n\n".join(prompts) if prompts else "No prompt generated."
+                text = "\n\n".join(prompts) if prompts else "No prompt generated."
+                return text, gr.update(value=seed_value)
 
             random_generate_btn.click(
                 fn=_generate_random_pack_directive,
@@ -689,9 +701,11 @@ def build_semantic_ui(
                     random_seed,
                     random_safe,
                     random_debug_resolve,
+                    random_auto_seed,   # <-- ADD THIS
                 ],
-                outputs=[random_out],
+                outputs=[random_out, random_seed],
             )
+            
 
             random_insert_preview_btn.click(
                 fn=_append_token,
