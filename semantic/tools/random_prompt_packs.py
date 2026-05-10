@@ -112,6 +112,7 @@ def generate_random_directives(
             total=max(1, int(total)),
             max_per_category=max(1, int(max_per_category)),
             rng=rng,
+
             include_min=include_min_refs,
             include_any=include_any_refs,
             include_only=include_only_refs,
@@ -119,13 +120,71 @@ def generate_random_directives(
             exclude=exclude,
             safe=safe,
             subject_category=subject_category,
-            other_random=max(0, int(other_random)),            
-            
+            other_random=max(0, int(other_random)),
             debug_resolve=debug_resolve,
         )
         prompts.append(format_directive(items))
 
     return prompts
+
+def build_negative_directives(
+    *,
+    refs: Optional[List[str]],
+    use_registry: bool = True,
+    packs_dir: Optional[Path] = None,
+    max_per_category: int = 1,
+    seed: Optional[int] = None,
+) -> List[str]:
+    if not refs:
+        return []
+
+    if use_registry:
+        packs = scan_registry_packs()
+    else:
+        packs = scan_packs(Path(packs_dir or PACKS_ROOT))
+
+    if not packs:
+        return []
+
+    rng = random.Random(seed)
+
+    category_refs, locked = split_category_refs_and_locked(refs)
+    available_categories = [norm(cat) for cat in packs.keys() if norm(cat)]
+
+    out: List[str] = []
+
+    # Exact category=key negatives
+    for raw_cat, raw_key in locked:
+        resolved_cats = expand_category_refs([raw_cat], available_categories)
+        for cat in resolved_cats:
+            keys = [norm(k) for k in packs.get(cat, []) if norm(k)]
+            key = norm(raw_key)
+
+            if key in set(keys):
+                out.append(f"{cat}={key}")
+
+    # Category-only negatives: choose N keys from resolved category
+    resolved_refs = expand_category_refs(category_refs, available_categories)
+    for cat in resolved_refs:
+        keys = [norm(k) for k in packs.get(cat, []) if norm(k)]
+        if not keys:
+            continue
+
+        pick_count = max(1, min(int(max_per_category or 1), len(keys)))
+        for key in rng.sample(keys, pick_count):
+            out.append(f"{cat}={key}")
+
+    # de-dupe
+    seen = set()
+    cleaned = []
+    for x in out:
+        xl = x.lower()
+        if xl in seen:
+            continue
+        seen.add(xl)
+        cleaned.append(x)
+
+    return cleaned
     
 def norm(s: str) -> str:
     return SPACE_RE.sub(" ", (s or "")).strip()
