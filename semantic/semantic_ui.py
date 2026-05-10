@@ -35,16 +35,39 @@ import random
 try:
     from semantic.rewriter import rewrite_prompt, RewriteSettings
     from semantic.loaders import registry, PACKS_DIRS
-    from semantic.tools.random_prompt_packs import generate_random_directives
+    from semantic.tools.random_prompt_packs import (
+        generate_random_directives,
+        build_negative_directives,
+    )
 except Exception:
     from rewriter import rewrite_prompt, RewriteSettings
     from loaders import registry, PACKS_DIRS
-    from tools.random_prompt_packs import generate_random_directives
+    from tools.random_prompt_packs import generate_random_directives, build_negative_directives
+
+
+
+
+from modules import script_callbacks
+
+_PROMPT_COMPS = {}
+
+def _capture_prompt_components(component, **kwargs):
+    elem_id = kwargs.get("elem_id") or getattr(component, "elem_id", "")
+
+    if elem_id == "txt2img_prompt":
+        _PROMPT_COMPS["txt2img"] = component
+    elif elem_id == "img2img_prompt":
+        _PROMPT_COMPS["img2img"] = component
+
+    elif elem_id == "txt2img_neg_prompt":
+        _PROMPT_COMPS["txt2img_negative"] = component
+    elif elem_id == "img2img_neg_prompt":
+        _PROMPT_COMPS["img2img_negative"] = component
+
+script_callbacks.on_after_component(_capture_prompt_components)
 
 
 JsonDict = Dict[str, Any]
-
-
 
 def _split_category_refs(text: str) -> list[str]:
     if not text:
@@ -292,7 +315,21 @@ def _select_pack_result(selected_label: str, result_payloads: list[dict]):
             return item.get("display_text", ""), _format_pack_result_detail(item)
 
     return "", ""
+def _append_wrapped_negative(existing_text: str, token: str) -> str:
+    return _append_token(existing_text, _wrap_semantic_block(token))
+    
+def _wrap_semantic_block(text: str) -> str:
+    text = (text or "").strip()
+    if not text:
+        return ""
 
+    if text.startswith("%%") and text.endswith("%%"):
+        return text
+
+    if text.startswith("{") and text.endswith("}"):
+        return f"%{text}%"
+
+    return f"%%{{{text}}}%%"
 
 def _append_token(existing_text: str, token: str) -> str:
     existing_text = existing_text or ""
@@ -486,7 +523,17 @@ def build_semantic_ui(
                 placeholder="subject.1girl\nappearance.blue_eyes\nlighting.theater.theater_overhead",
             )
 
-            prompt_comp = prompt_comps.get("img2img") if is_img2img else prompt_comps.get("txt2img")
+            prompt_comp = (
+                prompt_comps.get("img2img") or _PROMPT_COMPS.get("img2img")
+                if is_img2img
+                else prompt_comps.get("txt2img") or _PROMPT_COMPS.get("txt2img")
+            )
+            negative_prompt_comp = (
+                prompt_comps.get("img2img_negative") or _PROMPT_COMPS.get("img2img_negative")
+                if is_img2img
+                else prompt_comps.get("txt2img_negative") or _PROMPT_COMPS.get("txt2img_negative")
+            )
+                       
             main_prompt_input = prompt_comp if prompt_comp is not None else gr.State(value="")
 
             def _refresh_from_prompt(main_prompt_text: str, preview_text: str, mode: str, priority_lines: str):
@@ -599,10 +646,24 @@ def build_semantic_ui(
                 placeholder="Hard restriction. Leave blank to allow all non-excluded categories.",
             )
 
+
+            random_negative_refs = gr.Textbox(
+                label="Add to negative prompt",
+                lines=3,
+                placeholder=(
+                    "Category or category=key. Examples:\n"
+                    "appearance.physical.hair.mod.color=blonde\n"
+                    "clothing.garments.underwear"
+                ),
+            )
             random_exclude = gr.Textbox(
                 label="Exclude categories",
                 lines=2,
                 placeholder="Example:\nnsfw, lingerie, fetish_clothing",
+            )
+            random_negative_out = gr.Textbox(
+                label="Generated negative prompt additions",
+                lines=4,
             )
 
             with gr.Row():
@@ -637,7 +698,8 @@ def build_semantic_ui(
             with gr.Row():
                 random_insert_preview_btn = gr.Button("Insert into Preview input")
                 random_insert_prompt_btn = gr.Button("Insert into Prompt")
-
+                random_insert_negative_btn = gr.Button("Insert into Negative Prompt")
+            #
             def _generate_random_pack_directive(
                 total,
                 prints,
@@ -646,15 +708,18 @@ def build_semantic_ui(
                 include_any,
                 include_only,
                 exclude,
+                negative_refs,
                 other_random,
                 seed,
                 safe,
                 debug_resolve,
-                auto_seed, 
+                auto_seed,
             ):
+            
                 if generate_random_directives is None:
                     return (
                         "Random Pack Mixer import failed. Check random_prompt_packs.py location.",
+                        "",
                         gr.update(),
                     )
 
@@ -683,9 +748,22 @@ def build_semantic_ui(
                     use_registry=True,
                     debug_resolve=bool(debug_resolve),
                 )
+                negative_items = build_negative_directives(
+                    refs=_split_category_refs(negative_refs),
+                    use_registry=True,
+                    max_per_category=1,
+                    seed=seed_value,
+                )
+
+                negative_text = "%%{" + ", ".join(negative_items) + "}%%" if negative_items else ""
 
                 text = "\n\n".join(prompts) if prompts else "No prompt generated."
-                return text, gr.update(value=seed_value)
+
+                return (
+                    text,
+                    negative_text,
+                    gr.update(value=seed_value),
+                )
 
             random_generate_btn.click(
                 fn=_generate_random_pack_directive,
@@ -697,16 +775,18 @@ def build_semantic_ui(
                     random_include_any,
                     random_include_only,
                     random_exclude,
+                    
+                    random_negative_refs,
                     random_other_random,
                     random_seed,
                     random_safe,
                     random_debug_resolve,
                     random_auto_seed,   # <-- ADD THIS
                 ],
-                outputs=[random_out, random_seed],
+                outputs=[random_out, random_negative_out, random_seed]
             )
             
-
+            
             random_insert_preview_btn.click(
                 fn=_append_token,
                 inputs=[preview_in, random_out],
@@ -718,6 +798,18 @@ def build_semantic_ui(
                     fn=_append_token,
                     inputs=[main_prompt_input, random_out],
                     outputs=[main_prompt_input],
+                )
+            negative_prompt_comp = (
+                prompt_comps.get("img2img_negative") or _PROMPT_COMPS.get("img2img_negative")
+                if is_img2img
+                else prompt_comps.get("txt2img_negative") or _PROMPT_COMPS.get("txt2img_negative")
+            )
+
+            if negative_prompt_comp is not None:
+                random_insert_negative_btn.click(
+                    fn=_append_wrapped_negative,
+                    inputs=[negative_prompt_comp, random_negative_out],
+                    outputs=[negative_prompt_comp],
                 )
 
         with gr.Accordion("Edit Packs (live)", open=False):
