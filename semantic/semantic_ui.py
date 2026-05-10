@@ -30,7 +30,10 @@ import re
 import gradio as gr
 from typing import Any, Callable, Dict
 import random
-
+import os
+import sys
+import subprocess
+from pathlib import Path
 
 try:
     from semantic.rewriter import rewrite_prompt, RewriteSettings
@@ -69,6 +72,22 @@ script_callbacks.on_after_component(_capture_prompt_components)
 
 JsonDict = Dict[str, Any]
 
+def _open_folder(path) -> str:
+    p = Path(path).expanduser().resolve()
+    p.mkdir(parents=True, exist_ok=True)
+
+    try:
+        if sys.platform.startswith("win"):
+            os.startfile(str(p))
+        elif sys.platform == "darwin":
+            subprocess.Popen(["open", str(p)])
+        else:
+            subprocess.Popen(["xdg-open", str(p)])
+
+        return f"Opened: {p}"
+    except Exception as e:
+        return f"Could not open folder: {p}\n{e!r}"
+        
 def _split_category_refs(text: str) -> list[str]:
     if not text:
         return []
@@ -315,22 +334,66 @@ def _select_pack_result(selected_label: str, result_payloads: list[dict]):
             return item.get("display_text", ""), _format_pack_result_detail(item)
 
     return "", ""
-def _append_wrapped_negative(existing_text: str, token: str) -> str:
-    return _append_token(existing_text, _wrap_semantic_block(token))
+def _append_wrapped_negative(
+    existing_text: str,
+    token: str,
+    outer_braces: bool,
+    separate_blocks: bool,
+) -> str:
+    return _append_token(
+        existing_text,
+        _wrap_semantic_block(
+            token,
+            outer_braces=bool(outer_braces),
+            separate_blocks=bool(separate_blocks),
+        ),
+    )
     
-def _wrap_semantic_block(text: str) -> str:
+def _wrap_semantic_block(
+    text: str,
+    *,
+    outer_braces: bool = False,
+    separate_blocks: bool = False,
+) -> str:
     text = (text or "").strip()
     if not text:
         return ""
 
-    if text.startswith("%%") and text.endswith("%%"):
-        return text
-
+    # unwrap outer braces
     if text.startswith("{") and text.endswith("}"):
-        return f"%{text}%"
+        text = text[1:-1].strip()
 
-    return f"%%{{{text}}}%%"
+    # unwrap %%{...}%%
+    if text.startswith("%%{") and text.endswith("}%%"):
+        text = text[3:-3].strip()
 
+    items = [x.strip() for x in text.split(",") if x.strip()]
+
+    if separate_blocks:
+        wrapped = ", ".join(f"%%{{{item}}}%%" for item in items)
+    else:
+        wrapped = f"%%{{{', '.join(items)}}}%%"
+
+    if outer_braces:
+        wrapped = "{" + wrapped + "}"
+
+    return wrapped
+    
+def _append_wrapped_prompt(
+    existing_text: str,
+    token: str,
+    outer_braces: bool,
+    separate_blocks: bool,
+) -> str:
+    return _append_token(
+        existing_text,
+        _wrap_semantic_block(
+            token,
+            outer_braces=bool(outer_braces),
+            separate_blocks=bool(separate_blocks),
+        ),
+    )
+    
 def _append_token(existing_text: str, token: str) -> str:
     existing_text = existing_text or ""
     token = (token or "").strip()
@@ -360,85 +423,15 @@ def build_semantic_ui(
     backup_file: BackupFileFn,
 ):
     categories = sorted(registry.get_categories())
-    with gr.Accordion("Pack Search", open=False):
-        gr.Markdown(
-            "Search pack entries and insert a selected token into the preview box or prompt."
-        )
-
-        with gr.Row():
-            pack_search_query = gr.Textbox(
-                label="Search query",
-                placeholder='Examples: double cutouts, open shoulder blouse, medallion',
-                scale=6,
-            )
-            pack_search_btn = gr.Button("Search", scale=1)
-
-        with gr.Row():
-            pack_search_preset = gr.Dropdown(
-                choices=["prompt", "exact_key", "broad", "relationships", "debug"],
-                value="prompt",
-                label="Preset",
-            )
-            pack_search_format = gr.Dropdown(
-                choices=["equals", "colon"],
-                value="equals",
-                label="Token format",
-            )
-            pack_search_max = gr.Slider(
-                minimum=1,
-                maximum=100,
-                value=25,
-                step=1,
-                label="Max results",
-            )
-
-        with gr.Row():
-            pack_search_match_case = gr.Checkbox(
-                value=False,
-                label="Match case",
-            )
-            pack_search_advanced = gr.Checkbox(
-                value=False,
-                label="Advanced query syntax",
-            )
-
-        pack_search_status = gr.Textbox(
-            label="Search status",
-            lines=3,
-        )
-
-        pack_search_results_state = gr.State(value=[])
-        selected_pack_token = gr.State(value="")
-
-        pack_search_results = gr.Dropdown(
-            choices=[],
-            value=None,
-            label="Results",
-            interactive=True,
-        )
-
-        with gr.Row():
-            insert_into_preview_btn = gr.Button("Insert into Preview input")
-            insert_into_prompt_btn = gr.Button("Insert into Prompt")
-
-        selected_token_box = gr.Textbox(
-            label="Selected token",
-            lines=1,
-        )
-
-        pack_result_detail = gr.Textbox(
-            label="Selected result details",
-            lines=14,
-        )
-
-    
+        
     
     
     with gr.Accordion("Semantic Prompt (%%...%%) - sentence expansion", open=False):
+        
         enabled = gr.Checkbox(value=True, label="Enable semantic rewrite (only inside %%...%%)")
 
         inject_negatives = gr.Checkbox(
-            value=False,
+            value=True,
             label="Append negatives from packs (e.g. watercolor -> photo, hyperrealistic)",
         )
 
@@ -453,7 +446,7 @@ def build_semantic_ui(
         )
         cross_expansion_mode = gr.Checkbox(
             label="Bucket cross-category fields into their own categories (subject/lighting/palette/etc)",
-            value=False,
+            value=True,
         )
         keep_original_if_no_change = gr.Checkbox(
             label="Keep original %%...%% block text if expansion produces no tags",
@@ -468,6 +461,14 @@ def build_semantic_ui(
             value=False,
             label="Debug (strict only): write prompt_in/out to infotext + print stages",
         )
+        use_default_order = gr.Checkbox(
+                value=True,
+                label="Use default order (subject, extras, then canonical list)",
+            )
+        order_from_prompt = gr.Checkbox(
+                value=True,
+                label="During generation: derive category order from directives in the prompt",
+            )
 
         gr.Markdown(
             "Tip: Inline directives inside a block are supported.\n\n"
@@ -496,12 +497,101 @@ def build_semantic_ui(
             label="Debug (triggers matched per %%...%% block)",
             lines=8,
         )
+        
+        
+        with gr.Accordion("Pack Search", open=False):
+            gr.Markdown(
+                "Search pack entries and insert a selected token into the preview box or prompt."
+            )
+            with gr.Row():
+                browse_core_packs_btn = gr.Button("Browse Core Packs")
+                browse_user_packs_btn = gr.Button("Browse User Packs")
+
+            browse_packs_status = gr.Textbox(
+                label="Browse status",
+                lines=2,
+            )
+            browse_core_packs_btn.click(
+                fn=lambda: _open_folder(PACKS_DIRS[0]),
+                inputs=[],
+                outputs=[browse_packs_status],
+            )
+
+            browse_user_packs_btn.click(
+                fn=lambda: _open_folder(PACKS_DIRS[1]),
+                inputs=[],
+                outputs=[browse_packs_status],
+            )
+
+            with gr.Row():
+                pack_search_query = gr.Textbox(
+                    label="Search query",
+                    placeholder='Examples: double cutouts, open shoulder blouse, medallion',
+                    scale=6,
+                )
+                pack_search_btn = gr.Button("Search", scale=1)
+                
+
+            with gr.Row():
+                pack_search_preset = gr.Dropdown(
+                    choices=["prompt", "exact_key", "broad", "relationships", "debug"],
+                    value="prompt",
+                    label="Preset",
+                )
+                pack_search_format = gr.Dropdown(
+                    choices=["equals", "colon"],
+                    value="equals",
+                    label="Token format",
+                )
+                pack_search_max = gr.Slider(
+                    minimum=1,
+                    maximum=100,
+                    value=25,
+                    step=1,
+                    label="Max results",
+                )
+
+            with gr.Row():
+                pack_search_match_case = gr.Checkbox(
+                    value=False,
+                    label="Match case",
+                )
+                pack_search_advanced = gr.Checkbox(
+                    value=False,
+                    label="Advanced query syntax",
+                )
+
+            pack_search_status = gr.Textbox(
+                label="Search status",
+                lines=3,
+            )
+
+            pack_search_results_state = gr.State(value=[])
+            selected_pack_token = gr.State(value="")
+
+            pack_search_results = gr.Dropdown(
+                choices=[],
+                value=None,
+                label="Results",
+                interactive=True,
+            )
+
+            with gr.Row():
+                insert_into_preview_btn = gr.Button("Insert into Preview input")
+                insert_into_prompt_btn = gr.Button("Insert into Prompt")
+
+            selected_token_box = gr.Textbox(
+                label="Selected token",
+                lines=1,
+            )
+
+            pack_result_detail = gr.Textbox(
+                label="Selected result details",
+                lines=14,
+            )
 
         with gr.Accordion("Categories", open=False):
-            order_from_prompt = gr.Checkbox(
-                value=False,
-                label="During generation: derive category order from directives in the prompt",
-            )
+            
             cats_lower = [c.lower() for c in registry.get_categories()]
             default_order = default_category_order(cats_lower)
 
@@ -576,10 +666,7 @@ def build_semantic_ui(
             fill_order_btn.click(fn=_fill_order, inputs=[], outputs=[order_text])
 
             randomize_order = gr.Checkbox(value=False, label="Randomize category order each iteration")
-            use_default_order = gr.Checkbox(
-                value=True,
-                label="Use default order (subject, extras, then canonical list)",
-            )
+            
 
             def _toggle_order_box(use_default: bool):
                 return gr.update(interactive=not use_default)
@@ -665,6 +752,34 @@ def build_semantic_ui(
                 label="Generated negative prompt additions",
                 lines=4,
             )
+            negative_outer_braces = gr.Checkbox(
+                value=False,
+                label="Wrap semantic block in outer braces: {%%...%%}",
+            )
+
+            negative_separate_blocks = gr.Checkbox(
+                value=False,
+                label="Separate each item into its own %%...%% block",
+            )
+            with gr.Row():
+                browse_core_packs_btn = gr.Button("Browse Core Packs")
+                browse_user_packs_btn = gr.Button("Browse User Packs")
+
+            browse_packs_status = gr.Textbox(
+                label="Browse status",
+                lines=2,
+            )
+            browse_core_packs_btn.click(
+                fn=lambda: _open_folder(PACKS_DIRS[0]),
+                inputs=[],
+                outputs=[browse_packs_status],
+            )
+
+            browse_user_packs_btn.click(
+                fn=lambda: _open_folder(PACKS_DIRS[1]),
+                inputs=[],
+                outputs=[browse_packs_status],
+            )
 
             with gr.Row():
                 random_other_random = gr.Slider(
@@ -699,7 +814,10 @@ def build_semantic_ui(
                 random_insert_preview_btn = gr.Button("Insert into Preview input")
                 random_insert_prompt_btn = gr.Button("Insert into Prompt")
                 random_insert_negative_btn = gr.Button("Insert into Negative Prompt")
-            #
+
+            with gr.Row():
+                random_clear_prompt_btn = gr.Button("Clear Prompt")
+                random_clear_negative_btn = gr.Button("Clear Negative Prompt")
             def _generate_random_pack_directive(
                 total,
                 prints,
@@ -786,17 +904,43 @@ def build_semantic_ui(
                 outputs=[random_out, random_negative_out, random_seed]
             )
             
-            
+            def _clear_text():
+                return ""
+
+            if prompt_comp is not None:
+                random_clear_prompt_btn.click(
+                    fn=_clear_text,
+                    inputs=[],
+                    outputs=[main_prompt_input],
+                )
+
+            if negative_prompt_comp is not None:
+                random_clear_negative_btn.click(
+                    fn=_clear_text,
+                    inputs=[],
+                    outputs=[negative_prompt_comp],
+                )
+                
             random_insert_preview_btn.click(
-                fn=_append_token,
-                inputs=[preview_in, random_out],
+                fn=_append_wrapped_prompt,
+                inputs=[
+                    preview_in,
+                    random_out,
+                    negative_outer_braces,
+                    negative_separate_blocks,
+                ],
                 outputs=[preview_in],
             )
 
             if prompt_comp is not None:
                 random_insert_prompt_btn.click(
-                    fn=_append_token,
-                    inputs=[main_prompt_input, random_out],
+                    fn=_append_wrapped_prompt,
+                    inputs=[
+                        main_prompt_input,
+                        random_out,
+                        negative_outer_braces,
+                        negative_separate_blocks,
+                    ],
                     outputs=[main_prompt_input],
                 )
             negative_prompt_comp = (
@@ -805,17 +949,40 @@ def build_semantic_ui(
                 else prompt_comps.get("txt2img_negative") or _PROMPT_COMPS.get("txt2img_negative")
             )
 
-            if negative_prompt_comp is not None:
-                random_insert_negative_btn.click(
-                    fn=_append_wrapped_negative,
-                    inputs=[negative_prompt_comp, random_negative_out],
-                    outputs=[negative_prompt_comp],
-                )
+            random_insert_negative_btn.click(
+                fn=_append_wrapped_negative,
+                inputs=[
+                    negative_prompt_comp,
+                    random_negative_out,
+                    negative_outer_braces,
+                    negative_separate_blocks,
+                ],
+                outputs=[negative_prompt_comp],
+            )
 
         with gr.Accordion("Edit Packs (live)", open=False):
             gr.Markdown(
                 "Edit the JSON packs on disk while A1111 is running. "
                 "Saves create a timestamped .bak backup automatically."
+            )
+            with gr.Row():
+                browse_core_packs_btn = gr.Button("Browse Core Packs")
+                browse_user_packs_btn = gr.Button("Browse User Packs")
+
+            browse_packs_status = gr.Textbox(
+                label="Browse status",
+                lines=2,
+            )
+            browse_core_packs_btn.click(
+                fn=lambda: _open_folder(PACKS_DIRS[0]),
+                inputs=[],
+                outputs=[browse_packs_status],
+            )
+
+            browse_user_packs_btn.click(
+                fn=lambda: _open_folder(PACKS_DIRS[1]),
+                inputs=[],
+                outputs=[browse_packs_status],
             )
 
             cat_choices = sorted(registry.get_categories())
