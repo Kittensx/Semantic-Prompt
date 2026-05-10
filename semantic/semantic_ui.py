@@ -26,20 +26,35 @@ Expected usage from the main script class:
 
 from __future__ import annotations
 
+import re
 import gradio as gr
 from typing import Any, Callable, Dict
+
+
 
 try:
     from semantic.rewriter import rewrite_prompt, RewriteSettings
     from semantic.loaders import registry, PACKS_DIRS
+    from semantic.tools.random_prompt_packs import generate_random_directives
 except Exception:
     from rewriter import rewrite_prompt, RewriteSettings
     from loaders import registry, PACKS_DIRS
+    from tools.random_prompt_packs import generate_random_directives
 
 
 JsonDict = Dict[str, Any]
 
 
+
+def _split_category_refs(text: str) -> list[str]:
+    if not text:
+        return []
+    return [
+        x.strip()
+        for x in re.split(r"[,;\n]+", text)
+        if x.strip()
+    ]
+    
 def _import_search_tag_suggester():
     last_error = None
     for module_name in (
@@ -379,6 +394,9 @@ def build_semantic_ui(
             lines=14,
         )
 
+    
+    
+    
     with gr.Accordion("Semantic Prompt (%%...%%) - sentence expansion", open=False):
         enabled = gr.Checkbox(value=True, label="Enable semantic rewrite (only inside %%...%%)")
 
@@ -535,22 +553,158 @@ def build_semantic_ui(
                 outputs=[order_text, detected_md] + category_checks,
             )
             
-        with gr.Accordion("Search Tag Builder", open=False):
+        with gr.Accordion("Random Pack Mixer", open=False):
             gr.Markdown(
-                "This is the existing search-tag panel moved into its own accordion. "
-                "It is intentionally left as-is rather than being folded into the panel system."
+                "Generate randomized %%{category=key}%% directive blocks from selected pack categories."
             )
-            search_tag_query = gr.Textbox(
-                label="Scan packs for suggested search tags",
-                placeholder="(no query needed) just scan",
+
+            with gr.Row():
+                random_total = gr.Slider(
+                    minimum=1,
+                    maximum=50,
+                    value=6,
+                    step=1,
+                    label="Total picks",
+                )
+                random_prints = gr.Slider(
+                    minimum=1,
+                    maximum=20,
+                    value=1,
+                    step=1,
+                    label="Prompts to generate",
+                )
+                random_max_per_category = gr.Slider(
+                    minimum=1,
+                    maximum=10,
+                    value=2,
+                    step=1,
+                    label="Max per category",
+                )
+
+            random_include_min = gr.Textbox(
+                label="Include minimum categories",
+                lines=3,
+                placeholder="One per line or comma-separated. Example:\nappearance.nose\nclothing.swimwear.bikini",
             )
-            search_tag_scan_btn = gr.Button("Scan")
-            search_tag_out = gr.JSON(label="Suggestions (preview)")
-            search_tag_scan_btn.click(
-                fn=_scan_search_tags,
-                inputs=[search_tag_query],
-                outputs=[search_tag_out],
+
+            random_include_any = gr.Textbox(
+                label="Preferred categories",
+                lines=3,
+                placeholder="Used to fill remaining picks. Example:\nhair.blonde, skin.mod.detail",
             )
+
+            random_include_only = gr.Textbox(
+                label="Include only categories",
+                lines=3,
+                placeholder="Hard restriction. Leave blank to allow all non-excluded categories.",
+            )
+
+            random_exclude = gr.Textbox(
+                label="Exclude categories",
+                lines=2,
+                placeholder="Example:\nnsfw, lingerie, fetish_clothing",
+            )
+
+            with gr.Row():
+                random_other_random = gr.Slider(
+                    minimum=0,
+                    maximum=20,
+                    value=0,
+                    step=1,
+                    label="Other random picks",
+                )
+                random_seed = gr.Number(
+                    value=None,
+                    label="Seed",
+                    precision=0,
+                )
+
+            with gr.Row():
+                random_safe = gr.Checkbox(value=True, label="Safe mode")
+                random_debug_resolve = gr.Checkbox(value=False, label="Debug category resolving")
+
+            random_generate_btn = gr.Button("Generate random directive")
+
+            random_out = gr.Textbox(
+                label="Generated directive block",
+                lines=5,
+            )
+
+            with gr.Row():
+                random_insert_preview_btn = gr.Button("Insert into Preview input")
+                random_insert_prompt_btn = gr.Button("Insert into Prompt")
+
+            def _generate_random_pack_directive(
+                total,
+                prints,
+                max_per_category,
+                include_min,
+                include_any,
+                include_only,
+                exclude,
+                other_random,
+                seed,
+                safe,
+                debug_resolve,
+            ):
+                if generate_random_directives is None:
+                    return "Random Pack Mixer import failed. Check random_prompt_packs.py location."
+
+                seed_value = None
+                if seed not in (None, ""):
+                    try:
+                        seed_value = int(float(seed))
+                    except Exception:
+                        seed_value = None
+
+                prompts = generate_random_directives(
+                    total=int(total or 6),
+                    prints=int(prints or 1),
+                    max_per_category=int(max_per_category or 2),
+                    include_min=_split_category_refs(include_min),
+                    include_any=_split_category_refs(include_any),
+                    include_only=_split_category_refs(include_only),
+                    exclude=_split_category_refs(exclude),
+                    safe=bool(safe),
+                    subject_category="subject",
+                    other_random=int(other_random or 0),
+                    seed=seed_value,
+                    use_registry=True,
+                    debug_resolve=bool(debug_resolve),
+                )
+
+                return "\n\n".join(prompts) if prompts else "No prompt generated."
+
+            random_generate_btn.click(
+                fn=_generate_random_pack_directive,
+                inputs=[
+                    random_total,
+                    random_prints,
+                    random_max_per_category,
+                    random_include_min,
+                    random_include_any,
+                    random_include_only,
+                    random_exclude,
+                    random_other_random,
+                    random_seed,
+                    random_safe,
+                    random_debug_resolve,
+                ],
+                outputs=[random_out],
+            )
+
+            random_insert_preview_btn.click(
+                fn=_append_token,
+                inputs=[preview_in, random_out],
+                outputs=[preview_in],
+            )
+
+            if prompt_comp is not None:
+                random_insert_prompt_btn.click(
+                    fn=_append_token,
+                    inputs=[main_prompt_input, random_out],
+                    outputs=[main_prompt_input],
+                )
 
         with gr.Accordion("Edit Packs (live)", open=False):
             gr.Markdown(
