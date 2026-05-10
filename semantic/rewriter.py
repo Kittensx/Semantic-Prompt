@@ -59,10 +59,17 @@ def _split_directives(directive_text: str) -> Dict[str, List[str]]:
     for p in parts:
         if not p:
             continue
-        if "=" not in p:
+        sep = None
+
+        if "=" in p:
+            sep = "="
+        elif ":" in p:
+            sep = ":"
+
+        if not sep:
             continue
 
-        k, v = p.split("=", 1)
+        k, v = p.split(sep, 1)
         k = k.strip().lower()
         # normalize "+=" into "+", so "negative+=" becomes "negative+"
         if k.endswith("+="):
