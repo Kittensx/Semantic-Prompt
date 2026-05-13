@@ -59,6 +59,7 @@ def _split_directives(directive_text: str) -> Dict[str, List[str]]:
     for p in parts:
         if not p:
             continue
+                        
         sep = None
 
         if "=" in p:
@@ -67,9 +68,21 @@ def _split_directives(directive_text: str) -> Dict[str, List[str]]:
             sep = ":"
 
         if not sep:
-            continue
-
-        k, v = p.split(sep, 1)
+            # Allow bare random directives:
+            #   {?core}
+            #   {!core.medium}
+            #   {~appearance.eye_color}
+            #
+            # These are treated as category=random.
+            bare = p.strip()
+            if bare.startswith(("?", "!", "~")):
+                k = bare
+                v = "random"
+            else:
+                continue
+        else:
+            k, v = p.split(sep, 1)
+                
         k = k.strip().lower()
         # normalize "+=" into "+", so "negative+=" becomes "negative+"
         if k.endswith("+="):
@@ -231,7 +244,80 @@ def _resolve_required_category_ref(category_ref: str, enabled_categories: Option
 
     return ref
 
+def _category_has_usable_keys(category: str) -> bool:
+    entries = registry.packs.get(category, {}) or {}
+    return any(
+        isinstance(k, str)
+        and not k.startswith("_")
+        and not (isinstance(v, dict) and v.get("_dynamic"))
+        for k, v in entries.items()
+    )
 
+
+def _resolve_random_category_ref(
+    category_ref: str,
+    enabled_categories: Optional[List[str]] = None,
+) -> Optional[str]:
+    """
+    Resolves ?core or ?core.medium into a random concrete category
+    that actually has pack keys.
+    """
+    ref = (category_ref or "").strip().lower()
+    if not ref:
+        return None
+
+    available = enabled_categories or registry.get_categories() or []
+    candidates = []
+
+    for cat in available:
+        c = (cat or "").strip().lower()
+        if not c:
+            continue
+
+        if c == ref or c.startswith(ref + "."):
+            if _category_has_usable_keys(c):
+                candidates.append(c)
+
+    if not candidates:
+        resolved = _resolve_category_ref(ref, enabled_categories=enabled_categories)
+        if resolved and _category_has_usable_keys(resolved):
+            return resolved
+        return None
+
+    return random.choice(sorted(set(candidates)))
+
+
+def _pick_random_key(
+    category: str,
+    *,
+    exclude_keys: Optional[List[str]] = None,
+) -> Optional[str]:
+    entries = registry.packs.get(category, {}) or {}
+    banned = {k.strip().lower() for k in (exclude_keys or []) if k and k.strip()}
+
+    keys = []
+    for key, value in entries.items():
+        if not isinstance(key, str) or key.startswith("_"):
+            continue
+        if isinstance(value, dict) and value.get("_dynamic"):
+            continue
+        if key.strip().lower() in banned:
+            continue
+        keys.append(key)
+
+    return random.choice(sorted(set(keys))) if keys else None
+
+
+def _is_random_directive(cat: str) -> bool:
+    return (cat or "").strip().startswith(("?", "!", "~"))
+
+
+def _strip_random_prefix(cat: str) -> tuple[str, str]:
+    cat = (cat or "").strip()
+    if cat.startswith(("?", "!", "~")):
+        return cat[0], cat[1:].strip()
+    return "", cat
+    
 def _apply_pack_entry(category: str, key: str, tags_out: Dict[str, List[str]], neg_out: List[str], debug: Dict, settings: RewriteSettings, enabled_categories: Optional[List[str]] = None, _stack=None, ):
     if _stack is None:
         _stack = set()
@@ -406,9 +492,18 @@ def rewrite_text_block(block_text: str, settings: RewriteSettings) -> Tuple[str,
 
     # 1) Directives override: {medium=watercolor, lighting=neon}
     for cat, keys in directives.items():
-        cat = _resolve_category_ref((cat or "").strip().lower(), enabled_categories=enabled_categories)
+        raw_cat = (cat or "").strip().lower()
+        random_symbol, cat_ref = _strip_random_prefix(raw_cat)
+
+        if random_symbol:
+            cat = _resolve_random_category_ref(cat_ref, enabled_categories=enabled_categories)
+        else:
+            cat = _resolve_category_ref(cat_ref, enabled_categories=enabled_categories)
+
         if not cat:
+            debug.setdefault("random_category_failed", []).append(raw_cat)
             continue
+       
 
         # Normalize keys to a list[str]
         if isinstance(keys, str):
@@ -456,6 +551,34 @@ def rewrite_text_block(block_text: str, settings: RewriteSettings) -> Tuple[str,
             if not key_lc:
                 continue
 
+            # Random/reroll directives:
+            #   %%{?core=any}%%        -> random concrete core.* category + random key
+            #   %%{?core.medium=any}%% -> random concrete core.medium.* category + random key
+            #   %%{!core.medium=chalk_drawing}%% -> random key except chalk_drawing
+            #   %%{~appearance.eye_color=blue}%% -> same as reroll/replace
+            if random_symbol:
+                exclude = [key_lc] if random_symbol in ("!", "~") and key_lc not in ("*", "any", "random") else []
+                picked_key = _pick_random_key(cat, exclude_keys=exclude)
+
+                if not picked_key and exclude:
+                    # If the category only has one key, fall back to allowing the original.
+                    picked_key = _pick_random_key(cat)
+
+                if picked_key:
+                    _apply_pack_entry(
+                        cat,
+                        picked_key,
+                        tags_by_cat,
+                        neg_additions,
+                        debug,
+                        settings=settings,
+                        enabled_categories=enabled_categories,
+                    )
+                    debug.setdefault("random_directives", []).append((raw_cat, cat, picked_key, raw))
+                else:
+                    debug.setdefault("random_key_failed", []).append((raw_cat, cat, raw))
+
+                continue
             # If pack entry exists, apply it
             if registry.get_pack(cat, key_lc):
                 _apply_pack_entry(cat, key_lc, tags_by_cat, neg_additions, debug, settings=settings, enabled_categories=enabled_categories)
