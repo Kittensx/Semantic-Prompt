@@ -69,13 +69,19 @@ def _split_directives(directive_text: str) -> Dict[str, List[str]]:
 
         if not sep:
             # Allow bare random directives:
-            #   {?core}
-            #   {!core.medium}
-            #   {~appearance.eye_color}
-            #
-            # These are treated as category=random.
+            #   ?core
+            #   +2?core.medium
+            #   +2|?core.medium
+            #   !core.medium
+            #   ~appearance.eye_color
             bare = p.strip()
-            if bare.startswith(("?", "!", "~")):
+
+            normalized = bare.lstrip()
+
+            # Remove optional +N or +N| prefix before checking operator
+            normalized = re.sub(r"^\+\d+\|?", "", normalized)
+
+            if normalized.startswith(("?", "!", "~")):
                 k = bare
                 v = "random"
             else:
@@ -84,6 +90,7 @@ def _split_directives(directive_text: str) -> Dict[str, List[str]]:
             k, v = p.split(sep, 1)
                 
         k = k.strip().lower()
+        
         # normalize "+=" into "+", so "negative+=" becomes "negative+"
         if k.endswith("+="):
             k = k[:-2] + "+"
