@@ -106,6 +106,7 @@ def _split_directives(directive_text: str) -> Dict[str, List[str]]:
     return out
 
 
+
 def _dedupe_preserve_order(items: List[str]) -> List[str]:
     seen = set()
     out = []
@@ -165,7 +166,22 @@ def _shorthand_score(query_parts: List[str], candidate_parts: List[str]) -> int:
 
     return -1
 
+def _parse_random_count(raw_cat: str) -> tuple[int, bool, str]:
+    """
+    +2?core      -> (2, False, "?core")
+    +2|?core     -> (2, True, "?core")
+    ?core        -> (1, False, "?core")
+    """
+    raw_cat = (raw_cat or "").strip()
+    m = re.match(r"^\+(\d+)(\|?)(.*)$", raw_cat)
+    if not m:
+        return 1, False, raw_cat
 
+    count = max(1, int(m.group(1)))
+    same_category = bool(m.group(2))
+    rest = m.group(3).strip()
+    return count, same_category, rest
+    
 def _resolve_category_ref(category_ref: str, enabled_categories: Optional[List[str]] = None) -> str:
     """
     Resolve a category reference used by directives or requires.
@@ -286,6 +302,54 @@ def _resolve_random_category_ref(
 
     return random.choice(sorted(set(candidates)))
 
+def _resolve_random_category_refs(
+    category_ref: str,
+    *,
+    count: int = 1,
+    same_category: bool = False,
+    enabled_categories: Optional[List[str]] = None,
+) -> List[str]:
+    """
+    +2?core.medium
+      -> pick 2 concrete categories under core.medium.*
+
+    +2|?core.medium.ink_drawing
+      -> pick 1 concrete category, then caller picks 2 keys from it
+    """
+    ref = (category_ref or "").strip().lower()
+    if not ref:
+        return []
+
+    available = enabled_categories or registry.get_categories() or []
+    candidates = []
+
+    for cat in available:
+        c = (cat or "").strip().lower()
+        if not c:
+            continue
+        if c == ref or c.startswith(ref + "."):
+            if _category_has_usable_keys(c):
+                candidates.append(c)
+
+    if not candidates:
+        resolved = _resolve_category_ref(ref, enabled_categories=enabled_categories)
+        if resolved and _category_has_usable_keys(resolved):
+            candidates = [resolved]
+
+    candidates = sorted(set(candidates))
+    if not candidates:
+        return []
+
+    count = max(1, int(count or 1))
+
+    if same_category:
+        return [random.choice(candidates)]
+
+    if count <= len(candidates):
+        return random.sample(candidates, count)
+
+    # Fallback: allow repeated categories if not enough concrete categories exist.
+    return [random.choice(candidates) for _ in range(count)]
 
 def _pick_random_key(
     category: str,
@@ -307,7 +371,37 @@ def _pick_random_key(
 
     return random.choice(sorted(set(keys))) if keys else None
 
+def _pick_random_keys(
+    category: str,
+    *,
+    count: int = 1,
+    exclude_keys: Optional[List[str]] = None,
+) -> List[str]:
+    entries = registry.packs.get(category, {}) or {}
+    banned = {k.strip().lower() for k in (exclude_keys or []) if k and k.strip()}
 
+    keys = []
+    for key, value in entries.items():
+        if not isinstance(key, str) or key.startswith("_"):
+            continue
+        if isinstance(value, dict) and value.get("_dynamic"):
+            continue
+        if key.strip().lower() in banned:
+            continue
+        keys.append(key)
+
+    keys = sorted(set(keys))
+    if not keys:
+        return []
+
+    count = max(1, int(count or 1))
+
+    if count <= len(keys):
+        return random.sample(keys, count)
+
+    # Fallback: allow repeats if the category has fewer keys than requested.
+    return [random.choice(keys) for _ in range(count)]
+    
 def _is_random_directive(cat: str) -> bool:
     return (cat or "").strip().startswith(("?", "!", "~"))
 
@@ -493,15 +587,29 @@ def rewrite_text_block(block_text: str, settings: RewriteSettings) -> Tuple[str,
     # 1) Directives override: {medium=watercolor, lighting=neon}
     for cat, keys in directives.items():
         raw_cat = (cat or "").strip().lower()
-        random_symbol, cat_ref = _strip_random_prefix(raw_cat)
+        random_count, same_category_multi, raw_cat_no_count = _parse_random_count(raw_cat)
+        random_symbol, cat_ref = _strip_random_prefix(raw_cat_no_count)
 
         if random_symbol:
-            cat = _resolve_random_category_ref(cat_ref, enabled_categories=enabled_categories)
+            resolved_random_categories = _resolve_random_category_refs(
+                cat_ref,
+                count=random_count,
+                same_category=same_category_multi,
+                enabled_categories=enabled_categories,
+            )
+
+            if not resolved_random_categories:
+                debug.setdefault("random_category_failed", []).append(raw_cat)
+                continue
+
+            # Use first category for normal checks; random branch below will use full list.
+            cat = resolved_random_categories[0]
         else:
+            resolved_random_categories = []
             cat = _resolve_category_ref(cat_ref, enabled_categories=enabled_categories)
 
         if not cat:
-            debug.setdefault("random_category_failed", []).append(raw_cat)
+            debug.setdefault("category_failed", []).append(raw_cat)
             continue
        
 
@@ -558,15 +666,41 @@ def rewrite_text_block(block_text: str, settings: RewriteSettings) -> Tuple[str,
             #   %%{~appearance.eye_color=blue}%% -> same as reroll/replace
             if random_symbol:
                 exclude = [key_lc] if random_symbol in ("!", "~") and key_lc not in ("*", "any", "random") else []
-                picked_key = _pick_random_key(cat, exclude_keys=exclude)
 
-                if not picked_key and exclude:
-                    # If the category only has one key, fall back to allowing the original.
-                    picked_key = _pick_random_key(cat)
+                picks: List[Tuple[str, str]] = []
 
-                if picked_key:
+                if same_category_multi:
+                    # +2|?category -> one category, multiple keys from that same category
+                    target_cat = resolved_random_categories[0] if resolved_random_categories else cat
+                    picked_keys = _pick_random_keys(
+                        target_cat,
+                        count=random_count,
+                        exclude_keys=exclude,
+                    )
+
+                    if not picked_keys and exclude:
+                        picked_keys = _pick_random_keys(target_cat, count=random_count)
+
+                    picks.extend((target_cat, picked_key) for picked_key in picked_keys)
+
+                else:
+                    # +2?category -> multiple categories, one key from each
+                    for target_cat in resolved_random_categories:
+                        picked_key = _pick_random_key(target_cat, exclude_keys=exclude)
+
+                        if not picked_key and exclude:
+                            picked_key = _pick_random_key(target_cat)
+
+                        if picked_key:
+                            picks.append((target_cat, picked_key))
+
+                if not picks:
+                    debug.setdefault("random_key_failed", []).append((raw_cat, cat, raw))
+                    continue
+
+                for picked_cat, picked_key in picks:
                     _apply_pack_entry(
-                        cat,
+                        picked_cat,
                         picked_key,
                         tags_by_cat,
                         neg_additions,
@@ -574,9 +708,7 @@ def rewrite_text_block(block_text: str, settings: RewriteSettings) -> Tuple[str,
                         settings=settings,
                         enabled_categories=enabled_categories,
                     )
-                    debug.setdefault("random_directives", []).append((raw_cat, cat, picked_key, raw))
-                else:
-                    debug.setdefault("random_key_failed", []).append((raw_cat, cat, raw))
+                    debug.setdefault("random_directives", []).append((raw_cat, picked_cat, picked_key, raw))
 
                 continue
             # If pack entry exists, apply it
