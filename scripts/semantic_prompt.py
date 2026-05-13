@@ -393,6 +393,7 @@ class SemanticPromptScript(scripts.Script):
         new_prompts = []
         new_negs = []
         all_neg_additions = []
+        all_random_picks = []
 
         for i, pr in enumerate(all_prompts):
             neg = all_negative_prompts[i] if all_negative_prompts and i < len(all_negative_prompts) else ""
@@ -403,6 +404,9 @@ class SemanticPromptScript(scripts.Script):
                 settings.category_order = derived_order
             
             res = rewrite_prompt(pr, settings=settings)
+            for block in res.debug.get("blocks", []):
+                for raw_cat, picked_cat, picked_key, raw in block.get("random_directives", []):
+                    all_random_picks.append(f"{raw_cat} -> {picked_cat}={picked_key}")
             new_prompts.append(res.rewritten_prompt)
 
             # NEG blocks rewrite behavior (your current design)
@@ -440,12 +444,24 @@ class SemanticPromptScript(scripts.Script):
 
         prompt_out = getattr(p, "prompt", "") or ""
         neg_out = getattr(p, "negative_prompt", "") or ""
+        if all_random_picks:
+            self._ensure_extra_params(p)
+            uniq_random = []
+            seen_random = set()
+            for x in all_random_picks:
+                if x in seen_random:
+                    continue
+                seen_random.add(x)
+                uniq_random.append(x)
 
+            p.extra_generation_params["SemanticPrompt random picks"] = " | ".join(uniq_random)
+        
         # Record + print truth channels
         if do_debug:
             self._debug_record(p, stage, prompt_in, prompt_out, neg_in, neg_out)
         
         if do_debug: 
+           
             # Keep your existing infotext flags too
             self._ensure_extra_params(p)
             p.extra_generation_params["SemanticPrompt"] = "enabled"
