@@ -359,23 +359,28 @@ def _wrap_semantic_block(
     if not text:
         return ""
 
-    # unwrap outer braces
-    if text.startswith("{") and text.endswith("}"):
+    # If input is already one big outer group like:
+    # {%%{a}%%, %%{b}%%}
+    # remove only that outer group first.
+    if text.startswith("{%%{") and text.endswith("}%%}"):
         text = text[1:-1].strip()
 
-    # unwrap %%{...}%%
-    if text.startswith("%%{") and text.endswith("}%%"):
-        text = text[3:-3].strip()
+    # Remove all semantic wrappers inside the text, not just one wrapper.
+    text = text.replace("%%{", "").replace("}%%", "")
+
+    # Remove leftover single braces around items.
+    text = text.replace("{", "").replace("}", "")
 
     items = [x.strip() for x in text.split(",") if x.strip()]
 
     if separate_blocks:
-        wrapped = ", ".join(f"%%{{{item}}}%%" for item in items)
-    else:
-        wrapped = f"%%{{{', '.join(items)}}}%%"
+        if outer_braces:
+            return ", ".join(f"{{%%{{{item}}}%%}}" for item in items)
+        return ", ".join(f"%%{{{item}}}%%" for item in items)
 
+    wrapped = f"%%{{{', '.join(items)}}}%%"
     if outer_braces:
-        wrapped = "{" + wrapped + "}"
+        wrapped = f"{{{wrapped}}}"
 
     return wrapped
     
@@ -832,6 +837,10 @@ def build_semantic_ui(
                 safe,
                 debug_resolve,
                 auto_seed,
+                outer_braces,
+                separate_blocks,
+                negative_outer_braces,
+                negative_separate_blocks,
             ):
             
                 if generate_random_directives is None:
@@ -875,7 +884,17 @@ def build_semantic_ui(
 
                 negative_text = "%%{" + ", ".join(negative_items) + "}%%" if negative_items else ""
 
-                text = "\n\n".join(prompts) if prompts else "No prompt generated."
+                raw_text = "\n\n".join(prompts) if prompts else ""
+
+                text = (
+                    _wrap_semantic_block(
+                        raw_text,
+                        outer_braces=bool(outer_braces),
+                        separate_blocks=bool(separate_blocks),
+                    )
+                    if raw_text
+                    else "No prompt generated."
+                )
 
                 return (
                     text,
@@ -899,7 +918,8 @@ def build_semantic_ui(
                     random_seed,
                     random_safe,
                     random_debug_resolve,
-                    random_auto_seed,   # <-- ADD THIS
+                    random_auto_seed,  
+
                 ],
                 outputs=[random_out, random_negative_out, random_seed]
             )
@@ -1069,6 +1089,14 @@ def build_semantic_ui(
                 dbg_lines.append(f"  directives: {directives}")
             dbg_lines.append(f"  triggers: {triggers}")
             dbg_lines.append(f"  rewritten: {rewritten}")
+            random_directives = block.get("random_directives")
+            if random_directives:
+                dbg_lines.append("  random_directives:")
+                for raw_cat, picked_cat, picked_key, raw in random_directives:
+                    dbg_lines.append(
+                        f"    {raw_cat} -> {picked_cat}={picked_key}"
+                    )
+            
             missing = block.get("missing_pack_entries")
             if missing:
                 dbg_lines.append(f"  missing_pack_entries: {missing}")
