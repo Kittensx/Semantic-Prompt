@@ -185,6 +185,20 @@ def build_negative_directives(
         cleaned.append(x)
 
     return cleaned
+  
+def split_star_refs(items: Optional[List[str]]) -> tuple[List[str], List[str]]:
+    normal = []
+    starred = []
+
+    for item in norm_list(items):
+        if item.startswith("*"):
+            ref = norm(item[1:])
+            if ref:
+                starred.append(ref)
+        else:
+            normal.append(item)
+
+    return normal, starred
     
 def norm(s: str) -> str:
     return SPACE_RE.sub(" ", (s or "")).strip()
@@ -219,6 +233,38 @@ DEFAULT_SAFE_EXCLUDES: Set[str] = {
 }
 
 
+def split_exclude_refs(items: Optional[List[str]]) -> tuple[List[str], set[tuple[str, str]]]:
+    exclude_categories: List[str] = []
+    exclude_pairs: set[tuple[str, str]] = set()
+
+    for item in norm_list(items):
+        if "=" in item:
+            cat, key = item.split("=", 1)
+            cat = norm(cat)
+            key = norm(key)
+            if cat and key:
+                exclude_pairs.add((cat, key))
+        else:
+            item = norm(item)
+            if item:
+                exclude_categories.append(item)
+
+    return exclude_categories, exclude_pairs
+
+def category_matches_ref(category: str, ref: str) -> bool:
+    category = norm(category)
+    ref = norm(ref)
+
+    if not category or not ref:
+        return False
+
+    return (
+        category == ref
+        or category.startswith(ref + ".")
+        or category.endswith("." + ref)
+        or f".{ref}." in category
+    )
+    
 def load_pack(path: Path) -> Tuple[str, List[str]]:
     """Return (category, keys) from a pack JSON."""
     with path.open("r", encoding="utf-8") as f:
@@ -422,7 +468,26 @@ def pick_unique_key(
     # fallback: allow repeats if category keys list is tiny
     return rng.choice(keys) if keys else None
 
+def expand_star_category_refs(refs: Optional[List[str]], available_categories: List[str]) -> List[str]:
+    out = []
+    seen = set()
 
+    for ref in norm_list(refs):
+        matches = [
+            cat for cat in available_categories
+            if cat == ref or cat.startswith(ref + ".")
+        ]
+
+        if not matches:
+            matches = expand_category_refs([ref], available_categories)
+
+        for cat in matches:
+            if cat not in seen:
+                out.append(cat)
+                seen.add(cat)
+
+    return out
+    
 def choose_items(
     packs: Dict[str, List[str]],
     total: int,
@@ -443,24 +508,58 @@ def choose_items(
     Supports shorthand category refs like skirts.length.
     """
     locked_items = locked_items or []
-    include_min_n = norm_list(include_min)
-    include_any_n = norm_list(include_any)
-    include_only_n = norm_list(include_only)
-    exclude_n = norm_list(exclude)
-
+    include_min_n, include_min_star = split_star_refs(include_min)
+    include_any_n, include_any_star = split_star_refs(include_any)
+    include_only_n, include_only_star = split_star_refs(include_only)
+    
     # Normalize available categories first so shorthand refs can resolve
     all_available_categories = [norm(cat) for cat in packs.keys() if norm(cat)]
 
     include_min_resolved = expand_category_refs(include_min_n, all_available_categories)
     include_any_resolved = expand_category_refs(include_any_n, all_available_categories)
     include_only_resolved = expand_category_refs(include_only_n, all_available_categories)
-    exclude_resolved = expand_category_refs(exclude_n, all_available_categories)
+    
+    
+    include_min_resolved += expand_star_category_refs(include_min_star, all_available_categories)
+    include_any_resolved += expand_star_category_refs(include_any_star, all_available_categories)
+    include_only_resolved += expand_star_category_refs(include_only_star, all_available_categories)
+    
+    star_unique_categories = set(
+        expand_star_category_refs(include_min_star + include_any_star + include_only_star, all_available_categories)
+    )
+    
+    exclude_category_refs, exclude_pairs_raw = split_exclude_refs(exclude)
+    exclude_resolved = set()
+
+    for ref in exclude_category_refs:
+        resolved = expand_category_refs([ref], all_available_categories)
+
+        if resolved:
+            exclude_resolved.update(resolved)
+        else:
+            for cat in all_available_categories:
+                if category_matches_ref(cat, ref):
+                    exclude_resolved.add(cat)
+
+    exclude_pairs = set()
+
+    for raw_cat, raw_key in exclude_pairs_raw:
+        resolved = expand_category_refs([raw_cat], all_available_categories)
+
+        if resolved:
+            for cat in resolved:
+                exclude_pairs.add((cat, raw_key))
+        else:
+            for cat in all_available_categories:
+                if category_matches_ref(cat, raw_cat):
+                    exclude_pairs.add((cat, raw_key))
 
     if debug_resolve:
         print("[resolve] include-min :", include_min_n, "->", include_min_resolved)
         print("[resolve] include-any :", include_any_n, "->", include_any_resolved)
         print("[resolve] include-only:", include_only_n, "->", include_only_resolved)
-        print("[resolve] exclude     :", exclude_n, "->", exclude_resolved)
+        print("[resolve] exclude     :", norm_list(exclude), "->", sorted(exclude_resolved))
+        print("[resolve] exclude keys:", sorted(exclude_pairs)) 
 
     exclude_set = set(exclude_resolved)
     include_only_set: Optional[Set[str]] = set(include_only_resolved) if include_only_resolved else None
@@ -480,7 +579,11 @@ def choose_items(
         if include_only_set is not None and c not in include_only_set:
             continue
 
-        kk = [norm(k) for k in keys if norm(k)]
+        kk = [
+            norm(k)
+            for k in keys
+            if norm(k) and (c, norm(k)) not in exclude_pairs
+        ]
         if kk:
             norm_packs[c] = kk
 
@@ -501,14 +604,23 @@ def choose_items(
     per_cat_count: Dict[str, int] = {}
 
     def can_pick_cat(cat: str) -> bool:
-        return per_cat_count.get(cat, 0) < max_per_category and bool(norm_packs.get(cat))
+        limit = 1 if cat in star_unique_categories else max_per_category
+        return per_cat_count.get(cat, 0) < limit and bool(norm_packs.get(cat))
 
     def add_pick(cat: str) -> bool:
+        if cat in exclude_set:
+            return False
+
         if not can_pick_cat(cat):
             return False
+
         key = pick_unique_key(rng, norm_packs[cat], used_pairs, cat)
         if not key:
             return False
+
+        if (cat, key) in exclude_pairs:
+            return False
+
         chosen.append((cat, key))
         used_pairs.add((cat, key))
         per_cat_count[cat] = per_cat_count.get(cat, 0) + 1
@@ -530,6 +642,9 @@ def choose_items(
             available_keys = set(norm_packs.get(cat, []))
 
             if key not in available_keys:
+                continue
+            
+            if (cat, key) in exclude_pairs:
                 continue
 
             if per_cat_count.get(cat, 0) >= max_per_category:
