@@ -79,7 +79,8 @@ def _split_directives(directive_text: str) -> Dict[str, List[str]]:
             normalized = bare.lstrip()
 
             # Remove optional +N or +N| prefix before checking operator
-            normalized = re.sub(r"^\+\d+\|?", "", normalized)
+            normalized = re.sub(r"^\+\d+[|*]*", "", normalized)
+            normalized = normalized.lstrip("*")
 
             if normalized.startswith(("?", "!", "~")):
                 k = bare
@@ -173,21 +174,32 @@ def _shorthand_score(query_parts: List[str], candidate_parts: List[str]) -> int:
 
     return -1
 
-def _parse_random_count(raw_cat: str) -> tuple[int, bool, str]:
+def _parse_random_count(raw_cat: str) -> tuple[int, bool, bool, str]:
     """
-    +2?core      -> (2, False, "?core")
-    +2|?core     -> (2, True, "?core")
-    ?core        -> (1, False, "?core")
+    +2?core       -> (2, False, False, "?core")
+    +2|?core      -> (2, True,  False, "?core")
+    +6*?core.mod  -> (6, False, True,  "?core.mod")
+    +6|*?core.mod -> (6, True,  True,  "?core.mod")
     """
     raw_cat = (raw_cat or "").strip()
-    m = re.match(r"^\+(\d+)(\|?)(.*)$", raw_cat)
+    m = re.match(r"^\+(\d+)([|*]*)(.*)$", raw_cat)
     if not m:
-        return 1, False, raw_cat
+        unique_categories = raw_cat.startswith("*")
+        rest = raw_cat[1:].strip() if unique_categories else raw_cat
+        return 1, False, unique_categories, rest
 
     count = max(1, int(m.group(1)))
-    same_category = bool(m.group(2))
+    flags = m.group(2) or ""
     rest = m.group(3).strip()
-    return count, same_category, rest
+
+    same_category = "|" in flags
+    unique_categories = "*" in flags
+
+    if rest.startswith("*"):
+        unique_categories = True
+        rest = rest[1:].strip()
+
+    return count, same_category, unique_categories, rest
     
 def _resolve_category_ref(category_ref: str, enabled_categories: Optional[List[str]] = None) -> str:
     """
@@ -314,6 +326,7 @@ def _resolve_random_category_refs(
     *,
     count: int = 1,
     same_category: bool = False,
+    unique_categories: bool = False,
     enabled_categories: Optional[List[str]] = None,
 ) -> List[str]:
     """
@@ -351,6 +364,9 @@ def _resolve_random_category_refs(
 
     if same_category:
         return [random.choice(candidates)]
+
+    if unique_categories:
+        return random.sample(candidates, min(count, len(candidates)))
 
     if count <= len(candidates):
         return random.sample(candidates, count)
@@ -594,7 +610,7 @@ def rewrite_text_block(block_text: str, settings: RewriteSettings) -> Tuple[str,
     # 1) Directives override: {medium=watercolor, lighting=neon}
     for cat, keys in directives.items():
         raw_cat = (cat or "").strip().lower()
-        random_count, same_category_multi, raw_cat_no_count = _parse_random_count(raw_cat)
+        random_count, same_category_multi, unique_categories, raw_cat_no_count = _parse_random_count(raw_cat)
         random_symbol, cat_ref = _strip_random_prefix(raw_cat_no_count)
 
         if random_symbol:
@@ -602,6 +618,7 @@ def rewrite_text_block(block_text: str, settings: RewriteSettings) -> Tuple[str,
                 cat_ref,
                 count=random_count,
                 same_category=same_category_multi,
+                unique_categories=unique_categories,
                 enabled_categories=enabled_categories,
             )
 
